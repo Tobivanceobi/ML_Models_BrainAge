@@ -60,4 +60,4 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv('randomForrest/RF_GridSearch.csv')
+        results.to_csv('CatBoost/results.csv')

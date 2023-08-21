@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=FIN-Brainage
+#SBATCH --job-name=BKNN
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -16,6 +16,6 @@ rm /scratch/modelrep/sadiya/students/tobias/data/jobs/*
 source $HOME/miniconda/etc/profile.d/conda.sh
 conda init bash
 conda activate pytorch
-python3 $HOME/tobias_ettling/ML_Models_BrainAge/training.py
+python3 $HOME/tobias_ettling/ML_Models_BrainAge/BaggedKNN/training.py
 
 conda deactivate

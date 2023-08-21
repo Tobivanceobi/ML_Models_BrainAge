@@ -26,7 +26,7 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        model = LogisticRegression()
+        model = LogisticRegression(n_jobs=60)
 
         # Define the parameter search space for Logistic Regression
         parameter_space = {
@@ -47,4 +47,4 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv('randomForrest/RF_GridSearch.csv')
+        results.to_csv('LogisticRegression/results.csv')

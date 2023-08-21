@@ -1,12 +1,12 @@
+import numpy as np
+import pandas as pd
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
-from catboost import CatBoostRegressor
+from sklearn.svm import SVR
+from skopt import BayesSearchCV
+
 from config import SET_PATH
 from helper import load_object, equalize_classes
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor, BaggingRegressor
-from skopt import BayesSearchCV
 
 training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
@@ -28,23 +28,20 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        param_space = {
-            'base_estimator__n_neighbors': (1, 20),  # KNN parameter
-            'base_estimator__p': (1, 2),  # KNN parameter
-            'n_estimators': (10, 100),  # Bagging parameter
-            'max_samples': (0.1, 1.0),  # Bagging parameter
-            'max_features': (0.1, 1.0),  # Bagging parameter
+        parameter_space = {
+            'degree': np.arange(2, 10),
+            'C': np.linspace(1, 20, 15),
+            'epsilon': np.linspace(0.001, 5, 10),
+            'gamma': np.linspace(0.001, 5, 15),
+            'kernel': ['poly', 'rbf', 'sigmoid']
         }
 
-        # Create a KNN Regressor
-        knn_regressor = KNeighborsRegressor()
-
-        # Create a Bagging KNN Regressor
-        model = BaggingRegressor(base_estimator=knn_regressor, random_state=42)
+        model = SVR(max_iter=-1)
 
         clf = BayesSearchCV(estimator=model,
-                            search_spaces=param_space,
+                            search_spaces=parameter_space,
                             cv=skf_vals,
+                            n_jobs=15,
                             scoring='neg_mean_absolute_error',
                             verbose=4)
 
@@ -54,4 +51,4 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv('randomForrest/RF_GridSearch.csv')
+        results.to_csv('SVRegression/results.csv')

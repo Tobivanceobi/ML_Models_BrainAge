@@ -43,11 +43,12 @@ for ts in training_sets:
             'learning_rate_init': [0.001, 0.0001]
         }
 
-        model = MLPRegressor(max_iter=1500)
+        model = MLPRegressor(max_iter=500)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,
                             cv=skf_vals,
+                            n_jobs=50,
                             scoring='neg_mean_absolute_error',
                             verbose=4)
 
@@ -57,4 +58,4 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv('randomForrest/RF_GridSearch.csv')
+        results.to_csv('MLP/results.csv')

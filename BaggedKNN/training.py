@@ -1,12 +1,11 @@
 from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
-from xgboost import XGBClassifier, XGBRegressor
-
-import config
+from catboost import CatBoostRegressor
 from config import SET_PATH
 from helper import load_object, equalize_classes
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor, BaggingRegressor
 from skopt import BayesSearchCV
 
 training_sets = ['TS2/', 'TS4/']
@@ -26,30 +25,25 @@ for ts in training_sets:
         for fold, (train_index, test_index) in enumerate(skf.split(x, y, groups)):
             skf_vals.append((train_index, test_index))
 
-        parameter_space = {
-            'n_estimators': [3000],
-            'learning_rate': [0.001, 0.05],
-            'max_depth': [2, 5],
-            'subsample': [0.4, 0.9],
-            'colsample_bytree': [0.4, 1],
-            'reg_lambda': [1, 15],
-            'reg_alpha': [0, 10],
-            'gamma': [0.1, 1]
-        }
-        model = XGBRegressor(
-            nthread=-1,
-            seed=27,
-            tree_method='gpu_hist',
-            gpu_id=0
-        )
+        scaler = MinMaxScaler()
+        x = scaler.fit_transform(x)
 
-        fit_param = {
-            'early_stopping_rounds': 200,
+        param_space = {
+            'base_estimator__n_neighbors': (1, 20),  # KNN parameter
+            'base_estimator__p': (1, 2),  # KNN parameter
+            'n_estimators': (10, 100),  # Bagging parameter
+            'max_samples': (0.1, 1.0),  # Bagging parameter
+            'max_features': (0.1, 1.0),  # Bagging parameter
         }
+
+        # Create a KNN Regressor
+        knn_regressor = KNeighborsRegressor()
+
+        # Create a Bagging KNN Regressor
+        model = BaggingRegressor(base_estimator=knn_regressor, random_state=42, n_jobs=60)
 
         clf = BayesSearchCV(estimator=model,
-                            search_spaces=parameter_space,
-                            fit_params=fit_param,
+                            search_spaces=param_space,
                             cv=skf_vals,
                             scoring='neg_mean_absolute_error',
                             verbose=4)
@@ -60,4 +54,4 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv(config.BASE_PATH + 'xgBoost/results.csv')
+        results.to_csv('BaggedKNN/results.csv')
