@@ -1,5 +1,7 @@
 import os
 
+os.chdir('../')
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
@@ -8,8 +10,6 @@ from helper import load_object, equalize_classes
 import pandas as pd
 from skopt import BayesSearchCV
 
-
-os.chdir('../')
 
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']

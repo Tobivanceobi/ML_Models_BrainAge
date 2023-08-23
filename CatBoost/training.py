@@ -1,5 +1,7 @@
 import os
 
+os.chdir('../')
+
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
 from catboost import CatBoostRegressor
@@ -8,9 +10,6 @@ from helper import load_object, equalize_classes
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
-
-
-os.chdir('../')
 
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
@@ -22,7 +21,7 @@ for ts in training_sets:
         groups = data['group']
         y = data['y']
 
-        y_skf = [int(age*10) for age in data['y']]
+        y_skf = [int(age * 10) for age in data['y']]
         y_skf = equalize_classes(y_skf)
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
