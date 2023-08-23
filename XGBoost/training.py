@@ -43,7 +43,6 @@ for ts in training_sets:
             nthread=-1,
             seed=27,
             tree_method='gpu_hist',
-            gpu_id=0
         )
 
         fit_param = {
