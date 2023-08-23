@@ -41,7 +41,7 @@ for ts in training_sets:
             'solver': ['adam'],
             'alpha': [0.0001, 0.05],
             'learning_rate': ['constant', 'adaptive'],
-            'learning_rate_init': [0.001, 0.0001]
+            'learning_rate_init': [0.0001, 0.1]
         }
 
         model = MLPRegressor(max_iter=500)

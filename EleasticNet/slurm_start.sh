@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=ElasticN
-#SBATCH --partition=gpu
+#SBATCH --partition=general1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
