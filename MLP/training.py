@@ -1,17 +1,13 @@
 import os
 
 os.chdir('../')
-
+import pandas as pd
+from skopt import BayesSearchCV
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import MinMaxScaler
-from catboost import CatBoostRegressor
 from config import SET_PATH
 from helper import load_object, equalize_classes
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
-from skopt import BayesSearchCV
-
 
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
@@ -23,7 +19,7 @@ for ts in training_sets:
         groups = data['group']
         y = data['y']
 
-        y_skf = [int(age*10) for age in data['y']]
+        y_skf = [int(age * 10) for age in data['y']]
         y_skf = equalize_classes(y_skf)
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
@@ -35,10 +31,10 @@ for ts in training_sets:
 
         parameter_space = {
             'hidden_layer_sizes': [
-                (len(x[0]), int(len(x[0])/2)),
-                (len(x[0]), int(len(x[0])/2), int(len(x[0])/4)),
-                (len(x[0]), int(len(x[0])/4), int(len(x[0])/8)),
-                (len(x[0]), int(len(x[0])/2), int(len(x[0])/4), int(len(x[0])/8)),
+                (len(x[0]), int(len(x[0]) / 2)),
+                (len(x[0]), int(len(x[0]) / 2), int(len(x[0]) / 4)),
+                (len(x[0]), int(len(x[0]) / 4), int(len(x[0]) / 8)),
+                (len(x[0]), int(len(x[0]) / 2), int(len(x[0]) / 4), int(len(x[0]) / 8)),
                 (len(x[0]), int(len(x[0]) / 4), int(len(x[0]) / 8), int(len(x[0]) / 16))
             ],
             'activation': ['tanh', 'relu'],

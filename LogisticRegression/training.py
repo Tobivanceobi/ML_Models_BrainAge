@@ -10,7 +10,6 @@ from helper import load_object, equalize_classes
 import pandas as pd
 from skopt import BayesSearchCV
 
-
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
@@ -21,7 +20,7 @@ for ts in training_sets:
         groups = data['group']
         y = data['y']
 
-        y_skf = [int(age*10) for age in data['y']]
+        y_skf = [int(age * 10) for age in data['y']]
         y_skf = equalize_classes(y_skf)
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
