@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
 from skopt import BayesSearchCV
-from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.model_selection import StratifiedGroupKFold, GridSearchCV
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import MinMaxScaler
 from config import SET_PATH, BASE_PATH
@@ -46,12 +46,12 @@ for ts in training_sets:
 
         model = MLPRegressor(max_iter=500)
 
-        clf = BayesSearchCV(estimator=model,
-                            search_spaces=parameter_space,
-                            cv=skf_vals,
-                            n_jobs=50,
-                            scoring='neg_mean_absolute_error',
-                            verbose=4)
+        clf = GridSearchCV(estimator=model,
+                           param_grid=parameter_space,
+                           cv=skf_vals,
+                           n_jobs=50,
+                           scoring='neg_mean_absolute_error',
+                           verbose=4)
 
         clf.fit(x, y=y)
 
