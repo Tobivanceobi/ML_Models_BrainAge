@@ -20,11 +20,11 @@ for ts in training_sets:
         groups = data['group']
         y = data['y']
 
-        y_skf = [int(age * 10) for age in data['y']]
-        y_skf = equalize_classes(y_skf)
+        y = [int(age * 10) for age in data['y']]
+        y = equalize_classes(y)
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
-        for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
+        for fold, (train_index, test_index) in enumerate(skf.split(x, y, groups)):
             skf_vals.append((train_index, test_index))
 
         scaler = MinMaxScaler()
