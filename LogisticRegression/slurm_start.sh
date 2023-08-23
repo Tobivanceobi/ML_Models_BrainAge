@@ -10,6 +10,7 @@
 #SBATCH --output out/output_%a.txt
 #SBATCH --error err/error_%a.txt
 
+pwd
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
 rm /scratch/modelrep/sadiya/students/tobias/data/jobs/*
