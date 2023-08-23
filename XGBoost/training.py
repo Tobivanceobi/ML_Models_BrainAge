@@ -1,3 +1,6 @@
+import sys
+
+sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
 from xgboost import XGBClassifier, XGBRegressor
@@ -23,7 +26,7 @@ for ts in training_sets:
         y_skf = equalize_classes(y_skf)
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
-        for fold, (train_index, test_index) in enumerate(skf.split(x, y, groups)):
+        for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
             skf_vals.append((train_index, test_index))
 
         parameter_space = {
