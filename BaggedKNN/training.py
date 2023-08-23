@@ -1,7 +1,5 @@
 import sys
 
-import config
-
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 import pandas as pd
@@ -11,7 +9,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
 from skopt import BayesSearchCV
 
-from config import SET_PATH
+from config import SET_PATH, BASE_PATH
 from helper import load_object, equalize_classes
 
 training_sets = ['TS2/']
@@ -61,4 +59,4 @@ for ts in training_sets:
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        results.to_csv(config.BASE_PATH + f'BaggedKNN/{f_name}results.csv')
+        results.to_csv(BASE_PATH + f'BaggedKNN/{f_name}results.csv')
