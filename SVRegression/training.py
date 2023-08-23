@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import StratifiedGroupKFold
@@ -8,7 +9,10 @@ from skopt import BayesSearchCV
 from config import SET_PATH
 from helper import load_object, equalize_classes
 
-training_sets = ['TS2/', 'TS4/']
+
+os.chdir('../')
+
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:

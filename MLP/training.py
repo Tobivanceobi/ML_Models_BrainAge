@@ -1,3 +1,5 @@
+import os
+
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import MinMaxScaler
@@ -8,7 +10,10 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/', 'TS4/']
+
+os.chdir('../')
+
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:

@@ -1,3 +1,5 @@
+import os
+
 from sklearn.linear_model import Lasso
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neighbors import KNeighborsRegressor
@@ -7,7 +9,10 @@ from helper import load_object, equalize_classes
 import pandas as pd
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/', 'TS4/']
+
+os.chdir('../')
+
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:

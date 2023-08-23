@@ -1,14 +1,18 @@
+import os
+
+import pandas as pd
+from sklearn.ensemble import BaggingRegressor
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
-from catboost import CatBoostRegressor
-from config import SET_PATH
-from helper import load_object, equalize_classes
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor, BaggingRegressor
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/', 'TS4/']
+from config import SET_PATH
+from helper import load_object, equalize_classes
+
+os.chdir('../')
+
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
