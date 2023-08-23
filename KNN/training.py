@@ -1,5 +1,7 @@
 import sys
 
+import config
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 from sklearn.model_selection import StratifiedGroupKFold
@@ -51,4 +53,5 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv('KNN/results.csv')
+        f_name = ts.replace('/', '_') + sv.replace('/', '_')
+        results.to_csv(config.BASE_PATH + f'KNN/{f_name}results.csv')

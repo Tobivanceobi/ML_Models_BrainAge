@@ -58,4 +58,5 @@ for ts in training_sets:
         print(clf.best_score_)
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
-        results.to_csv(config.BASE_PATH + 'RandomForrest/results.csv')
+        f_name = ts.replace('/', '_') + sv.replace('/', '_')
+        results.to_csv(config.BASE_PATH + f'RandomForrest/{f_name}results.csv')
