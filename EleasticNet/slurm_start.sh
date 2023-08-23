@@ -10,10 +10,9 @@
 #SBATCH --output out/output_ElasticN.txt
 #SBATCH --error err/error_ElasticN.txt
 
-pwd
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
-rm /scratch/modelrep/sadiya/students/tobias/data/jobs/*
+
 source $HOME/miniconda/etc/profile.d/conda.sh
 conda init bash
 conda activate pytorch
