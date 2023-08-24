@@ -1,12 +1,8 @@
 import sys
 
-from config import BASE_PATH, SET_PATH
-
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
-
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
-
+from config import BASE_PATH, SET_PATH
 from helper import load_object, equalize_classes
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
