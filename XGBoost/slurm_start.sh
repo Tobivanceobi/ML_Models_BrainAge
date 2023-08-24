@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=5000
-#SBATCH --time=05:00:00
+#SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_XGBoost.txt
 #SBATCH --error err/error_XGBoost.txt

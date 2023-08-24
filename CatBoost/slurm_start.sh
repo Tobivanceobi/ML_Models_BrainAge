@@ -3,8 +3,8 @@
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem-per-cpu=5000
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=1000
 #SBATCH --time=05:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_CatB.txt
