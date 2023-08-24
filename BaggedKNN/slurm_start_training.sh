@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --mem-per-cpu=3000
+#SBATCH --mem-per-cpu=8000
 #SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_BKNN.txt
