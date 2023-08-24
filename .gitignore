@@ -1,7 +1,5 @@
 *.pickle
 *.pth
-*.xlsx
-*.csv
 *.mat
 *.png
 # Environments
