@@ -1,6 +1,6 @@
 import sys
 
-from config import BASE_PATH
+from config import BASE_PATH, SET_PATH
 
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
@@ -12,11 +12,11 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
-        set_path = config.SET_PATH + ts + sv
+        set_path = SET_PATH + ts + sv
         data = load_object(set_path + 'training_set')
         x = data['x']
         groups = data['group']
@@ -28,9 +28,6 @@ for ts in training_sets:
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
         for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
             skf_vals.append((train_index, test_index))
-
-        scaler = MinMaxScaler()
-        x = scaler.fit_transform(x)
 
         parameter_space = {
             'max_depth': [45, 100],
