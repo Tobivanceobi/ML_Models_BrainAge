@@ -80,3 +80,127 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
 [CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=10;, score=-2.380 total time=   1.6s
 [CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=10;, score=-2.348 total time=   1.7s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.7630163881765374, n_estimators=382;, score=-1.908 total time=   3.8s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.7630163881765374, n_estimators=382;, score=-2.065 total time=   2.4s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.7630163881765374, n_estimators=382;, score=-2.015 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=0.1, max_samples=0.9085851388419031, n_estimators=323;, score=-1.982 total time=   1.7s
+[CV 2/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=0.1, max_samples=0.9085851388419031, n_estimators=323;, score=-2.219 total time=   1.9s
+[CV 3/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=0.1, max_samples=0.9085851388419031, n_estimators=323;, score=-2.154 total time=   1.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=337;, score=-1.914 total time=   2.9s
+[CV 2/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=337;, score=-2.138 total time=   2.7s
+[CV 3/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=337;, score=-2.087 total time=   2.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.1, n_estimators=380;, score=-2.009 total time=   0.7s
+[CV 2/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.1, n_estimators=380;, score=-2.280 total time=   0.8s
+[CV 3/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.1, n_estimators=380;, score=-2.184 total time=   0.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-1.898 total time=   8.7s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.059 total time=   8.7s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.071 total time=   8.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=17, base_estimator__p=1, max_features=0.4891292555309288, max_samples=1.0, n_estimators=1000;, score=-1.894 total time=  38.9s
+[CV 2/3] END base_estimator__n_neighbors=17, base_estimator__p=1, max_features=0.4891292555309288, max_samples=1.0, n_estimators=1000;, score=-2.078 total time=  37.5s
+[CV 3/3] END base_estimator__n_neighbors=17, base_estimator__p=1, max_features=0.4891292555309288, max_samples=1.0, n_estimators=1000;, score=-2.078 total time=  40.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.45059116001823696, max_samples=1.0, n_estimators=1000;, score=-2.106 total time=  34.7s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.45059116001823696, max_samples=1.0, n_estimators=1000;, score=-2.242 total time=  33.3s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.45059116001823696, max_samples=1.0, n_estimators=1000;, score=-2.152 total time=  34.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=6, base_estimator__p=1, max_features=0.615942884060322, max_samples=0.7973392240653652, n_estimators=1000;, score=-1.902 total time=  47.9s
+[CV 2/3] END base_estimator__n_neighbors=6, base_estimator__p=1, max_features=0.615942884060322, max_samples=0.7973392240653652, n_estimators=1000;, score=-2.042 total time=  38.5s
+[CV 3/3] END base_estimator__n_neighbors=6, base_estimator__p=1, max_features=0.615942884060322, max_samples=0.7973392240653652, n_estimators=1000;, score=-2.030 total time=  46.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.7050943218220487, n_estimators=1000;, score=-1.889 total time=   6.9s
+[CV 2/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.7050943218220487, n_estimators=1000;, score=-2.058 total time=   6.2s
+[CV 3/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.7050943218220487, n_estimators=1000;, score=-2.032 total time=   6.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=1.0, max_samples=0.671323786821273, n_estimators=1000;, score=-1.903 total time= 1.3min
+[CV 2/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=1.0, max_samples=0.671323786821273, n_estimators=1000;, score=-2.035 total time= 1.1min
+[CV 3/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=1.0, max_samples=0.671323786821273, n_estimators=1000;, score=-2.039 total time= 1.2min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-1.886 total time=   8.6s
+[CV 2/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-2.079 total time=   7.8s
+[CV 3/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-2.052 total time=   7.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.9357790097107969, max_samples=1.0, n_estimators=1000;, score=-1.912 total time= 1.9min
+[CV 2/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.9357790097107969, max_samples=1.0, n_estimators=1000;, score=-2.044 total time= 1.8min
+[CV 3/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.9357790097107969, max_samples=1.0, n_estimators=1000;, score=-2.025 total time= 1.4min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-1.943 total time=   8.4s
+[CV 2/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.179 total time=   8.2s
+[CV 3/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.129 total time=   8.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.3289776839907363, n_estimators=1000;, score=-1.890 total time=   3.3s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.3289776839907363, n_estimators=1000;, score=-2.054 total time=   3.0s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.3289776839907363, n_estimators=1000;, score=-2.022 total time=   2.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-1.887 total time=   8.1s
+[CV 2/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-2.064 total time=   8.1s
+[CV 3/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=1000;, score=-2.037 total time=   8.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=2, max_features=0.1, max_samples=0.1, n_estimators=1000;, score=-1.974 total time=   1.0s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=2, max_features=0.1, max_samples=0.1, n_estimators=1000;, score=-2.193 total time=   1.1s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=2, max_features=0.1, max_samples=0.1, n_estimators=1000;, score=-2.129 total time=   1.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.956863612814669, max_samples=0.9200646917106933, n_estimators=1000;, score=-1.915 total time= 1.3min
+[CV 2/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.956863612814669, max_samples=0.9200646917106933, n_estimators=1000;, score=-2.045 total time= 1.3min
+[CV 3/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.956863612814669, max_samples=0.9200646917106933, n_estimators=1000;, score=-2.024 total time= 1.4min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.6586145213906806, max_samples=1.0, n_estimators=1000;, score=-1.897 total time=  53.6s
+[CV 2/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.6586145213906806, max_samples=1.0, n_estimators=1000;, score=-2.042 total time=  56.3s
+[CV 3/3] END base_estimator__n_neighbors=10, base_estimator__p=1, max_features=0.6586145213906806, max_samples=1.0, n_estimators=1000;, score=-2.040 total time=  53.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=1000;, score=-1.908 total time= 1.6min
+[CV 2/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=1000;, score=-2.082 total time= 2.0min
+[CV 3/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=1000;, score=-2.092 total time= 1.6min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=14, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=10;, score=-1.929 total time=   1.7s
+[CV 2/3] END base_estimator__n_neighbors=14, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=10;, score=-2.134 total time=   0.4s
+[CV 3/3] END base_estimator__n_neighbors=14, base_estimator__p=1, max_features=0.1, max_samples=1.0, n_estimators=10;, score=-2.095 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.7013007469340751, n_estimators=1000;, score=-1.894 total time=   7.1s
+[CV 2/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.7013007469340751, n_estimators=1000;, score=-2.052 total time=   6.1s
+[CV 3/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.7013007469340751, n_estimators=1000;, score=-2.020 total time=   5.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.5458511507975362, max_samples=1.0, n_estimators=1000;, score=-1.897 total time=  46.5s
+[CV 2/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.5458511507975362, max_samples=1.0, n_estimators=1000;, score=-2.043 total time=  42.7s
+[CV 3/3] END base_estimator__n_neighbors=8, base_estimator__p=1, max_features=0.5458511507975362, max_samples=1.0, n_estimators=1000;, score=-2.031 total time=  52.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.47366024109622173, max_samples=0.23287595953158124, n_estimators=1000;, score=-1.913 total time=   9.0s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.47366024109622173, max_samples=0.23287595953158124, n_estimators=1000;, score=-2.060 total time=   9.1s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.47366024109622173, max_samples=0.23287595953158124, n_estimators=1000;, score=-2.028 total time=   9.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=16, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=10;, score=-1.908 total time=   2.6s
+[CV 2/3] END base_estimator__n_neighbors=16, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=10;, score=-2.069 total time=   1.6s
+[CV 3/3] END base_estimator__n_neighbors=16, base_estimator__p=1, max_features=1.0, max_samples=1.0, n_estimators=10;, score=-2.081 total time=   1.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.145 total time=   8.2s
+[CV 2/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.469 total time=   6.4s
+[CV 3/3] END base_estimator__n_neighbors=20, base_estimator__p=2, max_features=1.0, max_samples=0.1, n_estimators=1000;, score=-2.354 total time=   6.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.5267221956042962, n_estimators=10;, score=-2.071 total time=   2.1s
+[CV 2/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.5267221956042962, n_estimators=10;, score=-2.178 total time=   0.4s
+[CV 3/3] END base_estimator__n_neighbors=1, base_estimator__p=1, max_features=0.1, max_samples=0.5267221956042962, n_estimators=10;, score=-2.184 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.6664033994147058, n_estimators=618;, score=-1.897 total time=   5.9s
+[CV 2/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.6664033994147058, n_estimators=618;, score=-2.050 total time=   3.5s
+[CV 3/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.6664033994147058, n_estimators=618;, score=-2.024 total time=   3.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.9826260951911329, n_estimators=542;, score=-1.889 total time=   4.3s
+[CV 2/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.9826260951911329, n_estimators=542;, score=-2.070 total time=   4.3s
+[CV 3/3] END base_estimator__n_neighbors=7, base_estimator__p=1, max_features=0.1, max_samples=0.9826260951911329, n_estimators=542;, score=-2.038 total time=   4.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.5499146057373753, n_estimators=974;, score=-1.895 total time=   4.7s
+[CV 2/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.5499146057373753, n_estimators=974;, score=-2.054 total time=   4.5s
+[CV 3/3] END base_estimator__n_neighbors=2, base_estimator__p=1, max_features=0.1, max_samples=0.5499146057373753, n_estimators=974;, score=-2.021 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.9217171103918225, n_estimators=555;, score=-1.891 total time=   4.1s
+[CV 2/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.9217171103918225, n_estimators=555;, score=-2.055 total time=   4.2s
+[CV 3/3] END base_estimator__n_neighbors=4, base_estimator__p=1, max_features=0.1, max_samples=0.9217171103918225, n_estimators=555;, score=-2.027 total time=   4.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=0.39531178763084407, n_estimators=10;, score=-1.966 total time=   2.3s
+[CV 2/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=0.39531178763084407, n_estimators=10;, score=-2.211 total time=   0.7s
+[CV 3/3] END base_estimator__n_neighbors=20, base_estimator__p=1, max_features=1.0, max_samples=0.39531178763084407, n_estimators=10;, score=-2.159 total time=   0.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
