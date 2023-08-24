@@ -12,7 +12,7 @@ from config import SET_PATH, BASE_PATH
 from helper import load_object, equalize_classes
 
 
-training_sets = ['TS4/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:

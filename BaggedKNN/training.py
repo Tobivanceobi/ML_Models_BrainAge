@@ -12,7 +12,7 @@ from skopt import BayesSearchCV
 from config import SET_PATH, BASE_PATH
 from helper import load_object, equalize_classes
 
-training_sets = ['TS4/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
@@ -35,7 +35,7 @@ for ts in training_sets:
         param_space = {
             'base_estimator__n_neighbors': (1, 20),  # KNN parameter
             'base_estimator__p': (1, 2),  # KNN parameter
-            'n_estimators': (10, 100),  # Bagging parameter
+            'n_estimators': (10, 1000),  # Bagging parameter
             'max_samples': (0.1, 1.0),  # Bagging parameter
             'max_features': (0.1, 1.0),  # Bagging parameter
         }
