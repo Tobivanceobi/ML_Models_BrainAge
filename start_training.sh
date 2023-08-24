@@ -1,0 +1,10 @@
+sbatch XGBoost/slurm_start_training.sh
+sbatch SVRegression/slurm_start_training.sh
+sbatch RandomForrest/slurm_start_training.sh
+sbatch MLP/slurm_start_training.sh
+sbatch LogisticRegression/slurm_start_training.sh
+sbatch LassoRegression/slurm_start_training.sh
+sbatch KNN/slurm_start_training.sh
+sbatch EleasticNet/slurm_start_training.sh
+sbatch CatBoost/slurm_start_training.sh
+sbatch BaggedKNN/slurm_start_training.sh

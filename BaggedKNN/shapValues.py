@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 import shap
-from sklearn.linear_model import Lasso
+from sklearn.ensemble import BaggingRegressor
+from sklearn.linear_model import Lasso, ElasticNet
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
 
 from config import SET_PATH, BASE_PATH
@@ -56,7 +58,7 @@ for ts in training_sets:
             skf_vals.append((train_index, test_index))
 
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        res_df = pd.read_csv(BASE_PATH + f'LassoRegression/{f_name}results.csv')
+        res_df = pd.read_csv(BASE_PATH + f'BaggedKNN/{f_name}results.csv')
 
         res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
         model_param = str_to_dict(res_df.iloc[0]['params'])
@@ -64,14 +66,18 @@ for ts in training_sets:
 
         best_fold = 0
         best_score = 5
-        best_model = Lasso(model_param, random_state=42)
+        best_model = ElasticNet(random_state=42, max_iter=5000)
         for fold in range(len(skf_vals)):
             x_train = [x[i] for i in skf_vals[fold][0]]
             x_test = [x[i] for i in skf_vals[fold][1]]
             y_train = [y[i] for i in skf_vals[fold][0]]
             y_test = [y[i] for i in skf_vals[fold][1]]
 
-            model = Lasso(**model_param, random_state=42)
+            # Create a KNN Regressor
+            knn_regressor = KNeighborsRegressor()
+
+            # Create a Bagging KNN Regressor
+            model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=30)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)
@@ -123,6 +129,6 @@ for ts in training_sets:
         data = np.array([n_labels, vals]).transpose()
         result = pd.DataFrame(data, columns=['Feature Name', 'ShapVals'])
         shap_dict[f_name] = result
-        save_object(shap_dict, BASE_PATH + f'LassoRegression/shap_values')
+        save_object(shap_dict, BASE_PATH + f'BaggedKNN/shap_values')
 
 
