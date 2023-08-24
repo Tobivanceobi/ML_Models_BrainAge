@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/CatBoost/training.py", line 60, in <module>
+    clf.fit(x, y=y)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 466, in fit
+    super().fit(X=X, y=y, groups=groups, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 898, in fit
+    self._run_search(evaluate_candidates)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 512, in _run_search
+    optim_result = self._step(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 408, in _step
+    all_results = evaluate_candidates(params_dict)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 845, in evaluate_candidates
+    out = parallel(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 65, in __call__
+    return super().__call__(iterable_with_config)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1863, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1792, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 127, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 732, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/catboost/core.py", line 5734, in fit
+    return self._fit(X, y, cat_features, text_features, embedding_features, None, sample_weight, None, None, None, None, baseline,
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/catboost/core.py", line 2357, in _fit
+    self._train(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/catboost/core.py", line 1761, in _train
+    self._object._train(train_pool, test_pool, params, allow_clear_pool, init_model._object if init_model else None)
+  File "_catboost.pyx", line 4624, in _catboost._CatBoost._train
+  File "_catboost.pyx", line 4673, in _catboost._CatBoost._train
+_catboost.CatBoostError: /src/catboost/catboost/cuda/cuda_lib/cuda_base.h:281: CUDA error 35: CUDA driver version is insufficient for CUDA runtime version

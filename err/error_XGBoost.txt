@@ -1,0 +1,51 @@
+rm: cannot remove '/scratch/modelrep/sadiya/students/tobias/data/jobs/*': No such file or directory
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/XGBoost/training.py", line 55, in <module>
+    clf.fit(x, y=y)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 466, in fit
+    super().fit(X=X, y=y, groups=groups, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 898, in fit
+    self._run_search(evaluate_candidates)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 512, in _run_search
+    optim_result = self._step(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 408, in _step
+    all_results = evaluate_candidates(params_dict)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 845, in evaluate_candidates
+    out = parallel(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 65, in __call__
+    return super().__call__(iterable_with_config)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1863, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1792, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 127, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 732, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/core.py", line 620, in inner_f
+    return func(**kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/sklearn.py", line 1025, in fit
+    self._Booster = train(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/core.py", line 620, in inner_f
+    return func(**kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/training.py", line 185, in train
+    bst.update(dtrain, i, obj)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/core.py", line 1918, in update
+    _check_call(_LIB.XGBoosterUpdateOneIter(self.handle,
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/core.py", line 279, in _check_call
+    raise XGBoostError(py_str(_LIB.XGBGetLastError()))
+xgboost.core.XGBoostError: [11:26:01] ../src/gbm/gbtree.cc:625: Check failed: common::AllVisibleGPUs() >= 1 (0 vs. 1) : No visible GPU is found for XGBoost.
+Stack trace:
+  [bt] (0) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2a7e13) [0x1553129d7e13]
+  [bt] (1) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab120) [0x1553129db120]
+  [bt] (2) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab52a) [0x1553129db52a]
+  [bt] (3) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2e03c7) [0x155312a103c7]
+  [bt] (4) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x15531286c5a0]
+  [bt] (5) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0xa052) [0x1553b19e0052]
+  [bt] (6) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0x8925) [0x1553b19de925]
+  [bt] (7) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x1553b19df06e]
+  [bt] (8) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/_ctypes.cpython-39-x86_64-linux-gnu.so(+0x91e0) [0x1553b19f01e0]
+
+

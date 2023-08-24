@@ -1,0 +1,1955 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=166, n_neighbors=47, p=1;, score=-1.961 total time=   0.5s
+[CV 2/3] END leaf_size=166, n_neighbors=47, p=1;, score=-2.188 total time=   0.3s
+[CV 3/3] END leaf_size=166, n_neighbors=47, p=1;, score=-2.136 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=168, n_neighbors=46, p=1;, score=-1.956 total time=   0.3s
+[CV 2/3] END leaf_size=168, n_neighbors=46, p=1;, score=-2.188 total time=   0.3s
+[CV 3/3] END leaf_size=168, n_neighbors=46, p=1;, score=-2.144 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=273, n_neighbors=28, p=2;, score=-1.999 total time=   0.0s
+[CV 2/3] END leaf_size=273, n_neighbors=28, p=2;, score=-2.219 total time=   0.1s
+[CV 3/3] END leaf_size=273, n_neighbors=28, p=2;, score=-2.185 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=109, n_neighbors=38, p=1;, score=-1.943 total time=   0.3s
+[CV 2/3] END leaf_size=109, n_neighbors=38, p=1;, score=-2.171 total time=   0.3s
+[CV 3/3] END leaf_size=109, n_neighbors=38, p=1;, score=-2.139 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=233, n_neighbors=13, p=1;, score=-1.912 total time=   0.3s
+[CV 2/3] END leaf_size=233, n_neighbors=13, p=1;, score=-2.043 total time=   0.3s
+[CV 3/3] END leaf_size=233, n_neighbors=13, p=1;, score=-2.075 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=69, n_neighbors=10, p=2;, score=-2.009 total time=   0.1s
+[CV 2/3] END leaf_size=69, n_neighbors=10, p=2;, score=-2.172 total time=   0.1s
+[CV 3/3] END leaf_size=69, n_neighbors=10, p=2;, score=-2.115 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=91, n_neighbors=20, p=1;, score=-1.923 total time=   0.4s
+[CV 2/3] END leaf_size=91, n_neighbors=20, p=1;, score=-2.086 total time=   0.3s
+[CV 3/3] END leaf_size=91, n_neighbors=20, p=1;, score=-2.087 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=211, n_neighbors=18, p=2;, score=-1.999 total time=   0.0s
+[CV 2/3] END leaf_size=211, n_neighbors=18, p=2;, score=-2.186 total time=   0.1s
+[CV 3/3] END leaf_size=211, n_neighbors=18, p=2;, score=-2.146 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=67, n_neighbors=7, p=2;, score=-2.068 total time=   0.1s
+[CV 2/3] END .leaf_size=67, n_neighbors=7, p=2;, score=-2.215 total time=   0.0s
+[CV 3/3] END .leaf_size=67, n_neighbors=7, p=2;, score=-2.132 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=172, n_neighbors=17, p=2;, score=-1.989 total time=   0.0s
+[CV 2/3] END leaf_size=172, n_neighbors=17, p=2;, score=-2.183 total time=   0.0s
+[CV 3/3] END leaf_size=172, n_neighbors=17, p=2;, score=-2.146 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=4, n_neighbors=6, p=1;, score=-1.967 total time=   0.3s
+[CV 2/3] END ..leaf_size=4, n_neighbors=6, p=1;, score=-2.097 total time=   0.3s
+[CV 3/3] END ..leaf_size=4, n_neighbors=6, p=1;, score=-2.041 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=50, p=2;, score=-1.984 total time=   0.1s
+[CV 2/3] END .leaf_size=6, n_neighbors=50, p=2;, score=-2.255 total time=   0.0s
+[CV 3/3] END .leaf_size=6, n_neighbors=50, p=2;, score=-2.202 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=291, n_neighbors=3, p=1;, score=-2.162 total time=   0.3s
+[CV 2/3] END leaf_size=291, n_neighbors=3, p=1;, score=-2.211 total time=   0.3s
+[CV 3/3] END leaf_size=291, n_neighbors=3, p=1;, score=-2.167 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=100, n_neighbors=14, p=1;, score=-1.902 total time=   0.3s
+[CV 2/3] END leaf_size=100, n_neighbors=14, p=1;, score=-2.047 total time=   0.3s
+[CV 3/3] END leaf_size=100, n_neighbors=14, p=1;, score=-2.093 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=248, n_neighbors=17, p=1;, score=-1.901 total time=   0.3s
+[CV 2/3] END leaf_size=248, n_neighbors=17, p=1;, score=-2.069 total time=   0.3s
+[CV 3/3] END leaf_size=248, n_neighbors=17, p=1;, score=-2.086 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=25, p=1;, score=-1.921 total time=   0.4s
+[CV 2/3] END leaf_size=300, n_neighbors=25, p=1;, score=-2.111 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=25, p=1;, score=-2.106 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-1.930 total time=   0.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-2.129 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-2.108 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=82, n_neighbors=10, p=1;, score=-1.937 total time=   0.3s
+[CV 2/3] END leaf_size=82, n_neighbors=10, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=82, n_neighbors=10, p=1;, score=-2.032 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-1.945 total time=   0.3s
+[CV 2/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.072 total time=   0.3s
+[CV 3/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.018 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-1.902 total time=   0.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.042 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.058 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=88, n_neighbors=12, p=1;, score=-1.902 total time=   0.3s
+[CV 2/3] END leaf_size=88, n_neighbors=12, p=1;, score=-2.042 total time=   0.3s
+[CV 3/3] END leaf_size=88, n_neighbors=12, p=1;, score=-2.058 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=33, p=1;, score=-1.932 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=33, p=1;, score=-2.160 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=33, p=1;, score=-2.129 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=48, n_neighbors=11, p=1;, score=-1.916 total time=   0.4s
+[CV 2/3] END leaf_size=48, n_neighbors=11, p=1;, score=-2.038 total time=   0.4s
+[CV 3/3] END leaf_size=48, n_neighbors=11, p=1;, score=-2.043 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=131, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END leaf_size=131, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=131, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=39, p=2;, score=-1.986 total time=   0.0s
+[CV 2/3] END leaf_size=297, n_neighbors=39, p=2;, score=-2.235 total time=   0.0s
+[CV 3/3] END leaf_size=297, n_neighbors=39, p=2;, score=-2.198 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=33, p=2;, score=-2.001 total time=   0.1s
+[CV 2/3] END .leaf_size=4, n_neighbors=33, p=2;, score=-2.225 total time=   0.0s
+[CV 3/3] END .leaf_size=4, n_neighbors=33, p=2;, score=-2.194 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=44, p=2;, score=-1.987 total time=   0.0s
+[CV 2/3] END .leaf_size=4, n_neighbors=44, p=2;, score=-2.240 total time=   0.0s
+[CV 3/3] END .leaf_size=4, n_neighbors=44, p=2;, score=-2.202 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=20, p=1;, score=-1.923 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.086 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.087 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=290, n_neighbors=50, p=2;, score=-1.984 total time=   0.0s
+[CV 2/3] END leaf_size=290, n_neighbors=50, p=2;, score=-2.255 total time=   0.0s
+[CV 3/3] END leaf_size=290, n_neighbors=50, p=2;, score=-2.202 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=92, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END leaf_size=92, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=92, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=3, p=2;, score=-2.243 total time=   0.0s
+[CV 2/3] END leaf_size=297, n_neighbors=3, p=2;, score=-2.311 total time=   0.0s
+[CV 3/3] END leaf_size=297, n_neighbors=3, p=2;, score=-2.350 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=10, p=1;, score=-1.937 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=10, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=10, p=1;, score=-2.032 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=23, p=2;, score=-1.993 total time=   0.0s
+[CV 2/3] END .leaf_size=3, n_neighbors=23, p=2;, score=-2.200 total time=   0.0s
+[CV 3/3] END .leaf_size=3, n_neighbors=23, p=2;, score=-2.190 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=6, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=6, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-1.963 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-2.195 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-2.136 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=293, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END leaf_size=293, n_neighbors=11, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END leaf_size=293, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-1.919 total time=   0.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-2.107 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-2.110 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=11, p=1;, score=-1.916 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.043 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.916 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.038 total time=   0.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.043 total time=   0.2s
+{'mean_fit_time': array([0.00800784, 0.00766738, 0.00865475, 0.00936945, 0.0085988 ,
+       0.00984192, 0.01005046, 0.00854278, 0.00930977, 0.00769536,
+       0.00811958, 0.00717767, 0.00784222, 0.00812721, 0.00785891,
+       0.00787028, 0.01001231, 0.00671212, 0.00853046, 0.00850201,
+       0.00613769, 0.00631658, 0.00646345, 0.00795237, 0.00676545,
+       0.0070068 , 0.00707491, 0.0072093 , 0.00680439, 0.00679302,
+       0.00614556, 0.00652313, 0.00617806, 0.00755866, 0.00877293,
+       0.00635529, 0.00862646, 0.00654173, 0.01292348, 0.00827042,
+       0.00720557, 0.00761588, 0.00742594, 0.00811998, 0.00720604,
+       0.00771856, 0.00791407, 0.00713674, 0.00825453, 0.00770911]), 'std_fit_time': array([1.72542890e-03, 4.44838100e-04, 7.09052454e-04, 1.10369356e-03,
+       1.09288034e-03, 6.01872045e-04, 1.12362388e-03, 6.33174124e-04,
+       3.28104912e-04, 1.48979035e-04, 3.91225250e-04, 3.24440024e-04,
+       4.63103785e-04, 2.46117272e-04, 6.80018393e-04, 6.65111045e-04,
+       1.22729754e-03, 7.51582200e-04, 1.32029005e-03, 9.96403757e-04,
+       5.21910026e-04, 3.62590182e-04, 4.82642531e-04, 3.98501248e-04,
+       7.57270462e-04, 3.64489394e-04, 3.27378623e-04, 2.64379079e-04,
+       1.43219310e-04, 8.96265724e-05, 3.87307311e-04, 2.00940710e-04,
+       3.57128024e-04, 6.24831806e-04, 5.71366343e-04, 3.64834079e-04,
+       9.36183898e-04, 1.64208737e-04, 6.49290647e-03, 6.02517929e-04,
+       7.70411689e-04, 9.74409749e-04, 4.54751856e-04, 5.61326974e-04,
+       3.03130219e-04, 1.14593181e-03, 8.95467111e-04, 1.42545114e-04,
+       1.42456106e-03, 6.29383635e-04]), 'mean_score_time': array([0.38895496, 0.28826006, 0.04351091, 0.33552988, 0.32747968,
+       0.04429301, 0.33728806, 0.03963232, 0.04110742, 0.02729503,
+       0.33111763, 0.04879626, 0.31507564, 0.29068065, 0.28592706,
+       0.28589447, 0.35010839, 0.29711771, 0.31672152, 0.32339279,
+       0.25085894, 0.26802365, 0.28704921, 0.35390528, 0.28664915,
+       0.03737505, 0.03358467, 0.03147602, 0.31871343, 0.02813355,
+       0.28946503, 0.02422603, 0.21788923, 0.03432743, 0.28214184,
+       0.23367715, 0.25924087, 0.21243525, 0.26044003, 0.2891566 ,
+       0.23292319, 0.26357357, 0.2094895 , 0.2356511 , 0.20730869,
+       0.28325097, 0.24070986, 0.20645006, 0.29146679, 0.2310729 ]), 'std_score_time': array([0.07413567, 0.02325221, 0.00429805, 0.00315476, 0.0169672 ,
+       0.00549697, 0.02046659, 0.01399279, 0.00453126, 0.00694506,
+       0.00750719, 0.02126393, 0.02029548, 0.02976596, 0.02885174,
+       0.02031944, 0.01271184, 0.00288136, 0.02540722, 0.01081724,
+       0.03369611, 0.04353383, 0.02481189, 0.00862007, 0.03106048,
+       0.00452119, 0.0149684 , 0.00452828, 0.01424511, 0.00802973,
+       0.01165789, 0.00882613, 0.01329256, 0.00531035, 0.01665291,
+       0.0246221 , 0.01552221, 0.00951326, 0.03742458, 0.02546226,
+       0.02287454, 0.03950458, 0.00172118, 0.01864342, 0.0005327 ,
+       0.01345318, 0.02560408, 0.00200445, 0.00624605, 0.02614216]), 'param_leaf_size': masked_array(data=[166, 168, 273, 109, 233, 69, 91, 211, 67, 172, 4, 6,
+                   291, 100, 248, 3, 300, 3, 82, 3, 3, 88, 300, 48, 131,
+                   297, 4, 4, 300, 290, 92, 297, 300, 3, 300, 300, 6, 299,
+                   3, 5, 299, 299, 3, 3, 293, 3, 3, 3, 300, 3],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[47, 46, 28, 38, 13, 10, 20, 18, 7, 17, 6, 50, 3, 14,
+                   17, 11, 25, 28, 10, 9, 12, 12, 33, 11, 11, 39, 33, 44,
+                   20, 50, 11, 3, 10, 23, 11, 11, 11, 11, 50, 11, 11, 11,
+                   11, 11, 11, 22, 11, 11, 11, 11],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1,
+                   1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 1,
+                   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 166), ('n_neighbors', 47), ('p', 1)]), OrderedDict([('leaf_size', 168), ('n_neighbors', 46), ('p', 1)]), OrderedDict([('leaf_size', 273), ('n_neighbors', 28), ('p', 2)]), OrderedDict([('leaf_size', 109), ('n_neighbors', 38), ('p', 1)]), OrderedDict([('leaf_size', 233), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 69), ('n_neighbors', 10), ('p', 2)]), OrderedDict([('leaf_size', 91), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 211), ('n_neighbors', 18), ('p', 2)]), OrderedDict([('leaf_size', 67), ('n_neighbors', 7), ('p', 2)]), OrderedDict([('leaf_size', 172), ('n_neighbors', 17), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 6), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 291), ('n_neighbors', 3), ('p', 1)]), OrderedDict([('leaf_size', 100), ('n_neighbors', 14), ('p', 1)]), OrderedDict([('leaf_size', 248), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 25), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 28), ('p', 1)]), OrderedDict([('leaf_size', 82), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 88), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 33), ('p', 1)]), OrderedDict([('leaf_size', 48), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 131), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 39), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 33), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 44), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 290), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 92), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 3), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 23), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 293), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)])], 'split0_test_score': array([-1.96086802, -1.9559412 , -1.99913166, -1.94325939, -1.91220978,
+       -2.00921925, -1.92280673, -1.99939574, -2.06781941, -1.98857134,
+       -1.96747537, -1.98432332, -2.16171403, -1.90205241, -1.90076263,
+       -1.91595667, -1.92096457, -1.93032463, -1.93658007, -1.94483441,
+       -1.90165904, -1.90165904, -1.93238545, -1.91595667, -1.91595667,
+       -1.98634942, -2.00056569, -1.9871026 , -1.92280673, -1.98432332,
+       -1.91595667, -2.24267632, -1.93658007, -1.99328932, -1.91595667,
+       -1.91595667, -1.91595667, -1.91595667, -1.96310877, -1.91595667,
+       -1.91595667, -1.91595667, -1.91595667, -1.91595667, -1.91595667,
+       -1.91857445, -1.91595667, -1.91595667, -1.91595667, -1.91595667]), 'split1_test_score': array([-2.187894  , -2.18840592, -2.21855647, -2.17096142, -2.04290924,
+       -2.17225619, -2.0862506 , -2.18584956, -2.21528377, -2.18270976,
+       -2.09656644, -2.25544185, -2.21092144, -2.04717029, -2.06896022,
+       -2.03754222, -2.11064806, -2.128819  , -2.03760233, -2.07165186,
+       -2.04184428, -2.04184428, -2.15992132, -2.03754222, -2.03754222,
+       -2.23509689, -2.22547657, -2.23956921, -2.0862506 , -2.25544185,
+       -2.03754222, -2.31116144, -2.03760233, -2.2004647 , -2.03754222,
+       -2.03754222, -2.03754222, -2.03754222, -2.19526424, -2.03754222,
+       -2.03754222, -2.03754222, -2.03754222, -2.03754222, -2.03754222,
+       -2.10658495, -2.03754222, -2.03754222, -2.03754222, -2.03754222]), 'split2_test_score': array([-2.1355855 , -2.14408312, -2.18464962, -2.13900708, -2.07546589,
+       -2.11529029, -2.08667487, -2.14577396, -2.13157356, -2.14563516,
+       -2.04059736, -2.20193919, -2.16748642, -2.0934737 , -2.08610721,
+       -2.04268646, -2.10596132, -2.10823622, -2.03163971, -2.01781946,
+       -2.05776026, -2.05776026, -2.12922283, -2.04268646, -2.04268646,
+       -2.19836696, -2.19431203, -2.20182303, -2.08667487, -2.20193919,
+       -2.04268646, -2.34962483, -2.03163971, -2.19033215, -2.04268646,
+       -2.04268646, -2.04268646, -2.04268646, -2.13571634, -2.04268646,
+       -2.04268646, -2.04268646, -2.04268646, -2.04268646, -2.04268646,
+       -2.11037816, -2.04268646, -2.04268646, -2.04268646, -2.04268646]), 'mean_test_score': array([-2.09478251, -2.09614341, -2.13411258, -2.08440929, -2.01019497,
+       -2.09892191, -2.03191073, -2.11033976, -2.13822558, -2.10563875,
+       -2.03487972, -2.14723479, -2.18004063, -2.01423214, -2.01861002,
+       -1.99872845, -2.04585799, -2.05579329, -2.0019407 , -2.01143524,
+       -2.00042119, -2.00042119, -2.0738432 , -1.99872845, -1.99872845,
+       -2.13993776, -2.14011809, -2.14283161, -2.03191073, -2.14723479,
+       -1.99872845, -2.3011542 , -2.0019407 , -2.12802872, -1.99872845,
+       -1.99872845, -1.99872845, -1.99872845, -2.09802978, -1.99872845,
+       -1.99872845, -1.99872845, -1.99872845, -1.99872845, -1.99872845,
+       -2.04517919, -1.99872845, -1.99872845, -1.99872845, -1.99872845]), 'std_test_score': array([0.09706995, 0.10077573, 0.09644447, 0.10065698, 0.0705493 ,
+       0.06755839, 0.07714837, 0.08013715, 0.06038555, 0.08415151,
+       0.05285606, 0.11724829, 0.02196283, 0.08154434, 0.0836242 ,
+       0.05856615, 0.0883337 , 0.08911678, 0.04628101, 0.05196944,
+       0.07013702, 0.07013702, 0.10080781, 0.05856615, 0.05856615,
+       0.10963365, 0.09949527, 0.11119004, 0.07714837, 0.11724829,
+       0.05856615, 0.04423125, 0.04628101, 0.0953649 , 0.05856615,
+       0.05856615, 0.05856615, 0.05856615, 0.09845218, 0.05856615,
+       0.05856615, 0.05856615, 0.05856615, 0.05856615, 0.05856615,
+       0.08953646, 0.05856615, 0.05856615, 0.05856615, 0.05856615]), 'rank_test_score': array([35, 36, 42, 34, 23, 38, 27, 40, 43, 39, 29, 47, 49, 25, 26,  1, 31,
+       32, 21, 24, 19, 19, 33,  1,  1, 44, 45, 46, 27, 47,  1, 50, 21, 41,
+        1,  1,  1,  1, 37,  1,  1,  1,  1,  1,  1, 30,  1,  1,  1,  1],
+      dtype=int32)}
+-1.9987284472544384
+OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=52, n_neighbors=23, p=1;, score=-1.929 total time=   0.2s
+[CV 2/3] END leaf_size=52, n_neighbors=23, p=1;, score=-2.156 total time=   0.2s
+[CV 3/3] END leaf_size=52, n_neighbors=23, p=1;, score=-2.121 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=202, n_neighbors=44, p=1;, score=-1.928 total time=   0.2s
+[CV 2/3] END leaf_size=202, n_neighbors=44, p=1;, score=-2.193 total time=   0.2s
+[CV 3/3] END leaf_size=202, n_neighbors=44, p=1;, score=-2.136 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=215, n_neighbors=43, p=2;, score=-1.982 total time=   0.0s
+[CV 2/3] END leaf_size=215, n_neighbors=43, p=2;, score=-2.244 total time=   0.0s
+[CV 3/3] END leaf_size=215, n_neighbors=43, p=2;, score=-2.227 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=123, n_neighbors=6, p=1;, score=-1.987 total time=   0.2s
+[CV 2/3] END leaf_size=123, n_neighbors=6, p=1;, score=-2.244 total time=   0.2s
+[CV 3/3] END leaf_size=123, n_neighbors=6, p=1;, score=-2.116 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=122, n_neighbors=43, p=1;, score=-1.926 total time=   0.2s
+[CV 2/3] END leaf_size=122, n_neighbors=43, p=1;, score=-2.188 total time=   0.2s
+[CV 3/3] END leaf_size=122, n_neighbors=43, p=1;, score=-2.138 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=127, n_neighbors=26, p=2;, score=-2.010 total time=   0.0s
+[CV 2/3] END leaf_size=127, n_neighbors=26, p=2;, score=-2.225 total time=   0.0s
+[CV 3/3] END leaf_size=127, n_neighbors=26, p=2;, score=-2.206 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=208, n_neighbors=9, p=2;, score=-2.023 total time=   0.0s
+[CV 2/3] END leaf_size=208, n_neighbors=9, p=2;, score=-2.215 total time=   0.0s
+[CV 3/3] END leaf_size=208, n_neighbors=9, p=2;, score=-2.183 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=210, n_neighbors=11, p=2;, score=-2.009 total time=   0.0s
+[CV 2/3] END leaf_size=210, n_neighbors=11, p=2;, score=-2.212 total time=   0.0s
+[CV 3/3] END leaf_size=210, n_neighbors=11, p=2;, score=-2.203 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=41, n_neighbors=30, p=2;, score=-2.011 total time=   0.0s
+[CV 2/3] END leaf_size=41, n_neighbors=30, p=2;, score=-2.218 total time=   0.0s
+[CV 3/3] END leaf_size=41, n_neighbors=30, p=2;, score=-2.220 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=247, n_neighbors=14, p=2;, score=-2.014 total time=   0.0s
+[CV 2/3] END leaf_size=247, n_neighbors=14, p=2;, score=-2.231 total time=   0.0s
+[CV 3/3] END leaf_size=247, n_neighbors=14, p=2;, score=-2.190 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=30, p=1;, score=-1.922 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=30, p=1;, score=-2.148 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=30, p=1;, score=-2.148 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=19, p=1;, score=-1.924 total time=   0.2s
+[CV 2/3] END leaf_size=298, n_neighbors=19, p=1;, score=-2.129 total time=   0.1s
+[CV 3/3] END leaf_size=298, n_neighbors=19, p=1;, score=-2.113 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-1.940 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-2.212 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=50, p=1;, score=-2.151 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=16, p=1;, score=-1.932 total time=   0.2s
+[CV 2/3] END .leaf_size=5, n_neighbors=16, p=1;, score=-2.125 total time=   0.2s
+[CV 3/3] END .leaf_size=5, n_neighbors=16, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=17, p=1;, score=-1.927 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.115 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.130 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=35, p=1;, score=-1.928 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=35, p=1;, score=-2.160 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=35, p=1;, score=-2.145 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-1.984 total time=   0.1s
+[CV 2/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-2.254 total time=   0.0s
+[CV 3/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-2.231 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=6, n_neighbors=3, p=2;, score=-2.254 total time=   0.1s
+[CV 2/3] END ..leaf_size=6, n_neighbors=3, p=2;, score=-2.419 total time=   0.0s
+[CV 3/3] END ..leaf_size=6, n_neighbors=3, p=2;, score=-2.265 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=30, p=1;, score=-1.922 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=30, p=1;, score=-2.148 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=30, p=1;, score=-2.148 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=50, p=1;, score=-1.940 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=50, p=1;, score=-2.212 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=50, p=1;, score=-2.151 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=215, n_neighbors=22, p=1;, score=-1.922 total time=   0.1s
+[CV 2/3] END leaf_size=215, n_neighbors=22, p=1;, score=-2.149 total time=   0.1s
+[CV 3/3] END leaf_size=215, n_neighbors=22, p=1;, score=-2.129 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=3, p=1;, score=-2.202 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=3, p=1;, score=-2.319 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=3, p=1;, score=-2.209 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=10, p=1;, score=-1.966 total time=   0.1s
+[CV 2/3] END leaf_size=300, n_neighbors=10, p=1;, score=-2.108 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=10, p=1;, score=-2.099 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-1.966 total time=   0.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.108 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.099 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=39, p=1;, score=-1.927 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=39, p=1;, score=-2.179 total time=   0.1s
+[CV 3/3] END leaf_size=299, n_neighbors=39, p=1;, score=-2.142 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=27, p=1;, score=-1.931 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=27, p=1;, score=-2.154 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=27, p=1;, score=-2.140 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=37, p=2;, score=-1.984 total time=   0.0s
+[CV 2/3] END leaf_size=300, n_neighbors=37, p=2;, score=-2.232 total time=   0.0s
+[CV 3/3] END leaf_size=300, n_neighbors=37, p=2;, score=-2.224 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-1.993 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.105 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.109 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-1.944 total time=   0.2s
+[CV 2/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.120 total time=   0.2s
+[CV 3/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.113 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-1.924 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-2.129 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-2.113 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-1.919 total time=   0.1s
+[CV 2/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=9, n_neighbors=47, p=1;, score=-1.939 total time=   0.2s
+[CV 2/3] END .leaf_size=9, n_neighbors=47, p=1;, score=-2.201 total time=   0.2s
+[CV 3/3] END .leaf_size=9, n_neighbors=47, p=1;, score=-2.148 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=32, p=1;, score=-1.926 total time=   0.2s
+[CV 2/3] END .leaf_size=5, n_neighbors=32, p=1;, score=-2.159 total time=   0.2s
+[CV 3/3] END .leaf_size=5, n_neighbors=32, p=1;, score=-2.145 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=20, p=2;, score=-2.017 total time=   0.0s
+[CV 2/3] END .leaf_size=4, n_neighbors=20, p=2;, score=-2.218 total time=   0.0s
+[CV 3/3] END .leaf_size=4, n_neighbors=20, p=2;, score=-2.183 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=18, p=1;, score=-1.919 total time=   0.1s
+[CV 2/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=47, p=2;, score=-1.983 total time=   0.0s
+[CV 2/3] END leaf_size=300, n_neighbors=47, p=2;, score=-2.252 total time=   0.0s
+[CV 3/3] END leaf_size=300, n_neighbors=47, p=2;, score=-2.232 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-1.919 total time=   0.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.123 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.919 total time=   0.1s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.124 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=18, p=1;, score=-2.124 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=34, p=2;, score=-1.994 total time=   0.0s
+[CV 2/3] END .leaf_size=5, n_neighbors=34, p=2;, score=-2.240 total time=   0.0s
+[CV 3/3] END .leaf_size=5, n_neighbors=34, p=2;, score=-2.235 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=4, n_neighbors=18, p=1;, score=-2.124 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=8, n_neighbors=18, p=1;, score=-1.919 total time=   0.1s
+[CV 2/3] END .leaf_size=8, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=8, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=37, p=1;, score=-1.927 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=37, p=1;, score=-2.171 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=37, p=1;, score=-2.147 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=9, n_neighbors=18, p=1;, score=-1.919 total time=   0.2s
+[CV 2/3] END .leaf_size=9, n_neighbors=18, p=1;, score=-2.123 total time=   0.2s
+[CV 3/3] END .leaf_size=9, n_neighbors=18, p=1;, score=-2.124 total time=   0.2s
+{'mean_fit_time': array([0.00347646, 0.00446192, 0.0037113 , 0.00445064, 0.0036304 ,
+       0.00501871, 0.00407894, 0.00424949, 0.00433485, 0.00312567,
+       0.00413251, 0.00311947, 0.00582576, 0.0042158 , 0.00353026,
+       0.00374158, 0.00356221, 0.00362293, 0.00333341, 0.00284338,
+       0.0029877 , 0.00277956, 0.00302529, 0.00347845, 0.00314339,
+       0.00285443, 0.00397404, 0.00349132, 0.00290672, 0.0029664 ,
+       0.00327079, 0.00319465, 0.00306956, 0.00339079, 0.00335304,
+       0.00290227, 0.00294685, 0.00328747, 0.00309976, 0.00345778,
+       0.00369294, 0.00368516, 0.00371393, 0.00351977, 0.00384545,
+       0.00301846, 0.00360378, 0.00318138, 0.00304039, 0.00307838]), 'std_fit_time': array([3.95733299e-04, 8.73150345e-04, 6.29578989e-04, 6.08303698e-04,
+       5.53450444e-04, 2.91544493e-04, 3.24035633e-04, 4.51469585e-04,
+       3.24846653e-04, 3.17129752e-04, 4.61174424e-04, 4.27896239e-04,
+       1.66849207e-03, 4.29981340e-04, 4.73521907e-04, 3.92076355e-04,
+       2.62847662e-04, 3.98463208e-04, 3.31431802e-04, 6.36370616e-04,
+       7.72970789e-04, 1.92308918e-04, 4.80352359e-04, 3.78836911e-04,
+       3.05081041e-04, 4.10472573e-04, 8.97199965e-04, 7.42387151e-04,
+       2.03190485e-04, 4.03052561e-04, 3.57739343e-04, 3.25490195e-04,
+       3.54705010e-04, 1.41024942e-04, 1.84911025e-04, 4.16368726e-04,
+       1.47690768e-04, 4.18514251e-04, 3.69457897e-04, 4.82660773e-04,
+       6.30079467e-04, 7.25001755e-04, 6.50905058e-04, 1.71120883e-04,
+       7.74207280e-04, 4.40652634e-04, 9.86752129e-05, 3.92457034e-04,
+       5.72780291e-04, 4.60014436e-04]), 'mean_score_time': array([0.1936787 , 0.19471836, 0.02833692, 0.19021853, 0.18804653,
+       0.02712329, 0.02578545, 0.02306461, 0.02729384, 0.01288319,
+       0.19886525, 0.15974879, 0.1855708 , 0.19001476, 0.17977953,
+       0.16964404, 0.19204458, 0.0360349 , 0.0288763 , 0.15646362,
+       0.16385055, 0.14177378, 0.14664491, 0.14193463, 0.14676007,
+       0.15157421, 0.18302623, 0.18839916, 0.02247508, 0.16150912,
+       0.1677227 , 0.13693833, 0.16718713, 0.17371353, 0.17538134,
+       0.17694116, 0.17157427, 0.01822774, 0.16439493, 0.02196622,
+       0.1507562 , 0.17335741, 0.1691498 , 0.16420388, 0.02582645,
+       0.1626602 , 0.18963432, 0.15967027, 0.15577849, 0.15617275]), 'std_score_time': array([0.01679444, 0.0311782 , 0.00293844, 0.01379579, 0.00650441,
+       0.00453052, 0.00259352, 0.00385604, 0.00599773, 0.00144538,
+       0.0115362 , 0.02322899, 0.01253394, 0.0055725 , 0.02262795,
+       0.02770135, 0.02267084, 0.02851493, 0.02589598, 0.00976417,
+       0.00984433, 0.00289032, 0.00701861, 0.00833905, 0.00271898,
+       0.0045368 , 0.0079422 , 0.02396166, 0.00198502, 0.02312525,
+       0.02125628, 0.01145682, 0.02591953, 0.00340166, 0.01780445,
+       0.01580257, 0.0190908 , 0.00552461, 0.02578642, 0.00332927,
+       0.02012497, 0.02810863, 0.02160614, 0.02178741, 0.00617092,
+       0.01681445, 0.01980261, 0.03560371, 0.00764014, 0.00762343]), 'param_leaf_size': masked_array(data=[52, 202, 215, 123, 122, 127, 208, 210, 41, 247, 300,
+                   298, 3, 5, 300, 299, 3, 8, 6, 3, 300, 215, 300, 300, 3,
+                   299, 300, 300, 300, 300, 3, 3, 4, 300, 3, 9, 5, 4, 299,
+                   300, 3, 300, 299, 3, 5, 4, 300, 8, 3, 9],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[23, 44, 43, 6, 43, 26, 9, 11, 30, 14, 30, 19, 50, 16,
+                   17, 35, 18, 50, 3, 30, 50, 22, 3, 10, 10, 39, 18, 27,
+                   37, 12, 9, 19, 18, 18, 18, 47, 32, 20, 18, 47, 18, 18,
+                   18, 18, 34, 18, 18, 18, 37, 18],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[1, 1, 2, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2,
+                   2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1,
+                   1, 2, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 52), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 202), ('n_neighbors', 44), ('p', 1)]), OrderedDict([('leaf_size', 215), ('n_neighbors', 43), ('p', 2)]), OrderedDict([('leaf_size', 123), ('n_neighbors', 6), ('p', 1)]), OrderedDict([('leaf_size', 122), ('n_neighbors', 43), ('p', 1)]), OrderedDict([('leaf_size', 127), ('n_neighbors', 26), ('p', 2)]), OrderedDict([('leaf_size', 208), ('n_neighbors', 9), ('p', 2)]), OrderedDict([('leaf_size', 210), ('n_neighbors', 11), ('p', 2)]), OrderedDict([('leaf_size', 41), ('n_neighbors', 30), ('p', 2)]), OrderedDict([('leaf_size', 247), ('n_neighbors', 14), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 30), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 16), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 35), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 8), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 3), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 30), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 215), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 3), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 39), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 27), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 37), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 47), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 32), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 20), ('p', 2)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 47), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 34), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 8), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 37), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 18), ('p', 1)])], 'split0_test_score': array([-1.92896145, -1.92764774, -1.98249006, -1.98699556, -1.92608548,
+       -2.00966625, -2.02331664, -2.00913194, -2.01069896, -2.01393739,
+       -1.92236687, -1.92420982, -1.94001894, -1.93244256, -1.92702838,
+       -1.92773548, -1.91885011, -1.98397932, -2.25369725, -1.92236687,
+       -1.94001894, -1.92240793, -2.20153799, -1.96648469, -1.96648469,
+       -1.92672955, -1.91885011, -1.93052514, -1.98440328, -1.9927035 ,
+       -1.94406969, -1.92420982, -1.91885011, -1.91885011, -1.91885011,
+       -1.93876441, -1.92580845, -2.01747289, -1.91885011, -1.98332631,
+       -1.91885011, -1.91885011, -1.91885011, -1.91885011, -1.99433149,
+       -1.91885011, -1.91885011, -1.91885011, -1.9272244 , -1.91885011]), 'split1_test_score': array([-2.15577224, -2.19266487, -2.24438461, -2.24422542, -2.18819112,
+       -2.22482853, -2.2145226 , -2.21234067, -2.21836158, -2.23126675,
+       -2.14809281, -2.12947298, -2.21235231, -2.12513793, -2.11479876,
+       -2.16045149, -2.12267365, -2.25367973, -2.41908803, -2.14809281,
+       -2.21235231, -2.14871388, -2.31943446, -2.10829516, -2.10829516,
+       -2.17929149, -2.12267365, -2.15393159, -2.2316906 , -2.10494184,
+       -2.12030447, -2.12947298, -2.12267365, -2.12267365, -2.12267365,
+       -2.20109499, -2.15924006, -2.21814728, -2.12267365, -2.2524081 ,
+       -2.12267365, -2.12267365, -2.12267365, -2.12267365, -2.23980437,
+       -2.12267365, -2.12267365, -2.12267365, -2.17086767, -2.12267365]), 'split2_test_score': array([-2.12084337, -2.13643759, -2.22723307, -2.11612121, -2.13767071,
+       -2.2057546 , -2.18339225, -2.20292295, -2.219662  , -2.18998067,
+       -2.1484971 , -2.11329022, -2.15125233, -2.12438342, -2.12962564,
+       -2.14490418, -2.12423333, -2.23088576, -2.26511312, -2.1484971 ,
+       -2.15125233, -2.12867112, -2.20912038, -2.0990648 , -2.0990648 ,
+       -2.14245845, -2.12423333, -2.13978407, -2.22375034, -2.10895647,
+       -2.11312485, -2.11329022, -2.12423333, -2.12423333, -2.12423333,
+       -2.1479768 , -2.14511139, -2.18269361, -2.12423333, -2.23155024,
+       -2.12423333, -2.12423333, -2.12423333, -2.12423333, -2.23461051,
+       -2.12423333, -2.12423333, -2.12423333, -2.14675207, -2.12423333]), 'mean_test_score': array([-2.06852568, -2.0855834 , -2.15136925, -2.11578073, -2.08398244,
+       -2.14674979, -2.1404105 , -2.14146518, -2.14957418, -2.1450616 ,
+       -2.0729856 , -2.05565768, -2.10120786, -2.06065464, -2.05715092,
+       -2.07769705, -2.05525236, -2.1561816 , -2.3126328 , -2.0729856 ,
+       -2.10120786, -2.06659764, -2.24336427, -2.05794822, -2.05794822,
+       -2.08282649, -2.05525236, -2.07474693, -2.14661474, -2.06886727,
+       -2.05916633, -2.05565768, -2.05525236, -2.05525236, -2.05525236,
+       -2.0959454 , -2.07671997, -2.13943792, -2.05525236, -2.15576155,
+       -2.05525236, -2.05525236, -2.05525236, -2.05525236, -2.15624879,
+       -2.05525236, -2.05525236, -2.05525236, -2.08161471, -2.05525236]), 'std_test_score': array([0.09971171, 0.11401208, 0.11962073, 0.10501393, 0.11353902,
+       0.09724497, 0.08376755, 0.09365269, 0.09820105, 0.09423837,
+       0.10650365, 0.09318217, 0.11667534, 0.09066015, 0.09220942,
+       0.10622863, 0.09645306, 0.12212046, 0.07541935, 0.10650365,
+       0.11667534, 0.10228533, 0.05387874, 0.06478416, 0.06478416,
+       0.11139677, 0.09645306, 0.10214363, 0.11474662, 0.05388085,
+       0.08143838, 0.09318217, 0.09645306, 0.09645306, 0.09645306,
+       0.11323952, 0.10686633, 0.08744843, 0.09645306, 0.1222271 ,
+       0.09645306, 0.09645306, 0.09645306, 0.09645306, 0.11451245,
+       0.09645306, 0.09645306, 0.09645306, 0.10961346, 0.09645306]), 'rank_test_score': array([23, 33, 45, 37, 32, 43, 39, 40, 44, 41, 25, 15, 35, 21, 17, 29,  1,
+       47, 50, 25, 35, 22, 49, 18, 18, 31,  1, 27, 42, 24, 20, 15,  1,  1,
+        1, 34, 28, 38,  1, 46,  1,  1,  1,  1, 48,  1,  1,  1, 30,  1],
+      dtype=int32)}
+-2.0552523607837934
+OrderedDict([('leaf_size', 3), ('n_neighbors', 18), ('p', 1)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=46, p=1;, score=-2.069 total time=   0.2s
+[CV 2/3] END leaf_size=295, n_neighbors=46, p=1;, score=-2.315 total time=   0.2s
+[CV 3/3] END leaf_size=295, n_neighbors=46, p=1;, score=-2.184 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=78, n_neighbors=43, p=2;, score=-2.106 total time=   0.0s
+[CV 2/3] END leaf_size=78, n_neighbors=43, p=2;, score=-2.414 total time=   0.0s
+[CV 3/3] END leaf_size=78, n_neighbors=43, p=2;, score=-2.260 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=177, n_neighbors=21, p=1;, score=-2.038 total time=   0.2s
+[CV 2/3] END leaf_size=177, n_neighbors=21, p=1;, score=-2.293 total time=   0.1s
+[CV 3/3] END leaf_size=177, n_neighbors=21, p=1;, score=-2.148 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=181, n_neighbors=34, p=2;, score=-2.113 total time=   0.0s
+[CV 2/3] END leaf_size=181, n_neighbors=34, p=2;, score=-2.418 total time=   0.0s
+[CV 3/3] END leaf_size=181, n_neighbors=34, p=2;, score=-2.255 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=282, n_neighbors=48, p=1;, score=-2.079 total time=   0.2s
+[CV 2/3] END leaf_size=282, n_neighbors=48, p=1;, score=-2.325 total time=   0.1s
+[CV 3/3] END leaf_size=282, n_neighbors=48, p=1;, score=-2.191 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=288, n_neighbors=41, p=2;, score=-2.102 total time=   0.0s
+[CV 2/3] END leaf_size=288, n_neighbors=41, p=2;, score=-2.412 total time=   0.0s
+[CV 3/3] END leaf_size=288, n_neighbors=41, p=2;, score=-2.265 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=282, n_neighbors=41, p=2;, score=-2.102 total time=   0.0s
+[CV 2/3] END leaf_size=282, n_neighbors=41, p=2;, score=-2.412 total time=   0.0s
+[CV 3/3] END leaf_size=282, n_neighbors=41, p=2;, score=-2.265 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=7, n_neighbors=17, p=2;, score=-2.134 total time=   0.0s
+[CV 2/3] END .leaf_size=7, n_neighbors=17, p=2;, score=-2.363 total time=   0.0s
+[CV 3/3] END .leaf_size=7, n_neighbors=17, p=2;, score=-2.213 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=253, n_neighbors=44, p=1;, score=-2.069 total time=   0.2s
+[CV 2/3] END leaf_size=253, n_neighbors=44, p=1;, score=-2.315 total time=   0.1s
+[CV 3/3] END leaf_size=253, n_neighbors=44, p=1;, score=-2.183 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=162, n_neighbors=45, p=1;, score=-2.069 total time=   0.2s
+[CV 2/3] END leaf_size=162, n_neighbors=45, p=1;, score=-2.314 total time=   0.2s
+[CV 3/3] END leaf_size=162, n_neighbors=45, p=1;, score=-2.185 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=4, p=1;, score=-2.150 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=4, p=1;, score=-2.287 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=4, p=1;, score=-2.205 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=28, p=1;, score=-2.048 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=28, p=1;, score=-2.296 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=28, p=1;, score=-2.165 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=16, p=1;, score=-2.040 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=16, p=1;, score=-2.276 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=16, p=1;, score=-2.140 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=13, p=1;, score=-2.013 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=13, p=1;, score=-2.266 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=13, p=1;, score=-2.122 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.010 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.276 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.115 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.019 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.278 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.129 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=3, p=2;, score=-2.180 total time=   0.0s
+[CV 2/3] END leaf_size=295, n_neighbors=3, p=2;, score=-2.481 total time=   0.0s
+[CV 3/3] END leaf_size=295, n_neighbors=3, p=2;, score=-2.339 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=35, p=1;, score=-2.058 total time=   0.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=35, p=1;, score=-2.309 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=35, p=1;, score=-2.173 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.001 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.272 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.155 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=286, n_neighbors=50, p=2;, score=-2.116 total time=   0.1s
+[CV 2/3] END leaf_size=286, n_neighbors=50, p=2;, score=-2.406 total time=   0.0s
+[CV 3/3] END leaf_size=286, n_neighbors=50, p=2;, score=-2.270 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=24, p=2;, score=-2.124 total time=   0.0s
+[CV 2/3] END .leaf_size=4, n_neighbors=24, p=2;, score=-2.403 total time=   0.0s
+[CV 3/3] END .leaf_size=4, n_neighbors=24, p=2;, score=-2.265 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.019 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.278 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.129 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.019 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.278 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.129 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.019 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.278 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.129 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.046 total time=   0.2s
+[CV 2/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.293 total time=   0.2s
+[CV 3/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.161 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=15, p=1;, score=-2.040 total time=   0.1s
+[CV 2/3] END .leaf_size=6, n_neighbors=15, p=1;, score=-2.269 total time=   0.2s
+[CV 3/3] END .leaf_size=6, n_neighbors=15, p=1;, score=-2.135 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=9, p=1;, score=-2.036 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=9, p=1;, score=-2.235 total time=   0.2s
+[CV 3/3] END leaf_size=299, n_neighbors=9, p=1;, score=-2.158 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=39, p=1;, score=-2.073 total time=   0.1s
+[CV 2/3] END leaf_size=297, n_neighbors=39, p=1;, score=-2.309 total time=   0.2s
+[CV 3/3] END leaf_size=297, n_neighbors=39, p=1;, score=-2.176 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=296, n_neighbors=11, p=2;, score=-2.151 total time=   0.0s
+[CV 2/3] END leaf_size=296, n_neighbors=11, p=2;, score=-2.340 total time=   0.0s
+[CV 3/3] END leaf_size=296, n_neighbors=11, p=2;, score=-2.196 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.010 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.276 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=11, p=1;, score=-2.115 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.019 total time=   0.2s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.278 total time=   0.1s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.129 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.001 total time=   0.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.272 total time=   0.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=10, p=1;, score=-2.155 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=31, p=1;, score=-2.054 total time=   0.1s
+[CV 2/3] END .leaf_size=6, n_neighbors=31, p=1;, score=-2.305 total time=   0.2s
+[CV 3/3] END .leaf_size=6, n_neighbors=31, p=1;, score=-2.178 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=9, n_neighbors=19, p=1;, score=-2.025 total time=   0.2s
+[CV 2/3] END .leaf_size=9, n_neighbors=19, p=1;, score=-2.289 total time=   0.2s
+[CV 3/3] END .leaf_size=9, n_neighbors=19, p=1;, score=-2.145 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=7, p=1;, score=-2.061 total time=   0.2s
+[CV 2/3] END leaf_size=299, n_neighbors=7, p=1;, score=-2.193 total time=   0.1s
+[CV 3/3] END leaf_size=299, n_neighbors=7, p=1;, score=-2.163 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=3, n_neighbors=8, p=1;, score=-2.048 total time=   0.1s
+[CV 2/3] END ..leaf_size=3, n_neighbors=8, p=1;, score=-2.213 total time=   0.2s
+[CV 3/3] END ..leaf_size=3, n_neighbors=8, p=1;, score=-2.150 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=14, p=1;, score=-2.031 total time=   0.1s
+[CV 2/3] END leaf_size=300, n_neighbors=14, p=1;, score=-2.269 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=14, p=1;, score=-2.128 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=29, p=2;, score=-2.119 total time=   0.0s
+[CV 2/3] END leaf_size=295, n_neighbors=29, p=2;, score=-2.418 total time=   0.0s
+[CV 3/3] END leaf_size=295, n_neighbors=29, p=2;, score=-2.250 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=26, p=1;, score=-2.045 total time=   0.1s
+[CV 2/3] END .leaf_size=4, n_neighbors=26, p=1;, score=-2.294 total time=   0.1s
+[CV 3/3] END .leaf_size=4, n_neighbors=26, p=1;, score=-2.169 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.079 total time=   0.1s
+[CV 2/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.323 total time=   0.2s
+[CV 3/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.190 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=41, p=1;, score=-2.067 total time=   0.2s
+[CV 2/3] END .leaf_size=4, n_neighbors=41, p=1;, score=-2.311 total time=   0.1s
+[CV 3/3] END .leaf_size=4, n_neighbors=41, p=1;, score=-2.184 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-2.039 total time=   0.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-2.275 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-2.146 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.048 total time=   0.1s
+[CV 2/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.213 total time=   0.2s
+[CV 3/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.150 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=9, n_neighbors=8, p=2;, score=-2.110 total time=   0.0s
+[CV 2/3] END ..leaf_size=9, n_neighbors=8, p=2;, score=-2.335 total time=   0.0s
+[CV 3/3] END ..leaf_size=9, n_neighbors=8, p=2;, score=-2.222 total time=   0.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.010 total time=   0.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.276 total time=   0.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.115 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=13, p=1;, score=-2.013 total time=   0.1s
+[CV 2/3] END leaf_size=297, n_neighbors=13, p=1;, score=-2.266 total time=   0.1s
+[CV 3/3] END leaf_size=297, n_neighbors=13, p=1;, score=-2.122 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=11, p=1;, score=-2.010 total time=   0.1s
+[CV 2/3] END .leaf_size=4, n_neighbors=11, p=1;, score=-2.276 total time=   0.1s
+[CV 3/3] END .leaf_size=4, n_neighbors=11, p=1;, score=-2.115 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=293, n_neighbors=11, p=1;, score=-2.010 total time=   0.2s
+[CV 2/3] END leaf_size=293, n_neighbors=11, p=1;, score=-2.276 total time=   0.1s
+[CV 3/3] END leaf_size=293, n_neighbors=11, p=1;, score=-2.115 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=242, n_neighbors=13, p=1;, score=-2.013 total time=   0.2s
+[CV 2/3] END leaf_size=242, n_neighbors=13, p=1;, score=-2.266 total time=   0.1s
+[CV 3/3] END leaf_size=242, n_neighbors=13, p=1;, score=-2.122 total time=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-2.010 total time=   0.2s
+[CV 2/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-2.276 total time=   0.2s
+[CV 3/3] END .leaf_size=5, n_neighbors=11, p=1;, score=-2.115 total time=   0.1s
+{'mean_fit_time': array([0.0032142 , 0.00442092, 0.00363104, 0.00369557, 0.00355951,
+       0.00351691, 0.00384879, 0.00466458, 0.00357644, 0.00366259,
+       0.00419792, 0.00331426, 0.00408014, 0.00368341, 0.00343378,
+       0.00314458, 0.00304135, 0.00293573, 0.00288574, 0.00328644,
+       0.00341956, 0.00295273, 0.00303777, 0.00337362, 0.00388757,
+       0.00369843, 0.00377591, 0.0031929 , 0.00389028, 0.00373975,
+       0.00290116, 0.00284807, 0.00301377, 0.00315086, 0.00290608,
+       0.00329415, 0.00327023, 0.00297737, 0.00325696, 0.00323645,
+       0.00301147, 0.00287565, 0.00335876, 0.0038472 , 0.00342242,
+       0.00335805, 0.00340819, 0.00275564, 0.00289742, 0.00298317]), 'std_fit_time': array([2.25479643e-04, 8.81838193e-04, 7.25893137e-04, 7.24717614e-04,
+       5.40644127e-04, 2.73451248e-04, 1.11890392e-04, 4.68711860e-04,
+       5.20403129e-04, 8.40291549e-04, 3.52875731e-04, 5.90841295e-04,
+       3.92875446e-04, 6.42898586e-04, 4.75537808e-04, 5.29228468e-04,
+       2.20011767e-04, 4.46039866e-04, 3.70914813e-04, 1.89324803e-04,
+       1.34805884e-04, 3.25935803e-04, 3.72942007e-04, 2.16781102e-04,
+       1.93385182e-04, 8.35203397e-04, 5.00201358e-04, 3.66155416e-04,
+       8.11863843e-04, 7.71122115e-04, 4.79689267e-04, 5.48723086e-04,
+       4.07404095e-04, 2.74953056e-04, 1.51848117e-04, 4.01856163e-04,
+       3.80743365e-04, 1.18718249e-04, 3.87515222e-04, 3.69690044e-04,
+       4.04082473e-04, 1.28504493e-04, 6.09636333e-04, 7.16389508e-04,
+       1.08728167e-04, 4.42645751e-04, 5.11254645e-04, 1.48369678e-04,
+       2.30208527e-04, 3.48892190e-05]), 'mean_score_time': array([0.17335796, 0.02737713, 0.1553305 , 0.02341859, 0.14786839,
+       0.01398627, 0.01887806, 0.03044399, 0.14799913, 0.15429274,
+       0.18779016, 0.16550263, 0.17744501, 0.17081769, 0.19023879,
+       0.15009189, 0.01692279, 0.14415725, 0.15738861, 0.0313731 ,
+       0.02224994, 0.15990829, 0.1650641 , 0.17333269, 0.18430948,
+       0.18206398, 0.18517343, 0.13907393, 0.02218986, 0.18123976,
+       0.14013282, 0.14548429, 0.14075279, 0.17459822, 0.14129313,
+       0.13663459, 0.15749431, 0.01873485, 0.13565715, 0.15163549,
+       0.1445454 , 0.13461041, 0.13620774, 0.02129873, 0.17174617,
+       0.12786237, 0.126134  , 0.14884456, 0.17039235, 0.16165423]), 'std_score_time': array([0.0280768 , 0.00108208, 0.00914914, 0.00330434, 0.00456577,
+       0.00072581, 0.00501257, 0.00217624, 0.0061925 , 0.00408441,
+       0.01845766, 0.02088649, 0.02365836, 0.02154211, 0.01635927,
+       0.0062547 , 0.00145871, 0.00050006, 0.01258065, 0.02118525,
+       0.00418963, 0.02121386, 0.02005722, 0.02081457, 0.00705535,
+       0.02599642, 0.01542169, 0.00966306, 0.00078927, 0.00808913,
+       0.01220707, 0.03289844, 0.03379172, 0.01952668, 0.02738415,
+       0.03324167, 0.03600551, 0.00336297, 0.01005765, 0.02861257,
+       0.038256  , 0.02825466, 0.03321309, 0.00137284, 0.01862175,
+       0.01633944, 0.01623155, 0.02377109, 0.03519545, 0.03774326]), 'param_leaf_size': masked_array(data=[295, 78, 177, 181, 282, 288, 282, 7, 253, 162, 300,
+                   300, 299, 3, 300, 300, 295, 3, 3, 286, 4, 3, 3, 300, 4,
+                   6, 299, 297, 296, 300, 300, 3, 6, 9, 299, 3, 300, 295,
+                   4, 12, 4, 3, 300, 9, 3, 297, 4, 293, 242, 5],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[46, 43, 21, 34, 48, 41, 41, 17, 44, 45, 4, 28, 16, 13,
+                   11, 12, 3, 35, 10, 50, 24, 12, 12, 12, 24, 15, 9, 39,
+                   11, 11, 12, 10, 31, 19, 7, 8, 14, 29, 26, 50, 41, 17,
+                   8, 8, 11, 13, 11, 11, 13, 11],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[1, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1,
+                   1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1,
+                   1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 295), ('n_neighbors', 46), ('p', 1)]), OrderedDict([('leaf_size', 78), ('n_neighbors', 43), ('p', 2)]), OrderedDict([('leaf_size', 177), ('n_neighbors', 21), ('p', 1)]), OrderedDict([('leaf_size', 181), ('n_neighbors', 34), ('p', 2)]), OrderedDict([('leaf_size', 282), ('n_neighbors', 48), ('p', 1)]), OrderedDict([('leaf_size', 288), ('n_neighbors', 41), ('p', 2)]), OrderedDict([('leaf_size', 282), ('n_neighbors', 41), ('p', 2)]), OrderedDict([('leaf_size', 7), ('n_neighbors', 17), ('p', 2)]), OrderedDict([('leaf_size', 253), ('n_neighbors', 44), ('p', 1)]), OrderedDict([('leaf_size', 162), ('n_neighbors', 45), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 4), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 28), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 16), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 3), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 35), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 286), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 24), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 15), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 39), ('p', 1)]), OrderedDict([('leaf_size', 296), ('n_neighbors', 11), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 31), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 7), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 8), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 14), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 29), ('p', 2)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 26), ('p', 1)]), OrderedDict([('leaf_size', 12), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 41), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 8), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 8), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 293), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 242), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 11), ('p', 1)])], 'split0_test_score': array([-2.06943408, -2.10558518, -2.03781802, -2.11280028, -2.07854653,
+       -2.10234055, -2.10234055, -2.1340446 , -2.06930054, -2.0690344 ,
+       -2.14970134, -2.04814545, -2.03996389, -2.01347778, -2.00976714,
+       -2.01928163, -2.18038744, -2.05824002, -2.00109301, -2.11627037,
+       -2.12402979, -2.01928163, -2.01928163, -2.01928163, -2.04627471,
+       -2.04035518, -2.03610979, -2.07301557, -2.15135935, -2.00976714,
+       -2.01928163, -2.00109301, -2.05384259, -2.02461135, -2.06094628,
+       -2.04772263, -2.03142751, -2.11886943, -2.04469023, -2.07855195,
+       -2.06703929, -2.03860292, -2.04772263, -2.11024283, -2.00976714,
+       -2.01347778, -2.00976714, -2.00976714, -2.01347778, -2.00976714]), 'split1_test_score': array([-2.31498117, -2.41395379, -2.29256269, -2.41839307, -2.32517822,
+       -2.4120626 , -2.4120626 , -2.36284901, -2.31549207, -2.31446759,
+       -2.2868431 , -2.29648004, -2.27562154, -2.26616416, -2.27630534,
+       -2.27826987, -2.48065195, -2.30942859, -2.27230991, -2.40592077,
+       -2.40292021, -2.27826987, -2.27826987, -2.27826987, -2.29319493,
+       -2.26873895, -2.23475118, -2.30883163, -2.33995956, -2.27630534,
+       -2.27826987, -2.27230991, -2.30471961, -2.28897694, -2.19334912,
+       -2.21288312, -2.26869916, -2.41808336, -2.294487  , -2.32287741,
+       -2.31090303, -2.27489316, -2.21288312, -2.33473109, -2.27630534,
+       -2.26616416, -2.27630534, -2.27630534, -2.26616416, -2.27630534]), 'split2_test_score': array([-2.18432455, -2.26001636, -2.14839254, -2.254863  , -2.19118614,
+       -2.26473406, -2.26473406, -2.21348201, -2.18288811, -2.18546365,
+       -2.20530578, -2.16511948, -2.14048348, -2.12155411, -2.11485583,
+       -2.12877902, -2.33935669, -2.17320963, -2.15507451, -2.26962021,
+       -2.26457273, -2.12877902, -2.12877902, -2.12877902, -2.16059749,
+       -2.13497038, -2.1578907 , -2.17626924, -2.19580176, -2.11485583,
+       -2.12877902, -2.15507451, -2.17832006, -2.14476786, -2.16297911,
+       -2.14963081, -2.12829037, -2.24969073, -2.16934049, -2.19039298,
+       -2.18364619, -2.14576564, -2.14963081, -2.22229056, -2.11485583,
+       -2.12155411, -2.11485583, -2.11485583, -2.12155411, -2.11485583]), 'mean_test_score': array([-2.18957993, -2.25985178, -2.15959109, -2.26201878, -2.19830363,
+       -2.2597124 , -2.2597124 , -2.23679187, -2.18922691, -2.18965521,
+       -2.21395007, -2.16991499, -2.15202297, -2.13373202, -2.13364277,
+       -2.14211017, -2.33346536, -2.18029275, -2.14282581, -2.26393712,
+       -2.26384091, -2.14211017, -2.14211017, -2.14211017, -2.16668904,
+       -2.1480215 , -2.14291722, -2.18603882, -2.22904023, -2.13364277,
+       -2.14211017, -2.14282581, -2.17896075, -2.15278538, -2.13909151,
+       -2.13674552, -2.14280568, -2.26221451, -2.1695059 , -2.19727411,
+       -2.18719617, -2.15308724, -2.13674552, -2.2224215 , -2.13364277,
+       -2.13373202, -2.13364277, -2.13364277, -2.13373202, -2.13364277]), 'std_test_score': array([0.10031303, 0.12589101, 0.1043001 , 0.1248603 , 0.10081267,
+       0.12649335, 0.12649335, 0.09485208, 0.10060717, 0.10024151,
+       0.05632056, 0.10143886, 0.09655224, 0.10351756, 0.10962167,
+       0.10615089, 0.12265324, 0.10266954, 0.11106207, 0.11831754,
+       0.11385771, 0.10615089, 0.10615089, 0.10615089, 0.10089674,
+       0.09369289, 0.08178327, 0.09651904, 0.08050303, 0.10962167,
+       0.10615089, 0.11106207, 0.10242112, 0.10807559, 0.05663092,
+       0.0680393 , 0.09740801, 0.12247416, 0.10197917, 0.09986406,
+       0.0995886 , 0.09660391, 0.0680393 , 0.09164699, 0.10962167,
+       0.10351756, 0.10962167, 0.10962167, 0.10351756, 0.10962167]), 'rank_test_score': array([35, 45, 26, 46, 38, 43, 43, 42, 34, 36, 39, 29, 23,  7,  1, 13, 50,
+       31, 19, 49, 48, 13, 13, 13, 27, 22, 21, 32, 41,  1, 13, 19, 30, 24,
+       12, 10, 18, 47, 28, 37, 33, 25, 10, 40,  1,  7,  1,  1,  7,  1],
+      dtype=int32)}
+-2.133642768443801
+OrderedDict([('leaf_size', 300), ('n_neighbors', 11), ('p', 1)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=289, n_neighbors=16, p=1;, score=-1.949 total time=   5.4s
+[CV 2/3] END leaf_size=289, n_neighbors=16, p=1;, score=-2.115 total time=   4.7s
+[CV 3/3] END leaf_size=289, n_neighbors=16, p=1;, score=-2.055 total time=   4.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=263, n_neighbors=36, p=2;, score=-2.020 total time=   0.5s
+[CV 2/3] END leaf_size=263, n_neighbors=36, p=2;, score=-2.216 total time=   0.5s
+[CV 3/3] END leaf_size=263, n_neighbors=36, p=2;, score=-2.178 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=114, n_neighbors=26, p=1;, score=-1.950 total time=   5.1s
+[CV 2/3] END leaf_size=114, n_neighbors=26, p=1;, score=-2.166 total time=   4.8s
+[CV 3/3] END leaf_size=114, n_neighbors=26, p=1;, score=-2.067 total time=   4.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=183, n_neighbors=5, p=2;, score=-2.079 total time=   0.5s
+[CV 2/3] END leaf_size=183, n_neighbors=5, p=2;, score=-2.277 total time=   0.5s
+[CV 3/3] END leaf_size=183, n_neighbors=5, p=2;, score=-2.215 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=214, n_neighbors=42, p=2;, score=-2.032 total time=   0.5s
+[CV 2/3] END leaf_size=214, n_neighbors=42, p=2;, score=-2.237 total time=   0.5s
+[CV 3/3] END leaf_size=214, n_neighbors=42, p=2;, score=-2.195 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=40, n_neighbors=16, p=1;, score=-1.949 total time=   4.9s
+[CV 2/3] END leaf_size=40, n_neighbors=16, p=1;, score=-2.115 total time=   4.5s
+[CV 3/3] END leaf_size=40, n_neighbors=16, p=1;, score=-2.055 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=250, n_neighbors=21, p=2;, score=-2.001 total time=   0.5s
+[CV 2/3] END leaf_size=250, n_neighbors=21, p=2;, score=-2.188 total time=   0.5s
+[CV 3/3] END leaf_size=250, n_neighbors=21, p=2;, score=-2.128 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=158, n_neighbors=21, p=2;, score=-2.001 total time=   0.5s
+[CV 2/3] END leaf_size=158, n_neighbors=21, p=2;, score=-2.188 total time=   0.5s
+[CV 3/3] END leaf_size=158, n_neighbors=21, p=2;, score=-2.128 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=18, n_neighbors=13, p=2;, score=-2.015 total time=   0.5s
+[CV 2/3] END leaf_size=18, n_neighbors=13, p=2;, score=-2.162 total time=   0.5s
+[CV 3/3] END leaf_size=18, n_neighbors=13, p=2;, score=-2.151 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=125, n_neighbors=36, p=2;, score=-2.020 total time=   0.5s
+[CV 2/3] END leaf_size=125, n_neighbors=36, p=2;, score=-2.216 total time=   0.5s
+[CV 3/3] END leaf_size=125, n_neighbors=36, p=2;, score=-2.178 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=296, n_neighbors=50, p=1;, score=-1.980 total time=   4.5s
+[CV 2/3] END leaf_size=296, n_neighbors=50, p=1;, score=-2.200 total time=   4.5s
+[CV 3/3] END leaf_size=296, n_neighbors=50, p=1;, score=-2.110 total time=   4.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=5, n_neighbors=3, p=1;, score=-2.079 total time=   5.3s
+[CV 2/3] END ..leaf_size=5, n_neighbors=3, p=1;, score=-2.257 total time=   4.6s
+[CV 3/3] END ..leaf_size=5, n_neighbors=3, p=1;, score=-2.235 total time=   4.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=102, n_neighbors=18, p=1;, score=-1.938 total time=   4.8s
+[CV 2/3] END leaf_size=102, n_neighbors=18, p=1;, score=-2.140 total time=   4.6s
+[CV 3/3] END leaf_size=102, n_neighbors=18, p=1;, score=-2.047 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=34, p=1;, score=-1.943 total time=   5.1s
+[CV 2/3] END leaf_size=295, n_neighbors=34, p=1;, score=-2.180 total time=   4.6s
+[CV 3/3] END leaf_size=295, n_neighbors=34, p=1;, score=-2.085 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-1.957 total time=   4.6s
+[CV 2/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-2.187 total time=   4.1s
+[CV 3/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-2.102 total time=   4.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=22, p=1;, score=-1.939 total time=   4.6s
+[CV 2/3] END leaf_size=295, n_neighbors=22, p=1;, score=-2.142 total time=   5.0s
+[CV 3/3] END leaf_size=295, n_neighbors=22, p=1;, score=-2.058 total time=   5.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-2.041 total time=   0.5s
+[CV 2/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-2.264 total time=   0.6s
+[CV 3/3] END .leaf_size=8, n_neighbors=50, p=2;, score=-2.208 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=13, p=1;, score=-1.958 total time=   4.6s
+[CV 2/3] END leaf_size=300, n_neighbors=13, p=1;, score=-2.133 total time=   4.6s
+[CV 3/3] END leaf_size=300, n_neighbors=13, p=1;, score=-2.071 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=9, n_neighbors=28, p=2;, score=-2.007 total time=   0.5s
+[CV 2/3] END .leaf_size=9, n_neighbors=28, p=2;, score=-2.200 total time=   0.5s
+[CV 3/3] END .leaf_size=9, n_neighbors=28, p=2;, score=-2.150 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=30, p=1;, score=-1.938 total time=   4.2s
+[CV 2/3] END leaf_size=299, n_neighbors=30, p=1;, score=-2.173 total time=   4.5s
+[CV 3/3] END leaf_size=299, n_neighbors=30, p=1;, score=-2.067 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=294, n_neighbors=46, p=1;, score=-1.979 total time=   4.4s
+[CV 2/3] END leaf_size=294, n_neighbors=46, p=1;, score=-2.192 total time=   4.3s
+[CV 3/3] END leaf_size=294, n_neighbors=46, p=1;, score=-2.106 total time=   4.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=17, p=1;, score=-1.940 total time=   4.4s
+[CV 2/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.126 total time=   4.0s
+[CV 3/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.056 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=4, n_neighbors=9, p=1;, score=-1.951 total time=   4.4s
+[CV 2/3] END ..leaf_size=4, n_neighbors=9, p=1;, score=-2.154 total time=   4.9s
+[CV 3/3] END ..leaf_size=4, n_neighbors=9, p=1;, score=-2.055 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=20, p=1;, score=-1.935 total time=   4.1s
+[CV 2/3] END leaf_size=298, n_neighbors=20, p=1;, score=-2.133 total time=   4.3s
+[CV 3/3] END leaf_size=298, n_neighbors=20, p=1;, score=-2.048 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=21, p=1;, score=-1.939 total time=   4.5s
+[CV 2/3] END .leaf_size=3, n_neighbors=21, p=1;, score=-2.137 total time=   5.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=21, p=1;, score=-2.058 total time=   4.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=37, p=1;, score=-1.939 total time=   4.6s
+[CV 2/3] END leaf_size=297, n_neighbors=37, p=1;, score=-2.183 total time=   4.9s
+[CV 3/3] END leaf_size=297, n_neighbors=37, p=1;, score=-2.092 total time=   5.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=19, p=1;, score=-1.933 total time=   4.9s
+[CV 2/3] END leaf_size=300, n_neighbors=19, p=1;, score=-2.148 total time=   4.7s
+[CV 3/3] END leaf_size=300, n_neighbors=19, p=1;, score=-2.050 total time=   4.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=17, p=2;, score=-2.013 total time=   0.5s
+[CV 2/3] END leaf_size=298, n_neighbors=17, p=2;, score=-2.183 total time=   0.6s
+[CV 3/3] END leaf_size=298, n_neighbors=17, p=2;, score=-2.137 total time=   0.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-1.940 total time=   4.8s
+[CV 2/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-2.126 total time=   4.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=17, p=1;, score=-2.056 total time=   5.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=7, n_neighbors=11, p=1;, score=-1.956 total time=   4.5s
+[CV 2/3] END .leaf_size=7, n_neighbors=11, p=1;, score=-2.148 total time=   4.5s
+[CV 3/3] END .leaf_size=7, n_neighbors=11, p=1;, score=-2.079 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=24, p=1;, score=-1.937 total time=   4.7s
+[CV 2/3] END leaf_size=300, n_neighbors=24, p=1;, score=-2.146 total time=   4.5s
+[CV 3/3] END leaf_size=300, n_neighbors=24, p=1;, score=-2.077 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=15, p=1;, score=-1.958 total time=   4.2s
+[CV 2/3] END .leaf_size=4, n_neighbors=15, p=1;, score=-2.125 total time=   4.2s
+[CV 3/3] END .leaf_size=4, n_neighbors=15, p=1;, score=-2.069 total time=   4.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-1.933 total time=   4.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-2.148 total time=   4.7s
+[CV 3/3] END .leaf_size=3, n_neighbors=19, p=1;, score=-2.050 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=7, p=1;, score=-1.954 total time=   4.5s
+[CV 2/3] END leaf_size=295, n_neighbors=7, p=1;, score=-2.142 total time=   4.7s
+[CV 3/3] END leaf_size=295, n_neighbors=7, p=1;, score=-2.106 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=28, p=1;, score=-1.941 total time=   4.3s
+[CV 2/3] END leaf_size=300, n_neighbors=28, p=1;, score=-2.181 total time=   4.2s
+[CV 3/3] END leaf_size=300, n_neighbors=28, p=1;, score=-2.066 total time=   4.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=32, p=2;, score=-2.012 total time=   0.4s
+[CV 2/3] END leaf_size=299, n_neighbors=32, p=2;, score=-2.216 total time=   0.5s
+[CV 3/3] END leaf_size=299, n_neighbors=32, p=2;, score=-2.163 total time=   0.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=17, p=1;, score=-1.940 total time=   4.3s
+[CV 2/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.126 total time=   4.2s
+[CV 3/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.056 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-1.935 total time=   4.5s
+[CV 2/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.133 total time=   4.4s
+[CV 3/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.048 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=20, p=1;, score=-1.935 total time=   4.4s
+[CV 2/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.133 total time=   5.0s
+[CV 3/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.048 total time=   4.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=296, n_neighbors=24, p=2;, score=-1.999 total time=   0.5s
+[CV 2/3] END leaf_size=296, n_neighbors=24, p=2;, score=-2.191 total time=   0.5s
+[CV 3/3] END leaf_size=296, n_neighbors=24, p=2;, score=-2.130 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=12, n_neighbors=32, p=1;, score=-1.943 total time=   4.5s
+[CV 2/3] END leaf_size=12, n_neighbors=32, p=1;, score=-2.178 total time=   4.7s
+[CV 3/3] END leaf_size=12, n_neighbors=32, p=1;, score=-2.077 total time=   4.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=10, p=2;, score=-2.031 total time=   0.5s
+[CV 2/3] END leaf_size=299, n_neighbors=10, p=2;, score=-2.199 total time=   0.5s
+[CV 3/3] END leaf_size=299, n_neighbors=10, p=2;, score=-2.155 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=20, p=1;, score=-1.935 total time=   4.5s
+[CV 2/3] END .leaf_size=5, n_neighbors=20, p=1;, score=-2.133 total time=   4.5s
+[CV 3/3] END .leaf_size=5, n_neighbors=20, p=1;, score=-2.048 total time=   4.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=20, p=1;, score=-1.935 total time=   4.4s
+[CV 2/3] END leaf_size=299, n_neighbors=20, p=1;, score=-2.133 total time=   4.5s
+[CV 3/3] END leaf_size=299, n_neighbors=20, p=1;, score=-2.048 total time=   4.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=290, n_neighbors=43, p=1;, score=-1.966 total time=   4.6s
+[CV 2/3] END leaf_size=290, n_neighbors=43, p=1;, score=-2.189 total time=   4.7s
+[CV 3/3] END leaf_size=290, n_neighbors=43, p=1;, score=-2.107 total time=   4.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=20, p=1;, score=-1.935 total time=   4.7s
+[CV 2/3] END .leaf_size=4, n_neighbors=20, p=1;, score=-2.133 total time=   4.6s
+[CV 3/3] END .leaf_size=4, n_neighbors=20, p=1;, score=-2.048 total time=   4.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=46, p=2;, score=-2.036 total time=   0.4s
+[CV 2/3] END leaf_size=295, n_neighbors=46, p=2;, score=-2.252 total time=   0.5s
+[CV 3/3] END leaf_size=295, n_neighbors=46, p=2;, score=-2.194 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=39, p=1;, score=-1.953 total time=   4.5s
+[CV 2/3] END leaf_size=300, n_neighbors=39, p=1;, score=-2.184 total time=   4.5s
+[CV 3/3] END leaf_size=300, n_neighbors=39, p=1;, score=-2.098 total time=   4.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=39, p=2;, score=-2.025 total time=   0.5s
+[CV 2/3] END .leaf_size=3, n_neighbors=39, p=2;, score=-2.227 total time=   0.5s
+[CV 3/3] END .leaf_size=3, n_neighbors=39, p=2;, score=-2.198 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=48, p=1;, score=-1.977 total time=   4.4s
+[CV 2/3] END .leaf_size=3, n_neighbors=48, p=1;, score=-2.194 total time=   5.0s
+[CV 3/3] END .leaf_size=3, n_neighbors=48, p=1;, score=-2.103 total time=   4.5s
+{'mean_fit_time': array([0.13284882, 0.1478924 , 0.13594095, 0.12118181, 0.11867698,
+       0.14559976, 0.13584065, 0.14951587, 0.13184865, 0.12935829,
+       0.13024513, 0.13879172, 0.13956865, 0.13584248, 0.12948163,
+       0.14411887, 0.15168277, 0.13688366, 0.12610865, 0.13279247,
+       0.13910166, 0.13633585, 0.12728333, 0.12531575, 0.13396541,
+       0.1467065 , 0.14683398, 0.15109849, 0.124137  , 0.14173094,
+       0.13324523, 0.13048426, 0.1318651 , 0.13480258, 0.12695456,
+       0.13221057, 0.14231467, 0.13764381, 0.13239932, 0.11697777,
+       0.14204947, 0.12694152, 0.13518198, 0.12886031, 0.12921286,
+       0.13444066, 0.11656094, 0.1298004 , 0.13521107, 0.13059179]), 'std_fit_time': array([0.01434586, 0.02952736, 0.01126532, 0.00594645, 0.00035997,
+       0.01872817, 0.01287447, 0.01552639, 0.02155502, 0.00783279,
+       0.00683267, 0.01315399, 0.01581793, 0.01129891, 0.00781643,
+       0.01774905, 0.01350343, 0.01166977, 0.01097673, 0.01408004,
+       0.0132895 , 0.01276962, 0.01244341, 0.01020613, 0.0094355 ,
+       0.03323522, 0.01924833, 0.01849432, 0.00155571, 0.01421961,
+       0.00874304, 0.00918522, 0.00651459, 0.01450179, 0.00036984,
+       0.02022362, 0.01292627, 0.00620725, 0.01798155, 0.00027417,
+       0.02091701, 0.00050208, 0.00744538, 0.01149997, 0.00970788,
+       0.01266185, 0.00045578, 0.01020208, 0.00610848, 0.00941103]), 'mean_score_time': array([4.74359735, 0.34038941, 4.69879119, 0.35364302, 0.3471028 ,
+       4.54124935, 0.34412837, 0.36458818, 0.37437352, 0.35875042,
+       4.31253147, 4.80912073, 4.57561509, 4.73562543, 4.17646678,
+       4.6993893 , 0.38414017, 4.48746411, 0.39226405, 4.37477088,
+       4.20406167, 4.22204717, 4.53705255, 4.23820186, 4.4646763 ,
+       4.7185595 , 4.5121661 , 0.43283876, 4.50452662, 4.39233581,
+       4.53496718, 4.0381422 , 4.42521969, 4.54846931, 4.10267345,
+       0.3777109 , 4.24349713, 4.43664749, 4.52694742, 0.35690514,
+       4.39683652, 0.36268536, 4.39856482, 4.4329555 , 4.47196205,
+       4.51820167, 0.32259496, 4.33421206, 0.38166897, 4.48938441]), 'std_score_time': array([0.35772297, 0.01729614, 0.18913662, 0.0109224 , 0.00535393,
+       0.15153534, 0.02286202, 0.02360643, 0.02182335, 0.01095959,
+       0.11267656, 0.28223862, 0.10719505, 0.21989198, 0.23049266,
+       0.18601868, 0.02388119, 0.05376293, 0.01149752, 0.21556038,
+       0.03615809, 0.32181952, 0.19565922, 0.25765586, 0.39445871,
+       0.13888079, 0.19967635, 0.02108492, 0.38112686, 0.10313261,
+       0.14933318, 0.0292779 , 0.19428705, 0.1154865 , 0.03945792,
+       0.04884665, 0.20792208, 0.19314482, 0.26207603, 0.02233279,
+       0.13794939, 0.02335412, 0.05754139, 0.13026068, 0.07309683,
+       0.01239385, 0.02449307, 0.10464087, 0.01537748, 0.23820434]), 'param_leaf_size': masked_array(data=[289, 263, 114, 183, 214, 40, 250, 158, 18, 125, 296, 5,
+                   102, 295, 6, 295, 8, 300, 9, 299, 294, 300, 4, 298, 3,
+                   297, 300, 298, 3, 7, 300, 4, 3, 295, 300, 299, 298, 3,
+                   300, 296, 12, 299, 5, 299, 290, 4, 295, 300, 3, 3],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[16, 36, 26, 5, 42, 16, 21, 21, 13, 36, 50, 3, 18, 34,
+                   41, 22, 50, 13, 28, 30, 46, 17, 9, 20, 21, 37, 19, 17,
+                   17, 11, 24, 15, 19, 7, 28, 32, 17, 20, 20, 24, 32, 10,
+                   20, 20, 43, 20, 46, 39, 39, 48],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 1,
+                   2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2,
+                   1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 289), ('n_neighbors', 16), ('p', 1)]), OrderedDict([('leaf_size', 263), ('n_neighbors', 36), ('p', 2)]), OrderedDict([('leaf_size', 114), ('n_neighbors', 26), ('p', 1)]), OrderedDict([('leaf_size', 183), ('n_neighbors', 5), ('p', 2)]), OrderedDict([('leaf_size', 214), ('n_neighbors', 42), ('p', 2)]), OrderedDict([('leaf_size', 40), ('n_neighbors', 16), ('p', 1)]), OrderedDict([('leaf_size', 250), ('n_neighbors', 21), ('p', 2)]), OrderedDict([('leaf_size', 158), ('n_neighbors', 21), ('p', 2)]), OrderedDict([('leaf_size', 18), ('n_neighbors', 13), ('p', 2)]), OrderedDict([('leaf_size', 125), ('n_neighbors', 36), ('p', 2)]), OrderedDict([('leaf_size', 296), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 3), ('p', 1)]), OrderedDict([('leaf_size', 102), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 34), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 41), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 8), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 28), ('p', 2)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 30), ('p', 1)]), OrderedDict([('leaf_size', 294), ('n_neighbors', 46), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 21), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 37), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 17), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 7), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 15), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 7), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 28), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 32), ('p', 2)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 296), ('n_neighbors', 24), ('p', 2)]), OrderedDict([('leaf_size', 12), ('n_neighbors', 32), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 10), ('p', 2)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 290), ('n_neighbors', 43), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 46), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 39), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 39), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 48), ('p', 1)])], 'split0_test_score': array([-1.94899993, -2.01987684, -1.94962995, -2.07909605, -2.03167012,
+       -1.94899993, -2.00064408, -2.00064408, -2.0154342 , -2.01987684,
+       -1.97952201, -2.07907538, -1.93811024, -1.94309955, -1.95727638,
+       -1.93874083, -2.04092106, -1.95754474, -2.00740913, -1.93839502,
+       -1.97912095, -1.94028953, -1.95129872, -1.93530041, -1.93857142,
+       -1.93923618, -1.93326   , -2.01252847, -1.94028953, -1.9560459 ,
+       -1.93722069, -1.95793952, -1.93326   , -1.95433598, -1.94147517,
+       -2.01161476, -1.94028953, -1.93530041, -1.93530041, -1.99868992,
+       -1.94325373, -2.03135232, -1.93530041, -1.93530041, -1.96595375,
+       -1.93530041, -2.03599949, -1.95296091, -2.0247115 , -1.97690656]), 'split1_test_score': array([-2.11526926, -2.21560768, -2.16607806, -2.27691222, -2.23689807,
+       -2.11526926, -2.18812588, -2.18812588, -2.16213509, -2.21560768,
+       -2.19953157, -2.25650752, -2.14005576, -2.1795397 , -2.18744984,
+       -2.14168589, -2.26363146, -2.13336002, -2.20007254, -2.17328027,
+       -2.19201697, -2.12556784, -2.15443984, -2.13288083, -2.13740693,
+       -2.18278196, -2.14839392, -2.18348619, -2.12556784, -2.1482369 ,
+       -2.14649462, -2.12477746, -2.14839392, -2.14194778, -2.18129446,
+       -2.21558554, -2.12556784, -2.13288083, -2.13288083, -2.19117054,
+       -2.17815086, -2.1992819 , -2.13288083, -2.13288083, -2.18861398,
+       -2.13288083, -2.25190459, -2.18408676, -2.22731675, -2.19361993]), 'split2_test_score': array([-2.05486223, -2.17754496, -2.06690146, -2.21460441, -2.19467273,
+       -2.05486223, -2.12797031, -2.12797031, -2.15135934, -2.17754496,
+       -2.11006658, -2.23469433, -2.04706094, -2.08466239, -2.10171193,
+       -2.05787   , -2.20817318, -2.07093005, -2.14987602, -2.06660246,
+       -2.10600934, -2.05606571, -2.05456021, -2.04824902, -2.05781531,
+       -2.0918135 , -2.049547  , -2.13726514, -2.05606571, -2.07873834,
+       -2.07666637, -2.06901381, -2.049547  , -2.10618972, -2.06597643,
+       -2.16308904, -2.05606571, -2.04824902, -2.04824902, -2.13012921,
+       -2.07731415, -2.15465527, -2.04824902, -2.04824902, -2.10695351,
+       -2.04824902, -2.19351723, -2.09801117, -2.19786138, -2.10257853]), 'mean_test_score': array([-2.03971047, -2.13767649, -2.06086982, -2.19020422, -2.15441364,
+       -2.03971047, -2.10558009, -2.10558009, -2.10964288, -2.13767649,
+       -2.09637339, -2.19009241, -2.04174231, -2.06910055, -2.08214605,
+       -2.04609891, -2.17090857, -2.05394494, -2.11911923, -2.05942592,
+       -2.09238242, -2.04064103, -2.05343292, -2.03881009, -2.04459789,
+       -2.07127721, -2.04373364, -2.11109327, -2.04064103, -2.06100705,
+       -2.05346056, -2.05057693, -2.04373364, -2.06749116, -2.06291535,
+       -2.13009645, -2.04064103, -2.03881009, -2.03881009, -2.10666322,
+       -2.06623958, -2.12842983, -2.03881009, -2.03881009, -2.08717375,
+       -2.03881009, -2.16047377, -2.07835295, -2.14996321, -2.09103501]), 'std_test_score': array([0.0687195 , 0.08473394, 0.08846744, 0.08258061, 0.08848813,
+       0.0687195 , 0.07815944, 0.07815944, 0.06676069, 0.08473394,
+       0.09033891, 0.07900439, 0.08252965, 0.09715148, 0.09498095,
+       0.08326901, 0.09466245, 0.07277419, 0.08160589, 0.09602568,
+       0.08744693, 0.07642187, 0.08293585, 0.08093753, 0.08171053,
+       0.10048197, 0.0879242 , 0.07220509, 0.07642187, 0.07945709,
+       0.08699723, 0.06934774, 0.0879242 , 0.08133359, 0.09792974,
+       0.08647698, 0.07642187, 0.08093753, 0.08093753, 0.08031267,
+       0.09621555, 0.07102073, 0.08093753, 0.08093753, 0.09197037,
+       0.08093753, 0.09118719, 0.09537513, 0.08937896, 0.0888486 ]), 'rank_test_score': array([ 7, 43, 22, 50, 46,  7, 35, 35, 38, 43, 34, 49, 12, 27, 30, 16, 48,
+       20, 40, 21, 33,  9, 18,  1, 15, 28, 13, 39,  9, 23, 19, 17, 13, 26,
+       24, 42,  9,  1,  1, 37, 25, 41,  1,  1, 31,  1, 47, 29, 45, 32],
+      dtype=int32)}
+-2.038810086925015
+OrderedDict([('leaf_size', 298), ('n_neighbors', 20), ('p', 1)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=35, p=2;, score=-2.057 total time=   0.3s
+[CV 2/3] END .leaf_size=4, n_neighbors=35, p=2;, score=-2.225 total time=   0.3s
+[CV 3/3] END .leaf_size=4, n_neighbors=35, p=2;, score=-2.182 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=59, n_neighbors=26, p=2;, score=-2.057 total time=   0.3s
+[CV 2/3] END leaf_size=59, n_neighbors=26, p=2;, score=-2.215 total time=   0.3s
+[CV 3/3] END leaf_size=59, n_neighbors=26, p=2;, score=-2.155 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=175, n_neighbors=25, p=1;, score=-1.954 total time=   2.4s
+[CV 2/3] END leaf_size=175, n_neighbors=25, p=1;, score=-2.113 total time=   2.2s
+[CV 3/3] END leaf_size=175, n_neighbors=25, p=1;, score=-2.046 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=67, n_neighbors=33, p=1;, score=-1.963 total time=   2.3s
+[CV 2/3] END leaf_size=67, n_neighbors=33, p=1;, score=-2.137 total time=   2.2s
+[CV 3/3] END leaf_size=67, n_neighbors=33, p=1;, score=-2.089 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=276, n_neighbors=31, p=2;, score=-2.065 total time=   0.3s
+[CV 2/3] END leaf_size=276, n_neighbors=31, p=2;, score=-2.218 total time=   0.3s
+[CV 3/3] END leaf_size=276, n_neighbors=31, p=2;, score=-2.170 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=90, n_neighbors=28, p=2;, score=-2.074 total time=   0.3s
+[CV 2/3] END leaf_size=90, n_neighbors=28, p=2;, score=-2.218 total time=   0.3s
+[CV 3/3] END leaf_size=90, n_neighbors=28, p=2;, score=-2.170 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=224, n_neighbors=19, p=1;, score=-1.964 total time=   2.5s
+[CV 2/3] END leaf_size=224, n_neighbors=19, p=1;, score=-2.095 total time=   2.2s
+[CV 3/3] END leaf_size=224, n_neighbors=19, p=1;, score=-2.045 total time=   2.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=37, p=2;, score=-2.053 total time=   0.3s
+[CV 2/3] END leaf_size=295, n_neighbors=37, p=2;, score=-2.220 total time=   0.3s
+[CV 3/3] END leaf_size=295, n_neighbors=37, p=2;, score=-2.184 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=100, n_neighbors=5, p=2;, score=-2.119 total time=   0.3s
+[CV 2/3] END leaf_size=100, n_neighbors=5, p=2;, score=-2.323 total time=   0.4s
+[CV 3/3] END leaf_size=100, n_neighbors=5, p=2;, score=-2.184 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=281, n_neighbors=38, p=2;, score=-2.066 total time=   0.3s
+[CV 2/3] END leaf_size=281, n_neighbors=38, p=2;, score=-2.221 total time=   0.3s
+[CV 3/3] END leaf_size=281, n_neighbors=38, p=2;, score=-2.178 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=10, n_neighbors=3, p=1;, score=-2.078 total time=   2.5s
+[CV 2/3] END .leaf_size=10, n_neighbors=3, p=1;, score=-2.254 total time=   2.4s
+[CV 3/3] END .leaf_size=10, n_neighbors=3, p=1;, score=-2.154 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=291, n_neighbors=50, p=1;, score=-1.979 total time=   2.2s
+[CV 2/3] END leaf_size=291, n_neighbors=50, p=1;, score=-2.186 total time=   2.4s
+[CV 3/3] END leaf_size=291, n_neighbors=50, p=1;, score=-2.131 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-1.961 total time=   2.4s
+[CV 2/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-2.119 total time=   2.5s
+[CV 3/3] END .leaf_size=3, n_neighbors=22, p=1;, score=-2.036 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.966 total time=   2.5s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.101 total time=   2.5s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.036 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=41, p=1;, score=-1.977 total time=   2.3s
+[CV 2/3] END leaf_size=298, n_neighbors=41, p=1;, score=-2.156 total time=   2.2s
+[CV 3/3] END leaf_size=298, n_neighbors=41, p=1;, score=-2.104 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=22, p=1;, score=-1.961 total time=   2.3s
+[CV 2/3] END leaf_size=300, n_neighbors=22, p=1;, score=-2.119 total time=   2.2s
+[CV 3/3] END leaf_size=300, n_neighbors=22, p=1;, score=-2.036 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=20, p=1;, score=-1.969 total time=   2.2s
+[CV 2/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.106 total time=   2.3s
+[CV 3/3] END leaf_size=300, n_neighbors=20, p=1;, score=-2.039 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-1.969 total time=   2.0s
+[CV 2/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.106 total time=   2.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.039 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=293, n_neighbors=28, p=1;, score=-1.939 total time=   2.2s
+[CV 2/3] END leaf_size=293, n_neighbors=28, p=1;, score=-2.141 total time=   2.1s
+[CV 3/3] END leaf_size=293, n_neighbors=28, p=1;, score=-2.058 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=7, n_neighbors=15, p=1;, score=-1.953 total time=   2.4s
+[CV 2/3] END .leaf_size=7, n_neighbors=15, p=1;, score=-2.111 total time=   2.2s
+[CV 3/3] END .leaf_size=7, n_neighbors=15, p=1;, score=-2.048 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=50, p=2;, score=-2.061 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=50, p=2;, score=-2.251 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=50, p=2;, score=-2.205 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=295, n_neighbors=13, p=1;, score=-1.957 total time=   2.1s
+[CV 2/3] END leaf_size=295, n_neighbors=13, p=1;, score=-2.098 total time=   2.3s
+[CV 3/3] END leaf_size=295, n_neighbors=13, p=1;, score=-2.035 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=15, p=1;, score=-1.953 total time=   2.4s
+[CV 2/3] END leaf_size=300, n_neighbors=15, p=1;, score=-2.111 total time=   2.3s
+[CV 3/3] END leaf_size=300, n_neighbors=15, p=1;, score=-2.048 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-1.949 total time=   2.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.091 total time=   2.4s
+[CV 3/3] END .leaf_size=3, n_neighbors=11, p=1;, score=-2.050 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=18, p=1;, score=-1.966 total time=   2.4s
+[CV 2/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.101 total time=   2.0s
+[CV 3/3] END leaf_size=299, n_neighbors=18, p=1;, score=-2.036 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-1.953 total time=   2.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.089 total time=   2.4s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.039 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-1.953 total time=   2.4s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.089 total time=   2.2s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.039 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=18, p=1;, score=-1.966 total time=   2.4s
+[CV 2/3] END leaf_size=298, n_neighbors=18, p=1;, score=-2.101 total time=   2.3s
+[CV 3/3] END leaf_size=298, n_neighbors=18, p=1;, score=-2.036 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-1.953 total time=   2.4s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.089 total time=   2.1s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.039 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=17, p=1;, score=-1.957 total time=   2.5s
+[CV 2/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.112 total time=   2.5s
+[CV 3/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.044 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=17, p=1;, score=-1.957 total time=   2.1s
+[CV 2/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.112 total time=   2.2s
+[CV 3/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.044 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.966 total time=   2.3s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.101 total time=   2.1s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.036 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.966 total time=   2.6s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.101 total time=   2.5s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.036 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=293, n_neighbors=17, p=1;, score=-1.957 total time=   2.6s
+[CV 2/3] END leaf_size=293, n_neighbors=17, p=1;, score=-2.112 total time=   2.6s
+[CV 3/3] END leaf_size=293, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=18, p=1;, score=-1.966 total time=   2.1s
+[CV 2/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.101 total time=   2.3s
+[CV 3/3] END leaf_size=300, n_neighbors=18, p=1;, score=-2.036 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=294, n_neighbors=17, p=1;, score=-1.957 total time=   2.3s
+[CV 2/3] END leaf_size=294, n_neighbors=17, p=1;, score=-2.112 total time=   2.2s
+[CV 3/3] END leaf_size=294, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=17, p=1;, score=-1.957 total time=   2.4s
+[CV 2/3] END leaf_size=297, n_neighbors=17, p=1;, score=-2.112 total time=   2.3s
+[CV 3/3] END leaf_size=297, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=17, p=1;, score=-1.957 total time=   2.3s
+[CV 2/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.112 total time=   2.4s
+[CV 3/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.044 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=17, p=1;, score=-1.957 total time=   2.3s
+[CV 2/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.112 total time=   2.3s
+[CV 3/3] END leaf_size=298, n_neighbors=17, p=1;, score=-2.044 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=17, p=1;, score=-1.957 total time=   2.4s
+[CV 2/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.112 total time=   2.2s
+[CV 3/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=17, p=1;, score=-1.957 total time=   2.4s
+[CV 2/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.112 total time=   2.3s
+[CV 3/3] END leaf_size=300, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=17, p=1;, score=-1.957 total time=   2.2s
+[CV 2/3] END leaf_size=297, n_neighbors=17, p=1;, score=-2.112 total time=   2.2s
+[CV 3/3] END leaf_size=297, n_neighbors=17, p=1;, score=-2.044 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=294, n_neighbors=17, p=1;, score=-1.957 total time=   2.4s
+[CV 2/3] END leaf_size=294, n_neighbors=17, p=1;, score=-2.112 total time=   2.2s
+[CV 3/3] END leaf_size=294, n_neighbors=17, p=1;, score=-2.044 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=17, p=1;, score=-1.957 total time=   2.4s
+[CV 2/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.112 total time=   2.5s
+[CV 3/3] END leaf_size=299, n_neighbors=17, p=1;, score=-2.044 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=296, n_neighbors=17, p=1;, score=-1.957 total time=   2.6s
+[CV 2/3] END leaf_size=296, n_neighbors=17, p=1;, score=-2.112 total time=   2.1s
+[CV 3/3] END leaf_size=296, n_neighbors=17, p=1;, score=-2.044 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=17, p=2;, score=-2.036 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=17, p=2;, score=-2.207 total time=   0.3s
+[CV 3/3] END leaf_size=300, n_neighbors=17, p=2;, score=-2.140 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=45, p=1;, score=-1.983 total time=   2.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=45, p=1;, score=-2.165 total time=   2.0s
+[CV 3/3] END .leaf_size=3, n_neighbors=45, p=1;, score=-2.121 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-1.953 total time=   2.5s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.089 total time=   2.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.039 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-1.953 total time=   2.0s
+[CV 2/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.089 total time=   2.2s
+[CV 3/3] END .leaf_size=3, n_neighbors=12, p=1;, score=-2.039 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=12, p=1;, score=-1.953 total time=   2.2s
+[CV 2/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.089 total time=   2.3s
+[CV 3/3] END leaf_size=300, n_neighbors=12, p=1;, score=-2.039 total time=   2.4s
+{'mean_fit_time': array([0.06459109, 0.08362341, 0.07251819, 0.06516202, 0.06894883,
+       0.06909513, 0.06622426, 0.08094962, 0.08684715, 0.07475019,
+       0.06609297, 0.05928556, 0.06121469, 0.07312926, 0.07189512,
+       0.07178156, 0.06466548, 0.0690697 , 0.06992253, 0.07058374,
+       0.06395467, 0.07554166, 0.0658071 , 0.07605219, 0.06950355,
+       0.06231229, 0.06191349, 0.06219991, 0.07238611, 0.07027332,
+       0.06430689, 0.06642016, 0.06330331, 0.07292358, 0.06090871,
+       0.06769872, 0.06976779, 0.06542834, 0.06393623, 0.07017064,
+       0.07014704, 0.06814822, 0.06471523, 0.07544454, 0.07264368,
+       0.07084839, 0.07094049, 0.06985585, 0.06931067, 0.06978138]), 'std_fit_time': array([0.00831007, 0.00885406, 0.00908276, 0.00434055, 0.0073537 ,
+       0.00425677, 0.00895811, 0.01508695, 0.01027919, 0.00196207,
+       0.00799668, 0.00020461, 0.00205977, 0.00651852, 0.00763443,
+       0.00545973, 0.00338547, 0.0077346 , 0.00963002, 0.00618208,
+       0.00583418, 0.00882549, 0.00980336, 0.01183272, 0.00810902,
+       0.00489441, 0.00373604, 0.00440076, 0.01038692, 0.00451056,
+       0.00605955, 0.00573914, 0.00571521, 0.01027815, 0.00261094,
+       0.00647412, 0.00843014, 0.00883132, 0.00628757, 0.00847815,
+       0.00864199, 0.00824804, 0.0076503 , 0.01322201, 0.009907  ,
+       0.00839804, 0.01090773, 0.0068443 , 0.00753191, 0.00777644]), 'mean_score_time': array([0.24767001, 0.24509207, 2.22403042, 2.13956952, 0.23645926,
+       0.27133671, 2.17878779, 0.2873013 , 0.27743951, 0.25191482,
+       2.37013634, 2.31092072, 2.31641547, 2.37684727, 2.22751911,
+       2.22472469, 2.22725908, 2.07793522, 2.14643892, 2.25454434,
+       0.24471029, 2.15820376, 2.27781145, 2.28901601, 2.16223693,
+       2.28747876, 2.23100257, 2.1725115 , 2.19297822, 2.25713563,
+       2.20655163, 2.14559205, 2.41035406, 2.40732908, 2.18396926,
+       2.20914396, 2.26503348, 2.34492993, 2.29475013, 2.26705551,
+       2.25570472, 2.12319104, 2.25362666, 2.39861131, 2.29391893,
+       0.24065757, 2.03684735, 2.31363948, 2.12519972, 2.23749614]), 'std_score_time': array([0.01468989, 0.01241729, 0.04946519, 0.04681094, 0.00409991,
+       0.01804557, 0.20819183, 0.04035132, 0.02572742, 0.00316075,
+       0.05258739, 0.09111854, 0.09590006, 0.05979954, 0.06202815,
+       0.08258175, 0.05323271, 0.07794369, 0.07708107, 0.08812482,
+       0.01994155, 0.08300091, 0.02040346, 0.0388147 , 0.16548585,
+       0.01214989, 0.07975888, 0.13951566, 0.16137192, 0.18611947,
+       0.12440953, 0.09107931, 0.11099904, 0.15774199, 0.0920624 ,
+       0.0560766 , 0.0540208 , 0.12437874, 0.05267905, 0.10381315,
+       0.03337003, 0.05777801, 0.07571745, 0.06699215, 0.18918888,
+       0.02586458, 0.081943  , 0.0780848 , 0.1667151 , 0.10968922]), 'param_leaf_size': masked_array(data=[4, 59, 175, 67, 276, 90, 224, 295, 100, 281, 10, 291,
+                   3, 300, 298, 300, 300, 3, 293, 7, 300, 295, 300, 3,
+                   299, 3, 300, 298, 300, 299, 299, 300, 300, 293, 300,
+                   294, 297, 298, 298, 299, 300, 297, 294, 299, 296, 300,
+                   3, 3, 3, 300],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[35, 26, 25, 33, 31, 28, 19, 37, 5, 38, 3, 50, 22, 18,
+                   41, 22, 20, 20, 28, 15, 50, 13, 15, 11, 18, 12, 12, 18,
+                   12, 17, 17, 18, 18, 17, 18, 17, 17, 17, 17, 17, 17, 17,
+                   17, 17, 17, 17, 45, 12, 12, 12],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[2, 2, 1, 1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+                   1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                   1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 4), ('n_neighbors', 35), ('p', 2)]), OrderedDict([('leaf_size', 59), ('n_neighbors', 26), ('p', 2)]), OrderedDict([('leaf_size', 175), ('n_neighbors', 25), ('p', 1)]), OrderedDict([('leaf_size', 67), ('n_neighbors', 33), ('p', 1)]), OrderedDict([('leaf_size', 276), ('n_neighbors', 31), ('p', 2)]), OrderedDict([('leaf_size', 90), ('n_neighbors', 28), ('p', 2)]), OrderedDict([('leaf_size', 224), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 37), ('p', 2)]), OrderedDict([('leaf_size', 100), ('n_neighbors', 5), ('p', 2)]), OrderedDict([('leaf_size', 281), ('n_neighbors', 38), ('p', 2)]), OrderedDict([('leaf_size', 10), ('n_neighbors', 3), ('p', 1)]), OrderedDict([('leaf_size', 291), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 41), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 293), ('n_neighbors', 28), ('p', 1)]), OrderedDict([('leaf_size', 7), ('n_neighbors', 15), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 295), ('n_neighbors', 13), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 15), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 11), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 293), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 18), ('p', 1)]), OrderedDict([('leaf_size', 294), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 294), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 296), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 17), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 45), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 12), ('p', 1)])], 'split0_test_score': array([-2.05726347, -2.05661075, -1.9541537 , -1.96282627, -2.06546113,
+       -2.07400985, -1.96425412, -2.05255401, -2.11939384, -2.06586252,
+       -2.07840827, -1.9790949 , -1.96126103, -1.96600206, -1.9765984 ,
+       -1.96126103, -1.96891398, -1.96891398, -1.93908887, -1.95309942,
+       -2.06111499, -1.95710752, -1.95309942, -1.94894242, -1.96600206,
+       -1.952645  , -1.952645  , -1.96600206, -1.952645  , -1.95667434,
+       -1.95667434, -1.96600206, -1.96600206, -1.95667434, -1.96600206,
+       -1.95667434, -1.95667434, -1.95667434, -1.95667434, -1.95667434,
+       -1.95667434, -1.95667434, -1.95667434, -1.95667434, -1.95667434,
+       -2.03574359, -1.98287449, -1.952645  , -1.952645  , -1.952645  ]), 'split1_test_score': array([-2.22549445, -2.21490653, -2.11252771, -2.1371222 , -2.21760297,
+       -2.21832298, -2.0952603 , -2.21989465, -2.32277036, -2.22070276,
+       -2.25375289, -2.18586919, -2.11910979, -2.10121037, -2.15589227,
+       -2.11910979, -2.10619576, -2.10619576, -2.14051184, -2.11140181,
+       -2.25089554, -2.09754775, -2.11140181, -2.09139372, -2.10121037,
+       -2.0890064 , -2.0890064 , -2.10121037, -2.0890064 , -2.11220164,
+       -2.11220164, -2.10121037, -2.10121037, -2.11220164, -2.10121037,
+       -2.11220164, -2.11220164, -2.11220164, -2.11220164, -2.11220164,
+       -2.11220164, -2.11220164, -2.11220164, -2.11220164, -2.11220164,
+       -2.20743478, -2.164525  , -2.0890064 , -2.0890064 , -2.0890064 ]), 'split2_test_score': array([-2.18174264, -2.1549846 , -2.04588395, -2.08899711, -2.16979037,
+       -2.16961043, -2.04458004, -2.18380677, -2.18430586, -2.17756487,
+       -2.15388556, -2.13137744, -2.03574469, -2.03582532, -2.10359449,
+       -2.03574469, -2.03890914, -2.03890914, -2.05786251, -2.04826926,
+       -2.205478  , -2.03465931, -2.04826926, -2.04999957, -2.03582532,
+       -2.0390144 , -2.0390144 , -2.03582532, -2.0390144 , -2.04358855,
+       -2.04358855, -2.03582532, -2.03582532, -2.04358855, -2.03582532,
+       -2.04358855, -2.04358855, -2.04358855, -2.04358855, -2.04358855,
+       -2.04358855, -2.04358855, -2.04358855, -2.04358855, -2.04358855,
+       -2.13973539, -2.12051369, -2.0390144 , -2.0390144 , -2.0390144 ]), 'mean_test_score': array([-2.15483352, -2.14216729, -2.03752179, -2.06298186, -2.15095149,
+       -2.15398109, -2.03469815, -2.15208514, -2.20882335, -2.15471005,
+       -2.16201557, -2.09878051, -2.03870517, -2.03434591, -2.07869505,
+       -2.03870517, -2.03800629, -2.03800629, -2.04582107, -2.03759017,
+       -2.17249618, -2.02977153, -2.03759017, -2.03011191, -2.03434591,
+       -2.0268886 , -2.0268886 , -2.03434591, -2.0268886 , -2.03748818,
+       -2.03748818, -2.03434591, -2.03434591, -2.03748818, -2.03434591,
+       -2.03748818, -2.03748818, -2.03748818, -2.03748818, -2.03748818,
+       -2.03748818, -2.03748818, -2.03748818, -2.03748818, -2.03748818,
+       -2.12763792, -2.08930439, -2.0268886 , -2.0268886 , -2.0268886 ]), 'std_test_score': array([0.07126706, 0.06525642, 0.06492573, 0.07349541, 0.06352408,
+       0.05994318, 0.05393758, 0.07190465, 0.08481876, 0.06524636,
+       0.07181461, 0.08750551, 0.06447548, 0.05520847, 0.07528417,
+       0.06447548, 0.05604869, 0.05604869, 0.08267023, 0.06506635,
+       0.08091154, 0.05743856, 0.06506635, 0.05983161, 0.05520847,
+       0.05632574, 0.05632574, 0.05520847, 0.05632574, 0.06364011,
+       0.06364011, 0.05520847, 0.05520847, 0.06364011, 0.05520847,
+       0.06364011, 0.06364011, 0.06364011, 0.06364011, 0.06364011,
+       0.06364011, 0.06364011, 0.06364011, 0.06364011, 0.06364011,
+       0.07061269, 0.07737244, 0.05632574, 0.05632574, 0.05632574]), 'rank_test_score': array([47, 42, 29, 37, 43, 45, 15, 44, 50, 46, 48, 40, 34,  9, 38, 34, 32,
+       32, 36, 30, 49,  7, 30,  8,  9,  1,  1,  9,  1, 16, 16,  9,  9, 16,
+        9, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 41, 39,  1,  1,  1],
+      dtype=int32)}
+-2.02688859595886
+OrderedDict([('leaf_size', 3), ('n_neighbors', 12), ('p', 1)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=259, n_neighbors=10, p=2;, score=-2.167 total time=   0.3s
+[CV 2/3] END leaf_size=259, n_neighbors=10, p=2;, score=-2.332 total time=   0.3s
+[CV 3/3] END leaf_size=259, n_neighbors=10, p=2;, score=-2.288 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=201, n_neighbors=15, p=2;, score=-2.180 total time=   0.3s
+[CV 2/3] END leaf_size=201, n_neighbors=15, p=2;, score=-2.375 total time=   0.4s
+[CV 3/3] END leaf_size=201, n_neighbors=15, p=2;, score=-2.294 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=134, n_neighbors=5, p=1;, score=-2.313 total time=   2.3s
+[CV 2/3] END leaf_size=134, n_neighbors=5, p=1;, score=-2.257 total time=   2.3s
+[CV 3/3] END leaf_size=134, n_neighbors=5, p=1;, score=-2.192 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=200, n_neighbors=21, p=1;, score=-2.071 total time=   2.4s
+[CV 2/3] END leaf_size=200, n_neighbors=21, p=1;, score=-2.276 total time=   2.7s
+[CV 3/3] END leaf_size=200, n_neighbors=21, p=1;, score=-2.164 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=292, n_neighbors=34, p=1;, score=-2.079 total time=   2.2s
+[CV 2/3] END leaf_size=292, n_neighbors=34, p=1;, score=-2.324 total time=   2.5s
+[CV 3/3] END leaf_size=292, n_neighbors=34, p=1;, score=-2.194 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=135, n_neighbors=17, p=1;, score=-2.098 total time=   2.3s
+[CV 2/3] END leaf_size=135, n_neighbors=17, p=1;, score=-2.259 total time=   2.0s
+[CV 3/3] END leaf_size=135, n_neighbors=17, p=1;, score=-2.159 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=103, n_neighbors=7, p=1;, score=-2.187 total time=   2.5s
+[CV 2/3] END leaf_size=103, n_neighbors=7, p=1;, score=-2.207 total time=   2.3s
+[CV 3/3] END leaf_size=103, n_neighbors=7, p=1;, score=-2.147 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=19, n_neighbors=25, p=1;, score=-2.081 total time=   2.5s
+[CV 2/3] END leaf_size=19, n_neighbors=25, p=1;, score=-2.283 total time=   2.6s
+[CV 3/3] END leaf_size=19, n_neighbors=25, p=1;, score=-2.180 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=289, n_neighbors=31, p=2;, score=-2.175 total time=   0.3s
+[CV 2/3] END leaf_size=289, n_neighbors=31, p=2;, score=-2.412 total time=   0.4s
+[CV 3/3] END leaf_size=289, n_neighbors=31, p=2;, score=-2.279 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=277, n_neighbors=20, p=2;, score=-2.152 total time=   0.3s
+[CV 2/3] END leaf_size=277, n_neighbors=20, p=2;, score=-2.378 total time=   0.4s
+[CV 3/3] END leaf_size=277, n_neighbors=20, p=2;, score=-2.248 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.094 total time=   2.2s
+[CV 2/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.376 total time=   2.4s
+[CV 3/3] END leaf_size=12, n_neighbors=50, p=1;, score=-2.225 total time=   2.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=23, p=1;, score=-2.064 total time=   2.5s
+[CV 2/3] END leaf_size=300, n_neighbors=23, p=1;, score=-2.279 total time=   2.5s
+[CV 3/3] END leaf_size=300, n_neighbors=23, p=1;, score=-2.163 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=22, p=1;, score=-2.062 total time=   2.3s
+[CV 2/3] END .leaf_size=4, n_neighbors=22, p=1;, score=-2.280 total time=   2.1s
+[CV 3/3] END .leaf_size=4, n_neighbors=22, p=1;, score=-2.165 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=20, p=1;, score=-2.075 total time=   2.6s
+[CV 2/3] END leaf_size=299, n_neighbors=20, p=1;, score=-2.264 total time=   2.3s
+[CV 3/3] END leaf_size=299, n_neighbors=20, p=1;, score=-2.156 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=7, n_neighbors=50, p=2;, score=-2.176 total time=   0.3s
+[CV 2/3] END .leaf_size=7, n_neighbors=50, p=2;, score=-2.429 total time=   0.3s
+[CV 3/3] END .leaf_size=7, n_neighbors=50, p=2;, score=-2.328 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=22, p=1;, score=-2.062 total time=   2.7s
+[CV 2/3] END leaf_size=300, n_neighbors=22, p=1;, score=-2.280 total time=   2.6s
+[CV 3/3] END leaf_size=300, n_neighbors=22, p=1;, score=-2.165 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.075 total time=   2.4s
+[CV 2/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.264 total time=   2.5s
+[CV 3/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.156 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.075 total time=   2.1s
+[CV 2/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.264 total time=   2.1s
+[CV 3/3] END .leaf_size=3, n_neighbors=20, p=1;, score=-2.156 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=40, n_neighbors=10, p=1;, score=-2.126 total time=   2.3s
+[CV 2/3] END leaf_size=40, n_neighbors=10, p=1;, score=-2.208 total time=   2.3s
+[CV 3/3] END leaf_size=40, n_neighbors=10, p=1;, score=-2.167 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.151 total time=   2.3s
+[CV 2/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.185 total time=   2.2s
+[CV 3/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.132 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-2.091 total time=   2.3s
+[CV 2/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-2.324 total time=   2.3s
+[CV 3/3] END .leaf_size=6, n_neighbors=41, p=1;, score=-2.189 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=9, n_neighbors=3, p=2;, score=-2.396 total time=   0.3s
+[CV 2/3] END ..leaf_size=9, n_neighbors=3, p=2;, score=-2.468 total time=   0.3s
+[CV 3/3] END ..leaf_size=9, n_neighbors=3, p=2;, score=-2.471 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=40, p=2;, score=-2.168 total time=   0.3s
+[CV 2/3] END leaf_size=300, n_neighbors=40, p=2;, score=-2.406 total time=   0.4s
+[CV 3/3] END leaf_size=300, n_neighbors=40, p=2;, score=-2.294 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=45, p=1;, score=-2.090 total time=   2.2s
+[CV 2/3] END leaf_size=297, n_neighbors=45, p=1;, score=-2.339 total time=   2.3s
+[CV 3/3] END leaf_size=297, n_neighbors=45, p=1;, score=-2.207 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=299, n_neighbors=30, p=1;, score=-2.075 total time=   2.5s
+[CV 2/3] END leaf_size=299, n_neighbors=30, p=1;, score=-2.302 total time=   2.3s
+[CV 3/3] END leaf_size=299, n_neighbors=30, p=1;, score=-2.190 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=23, p=1;, score=-2.064 total time=   2.5s
+[CV 2/3] END .leaf_size=4, n_neighbors=23, p=1;, score=-2.279 total time=   2.5s
+[CV 3/3] END .leaf_size=4, n_neighbors=23, p=1;, score=-2.163 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.151 total time=   2.4s
+[CV 2/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.185 total time=   2.3s
+[CV 3/3] END ..leaf_size=3, n_neighbors=9, p=1;, score=-2.132 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.071 total time=   2.6s
+[CV 2/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.284 total time=   2.5s
+[CV 3/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.173 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=297, n_neighbors=19, p=1;, score=-2.091 total time=   2.4s
+[CV 2/3] END leaf_size=297, n_neighbors=19, p=1;, score=-2.263 total time=   2.3s
+[CV 3/3] END leaf_size=297, n_neighbors=19, p=1;, score=-2.159 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=14, p=1;, score=-2.086 total time=   2.6s
+[CV 2/3] END .leaf_size=4, n_neighbors=14, p=1;, score=-2.260 total time=   2.7s
+[CV 3/3] END .leaf_size=4, n_neighbors=14, p=1;, score=-2.175 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=38, p=1;, score=-2.089 total time=   2.6s
+[CV 2/3] END leaf_size=300, n_neighbors=38, p=1;, score=-2.328 total time=   2.2s
+[CV 3/3] END leaf_size=300, n_neighbors=38, p=1;, score=-2.189 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=15, n_neighbors=24, p=1;, score=-2.071 total time=   2.6s
+[CV 2/3] END leaf_size=15, n_neighbors=24, p=1;, score=-2.284 total time=   2.5s
+[CV 3/3] END leaf_size=15, n_neighbors=24, p=1;, score=-2.173 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.071 total time=   2.7s
+[CV 2/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.284 total time=   2.3s
+[CV 3/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.173 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=8, n_neighbors=23, p=1;, score=-2.064 total time=   2.6s
+[CV 2/3] END .leaf_size=8, n_neighbors=23, p=1;, score=-2.279 total time=   2.5s
+[CV 3/3] END .leaf_size=8, n_neighbors=23, p=1;, score=-2.163 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.071 total time=   2.1s
+[CV 2/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.284 total time=   2.1s
+[CV 3/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.173 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.071 total time=   2.4s
+[CV 2/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.284 total time=   2.2s
+[CV 3/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.173 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=23, p=1;, score=-2.064 total time=   2.5s
+[CV 2/3] END .leaf_size=6, n_neighbors=23, p=1;, score=-2.279 total time=   2.4s
+[CV 3/3] END .leaf_size=6, n_neighbors=23, p=1;, score=-2.163 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=23, p=1;, score=-2.064 total time=   2.2s
+[CV 2/3] END .leaf_size=5, n_neighbors=23, p=1;, score=-2.279 total time=   2.5s
+[CV 3/3] END .leaf_size=5, n_neighbors=23, p=1;, score=-2.163 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.071 total time=   2.4s
+[CV 2/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.284 total time=   2.4s
+[CV 3/3] END .leaf_size=5, n_neighbors=24, p=1;, score=-2.173 total time=   2.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.071 total time=   2.7s
+[CV 2/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.284 total time=   2.3s
+[CV 3/3] END .leaf_size=4, n_neighbors=24, p=1;, score=-2.173 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=24, p=1;, score=-2.071 total time=   2.5s
+[CV 2/3] END .leaf_size=6, n_neighbors=24, p=1;, score=-2.284 total time=   2.6s
+[CV 3/3] END .leaf_size=6, n_neighbors=24, p=1;, score=-2.173 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=6, n_neighbors=24, p=2;, score=-2.181 total time=   0.3s
+[CV 2/3] END .leaf_size=6, n_neighbors=24, p=2;, score=-2.396 total time=   0.4s
+[CV 3/3] END .leaf_size=6, n_neighbors=24, p=2;, score=-2.270 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.165 total time=   2.2s
+[CV 2/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.183 total time=   2.1s
+[CV 3/3] END leaf_size=300, n_neighbors=8, p=1;, score=-2.123 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=5, n_neighbors=45, p=2;, score=-2.167 total time=   0.3s
+[CV 2/3] END .leaf_size=5, n_neighbors=45, p=2;, score=-2.423 total time=   0.3s
+[CV 3/3] END .leaf_size=5, n_neighbors=45, p=2;, score=-2.312 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-2.072 total time=   2.2s
+[CV 2/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-2.290 total time=   2.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=28, p=1;, score=-2.176 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.151 total time=   2.5s
+[CV 2/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.185 total time=   2.2s
+[CV 3/3] END leaf_size=298, n_neighbors=9, p=1;, score=-2.132 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END ..leaf_size=8, n_neighbors=9, p=1;, score=-2.151 total time=   2.3s
+[CV 2/3] END ..leaf_size=8, n_neighbors=9, p=1;, score=-2.185 total time=   2.2s
+[CV 3/3] END ..leaf_size=8, n_neighbors=9, p=1;, score=-2.132 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=4, n_neighbors=35, p=1;, score=-2.083 total time=   2.1s
+[CV 2/3] END .leaf_size=4, n_neighbors=35, p=1;, score=-2.314 total time=   2.0s
+[CV 3/3] END .leaf_size=4, n_neighbors=35, p=1;, score=-2.192 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END .leaf_size=3, n_neighbors=36, p=1;, score=-2.087 total time=   2.3s
+[CV 2/3] END .leaf_size=3, n_neighbors=36, p=1;, score=-2.316 total time=   2.3s
+[CV 3/3] END .leaf_size=3, n_neighbors=36, p=1;, score=-2.194 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END leaf_size=300, n_neighbors=9, p=1;, score=-2.151 total time=   2.3s
+[CV 2/3] END leaf_size=300, n_neighbors=9, p=1;, score=-2.185 total time=   2.6s
+[CV 3/3] END leaf_size=300, n_neighbors=9, p=1;, score=-2.132 total time=   2.5s
+{'mean_fit_time': array([0.06655081, 0.07828482, 0.07951736, 0.07972821, 0.07617323,
+       0.07086166, 0.06939061, 0.07763934, 0.06853382, 0.07754564,
+       0.07184505, 0.06437135, 0.07182701, 0.07154767, 0.06984711,
+       0.07333096, 0.06848001, 0.0705421 , 0.070093  , 0.06980157,
+       0.07663623, 0.07151175, 0.07943058, 0.07202411, 0.06531413,
+       0.07401196, 0.07406791, 0.0753572 , 0.07087755, 0.07078044,
+       0.07234542, 0.07150078, 0.07137354, 0.07138419, 0.06884782,
+       0.07116922, 0.07001535, 0.06854367, 0.06212544, 0.07302237,
+       0.07266243, 0.06722967, 0.06795454, 0.0657901 , 0.06772693,
+       0.07196291, 0.07031941, 0.05880793, 0.06331174, 0.07513436]), 'std_fit_time': array([0.00634436, 0.01015211, 0.00647847, 0.00468231, 0.01109859,
+       0.00825331, 0.01311853, 0.00349023, 0.00540804, 0.00189319,
+       0.00513661, 0.00130874, 0.00721978, 0.00830541, 0.00124896,
+       0.00289445, 0.01110578, 0.00417958, 0.00685801, 0.01178452,
+       0.00848444, 0.00678874, 0.01293732, 0.00721027, 0.0078337 ,
+       0.01146648, 0.00785885, 0.01072064, 0.01093167, 0.00996685,
+       0.00982515, 0.01057533, 0.00880869, 0.00838222, 0.01005509,
+       0.00894573, 0.0065345 , 0.01290162, 0.00516949, 0.0112359 ,
+       0.01044836, 0.00558902, 0.00752709, 0.00693398, 0.00590028,
+       0.00951424, 0.00801399, 0.00014214, 0.00508411, 0.01228022]), 'mean_score_time': array([0.236854  , 0.25870959, 2.28353771, 2.48361238, 2.37204019,
+       2.07497581, 2.3096091 , 2.44835424, 0.27314949, 0.27604373,
+       2.3407863 , 2.42976689, 2.18417446, 2.42564885, 0.25827559,
+       2.40091737, 2.28535891, 2.07026307, 2.25204237, 2.30649439,
+       2.20761649, 0.25951648, 0.26058594, 2.19126527, 2.33475582,
+       2.38604069, 2.31837861, 2.37830424, 2.30295364, 2.55086454,
+       2.30954846, 2.39348364, 2.34242741, 2.44057234, 2.19657715,
+       2.18262569, 2.30354142, 2.33059231, 2.20435969, 2.41079156,
+       2.44350815, 0.27546724, 2.17656358, 0.25633224, 2.15753794,
+       2.37613511, 2.25854484, 2.07395864, 2.32735769, 2.40197357]), 'std_score_time': array([0.01229343, 0.01495773, 0.08336601, 0.14149258, 0.16667264,
+       0.12257431, 0.07751624, 0.0463472 , 0.02411452, 0.00510094,
+       0.1779957 , 0.02630579, 0.08781188, 0.15297446, 0.02811071,
+       0.20099106, 0.14307684, 0.11654232, 0.03379853, 0.1581479 ,
+       0.00833732, 0.02195397, 0.00493353, 0.06342925, 0.10483857,
+       0.01239974, 0.11514031, 0.12625966, 0.04361374, 0.05240626,
+       0.19508664, 0.10222438, 0.1963588 , 0.04920454, 0.19892029,
+       0.08366536, 0.13343562, 0.12320666, 0.16158407, 0.18575812,
+       0.07037336, 0.01888103, 0.11975462, 0.02843499, 0.03822746,
+       0.20036063, 0.12840474, 0.13492513, 0.10982263, 0.14584314]), 'param_leaf_size': masked_array(data=[259, 201, 134, 200, 292, 135, 103, 19, 289, 277, 12,
+                   300, 4, 299, 7, 300, 3, 3, 40, 298, 6, 9, 300, 297,
+                   299, 4, 3, 4, 297, 4, 300, 15, 4, 8, 5, 5, 6, 5, 5, 4,
+                   6, 6, 300, 5, 3, 298, 8, 4, 3, 300],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_neighbors': masked_array(data=[10, 15, 5, 21, 34, 17, 7, 25, 31, 20, 50, 23, 22, 20,
+                   50, 22, 20, 20, 10, 9, 41, 3, 40, 45, 30, 23, 9, 24,
+                   19, 14, 38, 24, 24, 23, 24, 24, 23, 23, 24, 24, 24, 24,
+                   8, 45, 28, 9, 9, 35, 36, 9],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_p': masked_array(data=[2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 1, 1,
+                   1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                   1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('leaf_size', 259), ('n_neighbors', 10), ('p', 2)]), OrderedDict([('leaf_size', 201), ('n_neighbors', 15), ('p', 2)]), OrderedDict([('leaf_size', 134), ('n_neighbors', 5), ('p', 1)]), OrderedDict([('leaf_size', 200), ('n_neighbors', 21), ('p', 1)]), OrderedDict([('leaf_size', 292), ('n_neighbors', 34), ('p', 1)]), OrderedDict([('leaf_size', 135), ('n_neighbors', 17), ('p', 1)]), OrderedDict([('leaf_size', 103), ('n_neighbors', 7), ('p', 1)]), OrderedDict([('leaf_size', 19), ('n_neighbors', 25), ('p', 1)]), OrderedDict([('leaf_size', 289), ('n_neighbors', 31), ('p', 2)]), OrderedDict([('leaf_size', 277), ('n_neighbors', 20), ('p', 2)]), OrderedDict([('leaf_size', 12), ('n_neighbors', 50), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 7), ('n_neighbors', 50), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 22), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 20), ('p', 1)]), OrderedDict([('leaf_size', 40), ('n_neighbors', 10), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 41), ('p', 1)]), OrderedDict([('leaf_size', 9), ('n_neighbors', 3), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 40), ('p', 2)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 45), ('p', 1)]), OrderedDict([('leaf_size', 299), ('n_neighbors', 30), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 297), ('n_neighbors', 19), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 14), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 38), ('p', 1)]), OrderedDict([('leaf_size', 15), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 8), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 23), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 24), ('p', 1)]), OrderedDict([('leaf_size', 6), ('n_neighbors', 24), ('p', 2)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 8), ('p', 1)]), OrderedDict([('leaf_size', 5), ('n_neighbors', 45), ('p', 2)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 28), ('p', 1)]), OrderedDict([('leaf_size', 298), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 8), ('n_neighbors', 9), ('p', 1)]), OrderedDict([('leaf_size', 4), ('n_neighbors', 35), ('p', 1)]), OrderedDict([('leaf_size', 3), ('n_neighbors', 36), ('p', 1)]), OrderedDict([('leaf_size', 300), ('n_neighbors', 9), ('p', 1)])], 'split0_test_score': array([-2.16713513, -2.17982352, -2.31333462, -2.07067469, -2.07942958,
+       -2.09752842, -2.18674106, -2.08146444, -2.17468591, -2.15177136,
+       -2.09429135, -2.06415545, -2.06150501, -2.07493979, -2.17552079,
+       -2.06150501, -2.07493979, -2.07493979, -2.12606594, -2.15113979,
+       -2.09091151, -2.39598711, -2.16830782, -2.08973738, -2.07491584,
+       -2.06415545, -2.15113979, -2.07101263, -2.09119082, -2.08613655,
+       -2.08896453, -2.07101263, -2.07101263, -2.06415545, -2.07101263,
+       -2.07101263, -2.06415545, -2.06415545, -2.07101263, -2.07101263,
+       -2.07101263, -2.18052209, -2.16479672, -2.16724541, -2.0718244 ,
+       -2.15113979, -2.15113979, -2.08333567, -2.08732736, -2.15113979]), 'split1_test_score': array([-2.3324332 , -2.37536312, -2.2572376 , -2.27616653, -2.3238002 ,
+       -2.25859908, -2.206677  , -2.28331895, -2.412459  , -2.37826714,
+       -2.37646639, -2.27852721, -2.27964316, -2.2640909 , -2.42923798,
+       -2.27964316, -2.2640909 , -2.2640909 , -2.20782075, -2.18518979,
+       -2.32413078, -2.4675652 , -2.40612559, -2.33877877, -2.30234687,
+       -2.27852721, -2.18518979, -2.28372261, -2.2628956 , -2.25973752,
+       -2.32762926, -2.28372261, -2.28372261, -2.27852721, -2.28372261,
+       -2.28372261, -2.27852721, -2.27852721, -2.28372261, -2.28372261,
+       -2.28372261, -2.39642042, -2.18321449, -2.42258058, -2.29014656,
+       -2.18518979, -2.18518979, -2.31353251, -2.3156797 , -2.18518979]), 'split2_test_score': array([-2.28787197, -2.29397826, -2.19151542, -2.16430784, -2.1944459 ,
+       -2.15861339, -2.14741232, -2.17964343, -2.27891449, -2.24825267,
+       -2.22526315, -2.16279139, -2.16514585, -2.15564505, -2.32771629,
+       -2.16514585, -2.15564505, -2.15564505, -2.16743096, -2.13213669,
+       -2.18938051, -2.47144519, -2.29444164, -2.20743515, -2.19027908,
+       -2.16279139, -2.13213669, -2.17258517, -2.15915368, -2.17499559,
+       -2.18854533, -2.17258517, -2.17258517, -2.16279139, -2.17258517,
+       -2.17258517, -2.16279139, -2.16279139, -2.17258517, -2.17258517,
+       -2.17258517, -2.26953172, -2.12340725, -2.31218028, -2.17605185,
+       -2.13213669, -2.13213669, -2.19168394, -2.19422459, -2.13213669]), 'mean_test_score': array([-2.2624801 , -2.28305497, -2.25402921, -2.17038302, -2.19922523,
+       -2.1715803 , -2.18027679, -2.1814756 , -2.28868646, -2.25943039,
+       -2.23200696, -2.16849135, -2.16876467, -2.16489191, -2.31082502,
+       -2.16876467, -2.16489191, -2.16489191, -2.16710588, -2.15615542,
+       -2.20147427, -2.44499917, -2.28962502, -2.21198376, -2.1891806 ,
+       -2.16849135, -2.15615542, -2.17577347, -2.17108003, -2.17362322,
+       -2.20171304, -2.17577347, -2.17577347, -2.16849135, -2.17577347,
+       -2.17577347, -2.16849135, -2.16849135, -2.17577347, -2.17577347,
+       -2.17577347, -2.28215808, -2.15713949, -2.30066876, -2.17934093,
+       -2.15615542, -2.15615542, -2.19618404, -2.19907722, -2.15615542]), 'std_test_score': array([0.06983038, 0.08020151, 0.0497842 , 0.08400161, 0.09982111,
+       0.066393  , 0.0246227 , 0.08241694, 0.09731608, 0.0928037 ,
+       0.11529613, 0.08760967, 0.08909129, 0.07749694, 0.10426597,
+       0.08909129, 0.07749694, 0.07749694, 0.03337705, 0.02194729,
+       0.09559463, 0.03469294, 0.09714842, 0.10172158, 0.09285158,
+       0.08760967, 0.02194729, 0.08686775, 0.07060364, 0.07087894,
+       0.09787834, 0.08686775, 0.08686775, 0.08760967, 0.08686775,
+       0.08686775, 0.08760967, 0.08760967, 0.08686775, 0.08686775,
+       0.08686775, 0.08859116, 0.02500935, 0.10455747, 0.08915999,
+       0.02194729, 0.02194729, 0.09403132, 0.09328758, 0.02194729]), 'rank_test_score': array([43, 45, 41, 18, 36, 20, 31, 32, 46, 42, 40, 11, 16,  7, 49, 16,  7,
+        7, 10,  1, 37, 50, 47, 39, 33, 11,  1, 22, 19, 21, 38, 22, 22, 11,
+       22, 22, 11, 11, 22, 22, 22, 44,  6, 48, 30,  1,  1, 34, 35,  1],
+      dtype=int32)}
+-2.156155422662121
+OrderedDict([('leaf_size', 298), ('n_neighbors', 9), ('p', 1)])
