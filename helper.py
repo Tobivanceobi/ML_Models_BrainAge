@@ -1,3 +1,4 @@
+import json
 import pickle
 
 import numpy as np
@@ -17,6 +18,19 @@ def save_object(obj, fname):
             pickle.dump(obj, f, protocol=pickle.HIGHEST_PROTOCOL)
     except Exception as ex:
         print("Error during pickling object (Possibly unsupported):", ex)
+
+
+def str_to_dict(param):
+    param = param.replace('OrderedDict', '')
+    param = param.replace('([', '{')
+    param = param.replace('])', '}')
+    param = param.replace(',', ':')
+    param = param.replace(')', ', ')
+    param = param.replace('(', '')
+    param = param.replace("'", '"')
+    param = param.replace(", }", '}')
+    param = json.loads(param)
+    return param
 
 
 def equalize_classes(targets, threshold=3):

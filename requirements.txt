@@ -4,3 +4,5 @@ scikit-optimize~=0.9.0
 xgboost~=1.7.6
 catboost~=1.2
 numpy~=1.23.5
+
+shap~=0.42.1
