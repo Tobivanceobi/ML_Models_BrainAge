@@ -37,7 +37,7 @@ for ts in training_sets:
             'p': [1, 2]
         }
 
-        model = KNeighborsRegressor(n_jobs=60)
+        model = KNeighborsRegressor(n_jobs=30)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,

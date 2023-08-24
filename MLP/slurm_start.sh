@@ -3,8 +3,8 @@
 #SBATCH --partition=general2
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem-per-cpu=1000
+#SBATCH --cpus-per-task=32
+#SBATCH --mem-per-cpu=3000
 #SBATCH --time=20:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_MLP.txt

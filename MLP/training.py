@@ -98,7 +98,8 @@ for ts in training_sets:
         clf = BayesSearchCV(
             estimator=MLPWrapper(),
             search_spaces=parameter_space,
-            n_iter=11
+            n_iter=11,
+            n_jobs=30
         )
 
         clf.fit(x, y=y)

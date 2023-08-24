@@ -30,7 +30,7 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        model = LogisticRegression(n_jobs=60)
+        model = LogisticRegression(n_jobs=30)
 
         # Define the parameter search space for Logistic Regression
         parameter_space = {
