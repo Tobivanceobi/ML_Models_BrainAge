@@ -10,7 +10,7 @@ from sklearn.svm import SVR
 from skopt import BayesSearchCV
 
 from config import SET_PATH, BASE_PATH
-from helper import load_object, equalize_classes
+from helper import load_object
 
 training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
@@ -22,8 +22,7 @@ for ts in training_sets:
         groups = data['group']
         y = data['y']
 
-        y_skf = [int(age * 10) for age in data['y']]
-        y_skf = equalize_classes(y_skf)
+        y_skf = [int(age) for age in data['y']]
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
         for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):

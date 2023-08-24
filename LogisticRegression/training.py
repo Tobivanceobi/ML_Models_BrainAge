@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
 from config import SET_PATH, BASE_PATH
-from helper import load_object, equalize_classes
+from helper import load_object
 import pandas as pd
 from skopt import BayesSearchCV
 
@@ -18,13 +18,12 @@ for ts in training_sets:
         data = load_object(set_path + 'training_set')
         x = data['x']
         groups = data['group']
-        y = data['y']
-
         y = [int(age * 10) for age in data['y']]
-        y = equalize_classes(y)
+
+        y_skf = [int(age) for age in data['y']]
         skf_vals = []
         skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
-        for fold, (train_index, test_index) in enumerate(skf.split(x, y, groups)):
+        for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
             skf_vals.append((train_index, test_index))
 
         scaler = MinMaxScaler()
