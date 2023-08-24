@@ -88,7 +88,7 @@ for ts in training_sets:
             'layer4': Integer(300, 1000),
             'num_hl': Integer(1, 4),
             'activation': Categorical(['tanh', 'relu']),
-            'solver': Categorical(['adam', 'sgd']),
+            'solver': Categorical(['adam']),
             'alpha': Real(0.0001, 0.05),
             'learning_rate': Categorical(['constant', 'adaptive']),
             'learning_rate_init': Real(0.0001, 0.1)
