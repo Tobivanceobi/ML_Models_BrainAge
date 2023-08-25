@@ -1,7 +1,6 @@
 import sys
 
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
-import numpy as np
 import pandas as pd
 import shap
 from sklearn.linear_model import ElasticNet
@@ -10,33 +9,9 @@ from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
 
 from config import SET_PATH, BASE_PATH
-from helper import load_object, str_to_dict, save_object
+from helper import load_object, save_object
 
-methods = [
-    'pow_freq_bands',
-    'svd_fisher_info',
-    'hjorth_complexity_spect',
-    'wavelet_coef_energy',
-    'hjorth_complexity',
-    'spect_slope',
-    'std',
-    'ptp_amp',
-    'quantile',
-    'line_length',
-    'zero_crossings',
-    'skewness',
-    'kurtosis',
-    'higuchi_fd',
-    'samp_entropy',
-    'app_entropy',
-    'spect_entropy',
-    'mean',
-    'hurst_exp'
-]
 
-freq_bands = ['delta', 'theta', 'alpha', 'beta', 'whole_spec']
-
-shap_dict = dict()
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
@@ -104,32 +79,6 @@ for ts in training_sets:
         # Compute Shap values for all instances in X_test
         shap_values = explainer(x_test_df)
 
-        # Print Shap values for the first instance
-        print("Shap values for the first instance:\n", shap_values[0])
-
-        feature_groups = []
-        n_labels = []
-        for fb in freq_bands:
-            for m in methods:
-                n = fb + '_' + m
-
-                fg = [idx_g for idx_g in range(len(x_names)) if n in x_names[idx_g]]
-                if len(fg) > 2:
-                    n_labels.append(n)
-                    feature_groups.append(fg)
-
-        # Calculate aggregated SHAP values for each feature group
-        grouped_shap_values = np.zeros((len(x_test_df), len(feature_groups)))
-        for i, group in enumerate(feature_groups):
-            grouped_shap_values[:, i] = np.sum(shap_values.values[:, group], axis=1)
-
-        vals = np.abs(grouped_shap_values).mean(0)
-        vals, n_labels = zip(*sorted(zip(vals, n_labels), reverse=True))
-        print(vals)
-        print(n_labels)
-        data = np.array([n_labels, vals]).transpose()
-        result = pd.DataFrame(data, columns=['Feature Name', 'ShapVals'])
-        shap_dict[f_name] = result
-        save_object(shap_dict, BASE_PATH + f'EleasticNet/shap_values')
+        save_object(shap_values, BASE_PATH + f'EleasticNet/shap_values')
 
 
