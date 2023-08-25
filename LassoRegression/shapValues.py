@@ -34,7 +34,7 @@ methods = [
 freq_bands = ['delta', 'theta', 'alpha', 'beta', 'whole_spec']
 
 shap_dict = dict()
-training_sets = ['TS2/', 'TS4/']
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
