@@ -12,3 +12,31 @@ no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=86, estimator__n_neighbors=18, estimator__p=2, max_features=0.8554901478693606, max_samples=0.9072316654199402, n_estimators=98;, score=-2.002 total time=  25.7s
+[CV 2/3] END estimator__leaf_size=86, estimator__n_neighbors=18, estimator__p=2, max_features=0.8554901478693606, max_samples=0.9072316654199402, n_estimators=98;, score=-2.192 total time=  25.5s
+[CV 3/3] END estimator__leaf_size=86, estimator__n_neighbors=18, estimator__p=2, max_features=0.8554901478693606, max_samples=0.9072316654199402, n_estimators=98;, score=-2.137 total time=  26.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=239, estimator__n_neighbors=33, estimator__p=2, max_features=0.771431444530642, max_samples=0.5729769455655203, n_estimators=178;, score=-2.041 total time=  27.5s
+[CV 2/3] END estimator__leaf_size=239, estimator__n_neighbors=33, estimator__p=2, max_features=0.771431444530642, max_samples=0.5729769455655203, n_estimators=178;, score=-2.286 total time=  27.3s
+[CV 3/3] END estimator__leaf_size=239, estimator__n_neighbors=33, estimator__p=2, max_features=0.771431444530642, max_samples=0.5729769455655203, n_estimators=178;, score=-2.210 total time=  27.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=67, estimator__n_neighbors=31, estimator__p=1, max_features=0.1612497327999741, max_samples=0.6403321095003537, n_estimators=79;, score=-1.976 total time=   8.1s
+[CV 2/3] END estimator__leaf_size=67, estimator__n_neighbors=31, estimator__p=1, max_features=0.1612497327999741, max_samples=0.6403321095003537, n_estimators=79;, score=-2.208 total time=   6.5s
+[CV 3/3] END estimator__leaf_size=67, estimator__n_neighbors=31, estimator__p=1, max_features=0.1612497327999741, max_samples=0.6403321095003537, n_estimators=79;, score=-2.120 total time=   7.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=13, estimator__n_neighbors=13, estimator__p=1, max_features=0.8395918440912885, max_samples=0.924632350331038, n_estimators=199;, score=-1.936 total time= 2.1min
+[CV 2/3] END estimator__leaf_size=13, estimator__n_neighbors=13, estimator__p=1, max_features=0.8395918440912885, max_samples=0.924632350331038, n_estimators=199;, score=-2.122 total time= 2.0min
+[CV 3/3] END estimator__leaf_size=13, estimator__n_neighbors=13, estimator__p=1, max_features=0.8395918440912885, max_samples=0.924632350331038, n_estimators=199;, score=-2.047 total time= 2.1min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=134, estimator__n_neighbors=25, estimator__p=1, max_features=0.4378408247811363, max_samples=0.9660061376335851, n_estimators=100;, score=-1.934 total time=  39.0s
+[CV 2/3] END estimator__leaf_size=134, estimator__n_neighbors=25, estimator__p=1, max_features=0.4378408247811363, max_samples=0.9660061376335851, n_estimators=100;, score=-2.166 total time=  39.4s
+[CV 3/3] END estimator__leaf_size=134, estimator__n_neighbors=25, estimator__p=1, max_features=0.4378408247811363, max_samples=0.9660061376335851, n_estimators=100;, score=-2.068 total time=  39.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=198, estimator__n_neighbors=45, estimator__p=1, max_features=0.49811069062923585, max_samples=0.8368409112060239, n_estimators=78;, score=-1.989 total time=  28.7s
+[CV 2/3] END estimator__leaf_size=198, estimator__n_neighbors=45, estimator__p=1, max_features=0.49811069062923585, max_samples=0.8368409112060239, n_estimators=78;, score=-2.212 total time=  32.0s
+[CV 3/3] END estimator__leaf_size=198, estimator__n_neighbors=45, estimator__p=1, max_features=0.49811069062923585, max_samples=0.8368409112060239, n_estimators=78;, score=-2.127 total time=  31.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END estimator__leaf_size=152, estimator__n_neighbors=36, estimator__p=1, max_features=0.1804495396370862, max_samples=0.1806024063530417, n_estimators=62;, score=-2.110 total time=   1.8s
+[CV 2/3] END estimator__leaf_size=152, estimator__n_neighbors=36, estimator__p=1, max_features=0.1804495396370862, max_samples=0.1806024063530417, n_estimators=62;, score=-2.440 total time=   1.9s
+[CV 3/3] END estimator__leaf_size=152, estimator__n_neighbors=36, estimator__p=1, max_features=0.1804495396370862, max_samples=0.1806024063530417, n_estimators=62;, score=-2.297 total time=   1.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
