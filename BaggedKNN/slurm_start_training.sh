@@ -3,8 +3,8 @@
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=64
-#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=128
+#SBATCH --mem-per-cpu=2000
 #SBATCH --tmp=20000
 #SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL

@@ -40,10 +40,10 @@ for ts in training_sets:
         }
 
         # Create a KNN Regressor
-        knn_regressor = KNeighborsRegressor(n_jobs=30)
+        knn_regressor = KNeighborsRegressor(n_jobs=6)
 
         # Create a Bagging KNN Regressor
-        model = BaggingRegressor(estimator=knn_regressor, random_state=42)
+        model = BaggingRegressor(estimator=knn_regressor, random_state=42, n_jobs=20)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=param_space,
