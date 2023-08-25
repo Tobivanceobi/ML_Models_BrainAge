@@ -1,5 +1,8 @@
 import sys
 
+from sklearn.base import BaseEstimator, RegressorMixin
+from skopt.space import Categorical, Integer, Real
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 from sklearn.linear_model import LogisticRegression
@@ -10,7 +13,8 @@ from helper import load_object
 import pandas as pd
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/', 'TS4/']
+
+training_sets = ['TS3/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
@@ -29,14 +33,35 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        model = LogisticRegression(n_jobs=30)
+        model = LogisticRegression(max_iter=5000, n_jobs=30)
 
         # Define the parameter search space for Logistic Regression
-        parameter_space = {
-            'C': (1e-6, 1e+6, 'log-uniform'),
-            'penalty': ['l1', 'l2'],
-            'solver': ['liblinear', 'saga']
-        }
+        parameter_space = [
+            {
+                "C": Integer(1, 1000),
+                "solver": Categorical(['liblinear']),
+                "penalty": Categorical(['l1', 'l2']),
+                "fit_intercept": Categorical([True, False]),
+            },
+            {
+                "C": Integer(1, 1000),
+                "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
+                "penalty": Categorical(['l2', 'none']),
+                "fit_intercept": Categorical([True, False]),
+            },
+            {
+                "solver": Categorical(['saga']),
+                "penalty": Categorical(['l1', 'l2', 'none']),
+                "fit_intercept": Categorical([True, False]),
+            },
+            {
+                "C": Integer(1, 1000),
+                "solver": Categorical(['saga']),
+                "penalty": Categorical(['elasticnet']),
+                "fit_intercept": Categorical([True, False]),
+                "l1_ratio": Real(0, 1, prior='uniform'),
+            },
+        ]
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,

@@ -32,18 +32,18 @@ for ts in training_sets:
         x = scaler.fit_transform(x)
 
         param_space = {
-            'base_estimator__n_neighbors': (1, 20),  # KNN parameter
-            'base_estimator__p': (1, 2),  # KNN parameter
+            'estimator__n_neighbors': (1, 20),  # KNN parameter
+            'estimator__p': (1, 2),  # KNN parameter
             'n_estimators': (10, 1000),  # Bagging parameter
             'max_samples': (0.1, 1.0),  # Bagging parameter
             'max_features': (0.1, 1.0),  # Bagging parameter
         }
 
         # Create a KNN Regressor
-        knn_regressor = KNeighborsRegressor()
+        knn_regressor = KNeighborsRegressor(n_jobs=5)
 
         # Create a Bagging KNN Regressor
-        model = BaggingRegressor(base_estimator=knn_regressor, random_state=42, n_jobs=30)
+        model = BaggingRegressor(estimator=knn_regressor, random_state=42)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=param_space,
