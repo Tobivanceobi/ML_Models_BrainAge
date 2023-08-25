@@ -43,7 +43,7 @@ for ts in training_sets:
 
         model_param = dict()
         for col in res_df.columns:
-            if 'param_' in col:
+            if 'param_' in col and not('base_estimator__' in col):
                 key_n = col.replace('param_', '')
                 model_param[key_n] = best_params[col]
 
