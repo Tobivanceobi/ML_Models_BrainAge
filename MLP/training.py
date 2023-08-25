@@ -44,7 +44,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
         print(self.alpha)
         model_mlp = MLPRegressor(
             hidden_layer_sizes=[self.layer1, self.layer2, self.layer3, self.layer4][-1*self.num_hl:],
-            max_iter=1000,
+            max_iter=700,
             activation=self.activation,
             solver=self.solver,
             learning_rate=self.learning_rate,
@@ -97,7 +97,9 @@ for ts in training_sets:
         clf = BayesSearchCV(
             estimator=MLPWrapper(),
             search_spaces=parameter_space,
-            n_iter=11,
+            n_iter=30,
+            cv=skf_vals,
+            scoring='neg_mean_absolute_error',
             n_jobs=30
         )
 
