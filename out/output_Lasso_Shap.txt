@@ -1,0 +1,52 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+1.9733945764196845
+Shap values for the first instance:
+ .values =
+array([0., 0., 0., ..., 0., 0., 0.])
+
+.base_values =
+10.104974361630763
+
+.data =
+array([9.99884557e-01, 9.99872972e-01, 8.63481243e-05, ...,
+       2.54379401e-03, 2.12063544e-03, 2.77477546e-03])
+(1.3167763679102173, 0.5178406822614722, 0.2822097307660796, 0.2818261102451999, 0.2555865608846705, 0.23573091983963698, 0.21088728438149099, 0.17704826126840476, 0.1709114406140797, 0.163516301019723, 0.16336929023448327, 0.14526463962394773, 0.13972504974967953, 0.13098023908230444, 0.12997312937921326, 0.09151200554258143, 0.07822615984734255, 0.07230248496013993, 0.06036677128894243, 0.06004685210580135, 0.04814831776301095, 0.0417425794396318, 0.03762098558207911, 0.024688364897579033, 0.010491620531839491, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+('whole_spec_spect_slope', 'beta_higuchi_fd', 'alpha_zero_crossings', 'whole_spec_spect_entropy', 'beta_spect_entropy', 'delta_kurtosis', 'delta_hurst_exp', 'delta_spect_entropy', 'alpha_spect_entropy', 'whole_spec_kurtosis', 'delta_skewness', 'whole_spec_hjorth_complexity', 'whole_spec_svd_fisher_info', 'theta_samp_entropy', 'whole_spec_hurst_exp', 'whole_spec_skewness', 'theta_hurst_exp', 'beta_samp_entropy', 'beta_skewness', 'theta_spect_entropy', 'theta_skewness', 'theta_kurtosis', 'beta_kurtosis', 'beta_std', 'beta_hurst_exp', 'whole_spec_zero_crossings', 'whole_spec_wavelet_coef_energy', 'whole_spec_std', 'whole_spec_samp_entropy', 'whole_spec_quantile', 'whole_spec_ptp_amp', 'whole_spec_pow_freq_bands', 'whole_spec_mean', 'whole_spec_line_length', 'whole_spec_hjorth_complexity_spect', 'whole_spec_higuchi_fd', 'whole_spec_app_entropy', 'theta_zero_crossings', 'theta_std', 'theta_quantile', 'theta_ptp_amp', 'theta_mean', 'theta_line_length', 'theta_higuchi_fd', 'theta_app_entropy', 'delta_zero_crossings', 'delta_std', 'delta_samp_entropy', 'delta_quantile', 'delta_ptp_amp', 'delta_mean', 'delta_line_length', 'delta_higuchi_fd', 'delta_app_entropy', 'beta_zero_crossings', 'beta_quantile', 'beta_ptp_amp', 'beta_mean', 'beta_line_length', 'beta_app_entropy', 'alpha_std', 'alpha_skewness', 'alpha_samp_entropy', 'alpha_quantile', 'alpha_ptp_amp', 'alpha_mean', 'alpha_line_length', 'alpha_kurtosis', 'alpha_hurst_exp', 'alpha_higuchi_fd', 'alpha_app_entropy')
+2.0055671366469863
+Shap values for the first instance:
+ .values =
+array([0., 0., 0., ..., 0., 0., 0.])
+
+.base_values =
+10.186061247716545
+
+.data =
+array([9.99884557e-01, 9.99872972e-01, 8.63481243e-05, ...,
+       3.15558046e-03, 2.47295122e-03, 3.23170164e-03])
+(1.4496629541844441, 0.6667233274620544, 0.464553014029889, 0.2995229491801631, 0.2307512879042552, 0.18460979806192393, 0.17922499863823435, 0.1629043842503634, 0.14992653344283638, 0.13400383259349335, 0.08985140305405935, 0.08932141319481468, 0.08451484350826866, 0.08257736387775924, 0.08241322847759981, 0.06763811164374117, 0.06188277087420789, 0.0483368206988456, 0.04631388434748929, 0.0395737662733678, 0.03080647052792636, 0.02710840802841136, 0.01583006990559046, 0.014096816694072534, 0.010411853170344985, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+('whole_spec_spect_slope', 'beta_higuchi_fd', 'beta_spect_entropy', 'whole_spec_svd_fisher_info', 'alpha_spect_entropy', 'whole_spec_spect_entropy', 'delta_spect_entropy', 'delta_skewness', 'whole_spec_hurst_exp', 'alpha_zero_crossings', 'delta_kurtosis', 'whole_spec_skewness', 'beta_skewness', 'delta_zero_crossings', 'delta_app_entropy', 'whole_spec_hjorth_complexity', 'theta_samp_entropy', 'theta_kurtosis', 'delta_hurst_exp', 'delta_samp_entropy', 'beta_hurst_exp', 'theta_spect_entropy', 'alpha_higuchi_fd', 'whole_spec_app_entropy', 'beta_zero_crossings', 'whole_spec_zero_crossings', 'whole_spec_wavelet_coef_energy', 'whole_spec_std', 'whole_spec_samp_entropy', 'whole_spec_quantile', 'whole_spec_ptp_amp', 'whole_spec_pow_freq_bands', 'whole_spec_mean', 'whole_spec_line_length', 'whole_spec_kurtosis', 'whole_spec_hjorth_complexity_spect', 'whole_spec_higuchi_fd', 'theta_zero_crossings', 'theta_std', 'theta_skewness', 'theta_quantile', 'theta_ptp_amp', 'theta_mean', 'theta_line_length', 'theta_hurst_exp', 'theta_higuchi_fd', 'theta_app_entropy', 'delta_std', 'delta_quantile', 'delta_ptp_amp', 'delta_mean', 'delta_line_length', 'delta_higuchi_fd', 'beta_std', 'beta_samp_entropy', 'beta_quantile', 'beta_ptp_amp', 'beta_mean', 'beta_line_length', 'beta_kurtosis', 'beta_app_entropy', 'alpha_std', 'alpha_skewness', 'alpha_samp_entropy', 'alpha_quantile', 'alpha_ptp_amp', 'alpha_mean', 'alpha_line_length', 'alpha_kurtosis', 'alpha_hurst_exp', 'alpha_app_entropy')
+2.0775534633127215
+Shap values for the first instance:
+ .values =
+array([0., 0., 0., ..., 0., 0., 0.])
+
+.base_values =
+10.050869645031463
+
+.data =
+array([9.99912497e-01, 9.99896125e-01, 1.05281049e-04, ...,
+       2.54379401e-03, 2.12063544e-03, 2.77477546e-03])
+(0.9272745338012066, 0.4551231504852266, 0.44466392263349835, 0.30893980347928723, 0.29910551117861567, 0.23027229444812997, 0.22174591844812597, 0.17518827806921944, 0.17263430953539127, 0.13152806095898326, 0.12143455599776033, 0.11576449268501947, 0.1156386210800192, 0.08138744212108696, 0.07945555857800769, 0.07827316666616983, 0.046591956595961645, 0.04244013708800542, 0.04069700628658908, 0.035047990587819676, 0.027188386873771293, 0.012574669830744598, 0.010479294923841953, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+('whole_spec_spect_slope', 'alpha_zero_crossings', 'beta_higuchi_fd', 'delta_kurtosis', 'whole_spec_svd_fisher_info', 'delta_hurst_exp', 'whole_spec_hurst_exp', 'whole_spec_kurtosis', 'whole_spec_spect_entropy', 'theta_hurst_exp', 'whole_spec_hjorth_complexity', 'theta_samp_entropy', 'beta_samp_entropy', 'theta_skewness', 'beta_skewness', 'whole_spec_skewness', 'alpha_hurst_exp', 'beta_kurtosis', 'alpha_spect_entropy', 'beta_spect_entropy', 'theta_kurtosis', 'beta_std', 'beta_hurst_exp', 'whole_spec_zero_crossings', 'whole_spec_wavelet_coef_energy', 'whole_spec_std', 'whole_spec_samp_entropy', 'whole_spec_quantile', 'whole_spec_ptp_amp', 'whole_spec_pow_freq_bands', 'whole_spec_mean', 'whole_spec_line_length', 'whole_spec_hjorth_complexity_spect', 'whole_spec_higuchi_fd', 'whole_spec_app_entropy', 'theta_zero_crossings', 'theta_std', 'theta_spect_entropy', 'theta_quantile', 'theta_ptp_amp', 'theta_mean', 'theta_line_length', 'theta_higuchi_fd', 'theta_app_entropy', 'delta_zero_crossings', 'delta_std', 'delta_spect_entropy', 'delta_skewness', 'delta_samp_entropy', 'delta_quantile', 'delta_ptp_amp', 'delta_mean', 'delta_line_length', 'delta_higuchi_fd', 'delta_app_entropy', 'beta_zero_crossings', 'beta_quantile', 'beta_ptp_amp', 'beta_mean', 'beta_line_length', 'beta_app_entropy', 'alpha_std', 'alpha_skewness', 'alpha_samp_entropy', 'alpha_quantile', 'alpha_ptp_amp', 'alpha_mean', 'alpha_line_length', 'alpha_kurtosis', 'alpha_higuchi_fd', 'alpha_app_entropy')
