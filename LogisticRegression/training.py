@@ -14,7 +14,7 @@ import pandas as pd
 from skopt import BayesSearchCV
 
 
-training_sets = ['TS3/', 'TS4/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
