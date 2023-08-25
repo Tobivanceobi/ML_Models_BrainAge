@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=BKNN
+#SBATCH --job-name=BKNN_shap
 #SBATCH --partition=general2
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -7,8 +7,8 @@
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL
-#SBATCH --output out/output_SVR.txt
-#SBATCH --error err/error_SVR.txt
+#SBATCH --output out/output_BKNN_shap.txt
+#SBATCH --error err/error_BKNN_shap.txt
 
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
