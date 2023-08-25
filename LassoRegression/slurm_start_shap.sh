@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=Lasso
+#SBATCH --job-name=Lasso_Shap
 #SBATCH --partition=general2
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -8,8 +8,8 @@
 #SBATCH --time=10:00:00
 #SBATCH --tmp=20000
 #SBATCH --mail-type=FAIL
-#SBATCH --output out/output_SVR.txt
-#SBATCH --error err/error_SVR.txt
+#SBATCH --output out/output_Lasso_Shap.txt
+#SBATCH --error err/error_Lasso_Shap.txt
 
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
