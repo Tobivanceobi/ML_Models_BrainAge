@@ -124,10 +124,10 @@ for ts in training_sets:
         x_test_df = pd.DataFrame(x_test, columns=x_names)
 
         # Initialize the shap explainer
-        explainer = shap.Explainer(best_model, x_train_df, num_jobs=30)
+        explainer = shap.KernelExplainer(best_model.predict, x_train_df, num_jobs=30)
 
         # Compute Shap values for all instances in X_test
-        shap_values = explainer(x_test_df)
+        shap_values = explainer.shap_values(x_test_df)
 
         save_object(shap_values, BASE_PATH + f'MLP/shap_values')
 
