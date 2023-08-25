@@ -1,10 +1,12 @@
+import sys
+
+sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import numpy as np
 import pandas as pd
 import shap
-from sklearn.linear_model import Lasso, ElasticNet, LogisticRegression
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import MinMaxScaler
 
 from config import SET_PATH, BASE_PATH
