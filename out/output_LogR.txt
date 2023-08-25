@@ -220,3 +220,25 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
 [CV 2/3] END C=277, fit_intercept=False, penalty=none, solver=newton-cg;, score=-26.046 total time=  48.1s
 [CV 3/3] END C=277, fit_intercept=False, penalty=none, solver=newton-cg;, score=-23.820 total time=  42.6s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=559, fit_intercept=False, penalty=l2, solver=newton-cg;, score=-25.030 total time= 1.1min
+[CV 2/3] END C=559, fit_intercept=False, penalty=l2, solver=newton-cg;, score=-25.728 total time= 1.2min
+[CV 3/3] END C=559, fit_intercept=False, penalty=l2, solver=newton-cg;, score=-24.246 total time=  56.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=911, fit_intercept=True, penalty=none, solver=lbfgs;, score=-26.160 total time=  22.6s
+[CV 2/3] END C=911, fit_intercept=True, penalty=none, solver=lbfgs;, score=-27.782 total time=  15.2s
+[CV 3/3] END C=911, fit_intercept=True, penalty=none, solver=lbfgs;, score=-25.511 total time=  16.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=931, fit_intercept=True, penalty=none, solver=sag;, score=-24.448 total time=37.2min
+[CV 2/3] END C=931, fit_intercept=True, penalty=none, solver=sag;, score=-25.360 total time=33.8min
+[CV 3/3] END C=931, fit_intercept=True, penalty=none, solver=sag;, score=-23.801 total time=33.1min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=955, fit_intercept=False, penalty=l2, solver=lbfgs;, score=-25.201 total time= 1.5min
+[CV 2/3] END C=955, fit_intercept=False, penalty=l2, solver=lbfgs;, score=-25.561 total time= 1.8min
+[CV 3/3] END C=955, fit_intercept=False, penalty=l2, solver=lbfgs;, score=-24.344 total time= 1.4min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=489, fit_intercept=True, penalty=none, solver=newton-cg;, score=-24.943 total time=  44.5s
+[CV 2/3] END C=489, fit_intercept=True, penalty=none, solver=newton-cg;, score=-25.542 total time=  46.0s
+[CV 3/3] END C=489, fit_intercept=True, penalty=none, solver=newton-cg;, score=-23.678 total time=  50.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=869, fit_intercept=True, penalty=l2, solver=newton-cg;, score=-25.166 total time= 4.7min
+[CV 2/3] END C=869, fit_intercept=True, penalty=l2, solver=newton-cg;, score=-25.452 total time=16.7min

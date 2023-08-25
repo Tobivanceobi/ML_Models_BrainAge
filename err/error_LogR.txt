@@ -392,3 +392,44 @@
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
+  warnings.warn(
+slurmstepd: error: *** JOB 1090388 ON node23-008 CANCELLED AT 2023-08-25T16:16:00 ***
