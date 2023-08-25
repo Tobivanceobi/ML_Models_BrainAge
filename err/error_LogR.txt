@@ -1,14 +1,6 @@
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
@@ -16,11 +8,7 @@
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
@@ -34,524 +22,373 @@
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
   warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
 /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1182: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 30.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1192: UserWarning: Setting penalty=None will ignore the C and l1_ratio parameters
   warnings.warn(
-slurmstepd: error: *** JOB 1089293 ON node20-017 CANCELLED AT 2023-08-24T21:26:27 DUE TO TIME LIMIT ***

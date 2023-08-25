@@ -1,0 +1,55 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+1.8819240710738245
+Shap values for the first instance:
+ .values =
+array([-7.63922607e-06, -5.93564191e-06, -2.10095718e-06, ...,
+        9.73667029e-04,  1.01743258e-03,  9.82847118e-04])
+
+.base_values =
+10.683531873187032
+
+.data =
+array([9.99663961e-01, 9.99655657e-01, 3.05901800e-04, ...,
+       2.94026592e-03, 2.85204571e-03, 3.09791646e-03])
+(1.2571383117526127, 0.5108404017808142, 0.48292397969788375, 0.37778353791318847, 0.3623823799564183, 0.351454710942082, 0.3062034842141808, 0.28613671187956796, 0.28538129151341285, 0.2839914490197011, 0.2756251042903183, 0.2638382385596304, 0.23948260507218397, 0.2328784856319771, 0.23201077804545436, 0.2034279789318111, 0.2009800022492014, 0.1998499212198396, 0.19600129032861974, 0.16601384920682036, 0.1632474908285208, 0.15999798532001805, 0.15917072178571626, 0.14815375368300648, 0.14041234169576025, 0.13063039176491725, 0.13061362979611205, 0.1278817831149749, 0.11992809878542528, 0.1172564201558608, 0.11652415039568237, 0.11359447288443374, 0.11317485636927924, 0.11285476545875102, 0.10247611309422028, 0.10131544516406894, 0.09366038798148188, 0.08440234780530932, 0.07649819114911223, 0.07431585488695149, 0.07330977309366486, 0.0702800593621807, 0.06334223593779591, 0.06207705249428316, 0.054965351915223185, 0.03741044479557691, 0.033679294877618164, 0.02161278464191512, 0.018787141423172785, 0.013162972658445937, 0.011826913172498657, 0.011183724040175756, 0.011023580395694867, 0.010030150941313402, 0.009707802068179353, 0.008982170218919089, 0.007846594406820688, 0.007451117787034082, 0.004087892360810208, 0.0025309565676858545, 0.0022139496132960743, 0.0022034562514144157, 0.0020302579167549677, 0.0019449028049547492, 0.0019199245105896814, 0.0018901554332517155, 0.0018822299038711847, 0.0018054092856611824, 0.0017478814375104744, 0.0013991525637262628, 0.001390426529366684)
+('whole_spec_spect_slope', 'whole_spec_spect_entropy', 'whole_spec_svd_fisher_info', 'delta_hurst_exp', 'beta_kurtosis', 'delta_spect_entropy', 'delta_kurtosis', 'beta_higuchi_fd', 'beta_quantile', 'whole_spec_app_entropy', 'theta_kurtosis', 'alpha_spect_entropy', 'whole_spec_hurst_exp', 'theta_samp_entropy', 'theta_hurst_exp', 'alpha_zero_crossings', 'delta_skewness', 'alpha_hurst_exp', 'beta_samp_entropy', 'alpha_kurtosis', 'beta_app_entropy', 'whole_spec_skewness', 'theta_skewness', 'alpha_samp_entropy', 'whole_spec_zero_crossings', 'whole_spec_kurtosis', 'whole_spec_hjorth_complexity', 'whole_spec_samp_entropy', 'delta_samp_entropy', 'beta_skewness', 'whole_spec_wavelet_coef_energy', 'alpha_higuchi_fd', 'theta_zero_crossings', 'whole_spec_higuchi_fd', 'beta_hurst_exp', 'delta_zero_crossings', 'theta_app_entropy', 'alpha_skewness', 'theta_spect_entropy', 'beta_line_length', 'beta_std', 'whole_spec_line_length', 'delta_app_entropy', 'alpha_app_entropy', 'beta_spect_entropy', 'alpha_quantile', 'beta_zero_crossings', 'theta_higuchi_fd', 'alpha_mean', 'beta_ptp_amp', 'delta_mean', 'whole_spec_mean', 'delta_higuchi_fd', 'theta_quantile', 'whole_spec_pow_freq_bands', 'theta_mean', 'delta_quantile', 'beta_mean', 'whole_spec_quantile', 'delta_line_length', 'whole_spec_hjorth_complexity_spect', 'alpha_ptp_amp', 'delta_ptp_amp', 'theta_ptp_amp', 'delta_std', 'theta_line_length', 'theta_std', 'whole_spec_ptp_amp', 'alpha_line_length', 'alpha_std', 'whole_spec_std')
+2.0027333034590407
+Shap values for the first instance:
+ .values =
+array([-0.        , -0.        , -0.        , ...,  0.00010438,
+        0.        ,  0.        ])
+
+.base_values =
+10.30725319355409
+
+.data =
+array([9.99807697e-01, 9.99779816e-01, 1.86976495e-04, ...,
+       1.31591808e-03, 1.00352461e-03, 9.42972898e-04])
+(1.4283296677084543, 0.43475446897961467, 0.4003404146947215, 0.25575373702628634, 0.24723206000756145, 0.22018852158404598, 0.1441807557283178, 0.1345857705420706, 0.1327610655304272, 0.12690186591383298, 0.12490142320277303, 0.12073845197597206, 0.10723111176817841, 0.10616224178843121, 0.10038150363971886, 0.10025733359271163, 0.0993340262830019, 0.0984651547506318, 0.09427586501520165, 0.07826802934704408, 0.07745063754738277, 0.07380450601423734, 0.07126329970973536, 0.0682292858148575, 0.06790485648274897, 0.057363013733893395, 0.055404398660943176, 0.044276276531520525, 0.04420843265725113, 0.03459162219443074, 0.02959968883532379, 0.026603322898422366, 0.023952934399314122, 0.023309627941396356, 0.02203731892013513, 0.02170926296824409, 0.01729607286179769, 0.017006769199061016, 0.01661303447404593, 0.016582186211585224, 0.010408738905311823, 0.007141066695034953, 0.0055265884335716905, 0.0042994726723859155, 0.004178911268873137, 0.0020947516147567214, 0.0009918751913277298, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+('whole_spec_spect_slope', 'beta_higuchi_fd', 'whole_spec_svd_fisher_info', 'alpha_spect_entropy', 'delta_spect_entropy', 'whole_spec_hurst_exp', 'delta_kurtosis', 'beta_kurtosis', 'delta_samp_entropy', 'whole_spec_app_entropy', 'theta_kurtosis', 'whole_spec_zero_crossings', 'whole_spec_skewness', 'beta_spect_entropy', 'beta_hurst_exp', 'beta_quantile', 'delta_zero_crossings', 'delta_skewness', 'beta_samp_entropy', 'delta_app_entropy', 'alpha_higuchi_fd', 'whole_spec_spect_entropy', 'theta_spect_entropy', 'beta_app_entropy', 'theta_samp_entropy', 'theta_skewness', 'theta_zero_crossings', 'whole_spec_higuchi_fd', 'beta_zero_crossings', 'alpha_zero_crossings', 'theta_hurst_exp', 'whole_spec_hjorth_complexity', 'alpha_skewness', 'delta_mean', 'whole_spec_mean', 'delta_hurst_exp', 'beta_line_length', 'beta_skewness', 'whole_spec_kurtosis', 'alpha_hurst_exp', 'theta_mean', 'alpha_quantile', 'whole_spec_line_length', 'beta_std', 'delta_higuchi_fd', 'alpha_samp_entropy', 'alpha_mean', 'whole_spec_wavelet_coef_energy', 'whole_spec_std', 'whole_spec_samp_entropy', 'whole_spec_quantile', 'whole_spec_ptp_amp', 'whole_spec_pow_freq_bands', 'whole_spec_hjorth_complexity_spect', 'theta_std', 'theta_quantile', 'theta_ptp_amp', 'theta_line_length', 'theta_higuchi_fd', 'theta_app_entropy', 'delta_std', 'delta_quantile', 'delta_ptp_amp', 'delta_line_length', 'beta_ptp_amp', 'beta_mean', 'alpha_std', 'alpha_ptp_amp', 'alpha_line_length', 'alpha_kurtosis', 'alpha_app_entropy')
+2.031125434921287
+Shap values for the first instance:
+ .values =
+array([-0.0001776 , -0.0001112 , -0.00017875, ...,  0.00167981,
+        0.00248843,  0.00221763])
+
+.base_values =
+9.961579372454954
+
+.data =
+array([9.99912497e-01, 9.99896125e-01, 1.05281049e-04, ...,
+       2.54379401e-03, 2.12063544e-03, 2.77477546e-03])
+(0.9060579129736147, 0.4491522065916871, 0.39498022312818504, 0.3787287675374296, 0.33127786874817516, 0.31221669900713694, 0.30989504583478866, 0.28052871212783276, 0.23222283734560317, 0.19396836961174826, 0.1861939300201934, 0.18493625972038083, 0.17916803218957075, 0.17171070000216943, 0.16715386322602047, 0.1663321677556949, 0.1581487733757707, 0.15043625495577584, 0.14743022666072092, 0.14404305523157235, 0.14052575101827244, 0.13406623052906844, 0.12982552398811925, 0.12464777192111862, 0.12249759610044568, 0.12164224520108796, 0.11364725984340046, 0.11124240641993256, 0.10139758027291754, 0.10024991293604711, 0.06963555468192216, 0.06672455451602578, 0.06503591873475403, 0.060389213935976314, 0.05429327299571344, 0.0496091196059404, 0.044220525452939696, 0.042327266978664665, 0.041591228549948, 0.04106214075809014, 0.0377344637757303, 0.0356674652556675, 0.03542261151950843, 0.026313677818586793, 0.020271809538414415, 0.019564356166824802, 0.01956427528057133, 0.015411179231681164, 0.01524304079856745, 0.014495526517982428, 0.011344213529315764, 0.011247435455291851, 0.009986905680829277, 0.007350201864338635, 0.006992488533280975, 0.004527375488476588, 0.003943773116512403, 0.0037290640639694532, 0.0027772464127754147, 0.0013454951965917656, 0.0012619471603395385, 0.0011714411095547516, 0.0010157900765468593, 0.0009849732217527478, 0.0009041684022368758, 0.0008368968255070074, 0.0008074621542468286, 0.0006025417177159935, 0.0003606216484881721, 0.00022425692111740383, 0.00020757507642469526)
+('whole_spec_spect_slope', 'alpha_zero_crossings', 'beta_higuchi_fd', 'whole_spec_zero_crossings', 'whole_spec_spect_entropy', 'delta_kurtosis', 'whole_spec_svd_fisher_info', 'whole_spec_hjorth_complexity', 'delta_hurst_exp', 'beta_quantile', 'beta_kurtosis', 'theta_kurtosis', 'theta_samp_entropy', 'alpha_spect_entropy', 'whole_spec_skewness', 'beta_skewness', 'theta_hurst_exp', 'beta_samp_entropy', 'whole_spec_hurst_exp', 'alpha_hurst_exp', 'alpha_skewness', 'theta_zero_crossings', 'whole_spec_app_entropy', 'whole_spec_kurtosis', 'whole_spec_higuchi_fd', 'theta_skewness', 'delta_skewness', 'alpha_samp_entropy', 'beta_app_entropy', 'theta_spect_entropy', 'delta_spect_entropy', 'beta_hurst_exp', 'alpha_higuchi_fd', 'alpha_kurtosis', 'beta_zero_crossings', 'beta_std', 'beta_spect_entropy', 'whole_spec_samp_entropy', 'beta_line_length', 'delta_samp_entropy', 'theta_app_entropy', 'whole_spec_line_length', 'alpha_quantile', 'theta_mean', 'alpha_app_entropy', 'delta_zero_crossings', 'delta_app_entropy', 'theta_quantile', 'alpha_mean', 'whole_spec_pow_freq_bands', 'whole_spec_mean', 'delta_mean', 'delta_higuchi_fd', 'beta_ptp_amp', 'theta_higuchi_fd', 'whole_spec_wavelet_coef_energy', 'whole_spec_quantile', 'delta_quantile', 'beta_mean', 'whole_spec_ptp_amp', 'whole_spec_std', 'alpha_line_length', 'delta_std', 'delta_ptp_amp', 'delta_line_length', 'whole_spec_hjorth_complexity_spect', 'theta_ptp_amp', 'theta_std', 'alpha_ptp_amp', 'alpha_std', 'theta_line_length')
