@@ -60,10 +60,14 @@ for ts in training_sets:
 
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
         res_df = pd.read_csv(BASE_PATH + f'SVRegression/{f_name}results.csv')
-
         res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
-        model_param = str_to_dict(res_df.iloc[0]['params'])
-        print(model_param.keys())
+        best_params = res_df.iloc[0]
+
+        model_param = dict()
+        for col in res_df.columns:
+            if 'param_' in col:
+                key_n = col.replace('param_', '')
+                model_param[key_n] = best_params[col]
 
         best_fold = 0
         best_score = 5
