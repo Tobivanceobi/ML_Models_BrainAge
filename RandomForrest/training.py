@@ -1,5 +1,7 @@
 import sys
 
+from sklearn.preprocessing import LabelEncoder
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 from sklearn.model_selection import StratifiedGroupKFold
 from config import BASE_PATH, SET_PATH
@@ -16,7 +18,12 @@ for ts in training_sets:
         data = load_object(set_path + 'training_set')
         x = data['x']
         groups = data['group']
-        y = data['y']
+        y_org = data['y']
+        y = [int(age * 10) for age in data['y']]
+
+        le = LabelEncoder()
+        le.fit(y)
+        y = le.transform(y)
 
         y_skf = [int(age) for age in data['y']]
         skf_vals = []
