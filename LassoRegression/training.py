@@ -30,7 +30,7 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        model = Lasso(alpha=1.0, random_state=42)
+        model = Lasso(max_iter=5000, random_state=42)
 
         parameter_space = {
             'alpha': (0.01, 10.0),
