@@ -8,8 +8,8 @@
 #SBATCH --tmp=20000
 #SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL
-#SBATCH --output out/output_BKNN.txt
-#SBATCH --error err/error_BKNN.txt
+#SBATCH --output out/output_BKNN_shap.txt
+#SBATCH --error err/error_BKNN_shap.txt
 
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
