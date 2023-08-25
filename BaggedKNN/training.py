@@ -35,6 +35,7 @@ for ts in training_sets:
             'estimator__n_neighbors': [3, 50],
             'estimator__leaf_size': [3, 300],
             'estimator__p': [1, 2],   # KNN parameter
+            'n_estimators': [50, 200],
             'max_samples': (0.1, 1.0),  # Bagging parameter
             'max_features': (0.1, 1.0),  # Bagging parameter
         }
@@ -43,7 +44,7 @@ for ts in training_sets:
         knn_regressor = KNeighborsRegressor()
 
         # Create a Bagging KNN Regressor
-        model = BaggingRegressor(estimator=knn_regressor, n_estimators=500, random_state=42, n_jobs=-2)
+        model = BaggingRegressor(estimator=knn_regressor, random_state=42, n_jobs=-2)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=param_space,
