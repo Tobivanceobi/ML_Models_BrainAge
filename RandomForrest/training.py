@@ -39,7 +39,7 @@ for ts in training_sets:
             'min_impurity_decrease': [0, 0.9],
         }
 
-        model = RandomForestRegressor(n_estimators=1000, n_jobs=30)
+        model = RandomForestRegressor(n_estimators=1000, n_jobs=-2)
 
         fit_param = {
             'early_stopping_rounds': 200,
