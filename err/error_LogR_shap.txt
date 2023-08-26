@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/LogisticRegression/shapValues.py", line 57, in <module>
+    model.fit(x_train, y=y_train)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1215, in fit
+    check_classification_targets(y)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/multiclass.py", line 215, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
