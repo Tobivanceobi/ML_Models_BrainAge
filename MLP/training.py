@@ -44,7 +44,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
         print(self.alpha)
         model_mlp = MLPRegressor(
             hidden_layer_sizes=[self.layer1, self.layer2, self.layer3, self.layer4][-1*self.num_hl:],
-            max_iter=700,
+            max_iter=400,
             activation=self.activation,
             solver=self.solver,
             learning_rate=self.learning_rate,
@@ -62,7 +62,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
         return self.model.score(x_train, y_train)
 
 
-training_sets = ['TS2/', 'TS4/']
+training_sets = ['TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
@@ -86,7 +86,7 @@ for ts in training_sets:
             'layer2': Integer(2000, 5000),
             'layer3': Integer(1000, 2000),
             'layer4': Integer(300, 1000),
-            'num_hl': Integer(1, 4),
+            'num_hl': Integer(1, 2),
             'activation': Categorical(['tanh', 'relu']),
             'solver': Categorical(['adam']),
             'alpha': Real(0.0001, 0.05),

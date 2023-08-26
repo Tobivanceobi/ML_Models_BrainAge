@@ -66,6 +66,7 @@ for ts in training_sets:
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,
                             cv=skf_vals,
+                            n_iter=35,
                             scoring='neg_mean_absolute_error',
                             verbose=4)
 
