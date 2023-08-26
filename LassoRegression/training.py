@@ -50,4 +50,4 @@ for ts in training_sets:
         print(clf.best_params_)
         results = pd.DataFrame(clf.cv_results_)
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        results.to_csv(BASE_PATH + f'LassoRegression/{f_name}results.csv')
+        results.to_csv(BASE_PATH + f'models/LassoRegression/{f_name}results.csv')

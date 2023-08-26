@@ -16,7 +16,7 @@ from helper import load_object, save_object
 
 
 training_sets = ['TS2/']
-set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+set_vary = ['meanEpochs/']
 for ts in training_sets:
     for sv in set_vary:
         set_path = SET_PATH + ts + sv
