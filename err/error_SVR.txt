@@ -1,6 +1,5 @@
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
-  warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
-  warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
-  warnings.warn("The objective has been evaluated "
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/BaggedKNN/shapValues.py", line 63, in <module>
+    model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=30)
+TypeError: __init__() got an unexpected keyword argument 'base_estimator__n_neighbors'
+slurmstepd: error: *** JOB 1090773 ON node19-012 CANCELLED AT 2023-08-25T21:57:29 ***
