@@ -98,16 +98,16 @@ for ts in training_sets:
         best_score = 5
         best_model = MLPWrapper()
         for fold in range(len(skf_vals)):
-            x_train = [x[i] for i in skf_vals[fold][0]]
-            x_test = [x[i] for i in skf_vals[fold][1]]
-            y_train = [y[i] for i in skf_vals[fold][0]]
-            y_test = [y[i] for i in skf_vals[fold][1]]
+            x_train_fold = [x[i] for i in skf_vals[fold][0]]
+            x_test_fold = [x[i] for i in skf_vals[fold][1]]
+            y_train_fold = [y[i] for i in skf_vals[fold][0]]
+            y_test_fold = [y[i] for i in skf_vals[fold][1]]
 
             model = MLPWrapper(**model_param)
-            model.fit(x_train, y=y_train)
+            model.fit(x_train_fold, y_train_fold)
 
-            preds = model.predict(x_test)
-            mae = mean_absolute_error(y_test, preds)
+            preds = model.predict(x_test_fold)
+            mae = mean_absolute_error(y_test_fold, preds)
             if mae < best_score:
                 best_fold = fold
                 best_score = mae
@@ -115,16 +115,16 @@ for ts in training_sets:
 
         print(best_score)
 
-        x_train = [x[i] for i in skf_vals[best_fold][0]]
-        x_test = [x[i] for i in skf_vals[best_fold][1]]
-        y_train = [y[i] for i in skf_vals[best_fold][0]]
-        y_test = [y[i] for i in skf_vals[best_fold][1]]
+        x_train_fold = [x[i] for i in skf_vals[best_fold][0]]
+        x_test_fold = [x[i] for i in skf_vals[best_fold][1]]
+        y_train_fold = [y[i] for i in skf_vals[best_fold][0]]
+        y_test_fold = [y[i] for i in skf_vals[best_fold][1]]
 
-        x_train_df = pd.DataFrame(x_train, columns=x_names)
-        x_test_df = pd.DataFrame(x_test, columns=x_names)
+        x_train_df = pd.DataFrame(x_train_fold, columns=x_names)
+        x_test_df = pd.DataFrame(x_test_fold, columns=x_names)
 
         # Initialize the shap explainer
-        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=30)
+        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=-2)
 
         # Compute Shap values for all instances in X_test
         shap_values = explainer.shap_values(x_test_df)

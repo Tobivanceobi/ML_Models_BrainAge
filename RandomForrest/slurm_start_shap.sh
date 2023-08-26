@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=RF
-#SBATCH --partition=general2
+#SBATCH --job-name=RF_shap
+#SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=1000
-#SBATCH --time=10:00:00
+#SBATCH --time=15:00:00
 #SBATCH --mail-type=FAIL
-#SBATCH --output out/output_SVR.txt
-#SBATCH --error err/error_SVR.txt
+#SBATCH --output out/output_RF_shap.txt
+#SBATCH --error err/error_RF_shap.txt
 
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;

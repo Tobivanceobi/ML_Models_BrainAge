@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=MLP
-#SBATCH --partition=general2
+#SBATCH --job-name=MLP_shap
+#SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=1000
-#SBATCH --time=10:00:00
+#SBATCH --time=15:00:00
 #SBATCH --mail-type=FAIL
-#SBATCH --output out/output_SVR.txt
-#SBATCH --error err/error_SVR.txt
+#SBATCH --output out/output_MLP_shap.txt
+#SBATCH --error err/error_MLP_shap.txt
 
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
