@@ -10,8 +10,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
 
-training_sets = ['TS2/', 'TS4/']
-set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+training_sets = ['TS4/']
+set_vary = ['meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
         set_path = SET_PATH + ts + sv
@@ -37,9 +37,10 @@ for ts in training_sets:
             'min_samples_leaf': [2, 9],
             'min_weight_fraction_leaf': [0, 0.5],
             'min_impurity_decrease': [0, 0.9],
+            'n_estimators': [300, 1000]
         }
 
-        model = RandomForestRegressor(n_estimators=1000, n_jobs=-2)
+        model = RandomForestRegressor(n_jobs=-2)
 
         fit_param = {
             'early_stopping_rounds': 200,
