@@ -79,6 +79,11 @@ for ts in training_sets:
         # Compute Shap values for all instances in X_test
         shap_values = explainer.shap_values(x_test_df)
 
-        save_object(shap_values, BASE_PATH + f'LassoRegression/shap_values')
+        shap_dict = dict(
+            shap_values=shap_values,
+            fold=best_fold
+        )
+
+        save_object(shap_dict, BASE_PATH + f'LassoRegression/shap_values')
 
 

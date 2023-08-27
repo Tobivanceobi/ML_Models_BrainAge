@@ -1,5 +1,7 @@
 import sys
 
+import numpy as np
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
 import shap
@@ -8,7 +10,7 @@ from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.svm import SVR
 
-from config import SET_PATH, BASE_PATH
+from config import SET_PATH, BASE_PATH, freq_bands, methods
 from helper import load_object, save_object
 
 training_sets = ['TS2/']
@@ -78,6 +80,13 @@ for ts in training_sets:
         # Compute Shap values for all instances in X_test
         shap_values = explainer.shap_values(x_test_df)
 
-        save_object(shap_values, BASE_PATH + f'SVRegression/shap_values')
+        shap_dict = dict(
+            shap_values=shap_values,
+            fold=best_fold
+        )
+
+        save_object(shap_dict, BASE_PATH + f'SVRegression/shap_values')
+
+
 
 
