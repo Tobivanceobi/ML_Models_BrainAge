@@ -3,6 +3,8 @@ import pickle
 
 import numpy as np
 
+from config import freq_bands
+
 
 def load_object(fname):
     try:
@@ -31,6 +33,30 @@ def str_to_dict(param):
     param = param.replace(", }", '}')
     param = json.loads(param)
     return param
+
+
+def group_freq_bands_shap(x_names):
+    feature_groups_fb = []
+    n_labels_fb = []
+    for fb in freq_bands:
+        feature_group_idx = []
+        for i in range(len(x_names)):
+            if fb in x_names[i]:
+                if fb == 'whole_spec':
+                    temp = False
+                    for ofb in ['delta', 'theta', 'alpha', 'beta']:
+                        if ofb in x_names[i]:
+                            temp = True
+                    if temp:
+                        continue
+                    else:
+                        feature_group_idx.append(i)
+                else:
+                    feature_group_idx.append(i)
+        if len(feature_group_idx) > 0:
+            feature_groups_fb.append(feature_group_idx)
+            n_labels_fb.append(fb)
+    return n_labels_fb, feature_groups_fb
 
 
 def equalize_classes(targets, threshold=3):
