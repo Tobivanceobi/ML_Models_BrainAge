@@ -45,9 +45,9 @@ model = LogisticRegression(n_jobs=-2)
 parameter_space = {
     "max_iter": [500],
     "C": Integer(1, 1000),
-    "solver": Categorical(['lbfgs', 'newton-cg', 'saga', 'liblinear']),
+    "solver": Categorical(['lbfgs', 'newton-cg', 'sag', 'saga', 'liblinear']),
     "tol": [0.005],
-    "penalty": Categorical(['l2', 'none']),
+    "penalty": Categorical(['l2']),
     "fit_intercept": Categorical([True, False]),
 }
 
