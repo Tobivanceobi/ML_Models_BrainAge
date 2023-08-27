@@ -79,7 +79,7 @@ parameter_space = [
 ]
 
 clf = BayesSearchCV(estimator=model,
-                    search_spaces=parameter_space[pid],
+                    search_spaces=parameter_space,
                     cv=skf_vals,
                     n_iter=50,
                     scoring='neg_mean_absolute_error',
