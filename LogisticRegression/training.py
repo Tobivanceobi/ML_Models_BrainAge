@@ -15,76 +15,81 @@ from skopt import BayesSearchCV
 
 pid = int(sys.argv[1])
 print('Process ID: ', pid)
-training_sets = ['TS2/', 'TS4/']
-set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-for ts in training_sets:
-    for sv in set_vary:
-        set_path = SET_PATH + ts + sv
-        data = load_object(set_path + 'training_set')
-        x = data['x']
-        groups = data['group']
-        y = [int(age * 10) for age in data['y']]
+training_sets = [
+    'TS2/meanEpochs/',
+    'TS2/meanEpochs/onlyEC/',
+    'TS2/meanEpochs/onlyEO/',
+    'TS4/meanEpochs/',
+    'TS4/meanEpochs/onlyEC/',
+    'TS4/meanEpochs/onlyEO/'
+]
+ts = training_sets[pid]
+set_path = SET_PATH + ts
+data = load_object(set_path + 'training_set')
+x = data['x']
+groups = data['group']
+y = [int(age * 10) for age in data['y']]
 
-        y_skf = [int(age) for age in data['y']]
-        skf_vals = []
-        skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
-        for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
-            skf_vals.append((train_index, test_index))
+y_skf = [int(age) for age in data['y']]
+skf_vals = []
+skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
+for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
+    skf_vals.append((train_index, test_index))
 
-        scaler = MinMaxScaler()
-        x = scaler.fit_transform(x)
+scaler = MinMaxScaler()
+x = scaler.fit_transform(x)
 
-        model = LogisticRegression(n_jobs=-2)
+model = LogisticRegression(n_jobs=-2)
 
-        # Define the parameter search space for Logistic Regression
-        parameter_space = [
-            {
-                "max_iter": [500],
-                "C": Integer(1, 1000),
-                "solver": Categorical(['liblinear']),
-                "tol": [0.005],
-                "penalty": Categorical(['l1', 'l2']),
-                "fit_intercept": Categorical([True, False]),
-            },
-            {
-                "max_iter": [500],
-                "C": Integer(1, 1000),
-                "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
-                "tol": [0.005],
-                "penalty": Categorical(['l2', 'none']),
-                "fit_intercept": Categorical([True, False]),
-            },
-            {
-                "max_iter": [500],
-                "C": Integer(1, 1000),
-                "solver": Categorical(['saga']),
-                "tol": [0.005],
-                "penalty": Categorical(['l1', 'l2', 'none']),
-                "fit_intercept": Categorical([True, False]),
-            },
-            {
-                "max_iter": [500],
-                "C": Integer(1, 1000),
-                "solver": Categorical(['saga']),
-                "tol": [0.005],
-                "penalty": Categorical(['elasticnet']),
-                "fit_intercept": Categorical([True, False]),
-                "l1_ratio": Real(0, 1, prior='uniform'),
-            },
-        ]
+# Define the parameter search space for Logistic Regression
+parameter_space = [
+    {
+        "max_iter": [500],
+        "C": Integer(1, 1000),
+        "solver": Categorical(['liblinear']),
+        "tol": [0.005],
+        "penalty": Categorical(['l1', 'l2']),
+        "fit_intercept": Categorical([True, False]),
+    },
+    {
+        "max_iter": [500],
+        "C": Integer(1, 1000),
+        "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
+        "tol": [0.005],
+        "penalty": Categorical(['l2', 'none']),
+        "fit_intercept": Categorical([True, False]),
+    },
+    {
+        "max_iter": [500],
+        "C": Integer(1, 1000),
+        "solver": Categorical(['saga']),
+        "tol": [0.005],
+        "penalty": Categorical(['l1', 'l2', 'none']),
+        "fit_intercept": Categorical([True, False]),
+    },
+    {
+        "max_iter": [500],
+        "C": Integer(1, 1000),
+        "solver": Categorical(['saga']),
+        "tol": [0.005],
+        "penalty": Categorical(['elasticnet']),
+        "fit_intercept": Categorical([True, False]),
+        "l1_ratio": Real(0, 1, prior='uniform'),
+    },
+]
 
-        clf = BayesSearchCV(estimator=model,
-                            search_spaces=parameter_space[pid],
-                            cv=skf_vals,
-                            n_iter=50,
-                            scoring='neg_mean_absolute_error',
-                            verbose=4)
+clf = BayesSearchCV(estimator=model,
+                    search_spaces=parameter_space[pid],
+                    cv=skf_vals,
+                    n_iter=50,
+                    scoring='neg_mean_absolute_error',
+                    verbose=4)
 
-        clf.fit(x, y=y)
+clf.fit(x, y=y)
 
-        print(clf.cv_results_)
-        print(clf.best_score_)
-        print(clf.best_params_)
-        results = pd.DataFrame(clf.cv_results_)
-        f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        results.to_csv(BASE_PATH + f'LogisticRegression/{f_name}results.csv')
+print(clf.cv_results_)
+print(clf.best_score_)
+print(clf.best_params_)
+results = pd.DataFrame(clf.cv_results_)
+f_name = ts.replace('/', '_')
+results.to_csv(BASE_PATH + f'LogisticRegression/{f_name}results.csv')
