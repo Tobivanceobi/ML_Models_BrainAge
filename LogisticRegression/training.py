@@ -33,30 +33,39 @@ for ts in training_sets:
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)
 
-        model = LogisticRegression(max_iter=300, n_jobs=-2)
+        model = LogisticRegression(n_jobs=-2)
 
         # Define the parameter search space for Logistic Regression
         parameter_space = [
             {
+                "max_iter": [200],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['liblinear']),
+                "tol": [0.005],
                 "penalty": Categorical(['l1', 'l2']),
                 "fit_intercept": Categorical([True, False]),
             },
             {
+                "max_iter": [200],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
+                "tol": [0.005],
                 "penalty": Categorical(['l2', 'none']),
                 "fit_intercept": Categorical([True, False]),
             },
             {
+                "max_iter": [200],
+                "C": Integer(1, 1000),
                 "solver": Categorical(['saga']),
+                "tol": [0.005],
                 "penalty": Categorical(['l1', 'l2', 'none']),
                 "fit_intercept": Categorical([True, False]),
             },
             {
+                "max_iter": [200],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['saga']),
+                "tol": [0.005],
                 "penalty": Categorical(['elasticnet']),
                 "fit_intercept": Categorical([True, False]),
                 "l1_ratio": Real(0, 1, prior='uniform'),
@@ -66,7 +75,7 @@ for ts in training_sets:
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,
                             cv=skf_vals,
-                            n_iter=35,
+                            n_iter=50,
                             scoring='neg_mean_absolute_error',
                             verbose=4)
 
