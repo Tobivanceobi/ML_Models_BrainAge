@@ -13,7 +13,8 @@ from helper import load_object
 import pandas as pd
 from skopt import BayesSearchCV
 
-
+pid = int(sys.argv[1])
+print('Process ID: ', pid)
 training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
@@ -38,7 +39,7 @@ for ts in training_sets:
         # Define the parameter search space for Logistic Regression
         parameter_space = [
             {
-                "max_iter": [200],
+                "max_iter": [500],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['liblinear']),
                 "tol": [0.005],
@@ -46,7 +47,7 @@ for ts in training_sets:
                 "fit_intercept": Categorical([True, False]),
             },
             {
-                "max_iter": [200],
+                "max_iter": [500],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
                 "tol": [0.005],
@@ -54,7 +55,7 @@ for ts in training_sets:
                 "fit_intercept": Categorical([True, False]),
             },
             {
-                "max_iter": [200],
+                "max_iter": [500],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['saga']),
                 "tol": [0.005],
@@ -62,7 +63,7 @@ for ts in training_sets:
                 "fit_intercept": Categorical([True, False]),
             },
             {
-                "max_iter": [200],
+                "max_iter": [500],
                 "C": Integer(1, 1000),
                 "solver": Categorical(['saga']),
                 "tol": [0.005],
@@ -73,7 +74,7 @@ for ts in training_sets:
         ]
 
         clf = BayesSearchCV(estimator=model,
-                            search_spaces=parameter_space,
+                            search_spaces=parameter_space[pid],
                             cv=skf_vals,
                             n_iter=50,
                             scoring='neg_mean_absolute_error',
