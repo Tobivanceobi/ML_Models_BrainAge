@@ -42,41 +42,14 @@ x = scaler.fit_transform(x)
 model = LogisticRegression(n_jobs=-2)
 
 # Define the parameter search space for Logistic Regression
-parameter_space = [
-    {
-        "max_iter": [500],
-        "C": Integer(1, 1000),
-        "solver": Categorical(['liblinear']),
-        "tol": [0.005],
-        "penalty": Categorical(['l1', 'l2']),
-        "fit_intercept": Categorical([True, False]),
-    },
-    {
-        "max_iter": [500],
-        "C": Integer(1, 1000),
-        "solver": Categorical(['lbfgs', 'newton-cg', 'sag']),
-        "tol": [0.005],
-        "penalty": Categorical(['l2', 'none']),
-        "fit_intercept": Categorical([True, False]),
-    },
-    {
-        "max_iter": [500],
-        "C": Integer(1, 1000),
-        "solver": Categorical(['saga']),
-        "tol": [0.005],
-        "penalty": Categorical(['l1', 'l2', 'none']),
-        "fit_intercept": Categorical([True, False]),
-    },
-    {
-        "max_iter": [500],
-        "C": Integer(1, 1000),
-        "solver": Categorical(['saga']),
-        "tol": [0.005],
-        "penalty": Categorical(['elasticnet']),
-        "fit_intercept": Categorical([True, False]),
-        "l1_ratio": Real(0, 1, prior='uniform'),
-    },
-]
+parameter_space = {
+    "max_iter": [500],
+    "C": Integer(1, 1000),
+    "solver": Categorical(['lbfgs', 'newton-cg', 'sag', 'saga', 'liblinear']),
+    "tol": [0.005],
+    "penalty": Categorical(['l2', 'none']),
+    "fit_intercept": Categorical([True, False]),
+}
 
 clf = BayesSearchCV(estimator=model,
                     search_spaces=parameter_space,
