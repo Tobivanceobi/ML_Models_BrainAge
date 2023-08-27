@@ -60,7 +60,7 @@ for ts in training_sets:
             knn_regressor = KNeighborsRegressor()
 
             # Create a Bagging KNN Regressor
-            model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=30)
+            model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=-2)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)
@@ -81,7 +81,7 @@ for ts in training_sets:
         x_test_df = pd.DataFrame(x_test, columns=x_names)
 
         # Initialize the shap explainer
-        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=30)
+        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=-2)
 
         # Compute Shap values for all instances in X_test
         shap_values = explainer.shap_values(x_test_df)
