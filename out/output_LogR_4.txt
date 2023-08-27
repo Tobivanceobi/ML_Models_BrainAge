@@ -13,3 +13,27 @@ no change     /home/modelrep/sadiya/.bashrc
 No action taken.
 Process ID:  4
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=778, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.321 total time= 1.3min
+[CV 2/3] END C=778, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.624 total time= 1.3min
+[CV 3/3] END C=778, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.918 total time=  58.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=227, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.595 total time= 2.0min
+[CV 2/3] END C=227, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-27.439 total time= 1.8min
+[CV 3/3] END C=227, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.445 total time= 1.8min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=732, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.837 total time= 2.2min
+[CV 2/3] END C=732, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-27.218 total time= 1.8min
+[CV 3/3] END C=732, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.475 total time= 1.5min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=495, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-27.413 total time= 4.2min
+[CV 2/3] END C=495, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.842 total time= 3.9min
+[CV 3/3] END C=495, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.183 total time= 4.2min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=11, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-26.141 total time= 2.4min
+[CV 2/3] END C=11, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.578 total time= 2.8min
+[CV 3/3] END C=11, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.612 total time= 2.5min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=651, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-27.462 total time= 4.3min
+[CV 2/3] END C=651, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.787 total time= 3.9min
+[CV 3/3] END C=651, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.257 total time= 4.2min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits

@@ -11,3 +11,394 @@ no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontr
 no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
+Process ID:  0
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=39, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.027 total time=  38.1s
+[CV 2/3] END C=39, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.567 total time=  36.5s
+[CV 3/3] END C=39, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.765 total time=  37.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=154, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.826 total time=  26.1s
+[CV 2/3] END C=154, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.714 total time=  25.5s
+[CV 3/3] END C=154, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.101 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=545, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.799 total time=  38.5s
+[CV 2/3] END C=545, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.368 total time=  34.6s
+[CV 3/3] END C=545, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.516 total time=  28.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=103, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.582 total time=  29.2s
+[CV 2/3] END C=103, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.698 total time=  37.1s
+[CV 3/3] END C=103, fit_intercept=False, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.016 total time=  32.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=961, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.666 total time=  25.8s
+[CV 2/3] END C=961, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.730 total time=  24.9s
+[CV 3/3] END C=961, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.787 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=350, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.084 total time=  26.2s
+[CV 2/3] END C=350, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.962 total time=  25.1s
+[CV 3/3] END C=350, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.049 total time=  26.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=773, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.389 total time= 1.9min
+[CV 2/3] END C=773, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.253 total time= 1.8min
+[CV 3/3] END C=773, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.497 total time= 2.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=47, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.913 total time=  40.5s
+[CV 2/3] END C=47, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.858 total time=  39.0s
+[CV 3/3] END C=47, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.025 total time=  38.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=625, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.136 total time=  41.5s
+[CV 2/3] END C=625, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-27.458 total time=  41.2s
+[CV 3/3] END C=625, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.060 total time=  41.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=269, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.910 total time=  37.1s
+[CV 2/3] END C=269, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.629 total time=  33.9s
+[CV 3/3] END C=269, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.090 total time=  37.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=92, fit_intercept=False, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-25.204 total time= 3.2min
+[CV 2/3] END C=92, fit_intercept=False, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-25.338 total time= 3.0min
+[CV 3/3] END C=92, fit_intercept=False, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-24.306 total time= 3.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=2, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-26.016 total time= 1.7min
+[CV 2/3] END C=2, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.365 total time= 1.6min
+[CV 3/3] END C=2, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-23.970 total time= 1.6min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.310 total time= 1.4min
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.158 total time= 1.3min
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-23.956 total time= 1.4min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.962 total time=  18.2s
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.586 total time=  18.7s
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.041 total time=  18.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-25.351 total time= 3.3min
+[CV 2/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-25.218 total time= 3.0min
+[CV 3/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-24.224 total time= 3.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.962 total time=  18.3s
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.586 total time=  18.9s
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.041 total time=  18.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.962 total time=  18.0s
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.586 total time=  19.0s
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.041 total time=  18.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.383 total time= 1.9min
+[CV 2/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.207 total time= 1.8min
+[CV 3/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.361 total time= 2.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.962 total time=  18.0s
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.586 total time=  18.8s
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.041 total time=  17.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.962 total time=  17.9s
+[CV 2/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.586 total time=  19.0s
+[CV 3/3] END C=1, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.041 total time=  18.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=28, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.821 total time=  25.4s
+[CV 2/3] END C=28, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.531 total time=  25.0s
+[CV 3/3] END C=28, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.153 total time=  26.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.446 total time= 1.9min
+[CV 2/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.210 total time= 1.8min
+[CV 3/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.355 total time= 2.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.2s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.9s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  25.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  25.5s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.6s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  25.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.878 total time=  25.5s
+[CV 2/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.785 total time=  24.5s
+[CV 3/3] END C=1000, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.984 total time=  26.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  25.5s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.5s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  25.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.1s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.9s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=921, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-25.503 total time= 1.9min
+[CV 2/3] END C=921, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.207 total time= 1.8min
+[CV 3/3] END C=921, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.355 total time= 2.1min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  25.8s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.2s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.0s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.0s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.2s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.2s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.0s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  25.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.2s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.2s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.9s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.2s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.5s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.2s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.307 total time=  40.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-27.185 total time=  40.0s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-25.071 total time=  40.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  27.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  25.9s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  24.7s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.1s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.3s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.0s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.4s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.0s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.6s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.0s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.0s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.3s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.4s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.0s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.3s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.4s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.1s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-23.457 total time=  26.2s
+[CV 2/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.185 total time=  25.3s
+[CV 3/3] END C=1000, fit_intercept=False, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.434 total time=  26.7s
+{'mean_fit_time': array([ 37.4904267 ,  26.0187846 ,  33.84301885,  32.84633501,
+        25.68901626,  26.04644505, 116.40254728,  39.40311694,
+        41.20602409,  36.14550217, 184.98428075,  96.9582034 ,
+        83.63494237,  18.25966422, 185.44586531,  18.4178311 ,
+        18.39943385, 115.05593959,  18.12496789,  18.31812636,
+        25.56937448, 115.03669914,  25.59874058,  25.29280114,
+        25.33980227,  25.29688096,  25.92971381,  25.81891799,
+       116.48676578,  25.78770963,  25.7601761 ,  25.98069684,
+        25.68779564,  25.93012389,  26.0148174 ,  25.88321487,
+        26.10147047,  25.97869722,  40.27802992,  26.09322079,
+        25.74505067,  25.86777194,  25.81669958,  26.09392349,
+        26.08128659,  25.86954991,  26.19246872,  25.88966386,
+        26.07125386,  26.06031577]), 'std_fit_time': array([0.68636888, 0.43880328, 4.16157608, 3.27558912, 0.64154121,
+       0.71456538, 4.95522988, 0.80768757, 0.19284342, 1.63364231,
+       6.8486538 , 2.63093063, 2.24873878, 0.27824779, 7.18176496,
+       0.36752969, 0.44579706, 5.21600912, 0.48557519, 0.46030546,
+       0.56689047, 4.94151893, 0.54873898, 0.54226695, 0.63003145,
+       0.56292946, 0.60393996, 0.69293725, 5.3697287 , 0.48525897,
+       0.59626119, 0.56050918, 0.50595102, 0.58039367, 0.65615085,
+       0.6823494 , 0.47840739, 0.59063709, 0.23049804, 0.75562692,
+       0.82284124, 0.43738353, 0.55238426, 0.83207671, 0.80302317,
+       0.58971246, 0.60474608, 0.48428585, 0.71833097, 0.55932988]), 'mean_score_time': array([0.00935936, 0.01242709, 0.02429064, 0.01835982, 0.01435995,
+       0.01209458, 0.01471138, 0.00898576, 0.00607149, 0.01762072,
+       0.01082643, 0.01107081, 0.00944686, 0.03911813, 0.01267966,
+       0.02322149, 0.0203054 , 0.01499128, 0.01455275, 0.01586644,
+       0.00810305, 0.01518099, 0.01794394, 0.01290115, 0.01815899,
+       0.0141693 , 0.02987218, 0.01020813, 0.01008662, 0.01425815,
+       0.01097751, 0.00849851, 0.0111022 , 0.02224851, 0.02216434,
+       0.01085281, 0.01220377, 0.01013605, 0.00698948, 0.02510476,
+       0.01985621, 0.02178288, 0.014642  , 0.01050727, 0.02414592,
+       0.01276461, 0.00925748, 0.00908947, 0.02164539, 0.01663756]), 'std_score_time': array([0.00482425, 0.00201104, 0.00329361, 0.00505832, 0.0011543 ,
+       0.0044987 , 0.00494037, 0.00349571, 0.00029154, 0.01022737,
+       0.00308461, 0.00450464, 0.00246843, 0.00914928, 0.00380278,
+       0.00862873, 0.00325011, 0.00464095, 0.00253955, 0.00417691,
+       0.00051547, 0.00363883, 0.00739473, 0.00355048, 0.00327179,
+       0.00091075, 0.01544873, 0.00267829, 0.00165457, 0.00374022,
+       0.00247501, 0.00176246, 0.00162408, 0.00235085, 0.0145812 ,
+       0.00604602, 0.00486293, 0.00354242, 0.00071562, 0.00713875,
+       0.00781646, 0.00653949, 0.00257864, 0.0031342 , 0.00727799,
+       0.00343807, 0.00273267, 0.00273544, 0.00836059, 0.00086912]), 'param_C': masked_array(data=[39, 154, 545, 103, 961, 350, 773, 47, 625, 269, 92, 2,
+                   1, 1, 1000, 1, 1, 1000, 1, 1, 28, 1000, 1000, 1000,
+                   1000, 1000, 1000, 1000, 921, 1000, 1000, 1000, 1000,
+                   1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,
+                   1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_fit_intercept': masked_array(data=[False, True, False, False, False, False, False, False,
+                   True, True, False, True, False, False, True, False,
+                   False, True, False, False, False, True, False, False,
+                   True, False, False, False, True, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_max_iter': masked_array(data=[500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500,
+                   500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500,
+                   500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500,
+                   500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500,
+                   500, 500, 500, 500, 500, 500],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2', 'l2', 'l2'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_solver': masked_array(data=['liblinear', 'lbfgs', 'newton-cg', 'newton-cg',
+                   'lbfgs', 'lbfgs', 'sag', 'liblinear', 'liblinear',
+                   'newton-cg', 'saga', 'sag', 'sag', 'lbfgs', 'saga',
+                   'lbfgs', 'lbfgs', 'sag', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'sag', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'lbfgs', 'sag', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'liblinear', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs', 'lbfgs',
+                   'lbfgs'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_tol': masked_array(data=[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005,
+                   0.005, 0.005],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('C', 39), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'liblinear'), ('tol', 0.005)]), OrderedDict([('C', 154), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 545), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'newton-cg'), ('tol', 0.005)]), OrderedDict([('C', 103), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'newton-cg'), ('tol', 0.005)]), OrderedDict([('C', 961), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 350), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 773), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 47), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'liblinear'), ('tol', 0.005)]), OrderedDict([('C', 625), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'liblinear'), ('tol', 0.005)]), OrderedDict([('C', 269), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'newton-cg'), ('tol', 0.005)]), OrderedDict([('C', 92), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'saga'), ('tol', 0.005)]), OrderedDict([('C', 2), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'saga'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 28), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 921), ('fit_intercept', True), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'sag'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'liblinear'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)]), OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)])], 'split0_test_score': array([-26.02717391, -24.82608696, -24.79891304, -24.58152174,
+       -23.66576087, -24.08423913, -25.38858696, -25.91304348,
+       -26.13586957, -24.91032609, -25.20380435, -26.01630435,
+       -25.30978261, -24.96195652, -25.35054348, -24.96195652,
+       -24.96195652, -25.38315217, -24.96195652, -24.96195652,
+       -24.82065217, -25.44565217, -23.45652174, -23.45652174,
+       -23.87771739, -23.45652174, -23.45652174, -23.45652174,
+       -25.50271739, -23.45652174, -23.45652174, -23.45652174,
+       -23.45652174, -23.45652174, -23.45652174, -23.45652174,
+       -23.45652174, -23.45652174, -26.30706522, -23.45652174,
+       -23.45652174, -23.45652174, -23.45652174, -23.45652174,
+       -23.45652174, -23.45652174, -23.45652174, -23.45652174,
+       -23.45652174, -23.45652174]), 'split1_test_score': array([-26.56675749, -25.71389646, -25.36784741, -25.69754768,
+       -25.73024523, -25.96185286, -24.25340599, -26.85831063,
+       -27.45776567, -25.62942779, -25.33787466, -24.36512262,
+       -25.15803815, -24.58583106, -25.21798365, -24.58583106,
+       -24.58583106, -24.20708447, -24.58583106, -24.58583106,
+       -25.53133515, -24.20980926, -25.1852861 , -25.1852861 ,
+       -25.78474114, -25.1852861 , -25.1852861 , -25.1852861 ,
+       -24.20708447, -25.1852861 , -25.1852861 , -25.1852861 ,
+       -25.1852861 , -25.1852861 , -25.1852861 , -25.1852861 ,
+       -25.1852861 , -25.1852861 , -27.1852861 , -25.1852861 ,
+       -25.1852861 , -25.1852861 , -25.1852861 , -25.1852861 ,
+       -25.1852861 , -25.1852861 , -25.1852861 , -25.1852861 ,
+       -25.1852861 , -25.1852861 ]), 'split2_test_score': array([-24.76502732, -24.1010929 , -24.51639344, -24.01639344,
+       -24.78688525, -24.04918033, -24.49726776, -25.02459016,
+       -25.06010929, -24.09016393, -24.30601093, -23.96994536,
+       -23.95628415, -24.04098361, -24.22404372, -24.04098361,
+       -24.04098361, -24.36065574, -24.04098361, -24.04098361,
+       -24.15300546, -24.35519126, -24.43442623, -24.43442623,
+       -23.98360656, -24.43442623, -24.43442623, -24.43442623,
+       -24.35519126, -24.43442623, -24.43442623, -24.43442623,
+       -24.43442623, -24.43442623, -24.43442623, -24.43442623,
+       -24.43442623, -24.43442623, -25.07103825, -24.43442623,
+       -24.43442623, -24.43442623, -24.43442623, -24.43442623,
+       -24.43442623, -24.43442623, -24.43442623, -24.43442623,
+       -24.43442623, -24.43442623]), 'mean_test_score': array([-25.78631958, -24.88035877, -24.89438463, -24.76515429,
+       -24.72763045, -24.69842411, -24.7130869 , -25.93198142,
+       -26.21791484, -24.87663927, -24.94922998, -24.78379077,
+       -24.80803497, -24.5295904 , -24.93085695, -24.5295904 ,
+       -24.5295904 , -24.65029746, -24.5295904 , -24.5295904 ,
+       -24.8349976 , -24.67021757, -24.35874469, -24.35874469,
+       -24.54868836, -24.35874469, -24.35874469, -24.35874469,
+       -24.68833104, -24.35874469, -24.35874469, -24.35874469,
+       -24.35874469, -24.35874469, -24.35874469, -24.35874469,
+       -24.35874469, -24.35874469, -26.18779652, -24.35874469,
+       -24.35874469, -24.35874469, -24.35874469, -24.35874469,
+       -24.35874469, -24.35874469, -24.35874469, -24.35874469,
+       -24.35874469, -24.35874469]), 'std_test_score': array([0.75501259, 0.65954171, 0.35409941, 0.69850344, 0.84386305,
+       0.89349368, 0.48791555, 0.748733  , 0.98055685, 0.62885314,
+       0.45810608, 0.8863252 , 0.6054564 , 0.37808292, 0.50271379,
+       0.37808292, 0.37808292, 0.52198535, 0.37808292, 0.37808292,
+       0.56279216, 0.55151797, 0.70779108, 0.70779108, 0.8750897 ,
+       0.70779108, 0.70779108, 0.70779108, 0.57902375, 0.70779108,
+       0.70779108, 0.70779108, 0.70779108, 0.70779108, 0.70779108,
+       0.70779108, 0.70779108, 0.70779108, 0.86724843, 0.70779108,
+       0.70779108, 0.70779108, 0.70779108, 0.70779108, 0.70779108,
+       0.70779108, 0.70779108, 0.70779108, 0.70779108, 0.70779108]), 'rank_test_score': array([47, 43, 44, 38, 37, 35, 36, 48, 50, 42, 46, 39, 40, 26, 45, 26, 26,
+       32, 26, 26, 41, 33,  1,  1, 31,  1,  1,  1, 34,  1,  1,  1,  1,  1,
+        1,  1,  1,  1, 49,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1],
+      dtype=int32)}
+-24.358744690726954
+OrderedDict([('C', 1000), ('fit_intercept', False), ('max_iter', 500), ('penalty', 'l2'), ('solver', 'lbfgs'), ('tol', 0.005)])

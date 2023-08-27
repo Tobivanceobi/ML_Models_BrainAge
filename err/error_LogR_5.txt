@@ -1,0 +1,12 @@
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:1222: UserWarning: 'n_jobs' > 1 does not have any effect when 'solver' is set to 'liblinear'. Got 'n_jobs' = 63.
+  warnings.warn(

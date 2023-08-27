@@ -11,3 +11,23 @@ no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontr
 no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
+Process ID:  3
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=728, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.329 total time= 8.1min
+[CV 2/3] END C=728, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.199 total time= 8.3min
+[CV 3/3] END C=728, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.587 total time= 8.7min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=303, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.280 total time= 2.2min
+[CV 2/3] END C=303, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-24.104 total time= 2.0min
+[CV 3/3] END C=303, fit_intercept=True, max_iter=500, penalty=l2, solver=lbfgs, tol=0.005;, score=-25.617 total time= 2.1min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=512, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-24.603 total time=61.2min
+[CV 2/3] END C=512, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-25.757 total time=54.3min
+[CV 3/3] END C=512, fit_intercept=True, max_iter=500, penalty=l2, solver=saga, tol=0.005;, score=-23.975 total time=52.0min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=990, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.391 total time= 4.2min
+[CV 2/3] END C=990, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.896 total time= 3.6min
+[CV 3/3] END C=990, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.440 total time= 3.7min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=634, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.519 total time= 4.1min
+[CV 2/3] END C=634, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.542 total time= 3.7min
