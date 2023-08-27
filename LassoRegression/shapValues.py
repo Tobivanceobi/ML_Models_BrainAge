@@ -81,7 +81,7 @@ for ts in training_sets:
 
         shap_dict = dict(
             shap_values=shap_values,
-            fold=best_fold
+            fold=skf_vals[best_fold]
         )
 
         save_object(shap_dict, BASE_PATH + f'LassoRegression/shap_values')
