@@ -31,3 +31,17 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 [CV 1/3] END C=634, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.519 total time= 4.1min
 [CV 2/3] END C=634, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-25.542 total time= 3.7min
+[CV 3/3] END C=634, fit_intercept=True, max_iter=500, penalty=l2, solver=newton-cg, tol=0.005;, score=-24.541 total time= 3.1min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=724, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.283 total time= 8.2min
+[CV 2/3] END C=724, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.253 total time= 8.2min
+[CV 3/3] END C=724, fit_intercept=False, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.301 total time= 8.6min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=803, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.353 total time= 8.3min
+[CV 2/3] END C=803, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-26.199 total time= 8.3min
+[CV 3/3] END C=803, fit_intercept=True, max_iter=500, penalty=l2, solver=liblinear, tol=0.005;, score=-24.552 total time= 8.4min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END C=896, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.514 total time=45.9min
+[CV 2/3] END C=896, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.330 total time=36.6min
+[CV 3/3] END C=896, fit_intercept=True, max_iter=500, penalty=l2, solver=sag, tol=0.005;, score=-24.243 total time=38.8min
+Fitting 3 folds for each of 1 candidates, totalling 3 fits

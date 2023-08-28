@@ -36,16 +36,16 @@ Traceback (most recent call last):
     _check_call(_LIB.XGBoosterUpdateOneIter(self.handle,
   File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/core.py", line 279, in _check_call
     raise XGBoostError(py_str(_LIB.XGBGetLastError()))
-xgboost.core.XGBoostError: [11:26:01] ../src/gbm/gbtree.cc:625: Check failed: common::AllVisibleGPUs() >= 1 (0 vs. 1) : No visible GPU is found for XGBoost.
+xgboost.core.XGBoostError: [15:47:51] ../src/gbm/gbtree.cc:625: Check failed: common::AllVisibleGPUs() >= 1 (0 vs. 1) : No visible GPU is found for XGBoost.
 Stack trace:
-  [bt] (0) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2a7e13) [0x1553129d7e13]
-  [bt] (1) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab120) [0x1553129db120]
-  [bt] (2) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab52a) [0x1553129db52a]
-  [bt] (3) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2e03c7) [0x155312a103c7]
-  [bt] (4) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x15531286c5a0]
-  [bt] (5) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0xa052) [0x1553b19e0052]
-  [bt] (6) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0x8925) [0x1553b19de925]
-  [bt] (7) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x1553b19df06e]
-  [bt] (8) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/_ctypes.cpython-39-x86_64-linux-gnu.so(+0x91e0) [0x1553b19f01e0]
+  [bt] (0) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2a7e13) [0x152b4fc40e13]
+  [bt] (1) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab120) [0x152b4fc44120]
+  [bt] (2) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2ab52a) [0x152b4fc4452a]
+  [bt] (3) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(+0x2e03c7) [0x152b4fc793c7]
+  [bt] (4) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/xgboost/lib/libxgboost.so(XGBoosterUpdateOneIter+0x70) [0x152b4fad55a0]
+  [bt] (5) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0xa052) [0x152beec49052]
+  [bt] (6) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(+0x8925) [0x152beec47925]
+  [bt] (7) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/../../libffi.so.8(ffi_call+0xde) [0x152beec4806e]
+  [bt] (8) /home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/lib-dynload/_ctypes.cpython-39-x86_64-linux-gnu.so(+0x91e0) [0x152beec591e0]
 
 
