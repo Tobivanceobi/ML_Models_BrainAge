@@ -19,9 +19,6 @@ training_sets = [
     'TS2/meanEpochs/',
     'TS2/meanEpochs/onlyEC/',
     'TS2/meanEpochs/onlyEO/',
-    'TS4/meanEpochs/',
-    'TS4/meanEpochs/onlyEC/',
-    'TS4/meanEpochs/onlyEO/'
 ]
 ts = training_sets[pid]
 set_path = SET_PATH + ts

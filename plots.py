@@ -1,15 +1,18 @@
 import numpy as np
 import pandas as pd
-import shap
+import seaborn as sns
 from matplotlib import pyplot as plt
+from scipy.cluster import hierarchy
+from scipy.stats import spearmanr
 from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.preprocessing import LabelEncoder
 
 from config import freq_bands
-from helper import load_object, group_freq_bands_shap
+from helper import load_object, group_freq_bands_shap, group_methods_shap
 
 MODEL_LIST = [
     'BaggedKNN', 'EleasticNet',
-    'KNN', 'LassoRegression', 'LogisticRegression',
+    'KNN', 'LassoRegression',
     'MLP', 'RandomForrest', 'SVRegression'
 ]
 
@@ -44,19 +47,54 @@ for m in MODEL_LIST:
     # Group features for aggregation
     n_labels_fb, feature_groups_fb = group_freq_bands_shap(x_names)
 
+    n_labels_m, feature_groups_m = group_methods_shap(x_names)
+
     # Calculate aggregated SHAP values for each feature group
-    grouped_shap_values = np.zeros((len(x_test), len(feature_groups_fb)))
-    for i, group in enumerate(feature_groups_fb):
+    grouped_shap_values = np.zeros((len(x_test), len(n_labels_m)))
+    for i, group in enumerate(feature_groups_m):
         grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
 
     vals = np.abs(grouped_shap_values).mean(0)
-    vals, n_labels = zip(*sorted(zip(vals, n_labels_fb), reverse=True))
+    vals, n_labels = zip(*sorted(zip(vals, n_labels_m), reverse=True))
+    print(n_labels)
 
-    result_df['feature_rank'].append(n_labels)
+    result_df['feature_rank'].append(list(n_labels))
     result_df['model'].append(m)
     result_df['shap_vals'].append(vals)
 
-for m in range(len(result_df['model'])):
+le = LabelEncoder()
+le.fit(result_df['feature_rank'][0])
+ranks = []
+for k in result_df['feature_rank']:
+    ranks.append(le.transform(k))
+print(ranks)
 
-    rank_order = sorted(result_df['feature_rank'][0], key=lambda elem: sum(result_df['feature_rank']) / len(result_df['feature_rank']))
-    print(rank_order)
+correlation_matrix = []
+for x in ranks:
+    r = []
+    for l in ranks:
+        coef, p = spearmanr(x, l)
+        # coef, p = kendalltau(x, l)
+        r.append(coef)
+    correlation_matrix.append(r)
+corr_mat = np.array(correlation_matrix)
+
+# Calculate the distance matrix from the correlation matrix
+distance_matrix = np.sqrt(2 * (1 - corr_mat))
+
+# Perform hierarchical clustering
+linkage_matrix = hierarchy.linkage(distance_matrix, method='complete')
+
+# Reorder the rows and columns based on clustering
+dendrogram = hierarchy.dendrogram(linkage_matrix, no_plot=True)
+reordered_indices = dendrogram['leaves']
+
+sorted_corr_mat = corr_mat[reordered_indices][:, reordered_indices]
+
+print(sorted_corr_mat)
+plt.figure(figsize=(8, 6))
+sns.heatmap(sorted_corr_mat, annot=True, cmap='coolwarm', xticklabels=result_df['model'],
+            yticklabels=result_df['model'])
+plt.title('Correlation between Feature Group SHAP Values')
+plt.savefig('method_groups.png')
+plt.show()

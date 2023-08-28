@@ -3,7 +3,7 @@ import pickle
 
 import numpy as np
 
-from config import freq_bands
+from config import freq_bands, methods
 
 
 def load_object(fname):
@@ -57,6 +57,20 @@ def group_freq_bands_shap(x_names):
             feature_groups_fb.append(feature_group_idx)
             n_labels_fb.append(fb)
     return n_labels_fb, feature_groups_fb
+
+
+def group_methods_shap(x_names):
+    fg = []
+    n_labels = []
+    for m in methods:
+        feature_group_idx = []
+        for i in range(len(x_names)):
+            if m in x_names[i]:
+                feature_group_idx.append(i)
+        if len(feature_group_idx) > 0:
+            fg.append(feature_group_idx)
+            n_labels.append(m)
+    return n_labels, fg
 
 
 def equalize_classes(targets, threshold=3):

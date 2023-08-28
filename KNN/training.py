@@ -11,7 +11,7 @@ import pandas as pd
 from skopt import BayesSearchCV
 
 
-training_sets = ['TS2/', 'TS4/']
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
@@ -36,7 +36,7 @@ for ts in training_sets:
             'p': [1, 2]
         }
 
-        model = KNeighborsRegressor(n_jobs=30)
+        model = KNeighborsRegressor(n_jobs=-2)
 
         clf = BayesSearchCV(estimator=model,
                             search_spaces=parameter_space,

@@ -10,8 +10,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
 
-training_sets = ['TS4/']
-set_vary = ['meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+training_sets = ['TS2/']
+set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
         set_path = SET_PATH + ts + sv
