@@ -37,7 +37,7 @@ for ts in training_sets:
             'min_samples_leaf': [2, 9],
             'min_weight_fraction_leaf': [0, 0.5],
             'min_impurity_decrease': [0, 0.9],
-            'n_estimators': [300, 1000]
+            'n_estimators': [30, 300]
         }
 
         model = RandomForestRegressor(n_jobs=-2)

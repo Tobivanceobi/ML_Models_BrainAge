@@ -8,7 +8,7 @@ from skopt import BayesSearchCV
 from sklearn.base import BaseEstimator, RegressorMixin
 from sklearn.model_selection import StratifiedGroupKFold, GridSearchCV
 from sklearn.neural_network import MLPRegressor
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from config import SET_PATH, BASE_PATH
 from helper import load_object
 
@@ -76,7 +76,7 @@ for ts in training_sets:
     for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
         skf_vals.append((train_index, test_index))
 
-    scaler = MinMaxScaler()
+    scaler = StandardScaler()
     x = scaler.fit_transform(x)
 
     parameter_space = {
