@@ -1,5 +1,7 @@
 import sys
 
+from skopt.space import Real
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 from sklearn.linear_model import Lasso
@@ -33,7 +35,7 @@ for ts in training_sets:
         model = Lasso(max_iter=5000, random_state=42)
 
         parameter_space = {
-            'alpha': (0.01, 10.0),
+            'alpha': Real(0.0001, 0.1),
         }
 
         clf = BayesSearchCV(estimator=model,
