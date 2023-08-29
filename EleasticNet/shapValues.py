@@ -6,7 +6,7 @@ import shap
 from sklearn.linear_model import ElasticNet
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 from config import SET_PATH, BASE_PATH
 from helper import load_object, save_object
