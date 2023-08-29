@@ -4,14 +4,14 @@ sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from config import SET_PATH, BASE_PATH
 from helper import load_object
 import pandas as pd
 from skopt import BayesSearchCV
 
 
-training_sets = ['TS2/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     for sv in set_vary:
@@ -27,12 +27,12 @@ for ts in training_sets:
         for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
             skf_vals.append((train_index, test_index))
 
-        scaler = MinMaxScaler()
+        scaler = StandardScaler()
         x = scaler.fit_transform(x)
 
         parameter_space = {
             'n_neighbors': [3, 50],
-            'leaf_size': [3, 300],
+            'leaf_size': [3, 100],
             'p': [1, 2]
         }
 

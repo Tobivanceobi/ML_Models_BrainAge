@@ -9,7 +9,7 @@ from sklearn.linear_model import Lasso, ElasticNet
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 from config import SET_PATH, BASE_PATH
 from helper import load_object, save_object
@@ -27,7 +27,7 @@ for ts in training_sets:
         y = data['y']
         x_names = data['x_names']
 
-        scaler = MinMaxScaler()
+        scaler = StandardScaler()
         x = scaler.fit_transform(x)
 
         y_skf = [int(age) for age in data['y']]
@@ -50,7 +50,7 @@ for ts in training_sets:
             if 'param_' in col and 'estimator__' in col:
                 key_n = col.replace('param_', '').replace('estimator__', '')
                 base_model_param[key_n] = best_params[col]
-
+        model_param['n_estimators'] = 500
         best_fold = 0
         best_score = 5
         best_model = KNeighborsRegressor()
@@ -92,7 +92,8 @@ for ts in training_sets:
 
         shap_dict = dict(
             shap_values=shap_values,
-            fold=skf_vals[best_fold]
+            fold=skf_vals[best_fold],
+            best_score=best_score
         )
 
         save_object(shap_dict, BASE_PATH + f'BaggedKNN/shap_values')

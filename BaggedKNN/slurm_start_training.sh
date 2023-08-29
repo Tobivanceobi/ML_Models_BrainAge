@@ -17,6 +17,6 @@
 source $HOME/miniconda/etc/profile.d/conda.sh
 conda init bash
 conda activate pytorch
-python3 $HOME/tobias_ettling/ML_Models_BrainAge/BaggedKNN/training.py
+python3 $HOME/tobias_ettling/ML_Models_BrainAge/BaggedKNN/training.py $SLURM_ARRAY_TASK_ID
 
 conda deactivate
