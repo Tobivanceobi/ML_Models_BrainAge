@@ -44,6 +44,8 @@ for ts in training_sets:
                 key_n = col.replace('param_', '')
                 model_param[key_n] = best_params[col]
 
+        model_param['n_estimators'] = 4000
+
         best_fold = 0
         best_score = 5
         best_model = RandomForestRegressor()
@@ -53,7 +55,7 @@ for ts in training_sets:
             y_train = [y[i] for i in skf_vals[fold][0]]
             y_test = [y[i] for i in skf_vals[fold][1]]
 
-            model = RandomForestRegressor(**model_param, n_estimators=4000, n_jobs=-2)
+            model = RandomForestRegressor(**model_param, n_jobs=-2)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)

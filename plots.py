@@ -11,7 +11,7 @@ from config import freq_bands
 from helper import load_object, group_freq_bands_shap, group_methods_shap
 
 MODEL_LIST = [
-    'BaggedKNN', 'EleasticNet',
+    'EleasticNet',
     'KNN', 'LassoRegression',
     'MLP', 'RandomForrest', 'SVRegression'
 ]
