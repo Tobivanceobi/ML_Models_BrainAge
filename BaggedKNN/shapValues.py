@@ -50,7 +50,6 @@ for ts in training_sets:
             if 'param_' in col and 'estimator__' in col:
                 key_n = col.replace('param_', '').replace('estimator__', '')
                 base_model_param[key_n] = best_params[col]
-        model_param['n_estimators'] = 500
         best_fold = 0
         best_score = 5
         best_model = KNeighborsRegressor()
