@@ -1,6 +1,7 @@
 import sys
 
 from sklearn.kernel_ridge import KernelRidge
+from skopt.space import Real, Categorical, Integer
 
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
@@ -37,9 +38,9 @@ for ts in training_sets:
 
     # Define the parameter search space
     parameter_space = {
-        'alpha': (1e-6, 10, 'log-uniform'),
-        'kernel': ['linear', 'rbf'],
-        'degree': [3, 8]
+        'alpha': Real(1e-6, 10, 'log-uniform'),
+        'kernel': Categorical(['linear', 'rbf']),
+        'degree': Integer(3, 8)
     }
 
     clf = BayesSearchCV(estimator=model,
