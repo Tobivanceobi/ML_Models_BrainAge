@@ -34,7 +34,7 @@ for ts in training_sets:
             skf_vals.append((train_index, test_index))
 
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        res_df = pd.read_csv(BASE_PATH + f'LogisticRegression/{f_name}results.csv')
+        res_df = pd.read_csv(BASE_PATH + f'KernalRige/{f_name}results.csv')
         res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
         best_params = res_df.iloc[0]
 
@@ -84,6 +84,6 @@ for ts in training_sets:
             fold=skf_vals[best_fold]
         )
 
-        save_object(shap_dict, BASE_PATH + f'LogisticRegression/shap_values')
+        save_object(shap_dict, BASE_PATH + f'KernalRige/shap_values')
 
 
