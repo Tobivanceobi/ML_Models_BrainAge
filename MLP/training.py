@@ -20,6 +20,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
                  layer1=None,
                  layer2=None,
                  num_hl=None,
+                 batch_size=None,
                  activation=None,
                  solver=None,
                  learning_rate=None,
@@ -28,6 +29,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
         self.layer1 = layer1
         self.layer2 = layer2
         self.num_hl = num_hl
+        self.batch_size = batch_size
         self.activation = activation
         self.solver = solver
         self.learning_rate = learning_rate
@@ -44,6 +46,7 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
             hidden_layer_sizes=[self.layer1, self.layer2][-1*self.num_hl:],
             max_iter=300,
             activation=self.activation,
+            batch_size=self.batch_size,
             solver=self.solver,
             learning_rate=self.learning_rate,
             learning_rate_init=self.learning_rate_init,
