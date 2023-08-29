@@ -1,0 +1,659 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+{'mean_fit_time': array([0.07219585, 0.07185817, 0.07871993, 0.08115482, 0.14516989,
+       0.06625493, 0.07245016, 0.17708858, 0.08931573, 0.10045632,
+       1.12561742, 0.15559689, 0.06594563, 0.31013544, 0.42661985,
+       0.26177573, 0.21393792, 0.14885585, 0.11216323, 0.34220457,
+       0.0797739 , 0.1050752 , 0.09121037, 0.1990846 , 0.19729288,
+       0.07813128, 0.19418661, 0.20297273, 0.22493196, 0.40544891,
+       0.21060983, 0.27031827, 0.19006673, 0.16842389, 0.15988135,
+       0.17625658, 0.16541537, 0.1302518 , 0.17080895, 0.24015625,
+       0.15653332, 0.19934432, 0.06429688, 0.19086615, 0.1668369 ,
+       0.29180654, 0.1966331 , 0.1707778 , 0.06210788, 0.20523628]), 'std_fit_time': array([0.02074163, 0.01530241, 0.01454859, 0.01728119, 0.02536311,
+       0.0243789 , 0.01834985, 0.03847317, 0.01381651, 0.02455559,
+       0.21868233, 0.04574693, 0.00731894, 0.10890847, 0.083185  ,
+       0.05057207, 0.01652762, 0.01288479, 0.02900899, 0.04140174,
+       0.00798213, 0.02414037, 0.0075324 , 0.01867603, 0.0221473 ,
+       0.01718649, 0.025382  , 0.04121227, 0.05098908, 0.03567583,
+       0.03446962, 0.01823376, 0.03459454, 0.04289538, 0.01278935,
+       0.01952985, 0.04331346, 0.02619535, 0.02704083, 0.13205369,
+       0.04963839, 0.03134938, 0.01877387, 0.05171262, 0.03978977,
+       0.02893825, 0.02810071, 0.04269875, 0.01180105, 0.01255236]), 'mean_score_time': array([0.00247041, 0.00206375, 0.00222429, 0.00232371, 0.00228484,
+       0.00189972, 0.00217557, 0.00225759, 0.00219989, 0.00246859,
+       0.00440383, 0.00212145, 0.00250753, 0.00185005, 0.00205072,
+       0.00202839, 0.00223176, 0.00180205, 0.00188112, 0.00211112,
+       0.00206383, 0.00197609, 0.00205739, 0.00252   , 0.00194271,
+       0.00207639, 0.00199278, 0.00216993, 0.00206176, 0.00201948,
+       0.00200415, 0.00210579, 0.00192229, 0.00191164, 0.00180268,
+       0.0017186 , 0.00166949, 0.0017573 , 0.00167759, 0.00165455,
+       0.00191108, 0.00211771, 0.00177169, 0.00164   , 0.00188502,
+       0.00234302, 0.00207249, 0.00187031, 0.00202322, 0.00294097]), 'std_score_time': array([7.35379793e-04, 1.04500434e-04, 6.02972271e-05, 1.44245846e-04,
+       1.94499137e-04, 7.65626863e-05, 6.29704948e-05, 3.32167026e-04,
+       2.34797396e-04, 1.29961674e-04, 3.02450899e-03, 1.18132657e-04,
+       1.90600142e-04, 7.74661878e-05, 3.56708634e-04, 1.24605182e-04,
+       1.67968817e-04, 1.20866750e-04, 1.42675542e-04, 8.52906344e-05,
+       2.38294039e-04, 3.02921936e-05, 2.31943689e-05, 6.70542532e-04,
+       2.72099102e-05, 4.17402778e-05, 2.30846429e-05, 2.21405967e-04,
+       1.23620333e-04, 2.87208626e-04, 2.76654602e-05, 2.25134675e-04,
+       1.36424927e-04, 6.40191252e-05, 1.84812798e-04, 1.28500512e-05,
+       2.75359410e-05, 1.54791058e-04, 2.98961645e-05, 4.36148908e-05,
+       2.15714084e-04, 8.00912166e-05, 7.69123210e-06, 4.05546818e-05,
+       1.57808887e-04, 3.49944784e-04, 1.16112921e-04, 1.87140445e-04,
+       1.77207833e-04, 1.08328833e-03]), 'param_alpha': masked_array(data=[0.08617837384335235, 0.05807306767198836,
+                   0.0664120173205543, 0.04767340839641144,
+                   0.027581685640383453, 0.07371317715810215,
+                   0.06399042754541656, 0.014469960339889997,
+                   0.03556725268358827, 0.044168557714655415,
+                   0.0019761363800145917, 0.017651326326880868, 0.1,
+                   0.013178497558895129, 0.013014340214487151,
+                   0.010490568205320495, 0.009547231634862813,
+                   0.022820514082847666, 0.03152439776444274,
+                   0.007612208958854387, 0.09294474139176562,
+                   0.03961665282709677, 0.05280982106939304,
+                   0.008828529733519217, 0.009083308118387695,
+                   0.07975786598329064, 0.009119081968784167,
+                   0.02026219985219827, 0.009149880907605044,
+                   0.005830431576745041, 0.009459445478108215,
+                   0.009337896759454399, 0.009296067144807008,
+                   0.009267104729765059, 0.009236209172029898,
+                   0.009356466194561104, 0.009121974982289257,
+                   0.02525748274624056, 0.009363396994962078,
+                   0.011562472245150427, 0.009206172773983378,
+                   0.009242977374838512, 0.07024854443413238,
+                   0.009394532156518257, 0.009157894527759676,
+                   0.009161636993722577, 0.009164479713485864,
+                   0.009326726405731726, 0.09671143781559322,
+                   0.009396341790417203],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('alpha', 0.08617837384335235)]), OrderedDict([('alpha', 0.05807306767198836)]), OrderedDict([('alpha', 0.0664120173205543)]), OrderedDict([('alpha', 0.04767340839641144)]), OrderedDict([('alpha', 0.027581685640383453)]), OrderedDict([('alpha', 0.07371317715810215)]), OrderedDict([('alpha', 0.06399042754541656)]), OrderedDict([('alpha', 0.014469960339889997)]), OrderedDict([('alpha', 0.03556725268358827)]), OrderedDict([('alpha', 0.044168557714655415)]), OrderedDict([('alpha', 0.0019761363800145917)]), OrderedDict([('alpha', 0.017651326326880868)]), OrderedDict([('alpha', 0.1)]), OrderedDict([('alpha', 0.013178497558895129)]), OrderedDict([('alpha', 0.013014340214487151)]), OrderedDict([('alpha', 0.010490568205320495)]), OrderedDict([('alpha', 0.009547231634862813)]), OrderedDict([('alpha', 0.022820514082847666)]), OrderedDict([('alpha', 0.03152439776444274)]), OrderedDict([('alpha', 0.007612208958854387)]), OrderedDict([('alpha', 0.09294474139176562)]), OrderedDict([('alpha', 0.03961665282709677)]), OrderedDict([('alpha', 0.05280982106939304)]), OrderedDict([('alpha', 0.008828529733519217)]), OrderedDict([('alpha', 0.009083308118387695)]), OrderedDict([('alpha', 0.07975786598329064)]), OrderedDict([('alpha', 0.009119081968784167)]), OrderedDict([('alpha', 0.02026219985219827)]), OrderedDict([('alpha', 0.009149880907605044)]), OrderedDict([('alpha', 0.005830431576745041)]), OrderedDict([('alpha', 0.009459445478108215)]), OrderedDict([('alpha', 0.009337896759454399)]), OrderedDict([('alpha', 0.009296067144807008)]), OrderedDict([('alpha', 0.009267104729765059)]), OrderedDict([('alpha', 0.009236209172029898)]), OrderedDict([('alpha', 0.009356466194561104)]), OrderedDict([('alpha', 0.009121974982289257)]), OrderedDict([('alpha', 0.02525748274624056)]), OrderedDict([('alpha', 0.009363396994962078)]), OrderedDict([('alpha', 0.011562472245150427)]), OrderedDict([('alpha', 0.009206172773983378)]), OrderedDict([('alpha', 0.009242977374838512)]), OrderedDict([('alpha', 0.07024854443413238)]), OrderedDict([('alpha', 0.009394532156518257)]), OrderedDict([('alpha', 0.009157894527759676)]), OrderedDict([('alpha', 0.009161636993722577)]), OrderedDict([('alpha', 0.009164479713485864)]), OrderedDict([('alpha', 0.009326726405731726)]), OrderedDict([('alpha', 0.09671143781559322)]), OrderedDict([('alpha', 0.009396341790417203)])], 'split0_test_score': array([-2.21070486, -2.12248392, -2.149263  , -2.09281783, -2.06779459,
+       -2.17252237, -2.14153562, -2.08869693, -2.07297923, -2.08679116,
+       -2.34967802, -2.08158325, -2.26402144, -2.09028825, -2.09045023,
+       -2.08615559, -2.09041989, -2.07470058, -2.06798491, -2.0988752 ,
+       -2.23462011, -2.08029469, -2.10621541, -2.09467396, -2.09295768,
+       -2.1902447 , -2.09274985, -2.07854492, -2.0925657 , -2.1142953 ,
+       -2.09090385, -2.0915611 , -2.0917499 , -2.09189527, -2.0920565 ,
+       -2.091464  , -2.09273257, -2.07041899, -2.09142646, -2.08673043,
+       -2.09222931, -2.09202181, -2.16161969, -2.09125746, -2.0925178 ,
+       -2.09249543, -2.09247844, -2.091605  , -2.25005527, -2.09124765]), 'split1_test_score': array([-2.55223969, -2.39865137, -2.44549241, -2.33574353, -2.21867979,
+       -2.48641358, -2.43178708, -2.13840465, -2.26006266, -2.31323396,
+       -2.26201694, -2.17138407, -2.61579738, -2.126423  , -2.12442578,
+       -2.09622816, -2.08601191, -2.19872571, -2.23791939, -2.07425716,
+       -2.58370447, -2.28396649, -2.3679345 , -2.07790529, -2.08057253,
+       -2.51951899, -2.08097027, -2.18832306, -2.08132389, -2.08433092,
+       -2.08511037, -2.08365295, -2.08311483, -2.08274266, -2.08234776,
+       -2.0838918 , -2.08100459, -2.2074958 , -2.08398095, -2.10887619,
+       -2.08198687, -2.08243222, -2.46734647, -2.08437011, -2.08141555,
+       -2.08145836, -2.08149088, -2.08350926, -2.60055123, -2.08439075]), 'split2_test_score': array([-2.35843441, -2.22541923, -2.26019047, -2.18836355, -2.1168755 ,
+       -2.29426505, -2.2497029 , -2.08803277, -2.13834276, -2.17297855,
+       -2.34717488, -2.09371628, -2.43322967, -2.07947419, -2.07876999,
+       -2.06955908, -2.07101281, -2.10973728, -2.12570394, -2.08949259,
+       -2.39563717, -2.15342113, -2.20597103, -2.07463957, -2.07303886,
+       -2.32472543, -2.07277416, -2.10423219, -2.07254452, -2.11796287,
+       -2.07124949, -2.07155103, -2.07172629, -2.07186335, -2.07199948,
+       -2.07149178, -2.07275274, -2.11288332, -2.07146966, -2.07127614,
+       -2.07218435, -2.07197232, -2.27793619, -2.071379  , -2.07249105,
+       -2.07246763, -2.07244898, -2.0715891 , -2.41576313, -2.07137486]), 'mean_test_score': array([-2.37379299, -2.2488515 , -2.28498196, -2.20564164, -2.13444996,
+       -2.31773366, -2.27434187, -2.10504478, -2.15712822, -2.19100122,
+       -2.31962328, -2.1155612 , -2.43768283, -2.09872848, -2.097882  ,
+       -2.08398095, -2.08248154, -2.12772119, -2.14386941, -2.08754165,
+       -2.40465391, -2.17256077, -2.22670698, -2.08240628, -2.08218969,
+       -2.34482971, -2.08216476, -2.12370006, -2.0821447 , -2.1055297 ,
+       -2.08242123, -2.08225503, -2.08219701, -2.08216709, -2.08213458,
+       -2.08228253, -2.0821633 , -2.13026604, -2.08229236, -2.08896092,
+       -2.08213351, -2.08214212, -2.30230078, -2.08233553, -2.08214147,
+       -2.08214048, -2.08213943, -2.08223445, -2.42212321, -2.08233775]), 'std_test_score': array([0.13985332, 0.11395589, 0.1221991 , 0.09992371, 0.06283965,
+       0.1292156 , 0.11976863, 0.02359055, 0.077523  , 0.09331916,
+       0.04074665, 0.0397823 , 0.14364644, 0.02007446, 0.01936554,
+       0.01099566, 0.00830688, 0.05220552, 0.07055457, 0.01014451,
+       0.14265564, 0.08424288, 0.10784775, 0.00877642, 0.00821183,
+       0.13517526, 0.00819867, 0.04688325, 0.00819419, 0.01506439,
+       0.00824609, 0.00822867, 0.00820033, 0.00818812, 0.00818963,
+       0.00823264, 0.00819778, 0.05729533, 0.00823436, 0.01543097,
+       0.00818398, 0.00818774, 0.12599588, 0.00824188, 0.00819198,
+       0.00819053, 0.00818985, 0.00822103, 0.14316003, 0.00824189]), 'rank_test_score': array([47, 40, 42, 38, 33, 44, 41, 27, 35, 37, 45, 29, 50, 26, 25, 22, 21,
+       31, 34, 23, 48, 36, 39, 19, 11, 46,  9, 30,  7, 28, 20, 14, 12, 10,
+        2, 15,  8, 32, 16, 24,  1,  6, 43, 17,  5,  4,  3, 13, 49, 18],
+      dtype=int32)}
+-2.082133508447311
+OrderedDict([('alpha', 0.009206172773983378)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+{'mean_fit_time': array([10.65936065,  3.12664668, 13.53718718,  2.27491856,  9.28822557,
+        3.54574267,  3.59570845,  5.93490974,  3.29733825,  2.11949571,
+        7.77325551,  8.0211912 , 84.19057981, 13.3101987 ,  2.22769856,
+        3.65968196,  4.18079384,  2.49583268,  7.01170667,  9.62527847,
+        2.295777  ,  8.24298016,  8.40131148,  8.8694729 , 10.64169439,
+        8.39828054,  9.2211256 ,  3.33946967,  4.08622599,  9.01739573,
+        8.14642628,  8.17948413,  8.19307677,  8.51614062,  7.90881586,
+        9.10402973,  8.1782937 ,  7.83129191,  9.33739765,  7.94273353,
+        7.88088123,  9.38047051,  8.35627755,  7.85743761,  7.77305166,
+        7.91222024,  8.8251845 ,  9.18583838,  8.42781806,  7.97955187]), 'std_fit_time': array([4.83383688, 0.28245209, 5.07184291, 0.34913192, 3.80466267,
+       0.90548708, 0.66186196, 1.7806296 , 0.22048127, 0.31912469,
+       2.95765275, 2.84154599, 6.05449797, 3.24648139, 0.32362456,
+       1.01924168, 1.26452679, 0.43896208, 2.18499266, 3.03284289,
+       0.31577133, 3.60206923, 2.83784838, 4.31701497, 4.24209267,
+       2.45550763, 4.39717566, 0.70257401, 0.83736864, 4.10542109,
+       3.36464721, 3.47185877, 3.82802177, 3.40420371, 2.83269627,
+       4.75808057, 2.63312134, 2.92318088, 4.46151757, 3.29869948,
+       3.37519292, 4.99891975, 2.6580263 , 3.21667605, 2.91202645,
+       3.27598936, 4.3206697 , 4.8008613 , 2.67855792, 3.42873242]), 'mean_score_time': array([0.03260008, 0.02607083, 0.02499827, 0.02480618, 0.02790666,
+       0.03220296, 0.02056511, 0.02054493, 0.01909026, 0.0288295 ,
+       0.02749642, 0.02054898, 0.02512097, 0.02160279, 0.018097  ,
+       0.01887735, 0.01840417, 0.0255657 , 0.01825706, 0.02526474,
+       0.02182031, 0.01785262, 0.02014001, 0.0177172 , 0.01748069,
+       0.02239498, 0.02413972, 0.01781821, 0.02037168, 0.02375404,
+       0.01760356, 0.01746623, 0.02450538, 0.03318342, 0.01827351,
+       0.025594  , 0.02269332, 0.01806664, 0.02969257, 0.01734416,
+       0.01803748, 0.01772451, 0.02170118, 0.01810416, 0.01797962,
+       0.01745518, 0.01784754, 0.0237728 , 0.02594837, 0.01766785]), 'std_score_time': array([9.26187148e-03, 9.47319075e-03, 9.79691263e-03, 7.56890630e-03,
+       8.60569864e-03, 9.69507883e-03, 2.14654499e-03, 1.79488906e-03,
+       6.21400247e-04, 1.15647715e-02, 1.28105831e-02, 1.34772704e-03,
+       9.91649441e-03, 5.26582289e-03, 2.49692469e-04, 2.86009464e-03,
+       8.93166496e-04, 9.90511249e-03, 5.67213161e-04, 1.08819745e-02,
+       5.42548141e-03, 3.07703129e-04, 3.32360056e-03, 6.36922292e-05,
+       4.05357271e-04, 5.47241999e-03, 9.46328294e-03, 9.65998412e-05,
+       3.02678189e-03, 9.64517596e-03, 1.37836643e-04, 6.14152973e-05,
+       1.04486681e-02, 1.11049936e-02, 5.80732923e-04, 9.73335623e-03,
+       8.22093826e-03, 6.12938510e-04, 9.70332994e-03, 3.83087213e-05,
+       3.11211315e-04, 5.04283006e-04, 6.09183222e-03, 3.29064648e-04,
+       4.86242325e-04, 1.50696679e-04, 7.60329770e-05, 9.62782330e-03,
+       1.27301556e-02, 3.18651483e-04]), 'param_alpha': masked_array(data=[0.01728280219736758, 0.05823469255533143,
+                   0.007990633409227572, 0.09110265186344871,
+                   0.017479624600494213, 0.036744301232775105,
+                   0.034595196526088966, 0.02378465125395845,
+                   0.04002053764506633, 0.09780160748126554,
+                   0.019008748122855766, 0.018560747663114167,
+                   0.00011382615107098588, 0.012046725982207863,
+                   0.07337816193010904, 0.0491841808878038,
+                   0.028152200844186147, 0.06570541656006329,
+                   0.02076107255294472, 0.01577173712370475,
+                   0.08203768943799178, 0.018273225751344525,
+                   0.018322824000389735, 0.01811754096928657,
+                   0.014105211697704456, 0.018884800367207726,
+                   0.018825113025679446, 0.044807171910848494,
+                   0.030844887820043715, 0.01850692118204139,
+                   0.01856324573078942, 0.017973812811470157,
+                   0.01846445318041868, 0.018175375574623502,
+                   0.018763039028388735, 0.018641306933726117,
+                   0.01859534034578046, 0.01871936181233035,
+                   0.018746069230568613, 0.018950287548491474,
+                   0.018639482537770275, 0.017896260188757566,
+                   0.018255032433237554, 0.018412978080006828,
+                   0.018917448596082357, 0.018527856606863777,
+                   0.017618039250275476, 0.018696631971187136,
+                   0.01811214193466145, 0.018280145502020995],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('alpha', 0.01728280219736758)]), OrderedDict([('alpha', 0.05823469255533143)]), OrderedDict([('alpha', 0.007990633409227572)]), OrderedDict([('alpha', 0.09110265186344871)]), OrderedDict([('alpha', 0.017479624600494213)]), OrderedDict([('alpha', 0.036744301232775105)]), OrderedDict([('alpha', 0.034595196526088966)]), OrderedDict([('alpha', 0.02378465125395845)]), OrderedDict([('alpha', 0.04002053764506633)]), OrderedDict([('alpha', 0.09780160748126554)]), OrderedDict([('alpha', 0.019008748122855766)]), OrderedDict([('alpha', 0.018560747663114167)]), OrderedDict([('alpha', 0.00011382615107098588)]), OrderedDict([('alpha', 0.012046725982207863)]), OrderedDict([('alpha', 0.07337816193010904)]), OrderedDict([('alpha', 0.0491841808878038)]), OrderedDict([('alpha', 0.028152200844186147)]), OrderedDict([('alpha', 0.06570541656006329)]), OrderedDict([('alpha', 0.02076107255294472)]), OrderedDict([('alpha', 0.01577173712370475)]), OrderedDict([('alpha', 0.08203768943799178)]), OrderedDict([('alpha', 0.018273225751344525)]), OrderedDict([('alpha', 0.018322824000389735)]), OrderedDict([('alpha', 0.01811754096928657)]), OrderedDict([('alpha', 0.014105211697704456)]), OrderedDict([('alpha', 0.018884800367207726)]), OrderedDict([('alpha', 0.018825113025679446)]), OrderedDict([('alpha', 0.044807171910848494)]), OrderedDict([('alpha', 0.030844887820043715)]), OrderedDict([('alpha', 0.01850692118204139)]), OrderedDict([('alpha', 0.01856324573078942)]), OrderedDict([('alpha', 0.017973812811470157)]), OrderedDict([('alpha', 0.01846445318041868)]), OrderedDict([('alpha', 0.018175375574623502)]), OrderedDict([('alpha', 0.018763039028388735)]), OrderedDict([('alpha', 0.018641306933726117)]), OrderedDict([('alpha', 0.01859534034578046)]), OrderedDict([('alpha', 0.01871936181233035)]), OrderedDict([('alpha', 0.018746069230568613)]), OrderedDict([('alpha', 0.018950287548491474)]), OrderedDict([('alpha', 0.018639482537770275)]), OrderedDict([('alpha', 0.017896260188757566)]), OrderedDict([('alpha', 0.018255032433237554)]), OrderedDict([('alpha', 0.018412978080006828)]), OrderedDict([('alpha', 0.018917448596082357)]), OrderedDict([('alpha', 0.018527856606863777)]), OrderedDict([('alpha', 0.017618039250275476)]), OrderedDict([('alpha', 0.018696631971187136)]), OrderedDict([('alpha', 0.01811214193466145)]), OrderedDict([('alpha', 0.018280145502020995)])], 'split0_test_score': array([-1.80210195, -1.93249075, -1.83485148, -2.07018665, -1.80257902,
+       -1.85654051, -1.85141961, -1.82600516, -1.86406557, -2.09443196,
+       -1.80623707, -1.80523525, -2.3643688 , -1.79620916, -2.0026578 ,
+       -1.89370617, -1.83985068, -1.97041626, -1.81448182, -1.80126335,
+       -2.03841756, -1.80459397, -1.80471176, -1.80421148, -1.79812726,
+       -1.80593337, -1.80580044, -1.87807744, -1.84477375, -1.80511623,
+       -1.80524082, -1.80382049, -1.80502011, -1.80436159, -1.80566219,
+       -1.80541042, -1.80531253, -1.80556954, -1.80562439, -1.80608057,
+       -1.8054067 , -1.80360625, -1.80455076, -1.80490562, -1.80600608,
+       -1.80516225, -1.80291666, -1.8055232 , -1.80419733, -1.8046104 ]), 'split1_test_score': array([-1.89629151, -2.08887743, -1.97587536, -2.24463047, -1.89570707,
+       -1.9746087 , -1.95982215, -1.89819709, -1.99446986, -2.2763019 ,
+       -1.89103321, -1.8924792 , -2.45586422, -1.93220873, -2.16620574,
+       -2.04346898, -1.91654557, -2.1257533 , -1.89199258, -1.90060574,
+       -2.20411748, -1.8935728 , -1.89337366, -1.89405938, -1.91159707,
+       -1.89142837, -1.89161899, -2.02084194, -1.93289556, -1.89267641,
+       -1.89247005, -1.89443412, -1.89283201, -1.89390846, -1.89181458,
+       -1.8921811 , -1.89235246, -1.89194202, -1.89186199, -1.89122444,
+       -1.89218797, -1.89467457, -1.89364585, -1.8930206 , -1.8913252 ,
+       -1.89259971, -1.89535805, -1.89201022, -1.8940718 , -1.89354501]), 'split2_test_score': array([-1.87831874, -2.06114315, -1.9333609 , -2.17781476, -1.87817124,
+       -1.96092813, -1.95033149, -1.88803366, -1.97690876, -2.20132684,
+       -1.87853697, -1.87825695, -2.65669728, -1.88372809, -2.12094136,
+       -2.02235132, -1.91140427, -2.09339135, -1.87998638, -1.87719897,
+       -2.14823933, -1.87813317, -1.8781575 , -1.87815583, -1.87650773,
+       -1.87843788, -1.8783693 , -2.00143664, -1.92956407, -1.87825944,
+       -1.87825683, -1.87817615, -1.87825617, -1.8781181 , -1.87829969,
+       -1.87826375, -1.87825535, -1.8782866 , -1.87829397, -1.87849353,
+       -1.87826313, -1.87818648, -1.87812423, -1.87822541, -1.87846912,
+       -1.87825847, -1.87818094, -1.87828247, -1.87815672, -1.87813658]), 'mean_test_score': array([-1.85890407, -2.02750377, -1.91469591, -2.16421063, -1.85881911,
+       -1.93069245, -1.92052441, -1.8707453 , -1.94514806, -2.1906869 ,
+       -1.85860242, -1.85865713, -2.4923101 , -1.87071533, -2.09660163,
+       -1.98650882, -1.88926684, -2.06318697, -1.86215359, -1.85968935,
+       -2.13025812, -1.85876665, -1.85874764, -1.8588089 , -1.86207735,
+       -1.85859987, -1.85859624, -1.96678534, -1.90241113, -1.85868402,
+       -1.8586559 , -1.85881025, -1.85870276, -1.85879605, -1.85859215,
+       -1.85861842, -1.85864011, -1.85859939, -1.85859345, -1.85859951,
+       -1.85861927, -1.85882243, -1.85877362, -1.85871721, -1.85860013,
+       -1.85867348, -1.85881855, -1.8586053 , -1.85880861, -1.858764  ]), 'std_test_score': array([0.04082985, 0.06813175, 0.05906618, 0.07186314, 0.04040699,
+       0.05272995, 0.04901785, 0.03190699, 0.05778048, 0.0746283 ,
+       0.03737768, 0.03821859, 0.12209344, 0.05627889, 0.0689507 ,
+       0.06618529, 0.03500548, 0.066916  , 0.03406353, 0.04240415,
+       0.06883124, 0.038821  , 0.03871081, 0.03914834, 0.04743435,
+       0.03761656, 0.03772211, 0.06322426, 0.04077847, 0.0383327 ,
+       0.03821328, 0.03944605, 0.03842294, 0.03902706, 0.03783163,
+       0.03805033, 0.03814495, 0.03790991, 0.03786215, 0.03749843,
+       0.03805398, 0.03961973, 0.03886145, 0.03852696, 0.03755814,
+       0.03828843, 0.04014581, 0.0379508 , 0.0391588 , 0.03880562]), 'rank_test_score': array([30, 44, 38, 48, 28, 40, 39, 35, 41, 49,  8, 14, 50, 34, 46, 43, 36,
+       45, 33, 31, 47, 21, 19, 25, 32,  6,  3, 42, 37, 16, 13, 26, 17, 23,
+        1, 10, 12,  4,  2,  5, 11, 29, 22, 18,  7, 15, 27,  9, 24, 20],
+      dtype=int32)}
+-1.8585921527555695
+OrderedDict([('alpha', 0.018763039028388735)])
+[CV 1/3] END .......alpha=0.044168557714655415;, score=-2.087 total time=   0.1s
+[CV 2/3] END ........alpha=0.05280982106939304;, score=-2.368 total time=   0.1s
+[CV 1/3] END .......alpha=0.009356466194561104;, score=-2.091 total time=   0.2s
+[CV 3/3] END ........alpha=0.09671143781559322;, score=-2.416 total time=   0.1s
+[CV 3/3] END .......alpha=0.018560747663114167;, score=-1.878 total time=   4.2s
+[CV 1/3] END .......alpha=0.014105211697704456;, score=-1.798 total time=  16.4s
+[CV 3/3] END ........alpha=0.01871936181233035;, score=-1.878 total time=   3.9s
+[CV 1/3] END ......alpha=0.0019761363800145917;, score=-2.350 total time=   1.3s
+[CV 3/3] END .......alpha=0.008828529733519217;, score=-2.075 total time=   0.2s
+[CV 3/3] END .......alpha=0.009121974982289257;, score=-2.073 total time=   0.2s
+[CV 3/3] END .......alpha=0.009396341790417203;, score=-2.071 total time=   0.2s
+[CV 2/3] END .....alpha=0.00011382615107098588;, score=-2.456 total time= 1.3min
+[CV 1/3] END .......alpha=0.018884800367207726;, score=-1.806 total time=  10.9s
+[CV 3/3] END .......alpha=0.018746069230568613;, score=-1.878 total time=   3.3s
+[CV 3/3] END .......alpha=0.044168557714655415;, score=-2.173 total time=   0.1s
+[CV 3/3] END ........alpha=0.05280982106939304;, score=-2.206 total time=   0.1s
+[CV 3/3] END .......alpha=0.009356466194561104;, score=-2.071 total time=   0.2s
+[CV 2/3] END ........alpha=0.09671143781559322;, score=-2.601 total time=   0.1s
+[CV 2/3] END .......alpha=0.018560747663114167;, score=-1.892 total time=   8.8s
+[CV 2/3] END .......alpha=0.014105211697704456;, score=-1.912 total time=   9.2s
+[CV 2/3] END ........alpha=0.01871936181233035;, score=-1.892 total time=   8.7s
+[CV 2/3] END .......alpha=0.044168557714655415;, score=-2.313 total time=   0.1s
+[CV 1/3] END ........alpha=0.05280982106939304;, score=-2.106 total time=   0.1s
+[CV 2/3] END .......alpha=0.009356466194561104;, score=-2.084 total time=   0.2s
+[CV 1/3] END ........alpha=0.09671143781559322;, score=-2.250 total time=   0.1s
+[CV 1/3] END .......alpha=0.018560747663114167;, score=-1.805 total time=  11.1s
+[CV 3/3] END .......alpha=0.014105211697704456;, score=-1.877 total time=   6.4s
+[CV 1/3] END ........alpha=0.01871936181233035;, score=-1.806 total time=  11.0s
+[CV 2/3] END ......alpha=0.0019761363800145917;, score=-2.262 total time=   0.8s
+[CV 1/3] END .......alpha=0.008828529733519217;, score=-2.095 total time=   0.2s
+[CV 2/3] END .......alpha=0.009121974982289257;, score=-2.081 total time=   0.1s
+[CV 1/3] END .......alpha=0.009396341790417203;, score=-2.091 total time=   0.2s
+[CV 3/3] END .....alpha=0.00011382615107098588;, score=-2.657 total time= 1.4min
+[CV 2/3] END .......alpha=0.018884800367207726;, score=-1.891 total time=   9.2s
+[CV 2/3] END .......alpha=0.018746069230568613;, score=-1.892 total time=  10.9s
+[CV 1/3] END .......alpha=0.017651326326880868;, score=-2.082 total time=   0.1s
+[CV 1/3] END .......alpha=0.009083308118387695;, score=-2.093 total time=   0.2s
+[CV 1/3] END ........alpha=0.02525748274624056;, score=-2.070 total time=   0.1s
+[CV 1/3] END ........alpha=0.01728280219736758;, score=-1.802 total time=  16.4s
+[CV 3/3] END .......alpha=0.012046725982207863;, score=-1.884 total time=  12.9s
+[CV 2/3] END .......alpha=0.018825113025679446;, score=-1.892 total time=  13.3s
+[CV 3/3] END .......alpha=0.018950287548491474;, score=-1.878 total time=   3.3s
+[CV 3/3] END ......alpha=0.0019761363800145917;, score=-2.347 total time=   1.3s
+[CV 2/3] END .......alpha=0.008828529733519217;, score=-2.078 total time=   0.2s
+[CV 1/3] END .......alpha=0.009121974982289257;, score=-2.093 total time=   0.2s
+[CV 2/3] END .......alpha=0.009396341790417203;, score=-2.084 total time=   0.2s
+[CV 1/3] END .....alpha=0.00011382615107098588;, score=-2.364 total time= 1.5min
+[CV 3/3] END .......alpha=0.018884800367207726;, score=-1.878 total time=   5.1s
+[CV 1/3] END .......alpha=0.018746069230568613;, score=-1.806 total time=  13.9s
+[CV 3/3] END .......alpha=0.017651326326880868;, score=-2.094 total time=   0.2s
+[CV 3/3] END .......alpha=0.009083308118387695;, score=-2.073 total time=   0.2s
+[CV 3/3] END ........alpha=0.02525748274624056;, score=-2.113 total time=   0.2s
+[CV 3/3] END ........alpha=0.01728280219736758;, score=-1.878 total time=   4.6s
+[CV 1/3] END .......alpha=0.012046725982207863;, score=-1.796 total time=  17.5s
+[CV 3/3] END .......alpha=0.018825113025679446;, score=-1.878 total time=   3.1s
+[CV 1/3] END .......alpha=0.018950287548491474;, score=-1.806 total time=  10.5s
+[CV 2/3] END .......alpha=0.017651326326880868;, score=-2.171 total time=   0.1s
+[CV 2/3] END .......alpha=0.009083308118387695;, score=-2.081 total time=   0.2s
+[CV 2/3] END ........alpha=0.02525748274624056;, score=-2.207 total time=   0.1s
+[CV 2/3] END ........alpha=0.01728280219736758;, score=-1.896 total time=  11.2s
+[CV 2/3] END .......alpha=0.012046725982207863;, score=-1.932 total time=   9.6s
+[CV 1/3] END .......alpha=0.018825113025679446;, score=-1.806 total time=  11.3s
+[CV 2/3] END .......alpha=0.018950287548491474;, score=-1.891 total time=  10.1s
+[CV 2/3] END ........................alpha=0.1;, score=-2.616 total time=   0.1s
+[CV 2/3] END ........alpha=0.07975786598329064;, score=-2.520 total time=   0.1s
+[CV 2/3] END .......alpha=0.009363396994962078;, score=-2.084 total time=   0.2s
+[CV 2/3] END ........alpha=0.05823469255533143;, score=-2.089 total time=   3.1s
+[CV 2/3] END ........alpha=0.07337816193010904;, score=-2.166 total time=   2.7s
+[CV 3/3] END .......alpha=0.044807171910848494;, score=-2.001 total time=   4.2s
+[CV 3/3] END .......alpha=0.018639482537770275;, score=-1.878 total time=   3.4s
+[CV 3/3] END ........................alpha=0.1;, score=-2.433 total time=   0.1s
+[CV 1/3] END ........alpha=0.07975786598329064;, score=-2.190 total time=   0.1s
+[CV 1/3] END .......alpha=0.009363396994962078;, score=-2.091 total time=   0.2s
+[CV 1/3] END ........alpha=0.05823469255533143;, score=-1.932 total time=   3.5s
+[CV 3/3] END ........alpha=0.07337816193010904;, score=-2.121 total time=   1.9s
+[CV 1/3] END .......alpha=0.044807171910848494;, score=-1.878 total time=   3.3s
+[CV 2/3] END .......alpha=0.018639482537770275;, score=-1.892 total time=   8.7s
+[CV 3/3] END ........alpha=0.08617837384335235;, score=-2.358 total time=   0.1s
+[CV 2/3] END .......alpha=0.013178497558895129;, score=-2.126 total time=   0.3s
+[CV 2/3] END .......alpha=0.009119081968784167;, score=-2.081 total time=   0.2s
+[CV 1/3] END .......alpha=0.011562472245150427;, score=-2.087 total time=   0.2s
+[CV 2/3] END .......alpha=0.007990633409227572;, score=-1.976 total time=  15.2s
+[CV 2/3] END .........alpha=0.0491841808878038;, score=-2.043 total time=   2.5s
+[CV 1/3] END .......alpha=0.030844887820043715;, score=-1.845 total time=   5.0s
+[CV 3/3] END .......alpha=0.017896260188757566;, score=-1.878 total time=   3.2s
+[CV 1/3] END ........................alpha=0.1;, score=-2.264 total time=   0.1s
+[CV 3/3] END ........alpha=0.07975786598329064;, score=-2.325 total time=   0.1s
+[CV 3/3] END .......alpha=0.009363396994962078;, score=-2.071 total time=   0.2s
+[CV 3/3] END ........alpha=0.05823469255533143;, score=-2.061 total time=   2.8s
+[CV 1/3] END ........alpha=0.07337816193010904;, score=-2.003 total time=   2.2s
+[CV 2/3] END .......alpha=0.044807171910848494;, score=-2.021 total time=   2.5s
+[CV 1/3] END .......alpha=0.018639482537770275;, score=-1.805 total time=  11.6s
+[CV 1/3] END ........alpha=0.08617837384335235;, score=-2.211 total time=   0.1s
+[CV 3/3] END .......alpha=0.013178497558895129;, score=-2.079 total time=   0.5s
+[CV 3/3] END .......alpha=0.009119081968784167;, score=-2.073 total time=   0.2s
+[CV 3/3] END .......alpha=0.011562472245150427;, score=-2.071 total time=   0.4s
+[CV 3/3] END .......alpha=0.007990633409227572;, score=-1.933 total time=  18.8s
+[CV 3/3] END .........alpha=0.0491841808878038;, score=-2.022 total time=   5.0s
+[CV 3/3] END .......alpha=0.030844887820043715;, score=-1.930 total time=   4.3s
+[CV 2/3] END .......alpha=0.017896260188757566;, score=-1.895 total time=   9.6s
+[CV 2/3] END ........alpha=0.08617837384335235;, score=-2.552 total time=   0.0s
+[CV 1/3] END .......alpha=0.013178497558895129;, score=-2.090 total time=   0.2s
+[CV 1/3] END .......alpha=0.009119081968784167;, score=-2.093 total time=   0.2s
+[CV 2/3] END .......alpha=0.011562472245150427;, score=-2.109 total time=   0.1s
+[CV 1/3] END .......alpha=0.007990633409227572;, score=-1.835 total time=   6.7s
+[CV 1/3] END .........alpha=0.0491841808878038;, score=-1.894 total time=   3.6s
+[CV 2/3] END .......alpha=0.030844887820043715;, score=-1.933 total time=   3.0s
+[CV 1/3] END .......alpha=0.017896260188757566;, score=-1.804 total time=  15.4s
+[CV 2/3] END ........alpha=0.05807306767198836;, score=-2.399 total time=   0.1s
+[CV 2/3] END .......alpha=0.013014340214487151;, score=-2.124 total time=   0.4s
+[CV 1/3] END ........alpha=0.02026219985219827;, score=-2.079 total time=   0.2s
+[CV 1/3] END .......alpha=0.009206172773983378;, score=-2.092 total time=   0.1s
+[CV 2/3] END ........alpha=0.09110265186344871;, score=-2.245 total time=   2.3s
+[CV 2/3] END .......alpha=0.028152200844186147;, score=-1.917 total time=   2.7s
+[CV 1/3] END ........alpha=0.01850692118204139;, score=-1.805 total time=  11.4s
+[CV 2/3] END .......alpha=0.018255032433237554;, score=-1.894 total time=   9.2s
+[CV 3/3] END ........alpha=0.05807306767198836;, score=-2.225 total time=   0.1s
+[CV 3/3] END .......alpha=0.013014340214487151;, score=-2.079 total time=   0.5s
+[CV 3/3] END ........alpha=0.02026219985219827;, score=-2.104 total time=   0.3s
+[CV 3/3] END .......alpha=0.009206172773983378;, score=-2.072 total time=   0.2s
+[CV 3/3] END ........alpha=0.09110265186344871;, score=-2.178 total time=   2.7s
+[CV 3/3] END .......alpha=0.028152200844186147;, score=-1.911 total time=   4.1s
+[CV 2/3] END ........alpha=0.01850692118204139;, score=-1.893 total time=  12.5s
+[CV 3/3] END .......alpha=0.018255032433237554;, score=-1.878 total time=   4.8s
+[CV 1/3] END ........alpha=0.05807306767198836;, score=-2.122 total time=   0.1s
+[CV 1/3] END .......alpha=0.013014340214487151;, score=-2.090 total time=   0.4s
+[CV 2/3] END ........alpha=0.02026219985219827;, score=-2.188 total time=   0.2s
+[CV 2/3] END .......alpha=0.009206172773983378;, score=-2.082 total time=   0.1s
+[CV 1/3] END ........alpha=0.09110265186344871;, score=-2.070 total time=   1.9s
+[CV 1/3] END .......alpha=0.028152200844186147;, score=-1.840 total time=   5.8s
+[CV 3/3] END ........alpha=0.01850692118204139;, score=-1.878 total time=   3.3s
+[CV 1/3] END .......alpha=0.018255032433237554;, score=-1.805 total time=  11.1s
+[CV 3/3] END .........alpha=0.0664120173205543;, score=-2.260 total time=   0.1s
+[CV 3/3] END .......alpha=0.010490568205320495;, score=-2.070 total time=   0.3s
+[CV 3/3] END .......alpha=0.009149880907605044;, score=-2.073 total time=   0.3s
+[CV 2/3] END .......alpha=0.009242977374838512;, score=-2.082 total time=   0.2s
+[CV 1/3] END .......alpha=0.017479624600494213;, score=-1.803 total time=  12.0s
+[CV 3/3] END ........alpha=0.06570541656006329;, score=-2.093 total time=   2.0s
+[CV 1/3] END ........alpha=0.01856324573078942;, score=-1.805 total time=  10.8s
+[CV 3/3] END .......alpha=0.018412978080006828;, score=-1.878 total time=   3.6s
+[CV 2/3] END .........alpha=0.0664120173205543;, score=-2.445 total time=   0.1s
+[CV 1/3] END .......alpha=0.010490568205320495;, score=-2.086 total time=   0.2s
+[CV 1/3] END .......alpha=0.009149880907605044;, score=-2.093 total time=   0.3s
+[CV 3/3] END .......alpha=0.009242977374838512;, score=-2.072 total time=   0.2s
+[CV 3/3] END .......alpha=0.017479624600494213;, score=-1.878 total time=   3.9s
+[CV 1/3] END ........alpha=0.06570541656006329;, score=-1.970 total time=   2.5s
+[CV 2/3] END ........alpha=0.01856324573078942;, score=-1.892 total time=  10.3s
+[CV 2/3] END .......alpha=0.018412978080006828;, score=-1.893 total time=   8.8s
+[CV 1/3] END .........alpha=0.0664120173205543;, score=-2.149 total time=   0.1s
+[CV 2/3] END .......alpha=0.010490568205320495;, score=-2.096 total time=   0.3s
+[CV 2/3] END .......alpha=0.009149880907605044;, score=-2.081 total time=   0.2s
+[CV 1/3] END .......alpha=0.009242977374838512;, score=-2.092 total time=   0.2s
+[CV 2/3] END .......alpha=0.017479624600494213;, score=-1.896 total time=  12.0s
+[CV 2/3] END ........alpha=0.06570541656006329;, score=-2.126 total time=   3.1s
+[CV 3/3] END ........alpha=0.01856324573078942;, score=-1.878 total time=   3.4s
+[CV 1/3] END .......alpha=0.018412978080006828;, score=-1.805 total time=  11.3s
+[CV 2/3] END ........alpha=0.04767340839641144;, score=-2.336 total time=   0.1s
+[CV 1/3] END .......alpha=0.009547231634862813;, score=-2.090 total time=   0.2s
+[CV 1/3] END .......alpha=0.005830431576745041;, score=-2.114 total time=   0.4s
+[CV 2/3] END ........alpha=0.07024854443413238;, score=-2.467 total time=   0.0s
+[CV 1/3] END .......alpha=0.036744301232775105;, score=-1.857 total time=   4.7s
+[CV 3/3] END ........alpha=0.02076107255294472;, score=-1.880 total time=   4.2s
+[CV 1/3] END .......alpha=0.017973812811470157;, score=-1.804 total time=  12.0s
+[CV 3/3] END .......alpha=0.018917448596082357;, score=-1.878 total time=   3.9s
+[CV 3/3] END ........alpha=0.04767340839641144;, score=-2.188 total time=   0.1s
+[CV 2/3] END .......alpha=0.009547231634862813;, score=-2.086 total time=   0.2s
+[CV 2/3] END .......alpha=0.005830431576745041;, score=-2.084 total time=   0.4s
+[CV 3/3] END ........alpha=0.07024854443413238;, score=-2.278 total time=   0.1s
+[CV 3/3] END .......alpha=0.036744301232775105;, score=-1.961 total time=   3.5s
+[CV 2/3] END ........alpha=0.02076107255294472;, score=-1.892 total time=   7.5s
+[CV 2/3] END .......alpha=0.017973812811470157;, score=-1.894 total time=   9.1s
+[CV 2/3] END .......alpha=0.018917448596082357;, score=-1.891 total time=   8.7s
+[CV 1/3] END ........alpha=0.04767340839641144;, score=-2.093 total time=   0.1s
+[CV 3/3] END .......alpha=0.009547231634862813;, score=-2.071 total time=   0.2s
+[CV 3/3] END .......alpha=0.005830431576745041;, score=-2.118 total time=   0.4s
+[CV 1/3] END ........alpha=0.07024854443413238;, score=-2.162 total time=   0.1s
+[CV 2/3] END .......alpha=0.036744301232775105;, score=-1.975 total time=   2.5s
+[CV 1/3] END ........alpha=0.02076107255294472;, score=-1.814 total time=   9.5s
+[CV 3/3] END .......alpha=0.017973812811470157;, score=-1.878 total time=   3.6s
+[CV 1/3] END .......alpha=0.018917448596082357;, score=-1.806 total time=  10.8s
+[CV 2/3] END .......alpha=0.027581685640383453;, score=-2.219 total time=   0.1s
+[CV 1/3] END .......alpha=0.022820514082847666;, score=-2.075 total time=   0.1s
+[CV 1/3] END .......alpha=0.009459445478108215;, score=-2.091 total time=   0.2s
+[CV 2/3] END .......alpha=0.009394532156518257;, score=-2.084 total time=   0.1s
+[CV 1/3] END .......alpha=0.034595196526088966;, score=-1.851 total time=   4.1s
+[CV 2/3] END ........alpha=0.01577173712370475;, score=-1.901 total time=   9.8s
+[CV 2/3] END ........alpha=0.01846445318041868;, score=-1.893 total time=   9.1s
+[CV 2/3] END .......alpha=0.018527856606863777;, score=-1.893 total time=   8.8s
+[CV 3/3] END .......alpha=0.027581685640383453;, score=-2.117 total time=   0.2s
+[CV 2/3] END .......alpha=0.022820514082847666;, score=-2.199 total time=   0.2s
+[CV 3/3] END .......alpha=0.009459445478108215;, score=-2.071 total time=   0.3s
+[CV 3/3] END .......alpha=0.009394532156518257;, score=-2.071 total time=   0.2s
+[CV 3/3] END .......alpha=0.034595196526088966;, score=-1.950 total time=   4.1s
+[CV 3/3] END ........alpha=0.01577173712370475;, score=-1.877 total time=   5.9s
+[CV 1/3] END ........alpha=0.01846445318041868;, score=-1.805 total time=  12.4s
+[CV 3/3] END .......alpha=0.018527856606863777;, score=-1.878 total time=   3.6s
+[CV 1/3] END .......alpha=0.027581685640383453;, score=-2.068 total time=   0.2s
+[CV 3/3] END .......alpha=0.022820514082847666;, score=-2.110 total time=   0.2s
+[CV 2/3] END .......alpha=0.009459445478108215;, score=-2.085 total time=   0.2s
+[CV 1/3] END .......alpha=0.009394532156518257;, score=-2.091 total time=   0.2s
+[CV 2/3] END .......alpha=0.034595196526088966;, score=-1.960 total time=   2.7s
+[CV 1/3] END ........alpha=0.01577173712370475;, score=-1.801 total time=  13.3s
+[CV 3/3] END ........alpha=0.01846445318041868;, score=-1.878 total time=   3.1s
+[CV 1/3] END .......alpha=0.018527856606863777;, score=-1.805 total time=  11.5s
+[CV 3/3] END ........alpha=0.07371317715810215;, score=-2.294 total time=   0.1s
+[CV 3/3] END ........alpha=0.03152439776444274;, score=-2.126 total time=   0.2s
+[CV 3/3] END .......alpha=0.009337896759454399;, score=-2.072 total time=   0.3s
+[CV 2/3] END .......alpha=0.009157894527759676;, score=-2.081 total time=   0.1s
+[CV 1/3] END ........alpha=0.02378465125395845;, score=-1.826 total time=   8.4s
+[CV 3/3] END ........alpha=0.08203768943799178;, score=-2.148 total time=   1.9s
+[CV 1/3] END .......alpha=0.018175375574623502;, score=-1.804 total time=  11.3s
+[CV 3/3] END .......alpha=0.017618039250275476;, score=-1.878 total time=   3.3s
+[CV 1/3] END ........alpha=0.07371317715810215;, score=-2.173 total time=   0.1s
+[CV 2/3] END ........alpha=0.03152439776444274;, score=-2.238 total time=   0.1s
+[CV 2/3] END .......alpha=0.009337896759454399;, score=-2.084 total time=   0.3s
+[CV 3/3] END .......alpha=0.009157894527759676;, score=-2.072 total time=   0.1s
+[CV 2/3] END ........alpha=0.02378465125395845;, score=-1.898 total time=   5.1s
+[CV 2/3] END ........alpha=0.08203768943799178;, score=-2.204 total time=   2.3s
+[CV 2/3] END .......alpha=0.018175375574623502;, score=-1.894 total time=  10.5s
+[CV 2/3] END .......alpha=0.017618039250275476;, score=-1.895 total time=   9.3s
+[CV 2/3] END ........alpha=0.07371317715810215;, score=-2.486 total time=   0.1s
+[CV 1/3] END ........alpha=0.03152439776444274;, score=-2.068 total time=   0.1s
+[CV 1/3] END .......alpha=0.009337896759454399;, score=-2.092 total time=   0.3s
+[CV 1/3] END .......alpha=0.009157894527759676;, score=-2.093 total time=   0.2s
+[CV 3/3] END ........alpha=0.02378465125395845;, score=-1.888 total time=   4.4s
+[CV 1/3] END ........alpha=0.08203768943799178;, score=-2.038 total time=   2.7s
+[CV 3/3] END .......alpha=0.018175375574623502;, score=-1.878 total time=   3.8s
+[CV 1/3] END .......alpha=0.017618039250275476;, score=-1.803 total time=  13.9s
+[CV 3/3] END ........alpha=0.06399042754541656;, score=-2.250 total time=   0.1s
+[CV 3/3] END .......alpha=0.007612208958854387;, score=-2.089 total time=   0.4s
+[CV 3/3] END .......alpha=0.009296067144807008;, score=-2.072 total time=   0.2s
+[CV 3/3] END .......alpha=0.009161636993722577;, score=-2.072 total time=   0.3s
+[CV 3/3] END ........alpha=0.04002053764506633;, score=-1.977 total time=   3.6s
+[CV 3/3] END .......alpha=0.018273225751344525;, score=-1.878 total time=   3.5s
+[CV 1/3] END .......alpha=0.018763039028388735;, score=-1.806 total time=  10.9s
+[CV 3/3] END .......alpha=0.018696631971187136;, score=-1.878 total time=   3.3s
+[CV 1/3] END ........alpha=0.06399042754541656;, score=-2.142 total time=   0.1s
+[CV 2/3] END .......alpha=0.007612208958854387;, score=-2.074 total time=   0.3s
+[CV 1/3] END .......alpha=0.009296067144807008;, score=-2.092 total time=   0.2s
+[CV 2/3] END .......alpha=0.009161636993722577;, score=-2.081 total time=   0.3s
+[CV 1/3] END ........alpha=0.04002053764506633;, score=-1.864 total time=   3.3s
+[CV 2/3] END .......alpha=0.018273225751344525;, score=-1.894 total time=   9.1s
+[CV 2/3] END .......alpha=0.018763039028388735;, score=-1.892 total time=   8.7s
+[CV 2/3] END .......alpha=0.018696631971187136;, score=-1.892 total time=   9.3s
+[CV 2/3] END ........alpha=0.06399042754541656;, score=-2.432 total time=   0.1s
+[CV 1/3] END .......alpha=0.007612208958854387;, score=-2.099 total time=   0.3s
+[CV 2/3] END .......alpha=0.009296067144807008;, score=-2.083 total time=   0.1s
+[CV 1/3] END .......alpha=0.009161636993722577;, score=-2.092 total time=   0.3s
+[CV 2/3] END ........alpha=0.04002053764506633;, score=-1.994 total time=   3.1s
+[CV 1/3] END .......alpha=0.018273225751344525;, score=-1.805 total time=  12.2s
+[CV 3/3] END .......alpha=0.018763039028388735;, score=-1.878 total time=   4.1s
+[CV 1/3] END .......alpha=0.018696631971187136;, score=-1.806 total time=  15.1s
+[CV 3/3] END ........alpha=0.03556725268358827;, score=-2.138 total time=   0.1s
+[CV 3/3] END ........alpha=0.03961665282709677;, score=-2.153 total time=   0.1s
+[CV 3/3] END .......alpha=0.009236209172029898;, score=-2.072 total time=   0.2s
+[CV 2/3] END .......alpha=0.009326726405731726;, score=-2.084 total time=   0.1s
+[CV 1/3] END .......alpha=0.019008748122855766;, score=-1.806 total time=  10.5s
+[CV 3/3] END ........alpha=0.01811754096928657;, score=-1.878 total time=   3.4s
+[CV 1/3] END ........alpha=0.01859534034578046;, score=-1.805 total time=  11.1s
+[CV 3/3] END .......alpha=0.018280145502020995;, score=-1.878 total time=   3.4s
+[CV 2/3] END ........alpha=0.03556725268358827;, score=-2.260 total time=   0.1s
+[CV 1/3] END ........alpha=0.03961665282709677;, score=-2.080 total time=   0.1s
+[CV 2/3] END .......alpha=0.009236209172029898;, score=-2.082 total time=   0.2s
+[CV 3/3] END .......alpha=0.009326726405731726;, score=-2.072 total time=   0.2s
+[CV 3/3] END .......alpha=0.019008748122855766;, score=-1.879 total time=   3.7s
+[CV 1/3] END ........alpha=0.01811754096928657;, score=-1.804 total time=  14.0s
+[CV 3/3] END ........alpha=0.01859534034578046;, score=-1.878 total time=   4.7s
+[CV 1/3] END .......alpha=0.018280145502020995;, score=-1.805 total time=  11.7s
+[CV 1/3] END ........alpha=0.03556725268358827;, score=-2.073 total time=   0.1s
+[CV 2/3] END ........alpha=0.03961665282709677;, score=-2.284 total time=   0.1s
+[CV 1/3] END .......alpha=0.009236209172029898;, score=-2.092 total time=   0.1s
+[CV 1/3] END .......alpha=0.009326726405731726;, score=-2.092 total time=   0.2s
+[CV 2/3] END .......alpha=0.019008748122855766;, score=-1.891 total time=   9.2s
+[CV 2/3] END ........alpha=0.01811754096928657;, score=-1.894 total time=   9.2s
+[CV 2/3] END ........alpha=0.01859534034578046;, score=-1.892 total time=   8.8s
+[CV 2/3] END .......alpha=0.018280145502020995;, score=-1.894 total time=   8.9s
+[CV 3/3] END .......alpha=0.014469960339889997;, score=-2.088 total time=   0.2s
+[CV 3/3] END ........alpha=0.09294474139176562;, score=-2.396 total time=   0.1s
+[CV 3/3] END .......alpha=0.009267104729765059;, score=-2.072 total time=   0.2s
+[CV 3/3] END .......alpha=0.009164479713485864;, score=-2.072 total time=   0.2s
+[CV 3/3] END ........alpha=0.09780160748126554;, score=-2.201 total time=   2.5s
+[CV 3/3] END .......alpha=0.018322824000389735;, score=-1.878 total time=   4.6s
+[CV 1/3] END .......alpha=0.018641306933726117;, score=-1.805 total time=  14.9s
+[CV 3/3] END ........alpha=0.01811214193466145;, score=-1.878 total time=   4.9s
+[CV 2/3] END .......alpha=0.014469960339889997;, score=-2.138 total time=   0.1s
+[CV 2/3] END ........alpha=0.09294474139176562;, score=-2.584 total time=   0.1s
+[CV 2/3] END .......alpha=0.009267104729765059;, score=-2.083 total time=   0.1s
+[CV 1/3] END .......alpha=0.009164479713485864;, score=-2.092 total time=   0.2s
+[CV 1/3] END ........alpha=0.09780160748126554;, score=-2.094 total time=   1.7s
+[CV 1/3] END .......alpha=0.018322824000389735;, score=-1.805 total time=  11.5s
+[CV 3/3] END .......alpha=0.018641306933726117;, score=-1.878 total time=   3.2s
+[CV 1/3] END ........alpha=0.01811214193466145;, score=-1.804 total time=  11.3s
+[CV 1/3] END .......alpha=0.014469960339889997;, score=-2.089 total time=   0.2s
+[CV 1/3] END ........alpha=0.09294474139176562;, score=-2.235 total time=   0.1s
+[CV 1/3] END .......alpha=0.009267104729765059;, score=-2.092 total time=   0.2s
+[CV 2/3] END .......alpha=0.009164479713485864;, score=-2.081 total time=   0.2s
+[CV 2/3] END ........alpha=0.09780160748126554;, score=-2.276 total time=   2.2s
+[CV 2/3] END .......alpha=0.018322824000389735;, score=-1.893 total time=   9.1s
+[CV 2/3] END .......alpha=0.018641306933726117;, score=-1.892 total time=   9.4s
+[CV 2/3] END ........alpha=0.01811214193466145;, score=-1.894 total time=   9.1s
