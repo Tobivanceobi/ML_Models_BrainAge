@@ -42,10 +42,14 @@ for ts in training_sets:
         best_params = res_df.iloc[0]
 
         model_param = dict()
+        base_model_param = dict()
         for col in res_df.columns:
             if 'param_' in col and not('estimator__' in col):
                 key_n = col.replace('param_', '')
                 model_param[key_n] = best_params[col]
+            if 'param_' in col and 'estimator__' in col:
+                key_n = col.replace('param_', '').replace('estimator__', '')
+                base_model_param[key_n] = best_params[col]
 
         best_fold = 0
         best_score = 5
@@ -57,7 +61,7 @@ for ts in training_sets:
             y_test = [y[i] for i in skf_vals[fold][1]]
 
             # Create a KNN Regressor
-            knn_regressor = KNeighborsRegressor()
+            knn_regressor = KNeighborsRegressor(**base_model_param)
 
             # Create a Bagging KNN Regressor
             model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=-2)

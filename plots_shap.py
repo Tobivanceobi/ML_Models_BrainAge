@@ -13,7 +13,7 @@ from helper import load_object, group_freq_bands_shap, group_methods_shap
 MODEL_LIST = [
     'EleasticNet',
     'KNN', 'LassoRegression',
-    'MLP', 'RandomForrest', 'SVRegression'
+    'MLP', 'SVRegression'
 ]
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
@@ -53,8 +53,6 @@ for m in MODEL_LIST:
     # Calculate aggregated SHAP values for each feature group
     grouped_shap_values = np.zeros((len(x_test), len(n_labels_m)))
     for i, group in enumerate(feature_groups_m):
-        print(i)
-        print(group)
         grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
 
     vals = np.abs(grouped_shap_values).mean(0)
