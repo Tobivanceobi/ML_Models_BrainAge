@@ -11,4 +11,3 @@ no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontr
 no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
-1.7261070812505608
