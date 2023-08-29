@@ -32,6 +32,8 @@ for m in MODEL_LIST:
     groups = data['group']
     y = data['y']
     x_names = data['x_names']
+    y = [int(age * 10) for age in data['y']]
+
 
     shap_dict = load_object(m + '/' + 'shap_values')
     fold = shap_dict['fold']

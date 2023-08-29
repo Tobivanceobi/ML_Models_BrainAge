@@ -17,9 +17,8 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
     def __init__(self,
                  layer1=None,
                  layer2=None,
-                 layer3=None,
-                 layer4=None,
                  num_hl=None,
+                 batch_size=None,
                  activation=None,
                  solver=None,
                  learning_rate=None,
@@ -27,9 +26,8 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
                  alpha=None):
         self.layer1 = layer1
         self.layer2 = layer2
-        self.layer3 = layer3
-        self.layer4 = layer4
         self.num_hl = num_hl
+        self.batch_size = batch_size
         self.activation = activation
         self.solver = solver
         self.learning_rate = learning_rate
@@ -37,15 +35,16 @@ class MLPWrapper(BaseEstimator, RegressorMixin):
         self.alpha = alpha
 
     def fit(self, x_train, y_train):
-        print([self.layer1, self.layer2, self.layer3, self.layer4][-1*self.num_hl:])
+        print([self.layer1, self.layer2][-1*self.num_hl:])
         print(self.solver)
         print(self.learning_rate_init)
         print(self.activation)
         print(self.alpha)
         model_mlp = MLPRegressor(
-            hidden_layer_sizes=[self.layer1, self.layer2, self.layer3, self.layer4][-1*self.num_hl:],
-            max_iter=1000,
+            hidden_layer_sizes=[self.layer1, self.layer2][-1*self.num_hl:],
+            max_iter=300,
             activation=self.activation,
+            batch_size=self.batch_size,
             solver=self.solver,
             learning_rate=self.learning_rate,
             learning_rate_init=self.learning_rate_init,
@@ -74,7 +73,7 @@ for ts in training_sets:
         y = data['y']
         x_names = data['x_names']
 
-        scaler = MinMaxScaler()
+        scaler = StandardScaler()
         x = scaler.fit_transform(x)
 
         y_skf = [int(age) for age in data['y']]
