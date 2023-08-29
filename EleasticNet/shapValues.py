@@ -24,7 +24,7 @@ for ts in training_sets:
         y = data['y']
         x_names = data['x_names']
 
-        scaler = MinMaxScaler()
+        scaler = StandardScaler()
         x = scaler.fit_transform(x)
 
         y_skf = [int(age) for age in data['y']]

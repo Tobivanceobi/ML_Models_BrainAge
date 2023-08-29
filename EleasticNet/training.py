@@ -7,7 +7,7 @@ sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
 from sklearn.linear_model import ElasticNet
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from skopt import BayesSearchCV
 
 from config import SET_PATH, BASE_PATH
@@ -30,7 +30,7 @@ for ts in training_sets:
     for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
         skf_vals.append((train_index, test_index))
 
-    scaler = MinMaxScaler()
+    scaler = StandardScaler()
     x = scaler.fit_transform(x)
 
     parameter_space = {
