@@ -43,13 +43,13 @@ for ts in training_sets:
 
         model_param = dict()
         for col in res_df.columns:
-            if 'param_' in col and not('base_estimator__' in col):
+            if 'param_' in col and not('estimator__' in col):
                 key_n = col.replace('param_', '')
                 model_param[key_n] = best_params[col]
 
         best_fold = 0
         best_score = 5
-        best_model = ElasticNet(random_state=42, max_iter=5000)
+        best_model = KNeighborsRegressor()
         for fold in range(len(skf_vals)):
             x_train = [x[i] for i in skf_vals[fold][0]]
             x_test = [x[i] for i in skf_vals[fold][1]]

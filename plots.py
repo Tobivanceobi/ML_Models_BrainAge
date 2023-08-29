@@ -25,6 +25,7 @@ result_df = dict(
 )
 
 for m in MODEL_LIST:
+    print(m)
     set_path = SET_PATH + 'TS2/meanEpochs/'
     data = load_object(set_path + 'training_set')
     x = data['x']
@@ -45,13 +46,15 @@ for m in MODEL_LIST:
     x_test_df = pd.DataFrame(x_test, columns=x_names)
 
     # Group features for aggregation
-    n_labels_fb, feature_groups_fb = group_freq_bands_shap(x_names)
+    # n_labels_fb, feature_groups_fb = group_freq_bands_shap(x_names)
 
     n_labels_m, feature_groups_m = group_methods_shap(x_names)
 
     # Calculate aggregated SHAP values for each feature group
     grouped_shap_values = np.zeros((len(x_test), len(n_labels_m)))
     for i, group in enumerate(feature_groups_m):
+        print(i)
+        print(group)
         grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
 
     vals = np.abs(grouped_shap_values).mean(0)
