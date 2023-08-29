@@ -50,6 +50,7 @@ for ts in training_sets:
                             search_spaces=param_space,
                             cv=skf_vals,
                             scoring='neg_mean_absolute_error',
+                            n_iter=250,
                             verbose=4)
 
         clf.fit(x, y=y)

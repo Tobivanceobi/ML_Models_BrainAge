@@ -16,9 +16,9 @@ from skopt import BayesSearchCV
 pid = int(sys.argv[1])
 print('Process ID: ', pid)
 training_sets = [
-    'TS2/meanEpochs/',
-    'TS2/meanEpochs/onlyEC/',
-    'TS2/meanEpochs/onlyEO/',
+    'TS4/meanEpochs/',
+    'TS4/meanEpochs/onlyEC/',
+    'TS4/meanEpochs/onlyEO/',
 ]
 ts = training_sets[pid]
 set_path = SET_PATH + ts
@@ -42,8 +42,8 @@ model = LogisticRegression(n_jobs=-2)
 parameter_space = {
     "max_iter": [500],
     "C": Integer(1, 1000),
-    "solver": Categorical(['lbfgs', 'newton-cg', 'sag', 'saga', 'liblinear']),
-    "tol": [0.005],
+    "solver": Categorical(['lbfgs', 'newton-cg']),
+    "tol": [0.01],
     "penalty": Categorical(['l2']),
     "fit_intercept": Categorical([True, False]),
 }
