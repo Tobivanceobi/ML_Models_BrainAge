@@ -6,7 +6,7 @@ sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 from sklearn.linear_model import Lasso
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from config import SET_PATH, BASE_PATH
 from helper import load_object
 import pandas as pd
@@ -31,7 +31,7 @@ for ts in training_sets:
     for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
         skf_vals.append((train_index, test_index))
 
-    scaler = MinMaxScaler()
+    scaler = StandardScaler()
     x = scaler.fit_transform(x)
 
     model = Lasso(max_iter=5000, random_state=42)
