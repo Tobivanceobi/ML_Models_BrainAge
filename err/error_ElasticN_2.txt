@@ -1,0 +1,84 @@
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.303e+01, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.925e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.513e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.790e+01, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.345e+01, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.289e+02, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.999e+01, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.130e+01, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.304e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.133e+02, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.571e+02, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.498e+01, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.041e+01, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.142e+01, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.294e+01, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.835e+01, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.064e+02, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.328e+01, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.485e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.238e+01, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.729e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.598e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.673e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.320e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.097e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.612e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.855e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.416e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.381e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.222e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.235e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.975e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.545e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.244e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.653e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.973e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.210e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.376e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.011e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.159e+00, tolerance: 8.434e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.173e+00, tolerance: 9.125e-01
+  model = cd_fast.enet_coordinate_descent(
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:628: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.156e+00, tolerance: 9.009e-01
+  model = cd_fast.enet_coordinate_descent(

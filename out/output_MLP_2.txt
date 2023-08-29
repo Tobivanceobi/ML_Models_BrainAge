@@ -1,0 +1,993 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+[1452, 875]
+adam
+0.07172746628360498
+tanh
+5.780420486607819e-05
+[1274, 561]
+adam
+0.08057784742503397
+tanh
+8.299688870402494e-05
+[1452, 875]
+adam
+0.07172746628360498
+tanh
+5.780420486607819e-05
+[1274, 561]
+adam
+0.08057784742503397
+tanh
+8.299688870402494e-05
+[1452, 875]
+adam
+0.07172746628360498
+tanh
+5.780420486607819e-05
+[1274, 561]
+adam
+0.08057784742503397
+tanh
+8.299688870402494e-05
+[1751, 375]
+adam
+0.028273341270478095
+tanh
+3.88554352877077e-05
+[1000, 513]
+adam
+0.0001
+tanh
+1e-05
+[1328, 449]
+adam
+0.0846406104010169
+tanh
+8.506080301957433e-05
+[1751, 375]
+adam
+0.028273341270478095
+tanh
+3.88554352877077e-05
+[1000, 513]
+adam
+0.0001
+tanh
+1e-05
+[1328, 449]
+adam
+0.0846406104010169
+tanh
+8.506080301957433e-05
+[1751, 375]
+adam
+0.028273341270478095
+tanh
+3.88554352877077e-05
+[1000, 513]
+adam
+0.0001
+tanh
+1e-05
+[1328, 449]
+adam
+0.0846406104010169
+tanh
+8.506080301957433e-05
+[1200, 555]
+adam
+0.08409240686195207
+tanh
+8.707062385119544e-05
+{'mean_fit_time': array([43.43197966, 70.85604008, 32.75377655,  6.77031541, 47.01107653,
+        4.51508776, 48.07788197, 10.20497036, 24.74076041, 16.07185181,
+       51.1378297 , 23.13604975, 72.35882195, 29.87150415, 16.50103625,
+       68.98707589, 22.53702561, 22.87655139, 40.54995259, 16.2946504 ,
+        3.48268994,  2.34919953, 18.14745927, 26.19245323, 14.92077724,
+       16.85029833, 16.59904671, 22.86562602, 28.67582528, 24.62565764]), 'std_fit_time': array([10.32629701,  8.17543252,  2.45174976,  0.63293424,  1.68823515,
+        0.4702152 ,  3.99571163,  2.56514389,  2.95305528,  2.70932757,
+        7.27672964,  1.65054821,  2.99789907,  3.24001073,  1.67790698,
+        2.93114508,  1.16549606,  1.67802838,  8.11490115,  4.59645478,
+        0.07850905,  0.10822559,  0.68349554,  4.18356032,  2.45364729,
+        1.81628   ,  0.46022441,  2.57796764,  1.3155127 ,  2.11800885]), 'mean_score_time': array([0.06541157, 0.05794867, 0.05998818, 0.00941062, 0.07035812,
+       0.01182365, 0.07548515, 0.01706258, 0.04959925, 0.02491339,
+       0.03891945, 0.04667417, 0.06624794, 0.05796202, 0.04208422,
+       0.07408452, 0.02680103, 0.04799223, 0.05568027, 0.04014111,
+       0.00905538, 0.00882991, 0.04570707, 0.05539258, 0.03427649,
+       0.04370944, 0.04081106, 0.02817488, 0.05660701, 0.05808361]), 'std_score_time': array([1.11977531e-03, 6.24574540e-04, 7.92649052e-04, 2.07218894e-04,
+       3.95310674e-04, 1.35255990e-04, 9.03390309e-04, 1.26177626e-04,
+       5.69501237e-04, 1.26080279e-04, 3.41784377e-04, 1.81069384e-04,
+       5.96928040e-04, 5.56819546e-05, 6.15586152e-04, 8.93617092e-04,
+       2.65199516e-04, 3.05581382e-04, 1.79180511e-04, 3.65655189e-04,
+       3.71791739e-04, 7.18486518e-05, 7.22671224e-04, 1.06173540e-04,
+       4.35114408e-04, 1.58359088e-03, 2.61384194e-04, 1.16042645e-03,
+       7.92830649e-04, 4.26181922e-04]), 'param_activation': masked_array(data=['tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh',
+                   'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh',
+                   'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh',
+                   'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh',
+                   'tanh', 'tanh'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_alpha': masked_array(data=[5.780420486607819e-05, 7.318157711314738e-05,
+                   3.88554352877077e-05, 6.463188710508989e-05,
+                   6.990051291335649e-05, 8.525176906151753e-05,
+                   2.241200555859566e-05, 4.7956312339846904e-05,
+                   8.299688870402494e-05, 1.633216695462469e-05, 1e-05,
+                   8.707062385119544e-05, 8.951849865162319e-05,
+                   7.18543078911078e-05, 9.676934327403208e-05,
+                   1.424579039080017e-05, 0.0001, 8.506080301957433e-05,
+                   8.721072610551958e-05, 8.342432547605761e-05, 1e-05,
+                   1e-05, 8.598684723135168e-05, 9.341753004921455e-05,
+                   8.561915085840199e-05, 8.557136150135618e-05,
+                   8.461803543679875e-05, 1e-05, 8.353978857187277e-05,
+                   8.434262728678577e-05],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_batch_size': masked_array(data=[32, 512, 128, 256, 256, 128, 512, 32, 32, 32, 512, 32,
+                   8, 32, 32, 8, 8, 32, 32, 128, 32, 128, 32, 32, 32, 32,
+                   32, 128, 32, 32],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_layer1': masked_array(data=[1452, 1312, 1751, 1709, 1988, 1473, 1904, 1642, 1274,
+                   1648, 1000, 1200, 1775, 1590, 1062, 1938, 1000, 1328,
+                   1445, 1000, 1968, 1299, 1154, 1445, 1000, 1268, 1215,
+                   1717, 1699, 1800],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_layer2': masked_array(data=[875, 824, 375, 310, 474, 411, 679, 602, 561, 915, 513,
+                   555, 545, 488, 547, 605, 1000, 449, 573, 574, 300, 300,
+                   565, 543, 300, 300, 300, 1000, 300, 300],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_learning_rate': masked_array(data=['adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive', 'adaptive', 'adaptive',
+                   'adaptive', 'adaptive'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_learning_rate_init': masked_array(data=[0.07172746628360498, 0.02114258685493613,
+                   0.028273341270478095, 0.04123756054483316,
+                   0.0404710091678661, 0.09500385934459113,
+                   0.05053380192677643, 0.08321614668171554,
+                   0.08057784742503397, 0.051516605962449585, 0.0001,
+                   0.08409240686195207, 0.031040020850085486,
+                   0.08009810503724663, 0.09257689343076103,
+                   0.08797487789224756, 0.06812130235284759,
+                   0.0846406104010169, 0.007650619916100617, 0.1, 0.1,
+                   0.1, 0.09657724062527695, 0.08244027552404407, 0.1,
+                   0.1, 0.1, 0.1, 0.07334871073957867, 0.1],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_num_hl': masked_array(data=[2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2,
+                   2, 2, 1, 1, 2, 2, 2, 2, 2, 1, 2, 2],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_solver': masked_array(data=['adam', 'adam', 'adam', 'adam', 'adam', 'adam', 'adam',
+                   'adam', 'adam', 'adam', 'adam', 'adam', 'adam', 'adam',
+                   'adam', 'adam', 'adam', 'adam', 'adam', 'adam', 'adam',
+                   'adam', 'adam', 'adam', 'adam', 'adam', 'adam', 'adam',
+                   'adam', 'adam'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('activation', 'tanh'), ('alpha', 5.780420486607819e-05), ('batch_size', 32), ('layer1', 1452), ('layer2', 875), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.07172746628360498), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 7.318157711314738e-05), ('batch_size', 512), ('layer1', 1312), ('layer2', 824), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.02114258685493613), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 3.88554352877077e-05), ('batch_size', 128), ('layer1', 1751), ('layer2', 375), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.028273341270478095), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 6.463188710508989e-05), ('batch_size', 256), ('layer1', 1709), ('layer2', 310), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.04123756054483316), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 6.990051291335649e-05), ('batch_size', 256), ('layer1', 1988), ('layer2', 474), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.0404710091678661), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.525176906151753e-05), ('batch_size', 128), ('layer1', 1473), ('layer2', 411), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.09500385934459113), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 2.241200555859566e-05), ('batch_size', 512), ('layer1', 1904), ('layer2', 679), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.05053380192677643), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 4.7956312339846904e-05), ('batch_size', 32), ('layer1', 1642), ('layer2', 602), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08321614668171554), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.299688870402494e-05), ('batch_size', 32), ('layer1', 1274), ('layer2', 561), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08057784742503397), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1.633216695462469e-05), ('batch_size', 32), ('layer1', 1648), ('layer2', 915), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.051516605962449585), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1e-05), ('batch_size', 512), ('layer1', 1000), ('layer2', 513), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.0001), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.707062385119544e-05), ('batch_size', 32), ('layer1', 1200), ('layer2', 555), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08409240686195207), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.951849865162319e-05), ('batch_size', 8), ('layer1', 1775), ('layer2', 545), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.031040020850085486), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 7.18543078911078e-05), ('batch_size', 32), ('layer1', 1590), ('layer2', 488), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08009810503724663), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 9.676934327403208e-05), ('batch_size', 32), ('layer1', 1062), ('layer2', 547), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.09257689343076103), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1.424579039080017e-05), ('batch_size', 8), ('layer1', 1938), ('layer2', 605), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08797487789224756), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 0.0001), ('batch_size', 8), ('layer1', 1000), ('layer2', 1000), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.06812130235284759), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.506080301957433e-05), ('batch_size', 32), ('layer1', 1328), ('layer2', 449), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.0846406104010169), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.721072610551958e-05), ('batch_size', 32), ('layer1', 1445), ('layer2', 573), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.007650619916100617), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.342432547605761e-05), ('batch_size', 128), ('layer1', 1000), ('layer2', 574), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1e-05), ('batch_size', 32), ('layer1', 1968), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1e-05), ('batch_size', 128), ('layer1', 1299), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.598684723135168e-05), ('batch_size', 32), ('layer1', 1154), ('layer2', 565), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.09657724062527695), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 9.341753004921455e-05), ('batch_size', 32), ('layer1', 1445), ('layer2', 543), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08244027552404407), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.561915085840199e-05), ('batch_size', 32), ('layer1', 1000), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.557136150135618e-05), ('batch_size', 32), ('layer1', 1268), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.461803543679875e-05), ('batch_size', 32), ('layer1', 1215), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 1e-05), ('batch_size', 128), ('layer1', 1717), ('layer2', 1000), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 1), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.353978857187277e-05), ('batch_size', 32), ('layer1', 1699), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.07334871073957867), ('num_hl', 2), ('solver', 'adam')]), OrderedDict([('activation', 'tanh'), ('alpha', 8.434262728678577e-05), ('batch_size', 32), ('layer1', 1800), ('layer2', 300), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.1), ('num_hl', 2), ('solver', 'adam')])], 'split0_test_score': array([-2.57215259, -3.85890741, -3.14999502, -3.48816326, -3.08131812,
+       -3.16194624, -3.6673446 , -2.97379019, -2.56268939, -3.33608562,
+       -3.55589515, -2.50032304, -2.70336489, -2.89790245, -2.65340282,
+       -4.40189277, -6.55942431, -2.60370753, -3.01107791, -3.0769649 ,
+       -2.72707772, -3.29374139, -2.40294732, -3.11872806, -2.51291817,
+       -2.27989933, -2.58591188, -3.43638931, -2.52902209, -2.72930372]), 'split1_test_score': array([-3.7496853 , -3.6794843 , -3.64931856, -3.75120941, -3.20087118,
+       -2.90275004, -3.78450416, -2.99798341, -2.48627967, -3.23040876,
+       -3.37467952, -2.35734636, -4.64161302, -2.43577967, -2.6030833 ,
+       -5.37921753, -5.29118838, -2.60553018, -2.91398018, -2.69323698,
+       -2.61972541, -3.11365646, -2.75148939, -2.48427257, -2.60797604,
+       -2.84212542, -2.41457396, -3.32934536, -2.72871729, -2.62787347]), 'split2_test_score': array([-3.97068172, -3.6221228 , -3.07560426, -3.64019508, -2.91028581,
+       -3.01679045, -3.17459524, -3.1275875 , -2.41855187, -2.97106834,
+       -3.14390968, -2.56402627, -2.91382319, -2.52382758, -2.4516656 ,
+       -6.16600218, -5.22089898, -2.39155555, -2.7933491 , -2.71273769,
+       -2.64174325, -2.8222247 , -3.10201761, -2.58962594, -2.43697661,
+       -2.5054897 , -2.89539081, -3.09774453, -2.53243118, -2.72366643]), 'mean_test_score': array([-3.43083987, -3.7201715 , -3.29163928, -3.62652258, -3.06415837,
+       -3.02716224, -3.542148  , -3.03312037, -2.48917364, -3.17918757,
+       -3.35816145, -2.47389856, -3.41960037, -2.6191699 , -2.56938391,
+       -5.31570416, -5.69050389, -2.53359776, -2.90613573, -2.82764652,
+       -2.66284879, -3.07654085, -2.75215144, -2.73087552, -2.51929027,
+       -2.54250482, -2.63195888, -3.2878264 , -2.59672352, -2.69361454]), 'std_test_score': array([0.61385   , 0.1008574 , 0.2547343 , 0.10782245, 0.1192499 ,
+       0.10607025, 0.26426358, 0.0675246 , 0.05887947, 0.15335603,
+       0.16859743, 0.08642082, 0.86835452, 0.20034468, 0.08573686,
+       0.72159359, 0.61508925, 0.10044176, 0.08906032, 0.17647438,
+       0.04629768, 0.19427674, 0.28539463, 0.27760527, 0.06995548,
+       0.23101534, 0.1989748 , 0.14133398, 0.09334407, 0.04654289]), 'rank_test_score': array([25, 28, 22, 27, 18, 16, 26, 17,  2, 20, 23,  1, 24,  8,  6, 29, 30,
+        4, 15, 14, 10, 19, 13, 12,  3,  5,  9, 21,  7, 11], dtype=int32)}
+-2.4738985573311254
+OrderedDict([('activation', 'tanh'), ('alpha', 8.707062385119544e-05), ('batch_size', 32), ('layer1', 1200), ('layer2', 555), ('learning_rate', 'adaptive'), ('learning_rate_init', 0.08409240686195207), ('num_hl', 2), ('solver', 'adam')])
+[1988, 474]
+adam
+0.0404710091678661
+tanh
+6.990051291335649e-05
+[1775, 545]
+adam
+0.031040020850085486
+tanh
+8.951849865162319e-05
+[1000, 574]
+adam
+0.1
+tanh
+8.342432547605761e-05
+[1988, 474]
+adam
+0.0404710091678661
+tanh
+6.990051291335649e-05
+[1775, 545]
+adam
+0.031040020850085486
+tanh
+8.951849865162319e-05
+[1000, 574]
+adam
+0.1
+tanh
+8.342432547605761e-05
+[1988, 474]
+adam
+0.0404710091678661
+tanh
+6.990051291335649e-05
+[1775, 545]
+adam
+0.031040020850085486
+tanh
+8.951849865162319e-05
+[1000, 574]
+adam
+0.1
+tanh
+8.342432547605761e-05
+[411]
+adam
+0.09500385934459113
+tanh
+8.525176906151753e-05
+[1590, 488]
+adam
+0.08009810503724663
+tanh
+7.18543078911078e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[411]
+adam
+0.09500385934459113
+tanh
+8.525176906151753e-05
+[1590, 488]
+adam
+0.08009810503724663
+tanh
+7.18543078911078e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[411]
+adam
+0.09500385934459113
+tanh
+8.525176906151753e-05
+[1590, 488]
+adam
+0.08009810503724663
+tanh
+7.18543078911078e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[1904, 679]
+adam
+0.05053380192677643
+tanh
+2.241200555859566e-05
+[1062, 547]
+adam
+0.09257689343076103
+tanh
+9.676934327403208e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[1904, 679]
+adam
+0.05053380192677643
+tanh
+2.241200555859566e-05
+[1062, 547]
+adam
+0.09257689343076103
+tanh
+9.676934327403208e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[1904, 679]
+adam
+0.05053380192677643
+tanh
+2.241200555859566e-05
+[1062, 547]
+adam
+0.09257689343076103
+tanh
+9.676934327403208e-05
+[300]
+adam
+0.1
+tanh
+1e-05
+[602]
+adam
+0.08321614668171554
+tanh
+4.7956312339846904e-05
+[1938, 605]
+adam
+0.08797487789224756
+tanh
+1.424579039080017e-05
+[1154, 565]
+adam
+0.09657724062527695
+tanh
+8.598684723135168e-05
+[602]
+adam
+0.08321614668171554
+tanh
+4.7956312339846904e-05
+[1938, 605]
+adam
+0.08797487789224756
+tanh
+1.424579039080017e-05
+[1154, 565]
+adam
+0.09657724062527695
+tanh
+8.598684723135168e-05
+[602]
+adam
+0.08321614668171554
+tanh
+4.7956312339846904e-05
+[1938, 605]
+adam
+0.08797487789224756
+tanh
+1.424579039080017e-05
+[1154, 565]
+adam
+0.09657724062527695
+tanh
+8.598684723135168e-05
+[1445, 543]
+adam
+0.08244027552404407
+tanh
+9.341753004921455e-05
+[1445, 543]
+adam
+0.08244027552404407
+tanh
+9.341753004921455e-05
+[1445, 543]
+adam
+0.08244027552404407
+tanh
+9.341753004921455e-05
+[1000, 300]
+adam
+0.1
+tanh
+8.561915085840199e-05
+[1000, 300]
+adam
+0.1
+tanh
+8.561915085840199e-05
+[1000, 300]
+adam
+0.1
+tanh
+8.561915085840199e-05
+[1268, 300]
+adam
+0.1
+tanh
+8.557136150135618e-05
+[1268, 300]
+adam
+0.1
+tanh
+8.557136150135618e-05
+[1268, 300]
+adam
+0.1
+tanh
+8.557136150135618e-05
+[1215, 300]
+adam
+0.1
+tanh
+8.461803543679875e-05
+[1215, 300]
+adam
+0.1
+tanh
+8.461803543679875e-05
+[1215, 300]
+adam
+0.1
+tanh
+8.461803543679875e-05
+[1000]
+adam
+0.1
+tanh
+1e-05
+[1000]
+adam
+0.1
+tanh
+1e-05
+[1000]
+adam
+0.1
+tanh
+1e-05
+[1699, 300]
+adam
+0.07334871073957867
+tanh
+8.353978857187277e-05
+[1699, 300]
+adam
+0.07334871073957867
+tanh
+8.353978857187277e-05
+[1699, 300]
+adam
+0.07334871073957867
+tanh
+8.353978857187277e-05
+[1312, 824]
+adam
+0.02114258685493613
+tanh
+7.318157711314738e-05
+[915]
+adam
+0.051516605962449585
+tanh
+1.633216695462469e-05
+[1000]
+adam
+0.06812130235284759
+tanh
+0.0001
+[1800, 300]
+adam
+0.1
+tanh
+8.434262728678577e-05
+[1312, 824]
+adam
+0.02114258685493613
+tanh
+7.318157711314738e-05
+[915]
+adam
+0.051516605962449585
+tanh
+1.633216695462469e-05
+[1000]
+adam
+0.06812130235284759
+tanh
+0.0001
+[1800, 300]
+adam
+0.1
+tanh
+8.434262728678577e-05
+[1312, 824]
+adam
+0.02114258685493613
+tanh
+7.318157711314738e-05
+[915]
+adam
+0.051516605962449585
+tanh
+1.633216695462469e-05
+[1000]
+adam
+0.06812130235284759
+tanh
+0.0001
+[1800, 300]
+adam
+0.1
+tanh
+8.434262728678577e-05
+[310]
+adam
+0.04123756054483316
+tanh
+6.463188710508989e-05
+[1200, 555]
+adam
+0.08409240686195207
+tanh
+8.707062385119544e-05
+[1445, 573]
+adam
+0.007650619916100617
+tanh
+8.721072610551958e-05
+[1083, 670]
+adam
+0.061417310604963055
+tanh
+1.7602680735684837e-05
+[310]
+adam
+0.04123756054483316
+tanh
+6.463188710508989e-05
+[1200, 555]
+adam
+0.08409240686195207
+tanh
+8.707062385119544e-05
+[1445, 573]
+adam
+0.007650619916100617
+tanh
+8.721072610551958e-05
+[1083, 670]
+adam
+0.061417310604963055
+tanh
+1.7602680735684837e-05
+[310]
+adam
+0.04123756054483316
+tanh
+6.463188710508989e-05
+[1200, 555]
+adam
+0.08409240686195207
+tanh
+8.707062385119544e-05
+[1445, 573]
+adam
+0.007650619916100617
+tanh
+8.721072610551958e-05
+[1083, 670]
+adam
+0.061417310604963055
+tanh
+1.7602680735684837e-05
+[1116, 973]
+adam
+0.021793102681473893
+tanh
+5.813877488634044e-05
+[1116, 973]
+adam
+0.021793102681473893
+tanh
+5.813877488634044e-05
+[1837, 470]
+adam
+0.0914419519828283
+tanh
+4.0771930254137786e-05
+[1047, 381]
+adam
+0.011930387264907447
+tanh
+9.986323548372082e-05
+[771]
+adam
+0.06507718012924293
+tanh
+1.758502399122354e-05
+[1116, 973]
+adam
+0.021793102681473893
+tanh
+5.813877488634044e-05
+[1837, 470]
+adam
+0.0914419519828283
+tanh
+4.0771930254137786e-05
+[1047, 381]
+adam
+0.011930387264907447
+tanh
+9.986323548372082e-05
+[771]
+adam
+0.06507718012924293
+tanh
+1.758502399122354e-05
+[1837, 470]
+adam
+0.0914419519828283
+tanh
+4.0771930254137786e-05
+[1047, 381]
+adam
+0.011930387264907447
+tanh
+9.986323548372082e-05
+[771]
+adam
+0.06507718012924293
+tanh
+1.758502399122354e-05
+[1846, 802]
+adam
+0.021155678979890607
+tanh
+5.20010405711215e-05
+[1246, 883]
+adam
+0.005414004399224233
+tanh
+6.795763303639786e-05
+[1846, 802]
+adam
+0.021155678979890607
+tanh
+5.20010405711215e-05
+[1246, 883]
+adam
+0.005414004399224233
+tanh
+6.795763303639786e-05
+[1751, 554]
+adam
+0.09366387389558928
+tanh
+7.703544902868335e-05
+[653]
+adam
+0.009362017749299545
+tanh
+6.537611621867118e-05
+[1751, 554]
+adam
+0.09366387389558928
+tanh
+7.703544902868335e-05
+[653]
+adam
+0.009362017749299545
+tanh
+6.537611621867118e-05
+[1846, 802]
+adam
+0.021155678979890607
+tanh
+5.20010405711215e-05
+[1246, 883]
+adam
+0.005414004399224233
+tanh
+6.795763303639786e-05
+[1751, 554]
+adam
+0.09366387389558928
+tanh
+7.703544902868335e-05
+[653]
+adam
+0.009362017749299545
+tanh
+6.537611621867118e-05
+[755]
+adam
+0.007388053491323744
+tanh
+4.459067266512911e-05
+[1019, 386]
+adam
+0.015586608370685115
+tanh
+9.841561837421808e-05
+[1011, 541]
+adam
+0.0202784742758344
+tanh
+5.609207414236799e-05
+[1167, 388]
+adam
+0.015475712731263358
+tanh
+0.0001
+[1808, 438]
+adam
+0.01581486938694694
+tanh
+8.640874897369982e-05
+[2000, 765]
+adam
+0.015504709730735585
+tanh
+9.07365392540265e-05
+[2000, 300]
+adam
+0.01578702630046517
+tanh
+4.204826408903877e-05
+[2000, 300]
+adam
+0.015671093131194063
+tanh
+7.240296287526039e-05
+[300]
+adam
+0.015579315435613446
+tanh
+2.1323055894593626e-05
+[755]
+adam
+0.007388053491323744
+tanh
+4.459067266512911e-05
+[1019, 386]
+adam
+0.015586608370685115
+tanh
+9.841561837421808e-05
+[1011, 541]
+adam
+0.0202784742758344
+tanh
+5.609207414236799e-05
+[1167, 388]
+adam
+0.015475712731263358
+tanh
+0.0001
+[1808, 438]
+adam
+0.01581486938694694
+tanh
+8.640874897369982e-05
+[2000, 765]
+adam
+0.015504709730735585
+tanh
+9.07365392540265e-05
+[2000, 300]
+adam
+0.01578702630046517
+tanh
+4.204826408903877e-05
+[2000, 300]
+adam
+0.015671093131194063
+tanh
+7.240296287526039e-05
+[300]
+adam
+0.015579315435613446
+tanh
+2.1323055894593626e-05
+[755]
+adam
+0.007388053491323744
+tanh
+4.459067266512911e-05
+[1019, 386]
+adam
+0.015586608370685115
+tanh
+9.841561837421808e-05
+[1011, 541]
+adam
+0.0202784742758344
+tanh
+5.609207414236799e-05
+[1167, 388]
+adam
+0.015475712731263358
+tanh
+0.0001
+[1808, 438]
+adam
+0.01581486938694694
+tanh
+8.640874897369982e-05
+[2000, 765]
+adam
+0.015504709730735585
+tanh
+9.07365392540265e-05
+[2000, 300]
+adam
+0.01578702630046517
+tanh
+4.204826408903877e-05
+[2000, 300]
+adam
+0.015671093131194063
+tanh
+7.240296287526039e-05
+[300]
+adam
+0.015579315435613446
+tanh
+2.1323055894593626e-05
+[610]
+adam
+0.08391681429385348
+tanh
+3.377366672103347e-05
+[610]
+adam
+0.08391681429385348
+tanh
+3.377366672103347e-05
+[610]
+adam
+0.08391681429385348
+tanh
+3.377366672103347e-05
+[1489, 856]
+adam
+0.0331573447823829
+tanh
+1.0786438354234018e-05
+[1000]
+adam
+0.1
+tanh
+7.13908709895749e-05
+[1000]
+adam
+0.1
+tanh
+3.463538720729628e-05
+[1085, 694]
+adam
+0.04810999588270655
+tanh
+1.4921025771991229e-05
+[1489, 856]
+adam
+0.0331573447823829
+tanh
+1.0786438354234018e-05
+[1000]
+adam
+0.1
+tanh
+7.13908709895749e-05
+[1000]
+adam
+0.1
+tanh
+3.463538720729628e-05
+[1085, 694]
+adam
+0.04810999588270655
+tanh
+1.4921025771991229e-05
+[1423, 980]
+adam
+0.03633774691095571
+tanh
+3.125930847822554e-05
+[300]
+adam
+0.03272196057432131
+tanh
+0.0001
+[1489, 856]
+adam
+0.0331573447823829
+tanh
+1.0786438354234018e-05
+[1000]
+adam
+0.1
+tanh
+7.13908709895749e-05
+[1000]
+adam
+0.1
+tanh
+3.463538720729628e-05
+[1085, 694]
+adam
+0.04810999588270655
+tanh
+1.4921025771991229e-05
+[1423, 980]
+adam
+0.03633774691095571
+tanh
+3.125930847822554e-05
+[300]
+adam
+0.03272196057432131
+tanh
+0.0001
+[1423, 980]
+adam
+0.03633774691095571
+tanh
+3.125930847822554e-05
+[300]
+adam
+0.03272196057432131
+tanh
+0.0001
