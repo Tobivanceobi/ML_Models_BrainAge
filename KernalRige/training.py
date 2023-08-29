@@ -38,7 +38,7 @@ for ts in training_sets:
 
     # Define the parameter search space
     parameter_space = {
-        'alpha': Real(1e-6, 10, 'log-uniform'),
+        'alpha': Real(0.0001, 10, 'log-uniform'),
         'kernel': Categorical(['linear', 'rbf']),
         'degree': Integer(3, 8)
     }
