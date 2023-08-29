@@ -1,12 +1,14 @@
 import sys
 
+from sklearn.kernel_ridge import KernelRidge
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
 import shap
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 from config import SET_PATH, BASE_PATH
 from helper import load_object, save_object
@@ -24,7 +26,7 @@ for ts in training_sets:
         x_names = data['x_names']
         y = [int(age * 10) for age in data['y']]
 
-        scaler = MinMaxScaler()
+        scaler = StandardScaler()
         x = scaler.fit_transform(x)
 
         y_skf = [int(age) for age in data['y']]
@@ -46,14 +48,14 @@ for ts in training_sets:
 
         best_fold = 0
         best_score = 50
-        best_model = LogisticRegression()
+        best_model = KernelRidge()
         for fold in range(len(skf_vals)):
             x_train = [x[i] for i in skf_vals[fold][0]]
             x_test = [x[i] for i in skf_vals[fold][1]]
             y_train = [y[i] for i in skf_vals[fold][0]]
             y_test = [y[i] for i in skf_vals[fold][1]]
 
-            model = LogisticRegression(**model_param, n_jobs=-2)
+            model = KernelRidge(**model_param)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)
