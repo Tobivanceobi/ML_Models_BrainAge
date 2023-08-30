@@ -78,9 +78,7 @@ for ts in training_sets:
         x_test_df = pd.DataFrame(x_test, columns=x_names)
 
         # Initialize the shap explainer
-        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=-2)
-
-        # Compute Shap values for all instances in X_test
+        explainer = shap.TreeExplainer(best_model, num_jobs=-2)
         shap_values = explainer.shap_values(x_test_df)
 
         shap_dict = dict(
