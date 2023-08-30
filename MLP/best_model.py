@@ -1,6 +1,6 @@
 import sys
 
-from sklearn.base import BaseEstimator
+from sklearn.base import BaseEstimator, RegressorMixin
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.linear_model import ElasticNet, Lasso
 from sklearn.neural_network import MLPRegressor
