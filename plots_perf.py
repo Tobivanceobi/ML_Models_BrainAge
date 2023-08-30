@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
+import matplotlib.lines as mlines
 
 MODEL_LIST = [
     'EleasticNet', 'XGBoost', 'RandomForrest',
@@ -16,8 +17,8 @@ result_df = dict(
     average=[]
 )
 
-set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-train_set = ['TS2/']
+set_vary = ['meanEpochs/']  # , 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+train_set = ['TS2/', 'TS4/']
 results = dict(
     mean=[],
     std=[],
@@ -64,17 +65,30 @@ fig, ax = plt.subplots(figsize=(5, 6))
 sets_per_model = len(sets_name)
 space_per_model = sets_per_model * 0.5
 sep_space = 0.5
-
+label_offset = ((sets_per_model-1)/2)*0.5
 x_pos = np.linspace(1, len(MODEL_LIST)*(space_per_model+sep_space), len(MODEL_LIST))
-label_pos = [i+0.5 for i in x_pos]
+label_pos = [i+label_offset for i in x_pos]
 
 for i in range(len(mean_perf)):
     x_scale = i * 0.5
-    ax.barh(x_pos+x_scale, mean_perf[i], xerr=std_perf[i], align='center', alpha=0.7, ecolor='red', capsize=3, height=0.4)
+    ax.barh(
+        x_pos+x_scale, mean_perf[i],
+        xerr=std_perf[i],
+        align='center', alpha=0.7, ecolor='red',
+        capsize=3, height=0.4, label=sets_name[i])
+
+# Create custom error cap markers
+error_cap_marker = mlines.Line2D([], [], color='red', marker='_', markersize=8, markeredgewidth=2, label='std fold')
+
+# Combine legend handles and labels
+handles, labels = ax.get_legend_handles_labels()
+handles.append(error_cap_marker)
+labels.append(error_cap_marker.get_label())
+
 ax.set_yticks(label_pos)
 ax.set_yticklabels(MODEL_LIST)
 ax.set_xlim(1.4, 3.5)
-plt.legend(sets_name)
+ax.legend(handles, labels, loc='upper right')
 plt.tight_layout()
 plt.show()
 

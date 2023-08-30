@@ -1,5 +1,7 @@
 import sys
 
+from skopt.space import Integer, Real, Categorical
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 
 import numpy as np
@@ -34,11 +36,12 @@ for ts in training_sets:
     x = scaler.fit_transform(x)
 
     parameter_space = {
-        'degree': np.arange(2, 9),
-        'C': np.linspace(1, 20, 15),
-        'epsilon': np.linspace(0.001, 5, 10),
-        'gamma': np.linspace(0.001, 5, 15),
-        'kernel': ['poly', 'rbf']
+        'degree': Integer(2, 9),
+        'C': Real(1, 20),
+        'epsilon': Real(0.01, 3),
+        'gamma': Real(0.01, 3),
+        'kernel': Categorical(['poly', 'rbf']),
+        'shrinking': Categorical([True, False]),
     }
 
     model = SVR(max_iter=5000)
@@ -46,8 +49,8 @@ for ts in training_sets:
     clf = BayesSearchCV(estimator=model,
                         search_spaces=parameter_space,
                         cv=skf_vals,
-                        n_jobs=-3,
-                        n_iter=80,
+                        n_jobs=-1,
+                        n_iter=128,
                         scoring='neg_mean_absolute_error',
                         verbose=4)
 
