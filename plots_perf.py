@@ -10,7 +10,7 @@ from helper import load_object
 
 MODEL_LIST = [
     'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
-
+    'CatBoost', 'XGBoost'
 ]
 for m in MODEL_LIST:
     obj = load_object(m+'/best_model')
@@ -19,6 +19,7 @@ for m in MODEL_LIST:
     print(m)
     score = []
     rs = []
+    print(obj['ts'], obj['sv'])
     for key in obj.keys():
         if 'fold' in key:
             print(obj[key])

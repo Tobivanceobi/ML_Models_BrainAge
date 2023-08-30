@@ -44,9 +44,6 @@ le.fit(y)
 y = le.transform(y)
 x_names = data['x_names']
 
-scaler = StandardScaler()
-x = scaler.fit_transform(x)
-
 y_skf = [int(age) for age in data['y']]
 skf_vals = []
 skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
