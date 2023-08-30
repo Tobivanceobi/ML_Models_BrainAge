@@ -48,8 +48,6 @@ for ts in training_sets:
                 key_n = col.replace('param_', '')
                 model_param[key_n] = best_params[col]
 
-        model_param['n_estimators'] = 4000
-
         best_fold = 0
         best_score = 5
         best_model = RandomForestRegressor()
