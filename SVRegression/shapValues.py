@@ -22,7 +22,7 @@ for ts in training_sets:
 
         x = data['x']
         groups = data['group']
-        y = data['y']
+        y = [int(age*10) for age in data['y']]
         x_names = data['x_names']
 
         scaler = StandardScaler()
@@ -54,7 +54,7 @@ for ts in training_sets:
             y_train = [y[i] for i in skf_vals[fold][0]]
             y_test = [y[i] for i in skf_vals[fold][1]]
 
-            model = SVR(**model_param, max_iter=-1)
+            model = SVR(**model_param, max_iter=6000)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)
