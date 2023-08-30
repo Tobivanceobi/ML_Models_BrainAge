@@ -6,7 +6,7 @@ import shap
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 
 from config import SET_PATH, BASE_PATH
 from helper import load_object, save_object
@@ -21,8 +21,12 @@ for ts in training_sets:
 
         x = data['x']
         groups = data['group']
-        y = data['y']
         x_names = data['x_names']
+        y = [int(age * 10) for age in data['y']]
+
+        le = LabelEncoder()
+        le.fit(y)
+        y = le.transform(y)
 
         scaler = MinMaxScaler()
         x = scaler.fit_transform(x)

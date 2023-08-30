@@ -63,7 +63,7 @@ for ts in training_sets:
             knn_regressor = KNeighborsRegressor(**base_model_param)
 
             # Create a Bagging KNN Regressor
-            model = BaggingRegressor(**model_param, base_estimator=knn_regressor, random_state=42, n_jobs=-2)
+            model = BaggingRegressor(**model_param, estimator=knn_regressor, random_state=42, n_jobs=-2)
             model.fit(x_train, y=y_train)
 
             preds = model.predict(x_test)

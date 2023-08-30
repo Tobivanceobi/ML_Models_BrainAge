@@ -1,12 +1,15 @@
 import sys
 
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.linear_model import ElasticNet, Lasso
+
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
-from sklearn.ensemble import BaggingRegressor
+from sklearn.ensemble import BaggingRegressor, RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 from config import BASE_PATH, SET_PATH
 from helper import load_object, save_object
@@ -20,7 +23,7 @@ best_score = -50
 for ts in training_sets:
     for sv in set_vary:
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        res_df = pd.read_csv(BASE_PATH + f'BaggedKNN/{f_name}results.csv')
+        res_df = pd.read_csv(BASE_PATH + f'RandomForrest/{f_name}results.csv')
         res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
         best_params = res_df.iloc[0]
         if best_params['mean_test_score'] > best_score:
@@ -34,7 +37,11 @@ data = load_object(set_path + 'training_set')
 
 x = data['x']
 groups = data['group']
-y = data['y']
+y = [int(age * 10) for age in data['y']]
+
+le = LabelEncoder()
+le.fit(y)
+y = le.transform(y)
 x_names = data['x_names']
 
 scaler = StandardScaler()
@@ -47,23 +54,19 @@ for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
     skf_vals.append((train_index, test_index))
 
 f_name = best_ts.replace('/', '_') + best_sv.replace('/', '_')
-res_df = pd.read_csv(BASE_PATH + f'BaggedKNN/{f_name}results.csv')
+res_df = pd.read_csv(BASE_PATH + f'RandomForrest/{f_name}results.csv')
 res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
 best_params = res_df.iloc[0]
 model_param = dict()
-base_model_param = dict()
 for col in res_df.columns:
-    if 'param_' in col and not('estimator__' in col):
+    if 'param_' in col:
         key_n = col.replace('param_', '')
         model_param[key_n] = best_params[col]
-    if 'param_' in col and 'estimator__' in col:
-        key_n = col.replace('param_', '').replace('estimator__', '')
-        base_model_param[key_n] = best_params[col]
 
 results = dict()
 results['ts'] = best_ts
 results['sv'] = best_sv
-best_model = KNeighborsRegressor()
+best_model = RandomForestRegressor()
 best_mae = 50
 for fold in range(len(skf_vals)):
     x_train = [x[i] for i in skf_vals[fold][0]]
@@ -71,11 +74,7 @@ for fold in range(len(skf_vals)):
     y_train = [y[i] for i in skf_vals[fold][0]]
     y_test = [y[i] for i in skf_vals[fold][1]]
 
-    # Create a KNN Regressor
-    knn_regressor = KNeighborsRegressor(**base_model_param)
-
-    # Create a Bagging KNN Regressor
-    model = BaggingRegressor(**model_param, estimator=knn_regressor, random_state=42, n_jobs=-2)
+    model = RandomForestRegressor(**model_param, n_jobs=-2)
     model.fit(x_train, y=y_train)
 
     preds = model.predict(x_test)
@@ -86,4 +85,4 @@ for fold in range(len(skf_vals)):
         results['preds'] = preds
         results['y_test'] = y_test
 
-save_object(results, BASE_PATH + 'BaggedKNN/best_model')
+save_object(results, BASE_PATH + 'RandomForrest/best_model')
