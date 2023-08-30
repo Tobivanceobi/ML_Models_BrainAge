@@ -12,12 +12,680 @@ no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 3/3] END C=2.3937817081873582, degree=3, epsilon=1.4715336151134217, gamma=0.3317160668465896, kernel=rbf, shrinking=False;, score=-25.834 total time=   0.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=False;, score=-28.127 total time=   0.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=True;, score=-28.127 total time=   0.5s
+[CV 3/3] END C=1.0, degree=4, epsilon=0.01, gamma=1.942437585843403, kernel=rbf, shrinking=False;, score=-25.788 total time=   0.5s
+[CV 2/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.082844644541379, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=11.232733202873277, degree=4, epsilon=1.3858771618628971, gamma=2.3072387168532917, kernel=poly, shrinking=False;, score=-48.362 total time=  12.6s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+{'mean_fit_time': array([0.24860938, 0.24812706, 0.24048551, 0.2653447 , 0.24017334,
+       0.25098705, 0.25163658, 0.24547728, 0.25296418, 0.2482725 ,
+       0.24407411, 0.27171326, 0.24926917, 0.25369207, 0.25063141,
+       0.24133388, 0.2383647 , 0.25183773, 0.2389977 , 0.25399295,
+       0.23982588, 0.26042207, 0.27021162, 0.30576817, 0.25418282,
+       0.28354979, 0.2814943 , 0.25764815, 0.25839504, 0.25158358,
+       0.29170593, 0.26049399, 0.24811935, 0.2515196 , 0.25831072,
+       0.25001852, 0.28949674, 0.25021362, 0.25886647, 0.24617712,
+       0.25849382, 0.24252256, 0.29980691, 0.25405788, 0.24925709,
+       0.25734075, 0.28815158, 0.26191545, 0.24892847, 0.26575748,
+       0.25153089, 0.25567516, 0.26953419, 0.27464581, 0.29248675,
+       0.26219837, 0.26555951, 0.26896413, 0.26371837, 0.27056861,
+       0.25005158, 0.26068934, 0.24768233, 0.26942428, 0.28220375,
+       0.24758116, 0.26485173, 0.25611973, 0.25982761, 0.26560958,
+       0.24348982, 0.32383196, 0.30296238, 0.28974867, 0.26486246,
+       0.25242543, 0.26630227, 0.26304626, 0.26547861, 0.26638277,
+       0.2622629 , 0.29655846, 0.27104473, 0.27275658, 0.27384257,
+       0.30500849, 0.26593423, 0.25660817, 0.26063569, 0.26526523,
+       0.25500091, 0.26627509, 0.32567279, 0.27030849, 0.25933019,
+       0.26020122, 0.271547  , 0.27163609, 0.26047579, 0.27898153,
+       0.26893361, 0.26223191, 0.26740805, 0.26455863, 0.29043627,
+       0.25826017, 0.26551255, 0.27082213, 0.26183875, 0.32904132,
+       0.2588915 , 0.27030357, 0.26112485, 0.32933553, 0.36991088,
+       0.26774875, 0.25690524, 0.26168116, 0.30966727, 0.26166129,
+       0.26763272, 0.2638975 , 0.26709231, 0.26391689, 0.2574505 ,
+       0.26843301, 0.26342678, 0.26802993]), 'std_fit_time': array([0.00139696, 0.00381168, 0.00185298, 0.00581092, 0.00184021,
+       0.00570017, 0.00139733, 0.00196968, 0.00198574, 0.00190604,
+       0.00253321, 0.01780722, 0.00049376, 0.00304709, 0.00218428,
+       0.00341162, 0.00099244, 0.00049473, 0.00110118, 0.00110638,
+       0.00124803, 0.02080196, 0.03507677, 0.03227765, 0.00799728,
+       0.0224937 , 0.02722612, 0.01347929, 0.0118483 , 0.01444861,
+       0.02066248, 0.00939209, 0.00564719, 0.01049598, 0.01231874,
+       0.01106814, 0.02466986, 0.00614394, 0.0112843 , 0.00555959,
+       0.00551864, 0.00291927, 0.02763981, 0.00449439, 0.01412652,
+       0.01309701, 0.0306979 , 0.00437508, 0.0063214 , 0.01907896,
+       0.00787879, 0.0110164 , 0.01171587, 0.02321462, 0.02972688,
+       0.01003598, 0.01032824, 0.01355089, 0.00771759, 0.00924226,
+       0.0075328 , 0.00555109, 0.00375679, 0.01054329, 0.02785052,
+       0.00941552, 0.01688937, 0.01387286, 0.00159965, 0.0181847 ,
+       0.00441916, 0.04244879, 0.01906809, 0.03217644, 0.01194108,
+       0.00960166, 0.00662556, 0.01643314, 0.01676212, 0.00749984,
+       0.00355344, 0.03282642, 0.01321986, 0.00297572, 0.00886835,
+       0.0287222 , 0.00421133, 0.00445607, 0.00314622, 0.01134729,
+       0.0032399 , 0.01101334, 0.04612785, 0.01314335, 0.00270506,
+       0.00857946, 0.01534469, 0.00918654, 0.00260141, 0.01441626,
+       0.01178068, 0.00308942, 0.01100515, 0.00908612, 0.02132899,
+       0.0045339 , 0.01606096, 0.0154515 , 0.00463124, 0.0356418 ,
+       0.00252265, 0.00917185, 0.0020171 , 0.00830601, 0.01593503,
+       0.01615792, 0.00546276, 0.01517297, 0.04262803, 0.00332804,
+       0.01550883, 0.01004118, 0.01159705, 0.00381688, 0.003543  ,
+       0.01218054, 0.010962  , 0.00588719]), 'mean_score_time': array([0.23793062, 0.10412002, 0.25113312, 0.10843833, 0.25228111,
+       0.2553006 , 0.26111452, 0.10726325, 0.1101435 , 0.25300074,
+       0.25847324, 0.10643029, 0.24243339, 0.24790406, 0.2493283 ,
+       0.24635736, 0.23955957, 0.24526771, 0.23922253, 0.24482544,
+       0.23889875, 0.24522201, 0.27471391, 0.26396608, 0.26327332,
+       0.25675416, 0.26069172, 0.25054161, 0.26326632, 0.25599607,
+       0.26306732, 0.25966088, 0.26569557, 0.28152267, 0.29637225,
+       0.28750412, 0.27875614, 0.29018434, 0.28699573, 0.28644109,
+       0.28988473, 0.27433538, 0.271643  , 0.26988324, 0.27586794,
+       0.26697318, 0.26949143, 0.26947633, 0.26125312, 0.2686158 ,
+       0.26176254, 0.27671091, 0.28177373, 0.26700052, 0.25173275,
+       0.27349234, 0.26329335, 0.2619431 , 0.25997543, 0.26732286,
+       0.26361012, 0.25512139, 0.2511669 , 0.27017164, 0.26276922,
+       0.27735591, 0.29251186, 0.30261993, 0.30546395, 0.28380489,
+       0.29542693, 0.31712985, 0.28580848, 0.29410776, 0.29975748,
+       0.27216236, 0.2841893 , 0.26394256, 0.27237026, 0.26919087,
+       0.2703197 , 0.26434803, 0.26786558, 0.27004576, 0.26911505,
+       0.28921811, 0.27280649, 0.28087902, 0.27448265, 0.27943198,
+       0.27393182, 0.28440475, 0.27253826, 0.27348693, 0.27216323,
+       0.2760059 , 0.28136182, 0.27889784, 0.29395564, 0.2953968 ,
+       0.28397584, 0.2972784 , 0.29436175, 0.29521346, 0.30380011,
+       0.29266779, 0.27960086, 0.28875963, 0.28096056, 0.28109757,
+       0.27742656, 0.27505668, 0.28152712, 0.28960252, 0.27718584,
+       0.28078453, 0.27843142, 0.29499729, 0.29450782, 0.28774651,
+       0.2947433 , 0.28859901, 0.29887819, 0.30311124, 0.29289285,
+       0.29958534, 0.30152623, 0.28933048]), 'std_score_time': array([0.00504973, 0.00091824, 0.00961272, 0.00061337, 0.01622415,
+       0.01336448, 0.0124245 , 0.00081193, 0.00024839, 0.01332671,
+       0.00400575, 0.00368362, 0.00172526, 0.00425967, 0.00798133,
+       0.01264152, 0.00215019, 0.00351485, 0.00195659, 0.00220693,
+       0.0016654 , 0.00515886, 0.003368  , 0.00970013, 0.01431369,
+       0.01358933, 0.00715928, 0.00392325, 0.00474325, 0.00282894,
+       0.00357822, 0.00946707, 0.01124479, 0.00852031, 0.00548463,
+       0.00437201, 0.01788772, 0.00792841, 0.00832796, 0.00441894,
+       0.00203859, 0.0018912 , 0.02425974, 0.01736736, 0.00789391,
+       0.00320008, 0.0016887 , 0.0035057 , 0.00642487, 0.006839  ,
+       0.00753632, 0.00584938, 0.0273614 , 0.00210839, 0.00281962,
+       0.00797893, 0.00163864, 0.00185979, 0.00605438, 0.0057988 ,
+       0.00141608, 0.00636469, 0.00731616, 0.01369686, 0.0107661 ,
+       0.01331931, 0.0045787 , 0.00755922, 0.00467439, 0.01362333,
+       0.00754938, 0.02554322, 0.01371751, 0.01133241, 0.0137423 ,
+       0.01549932, 0.00946817, 0.00425743, 0.01789263, 0.00601043,
+       0.00615091, 0.00280161, 0.00532523, 0.00167697, 0.00360746,
+       0.00375777, 0.01216098, 0.01355617, 0.00727017, 0.00773687,
+       0.01248069, 0.01015945, 0.00756714, 0.01020601, 0.00179593,
+       0.00796068, 0.00263502, 0.00655707, 0.00339441, 0.00555095,
+       0.00807774, 0.00363335, 0.00226211, 0.00278464, 0.0068272 ,
+       0.00089922, 0.01207734, 0.00573723, 0.01645929, 0.01731073,
+       0.00514639, 0.00633165, 0.00581136, 0.0130691 , 0.00592492,
+       0.01357638, 0.01618956, 0.00696762, 0.01642661, 0.0150002 ,
+       0.00553115, 0.01204164, 0.00260793, 0.00685917, 0.00167262,
+       0.00168641, 0.00446112, 0.00994215]), 'param_C': masked_array(data=[16.75045303441358, 4.592372535843317,
+                   4.297391035294835, 5.062828712252013,
+                   8.134543965261177, 2.3937817081873582,
+                   14.39255009238655, 14.91579022949559,
+                   19.437389406077283, 1.3946815162829438,
+                   6.835126018943031, 3.3869724268959747, 1.0, 1.0, 1.0,
+                   20.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_degree': masked_array(data=[4, 3, 4, 4, 4, 3, 4, 4, 2, 3, 2, 5, 4, 4, 4, 3, 3, 4,
+                   3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+                   2, 2, 2, 2, 4, 2, 2, 4, 2, 2, 4, 4, 2, 4, 2, 2, 4, 4,
+                   4, 2, 4, 4, 4, 4, 2, 4, 2, 2, 2, 2, 4, 2, 4, 4, 2, 4,
+                   2, 2, 4, 2, 4, 2, 2, 4, 4, 2, 4, 4, 4, 4, 4, 4, 4, 4,
+                   4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+                   4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+                   4, 4],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_epsilon': masked_array(data=[2.254509819557444, 2.296218505121246,
+                   1.959674845746643, 1.266297940808893,
+                   2.343904197170224, 1.4715336151134217,
+                   0.647209269544274, 1.617239490188131,
+                   0.5272060690216648, 0.576004332487406,
+                   2.288402043589094, 2.7568166282636284, 0.01, 0.01,
+                   0.01, 3.0, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_gamma': masked_array(data=[1.9916262042050332, 2.1393422358938556,
+                   2.118935383746207, 1.233877738679253,
+                   1.9243558228327442, 0.3317160668465896,
+                   2.2922608829405555, 0.6460903623289138,
+                   0.20163961011736906, 1.156181714601885,
+                   2.732418120376265, 0.5477977867971938,
+                   2.952876877341638, 2.6900416194783974,
+                   2.6567346737063415, 3.0, 0.01, 1.037283705204072, 0.01,
+                   0.7335673399628981, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                   0.01, 0.01, 0.01, 0.01, 0.01, 2.97918315132912, 0.01,
+                   0.01, 2.9622408969805654, 0.01, 0.01,
+                   0.03578984092956534, 2.994791601930222, 0.01,
+                   1.2611635227462776, 0.01, 0.01, 1.1600473344735562,
+                   2.2106676956938367, 1.6331551896944185, 0.01,
+                   1.8089538324645285, 2.4955343073595304,
+                   2.046459642755998, 2.3724401894499167, 0.01,
+                   2.431125498525047, 0.01, 0.01, 0.01, 0.01,
+                   2.0319595860020887, 0.01, 2.590915500057676,
+                   1.878112399785027, 0.01, 2.0213462346188655, 0.01,
+                   0.01, 2.732291554769763, 0.01, 1.000721110433855, 0.01,
+                   0.01, 1.0370711449151957, 2.3102631561273435, 0.01,
+                   2.1820900732138355, 2.627929968080226,
+                   1.456222194107676, 2.1400073332856246,
+                   2.5250360921203905, 2.329457576960078,
+                   2.0864449635575513, 1.7906980688376102,
+                   2.4798673549113146, 1.942437585843403,
+                   2.124229544700647, 2.2634783324070353,
+                   2.7453615108247282, 2.318604159274534,
+                   1.8430253127250407, 2.225710139824535,
+                   2.274773334800188, 2.085680660503088,
+                   2.257530845204273, 2.079861851282142,
+                   1.8055203490243192, 2.482849048896652,
+                   2.2700904323126507, 1.6562785038775425,
+                   2.3220732167101166, 2.5963119976346514,
+                   2.3238816013169865, 2.5045379694859498,
+                   2.3958087419915075, 1.9852479109419503,
+                   2.082844644541379, 2.3646319316096025,
+                   2.3298336795236883, 2.540369908221811,
+                   2.164410137638747, 2.8306440574222504,
+                   2.0088254803340897, 2.2505093007813306,
+                   2.0190140184932663, 2.684515369567895,
+                   2.3565769441997353, 2.382776269791883,
+                   2.198761167442394, 2.62632559927273, 2.20678125173165,
+                   2.360852582460314],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_kernel': masked_array(data=['rbf', 'poly', 'rbf', 'poly', 'rbf', 'rbf', 'rbf',
+                   'poly', 'poly', 'rbf', 'rbf', 'poly', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_shrinking': masked_array(data=[True, False, False, False, False, False, True, True,
+                   True, True, False, False, False, False, False, True,
+                   True, False, False, False, True, False, False, False,
+                   True, True, False, False, False, False, True, False,
+                   True, False, True, False, True, True, True, False,
+                   False, True, False, False, False, True, False, False,
+                   False, False, True, False, False, False, False, True,
+                   False, False, False, False, True, False, True, True,
+                   True, True, False, True, False, False, True, False,
+                   True, True, False, True, False, True, True, False,
+                   False, True, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('C', 16.75045303441358), ('degree', 4), ('epsilon', 2.254509819557444), ('gamma', 1.9916262042050332), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 4.592372535843317), ('degree', 3), ('epsilon', 2.296218505121246), ('gamma', 2.1393422358938556), ('kernel', 'poly'), ('shrinking', False)]), OrderedDict([('C', 4.297391035294835), ('degree', 4), ('epsilon', 1.959674845746643), ('gamma', 2.118935383746207), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 5.062828712252013), ('degree', 4), ('epsilon', 1.266297940808893), ('gamma', 1.233877738679253), ('kernel', 'poly'), ('shrinking', False)]), OrderedDict([('C', 8.134543965261177), ('degree', 4), ('epsilon', 2.343904197170224), ('gamma', 1.9243558228327442), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 2.3937817081873582), ('degree', 3), ('epsilon', 1.4715336151134217), ('gamma', 0.3317160668465896), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 14.39255009238655), ('degree', 4), ('epsilon', 0.647209269544274), ('gamma', 2.2922608829405555), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 14.91579022949559), ('degree', 4), ('epsilon', 1.617239490188131), ('gamma', 0.6460903623289138), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 19.437389406077283), ('degree', 2), ('epsilon', 0.5272060690216648), ('gamma', 0.20163961011736906), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.3946815162829438), ('degree', 3), ('epsilon', 0.576004332487406), ('gamma', 1.156181714601885), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 6.835126018943031), ('degree', 2), ('epsilon', 2.288402043589094), ('gamma', 2.732418120376265), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 3.3869724268959747), ('degree', 5), ('epsilon', 2.7568166282636284), ('gamma', 0.5477977867971938), ('kernel', 'poly'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.952876877341638), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.6900416194783974), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.6567346737063415), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 20.0), ('degree', 3), ('epsilon', 3.0), ('gamma', 3.0), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 3), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.037283705204072), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 3), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.7335673399628981), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.97918315132912), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.9622408969805654), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 0.03578984092956534), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.994791601930222), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.2611635227462776), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.1600473344735562), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.2106676956938367), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.6331551896944185), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.8089538324645285), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.4955343073595304), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.046459642755998), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3724401894499167), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.431125498525047), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.0319595860020887), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.590915500057676), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.878112399785027), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.0213462346188655), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.732291554769763), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.000721110433855), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.0370711449151957), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3102631561273435), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.1820900732138355), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.627929968080226), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.456222194107676), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.1400073332856246), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.5250360921203905), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.329457576960078), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.0864449635575513), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.7906980688376102), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.4798673549113146), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.942437585843403), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.124229544700647), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.2634783324070353), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.7453615108247282), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.318604159274534), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.8430253127250407), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.225710139824535), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.274773334800188), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.085680660503088), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.257530845204273), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.079861851282142), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.8055203490243192), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.482849048896652), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.2700904323126507), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.6562785038775425), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3220732167101166), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.5963119976346514), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3238816013169865), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.5045379694859498), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3958087419915075), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 1.9852479109419503), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.082844644541379), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3646319316096025), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3298336795236883), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.540369908221811), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.164410137638747), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.8306440574222504), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.0088254803340897), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.2505093007813306), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.0190140184932663), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.684515369567895), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.3565769441997353), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.382776269791883), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.198761167442394), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.62632559927273), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.20678125173165), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.01), ('gamma', 2.360852582460314), ('kernel', 'rbf'), ('shrinking', False)])], 'split0_test_score': array([-28.08644615, -34.3125974 , -28.09879128, -60.16154619,
+       -28.0945669 , -28.10298114, -28.09037815, -59.85922528,
+       -31.29749118, -28.11163312, -28.09537168, -97.54701809,
+       -28.12754087, -28.12754087, -28.12754087, -28.08504588,
+       -28.12745525, -28.12754087, -28.12745525, -28.12754087,
+       -28.12745525, -28.12745525, -28.12745525, -28.12745525,
+       -28.12745525, -28.12745525, -28.12745525, -28.12745525,
+       -28.12745525, -28.12745525, -28.12745525, -28.12745525,
+       -28.12745525, -28.12745525, -28.12745525, -28.12745525,
+       -28.12745525, -28.12745525, -28.12745525, -28.12745525,
+       -28.12754087, -28.12745525, -28.12745525, -28.12754087,
+       -28.12745525, -28.12745525, -28.12754089, -28.12754087,
+       -28.12745525, -28.12754087, -28.12745525, -28.12745525,
+       -28.12754087, -28.12754087, -28.12754087, -28.12745525,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12745525, -28.12754087, -28.12745525, -28.12745525,
+       -28.12745525, -28.12745525, -28.12754087, -28.12745525,
+       -28.12754087, -28.12754087, -28.12745525, -28.12754087,
+       -28.12745525, -28.12745525, -28.12754087, -28.12745525,
+       -28.12754087, -28.12745525, -28.12745525, -28.12754087,
+       -28.12754087, -28.12745525, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087,
+       -28.12754087, -28.12754087, -28.12754087, -28.12754087]), 'split1_test_score': array([-29.26127446, -25.69992498, -29.24293108, -34.87125857,
+       -29.24313102, -29.24217314, -29.24732244, -34.81314993,
+       -26.51026691, -29.24497528, -29.242836  , -40.88198821,
+       -29.24308447, -29.24308447, -29.24308447, -29.27551649,
+       -29.24286671, -29.24308447, -29.24286671, -29.24308447,
+       -29.24286671, -29.24286671, -29.24286671, -29.24286671,
+       -29.24286671, -29.24286671, -29.24286671, -29.24286671,
+       -29.24286671, -29.24286671, -29.24286671, -29.24286671,
+       -29.24286671, -29.24286671, -29.24286671, -29.24286671,
+       -29.24286671, -29.24286671, -29.24286671, -29.24286671,
+       -29.24308447, -29.24286671, -29.24286671, -29.24308447,
+       -29.24286671, -29.24286671, -29.24308447, -29.24308447,
+       -29.24286671, -29.24308447, -29.24286671, -29.24286671,
+       -29.24308447, -29.24308447, -29.24308447, -29.24286671,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24286671, -29.24308447, -29.24286671, -29.24286671,
+       -29.24286671, -29.24286671, -29.24308447, -29.24286671,
+       -29.24308447, -29.24308447, -29.24286671, -29.24308447,
+       -29.24286671, -29.24286671, -29.24308447, -29.24286671,
+       -29.24308447, -29.24286671, -29.24286671, -29.24308447,
+       -29.24308447, -29.24286671, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447,
+       -29.24308447, -29.24308447, -29.24308447, -29.24308447]), 'split2_test_score': array([ -25.95075714,  -52.53828469,  -25.85120464, -136.13040829,
+        -25.87689679,  -25.83408587,  -25.89463724, -135.19157166,
+        -31.75514781,  -25.8050819 ,  -25.86933257, -337.89065991,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.99715599,
+        -25.78811289,  -25.78821402,  -25.78811289,  -25.78821402,
+        -25.78811289,  -25.78811289,  -25.78811289,  -25.78811289,
+        -25.78811289,  -25.78811289,  -25.78811289,  -25.78811289,
+        -25.78811289,  -25.78811289,  -25.78811289,  -25.78811289,
+        -25.78811289,  -25.78811289,  -25.78811289,  -25.78811289,
+        -25.78811289,  -25.78811289,  -25.78811289,  -25.78811289,
+        -25.78821402,  -25.78811289,  -25.78811289,  -25.78821402,
+        -25.78811289,  -25.78811289,  -25.78821404,  -25.78821402,
+        -25.78811289,  -25.78821402,  -25.78811289,  -25.78811289,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78811289,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78811289,  -25.78821402,  -25.78811289,  -25.78811289,
+        -25.78811289,  -25.78811289,  -25.78821402,  -25.78811289,
+        -25.78821402,  -25.78821402,  -25.78811289,  -25.78821402,
+        -25.78811289,  -25.78811289,  -25.78821402,  -25.78811289,
+        -25.78821402,  -25.78811289,  -25.78811289,  -25.78821402,
+        -25.78821402,  -25.78811289,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402,
+        -25.78821402,  -25.78821402,  -25.78821402,  -25.78821402]), 'mean_test_score': array([ -27.76615925,  -37.51693569,  -27.73097567,  -77.05440435,
+        -27.73819824,  -27.72641338,  -27.74411261,  -76.62131562,
+        -29.85430197,  -27.72056343,  -27.73584675, -158.77322207,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.78590612,
+        -27.71947829,  -27.71961312,  -27.71947829,  -27.71961312,
+        -27.71947829,  -27.71947829,  -27.71947829,  -27.71947829,
+        -27.71947829,  -27.71947829,  -27.71947829,  -27.71947829,
+        -27.71947829,  -27.71947829,  -27.71947829,  -27.71947829,
+        -27.71947829,  -27.71947829,  -27.71947829,  -27.71947829,
+        -27.71947829,  -27.71947829,  -27.71947829,  -27.71947829,
+        -27.71961312,  -27.71947829,  -27.71947829,  -27.71961312,
+        -27.71947829,  -27.71947829,  -27.71961313,  -27.71961312,
+        -27.71947829,  -27.71961312,  -27.71947829,  -27.71947829,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71947829,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71947829,  -27.71961312,  -27.71947829,  -27.71947829,
+        -27.71947829,  -27.71947829,  -27.71961312,  -27.71947829,
+        -27.71961312,  -27.71961312,  -27.71947829,  -27.71961312,
+        -27.71947829,  -27.71947829,  -27.71961312,  -27.71947829,
+        -27.71961312,  -27.71947829,  -27.71947829,  -27.71961312,
+        -27.71961312,  -27.71947829,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312,
+        -27.71961312,  -27.71961312,  -27.71961312,  -27.71961312]), 'std_test_score': array([  1.37035738,  11.18854253,   1.40888095,  43.03006966,
+         1.39717147,   1.4165962 ,   1.39045541,  42.65897828,
+         2.37195984,   1.43129737,   1.40049395, 128.75046616,
+         1.43963797,   1.43963797,   1.43963797,   1.35499701,
+         1.4395983 ,   1.43963797,   1.4395983 ,   1.43963797,
+         1.4395983 ,   1.4395983 ,   1.4395983 ,   1.4395983 ,
+         1.4395983 ,   1.4395983 ,   1.4395983 ,   1.4395983 ,
+         1.4395983 ,   1.4395983 ,   1.4395983 ,   1.4395983 ,
+         1.4395983 ,   1.4395983 ,   1.4395983 ,   1.4395983 ,
+         1.4395983 ,   1.4395983 ,   1.4395983 ,   1.4395983 ,
+         1.43963797,   1.4395983 ,   1.4395983 ,   1.43963797,
+         1.4395983 ,   1.4395983 ,   1.43963797,   1.43963797,
+         1.4395983 ,   1.43963797,   1.4395983 ,   1.4395983 ,
+         1.43963797,   1.43963797,   1.43963797,   1.4395983 ,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.4395983 ,   1.43963797,   1.4395983 ,   1.4395983 ,
+         1.4395983 ,   1.4395983 ,   1.43963797,   1.4395983 ,
+         1.43963797,   1.43963797,   1.4395983 ,   1.43963797,
+         1.4395983 ,   1.4395983 ,   1.43963797,   1.4395983 ,
+         1.43963797,   1.4395983 ,   1.4395983 ,   1.43963797,
+         1.43963797,   1.4395983 ,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797,
+         1.43963797,   1.43963797,   1.43963797,   1.43963797]), 'rank_test_score': array([122, 125, 118, 127, 120, 117, 121, 126, 124, 116, 119, 128,  44,
+        44,  44, 123,   1,  44,   1,  44,   1,   1,   1,   1,   1,   1,
+         1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,
+         1,  44,   1,   1,  44,   1,   1, 115,  44,   1,  44,   1,   1,
+        44,  44,  44,   1,  44,  44,  44,  44,   1,  44,   1,   1,   1,
+         1,  44,   1,  44,  44,   1,  44,   1,   1,  44,   1,  44,   1,
+         1,  44,  44,   1,  44,  44,  44,  44,  44,  44,  44,  44,  44,
+        44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,
+        44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44,
+        44,  44,  44,  44,  44,  44,  44,  44,  44,  44,  44], dtype=int32)}
+-27.719478285068732
+OrderedDict([('C', 1.0), ('degree', 3), ('epsilon', 0.01), ('gamma', 0.01), ('kernel', 'rbf'), ('shrinking', True)])
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 3/3] END C=6.835126018943031, degree=2, epsilon=2.288402043589094, gamma=2.732418120376265, kernel=rbf, shrinking=False;, score=-25.869 total time=   0.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=True;, score=-28.127 total time=   0.5s
+[CV 3/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.2106676956938367, kernel=rbf, shrinking=False;, score=-25.788 total time=   0.5s
+[CV 2/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.732291554769763, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.6s
+[CV 3/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.318604159274534, kernel=rbf, shrinking=False;, score=-25.788 total time=   0.5s
+[CV 3/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.164410137638747, kernel=rbf, shrinking=False;, score=-25.788 total time=   0.5s
+[CV 3/3] END C=13.999347107227436, degree=5, epsilon=1.7950781036591759, gamma=0.471867794615933, kernel=poly, shrinking=False;, score=-496.391 total time=  10.1s
+[CV 1/3] END C=1.3946815162829438, degree=3, epsilon=0.576004332487406, gamma=1.156181714601885, kernel=rbf, shrinking=True;, score=-28.112 total time=   0.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=True;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=True;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.2634783324070353, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.6s
+[CV 1/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.540369908221811, kernel=rbf, shrinking=False;, score=-28.128 total time=   0.6s
+[CV 1/3] END C=13.999347107227436, degree=5, epsilon=1.7950781036591759, gamma=0.471867794615933, kernel=poly, shrinking=False;, score=-82.352 total time=  10.4s
+[CV 3/3] END C=1.3946815162829438, degree=3, epsilon=0.576004332487406, gamma=1.156181714601885, kernel=rbf, shrinking=True;, score=-25.805 total time=   0.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=False;, score=-28.127 total time=   0.5s
+[CV 2/3] END C=1.0, degree=4, epsilon=0.01, gamma=1.1600473344735562, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.01, gamma=0.01, kernel=rbf, shrinking=True;, score=-29.243 total time=   0.5s
+[CV 2/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.7453615108247282, kernel=rbf, shrinking=False;, score=-29.243 total time=   0.5s
+[CV 1/3] END C=1.0, degree=4, epsilon=0.01, gamma=2.164410137638747, kernel=rbf, shrinking=False;, score=-28.128 total time=   0.5s
+[CV 2/3] END C=13.999347107227436, degree=5, epsilon=1.7950781036591759, gamma=0.471867794615933, kernel=poly, shrinking=False;, score=-73.690 total time=  10.5s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
