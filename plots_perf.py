@@ -17,8 +17,8 @@ result_df = dict(
     average=[]
 )
 
-set_vary = ['meanEpochs/']  # , 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-train_set = ['TS2/', 'TS4/']
+set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+train_set = ['TS2/']
 results = dict(
     mean=[],
     std=[],
@@ -90,5 +90,10 @@ ax.set_yticklabels(MODEL_LIST)
 ax.set_xlim(1.4, 3.5)
 ax.legend(handles, labels, loc='upper right')
 plt.tight_layout()
+fname = ''
+for n in sets_name:
+    fname += n + '_'
+fname += 'performance'
+plt.savefig(fname)
 plt.show()
 

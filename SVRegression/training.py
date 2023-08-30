@@ -28,7 +28,7 @@ for ts in training_sets:
 
     y_skf = [int(age) for age in data['y']]
     skf_vals = []
-    skf = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=126)
+    skf = StratifiedGroupKFold(n_splits=3, shuffle=True)
     for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
         skf_vals.append((train_index, test_index))
 
@@ -36,7 +36,7 @@ for ts in training_sets:
     x = scaler.fit_transform(x)
 
     parameter_space = {
-        'degree': Integer(2, 9),
+        'degree': Integer(2, 5),
         'C': Real(1, 20),
         'epsilon': Real(0.01, 3),
         'gamma': Real(0.01, 3),
@@ -44,7 +44,7 @@ for ts in training_sets:
         'shrinking': Categorical([True, False]),
     }
 
-    model = SVR(max_iter=5000)
+    model = SVR(max_iter=4000)
 
     clf = BayesSearchCV(estimator=model,
                         search_spaces=parameter_space,
