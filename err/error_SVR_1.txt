@@ -1,10 +1,56 @@
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/svm/_base.py:297: ConvergenceWarning: Solver terminated early (max_iter=4000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/svm/_base.py:297: ConvergenceWarning: Solver terminated early (max_iter=5000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/svm/_base.py:297: ConvergenceWarning: Solver terminated early (max_iter=4000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/svm/_base.py:297: ConvergenceWarning: Solver terminated early (max_iter=4000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
-  warnings.warn("The objective has been evaluated "
-/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
-  warnings.warn("The objective has been evaluated "
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 589, in __call__
+    return [func(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 589, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 127, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 732, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/svm/_base.py", line 268, in fit
+    raise ValueError(
+ValueError: The dual coefficients or intercepts are not finite. The input data may contain large values and need to be preprocessed.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/SVRegression/training.py", line 57, in <module>
+    clf.fit(x, y=y)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 466, in fit
+    super().fit(X=X, y=y, groups=groups, **fit_params)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 898, in fit
+    self._run_search(evaluate_candidates)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 512, in _run_search
+    optim_result = self._step(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/skopt/searchcv.py", line 408, in _step
+    all_results = evaluate_candidates(params_dict)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 845, in evaluate_candidates
+    out = parallel(
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/sklearn/utils/parallel.py", line 65, in __call__
+    return super().__call__(iterable_with_config)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1952, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1595, in _get_outputs
+    yield from self._retrieve()
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1699, in _retrieve
+    self._raise_error_fast()
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 1734, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 736, in get_result
+    return self._return_or_raise()
+  File "/home/modelrep/sadiya/miniconda/envs/pytorch/lib/python3.9/site-packages/joblib/parallel.py", line 754, in _return_or_raise
+    raise self._result
+ValueError: The dual coefficients or intercepts are not finite. The input data may contain large values and need to be preprocessed.
