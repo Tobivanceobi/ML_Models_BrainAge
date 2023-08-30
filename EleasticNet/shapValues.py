@@ -46,7 +46,7 @@ for ts in training_sets:
 
         best_fold = 0
         best_score = 5
-        best_model = ElasticNet(random_state=42, max_iter=-1)
+        best_model = ElasticNet(random_state=42)
         for fold in range(len(skf_vals)):
             x_train = [x[i] for i in skf_vals[fold][0]]
             x_test = [x[i] for i in skf_vals[fold][1]]

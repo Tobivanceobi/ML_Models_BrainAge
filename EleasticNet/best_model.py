@@ -61,7 +61,7 @@ for col in res_df.columns:
 results = dict()
 results['ts'] = best_ts
 results['sv'] = best_sv
-best_model = ElasticNet(random_state=42, max_iter=-1)
+best_model = ElasticNet()
 best_mae = 50
 for fold in range(len(skf_vals)):
     x_train = [x[i] for i in skf_vals[fold][0]]
@@ -69,7 +69,7 @@ for fold in range(len(skf_vals)):
     y_train = [y[i] for i in skf_vals[fold][0]]
     y_test = [y[i] for i in skf_vals[fold][1]]
 
-    model = ElasticNet(**model_param, random_state=42, max_iter=-1)
+    model = ElasticNet(**model_param, random_state=42, max_iter=12000)
     model.fit(x_train, y=y_train)
 
     preds = model.predict(x_test)
