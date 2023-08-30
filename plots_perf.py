@@ -5,10 +5,28 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import matplotlib.lines as mlines
 
+from helper import load_object
+
+
 MODEL_LIST = [
     'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
-    'CatBoost', 'XGBoost'
+
 ]
+for m in MODEL_LIST:
+    obj = load_object(m+'/best_model')
+    if obj is None:
+        continue
+    print(m)
+    score = []
+    rs = []
+    for key in obj.keys():
+        if 'fold' in key:
+            print(obj[key])
+            score.append(obj[key][0])
+            rs.append(obj[key][1])
+    print(np.mean(score), np.mean(rs))
+sys.exit()
+
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
 

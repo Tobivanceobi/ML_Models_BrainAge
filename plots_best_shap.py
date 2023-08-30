@@ -67,22 +67,37 @@ ch_pos = montage.get_positions()['ch_pos']
 ch_pos.pop('Cz')
 # ch_names = list(ch_pos.keys())
 ch_names = chan_map.keys()
-n_labels, feature_groups = group_chan_fb(x_names, ch_names, 'delta')
 
-# Calculate aggregated SHAP values for each feature group
-grouped_shap_values = np.zeros((len(x_test), len(n_labels)))
-for i, group in enumerate(feature_groups):
-    grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
-vals = np.abs(grouped_shap_values).mean(0)
-# shap.initjs()
-# shap.summary_plot(grouped_shap_values, feature_names=n_labels)
-imp = []
-upper_q = np.quantile(vals, 0.95)
-print(min(vals), max(vals), upper_q)
-for i in vals:
-    if i > upper_q:
-        imp.append(upper_q)
-    else:
-        imp.append(i)
+freq_bands = {
+    'delta': [0.5, 4],
+    'theta': [4, 7],
+    'alpha': [7, 13],
+    'beta': [13, 30],
+    'whole_spec': [0.5, 30]
+}
+for freq_band in freq_bands.keys():
+    n_labels, feature_groups = group_chan_fb(x_names, ch_names, freq_band)
 
-plot_topo_vals_12(imp)
+    # Calculate aggregated SHAP values for each feature group
+    grouped_shap_values = np.zeros((len(x_test), len(n_labels)))
+    for i, group in enumerate(feature_groups):
+        grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
+    vals = np.abs(grouped_shap_values).mean(0)
+    # shap.initjs()
+    # shap.summary_plot(grouped_shap_values, feature_names=n_labels)
+    imp = []
+    upper_q = np.quantile(vals, 0.90)
+    print(min(vals), max(vals), upper_q)
+    for i in vals:
+        if i > upper_q:
+            imp.append(upper_q)
+        else:
+            imp.append(i)
+    band_r = freq_bands[freq_band]
+    title = f"{freq_band} ({band_r[0]} - {band_r[1]} Hz)"
+    if freq_band == 'whole_spec':
+        title = f"whole spectrum ({band_r[0]} - {band_r[1]} Hz)"
+    plot_topo_vals_12(imp, title)
+    plt.tight_layout()
+    plt.savefig(f'topo_shap_{freq_band}')
+    plt.show()

@@ -49,7 +49,7 @@ for ts in training_sets:
                 model_param[key_n] = best_params[col]
 
         best_fold = 0
-        best_score = 5
+        best_score = 50
         best_model = RandomForestRegressor()
         for fold in range(len(skf_vals)):
             x_train = [x[i] for i in skf_vals[fold][0]]

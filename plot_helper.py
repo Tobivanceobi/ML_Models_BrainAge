@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from config import methods, freq_bands, chan_map
 
 
-def plot_topo_vals_12(eeg_data):
+def plot_topo_vals_12(vals, title):
     montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
 
     ch_pos = montage.get_positions()['ch_pos']
@@ -37,13 +37,13 @@ def plot_topo_vals_12(eeg_data):
         region_cord[key] = [sum(points[0]) / len(points[0]), sum(points[1]) / len(points[1])]
 
     reg_pos = np.array([region_cord[key] for key in region_cord.keys()])
-    eeg_data = np.array([i for i in range(len(reg_pos))])
     fig, ax = plt.subplots(figsize=(8, 8))
-    mne.viz.plot_topomap(eeg_data, pos=reg_pos, show=False, axes=ax, cmap='viridis')
+    mne.viz.plot_topomap(vals, pos=reg_pos, show=False, axes=ax, cmap='viridis')
 
     cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
-    cbar.set_label('Shap Value', rotation=270, labelpad=15)
-    plt.show()
+    cbar.ax.tick_params(labelsize=30)
+    cbar.set_label('Shap Importance', rotation=270, labelpad=60, fontsize=30)
+    plt.title(title, fontsize=30)
 
 
 def plot_topo_vals_128(eeg_data):
