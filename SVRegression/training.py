@@ -24,7 +24,7 @@ for ts in training_sets:
     data = load_object(set_path + 'training_set')
     x = data['x']
     groups = data['group']
-    y = data['y']
+    y = [int(age*10) for age in data['y']]
 
     y_skf = [int(age) for age in data['y']]
     skf_vals = []
