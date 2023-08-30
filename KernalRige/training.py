@@ -39,8 +39,8 @@ for ts in training_sets:
     # Define the parameter search space
     parameter_space = {
         'alpha': Real(0.0001, 10, 'log-uniform'),
-        'kernel': Categorical(['linear', 'rbf']),
-        'degree': Integer(3, 8)
+        'kernel': Categorical(['rbf']),
+        'degree': Integer(2, 6)
     }
 
     clf = BayesSearchCV(estimator=model,
@@ -48,6 +48,7 @@ for ts in training_sets:
                         cv=skf_vals,
                         scoring='neg_mean_absolute_error',
                         verbose=4,
+                        n_iter=128,
                         n_jobs=-3)
 
     clf.fit(x, y=y)

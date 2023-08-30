@@ -2,10 +2,51 @@ import mne
 import numpy as np
 from matplotlib import pyplot as plt
 
-from config import methods, freq_bands
+from config import methods, freq_bands, chan_map
 
 
-def plot_topo_vals(eeg_data):
+def plot_topo_vals_12(eeg_data):
+    montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
+
+    ch_pos = montage.get_positions()['ch_pos']
+    ch_pos.pop('Cz')
+    points_3d = np.array([ch_pos[key] for key in ch_pos.keys()])
+    ch_names = list(ch_pos.keys())
+
+    # Normalize points to create a sphere
+    points_norm = points_3d / np.linalg.norm(points_3d, axis=1, keepdims=True)
+
+    # Project points using azimuthal equidistant projection
+    radius = 1.5  # Sphere radius
+    projection_scale = 0.07  # Scale factor for projection
+    x_2d = projection_scale * radius * points_norm[:, 0] / (points_norm[:, 2] + radius)
+    y_2d = projection_scale * radius * points_norm[:, 1] / (points_norm[:, 2] + radius)
+
+    cpos = np.array([x_2d, y_2d]).transpose()
+
+    plot_cord = {key: [] for key in chan_map.keys()}
+
+    for i in range(0, len(ch_names)):
+        for reg in chan_map.keys():
+            if ch_names[i] in chan_map[reg]:
+                plot_cord[reg].append(cpos[i])
+
+    region_cord = {key: [] for key in chan_map.keys()}
+    for key in plot_cord.keys():
+        points = np.array(plot_cord[key]).transpose()
+        region_cord[key] = [sum(points[0]) / len(points[0]), sum(points[1]) / len(points[1])]
+
+    reg_pos = np.array([region_cord[key] for key in region_cord.keys()])
+    eeg_data = np.array([i for i in range(len(reg_pos))])
+    fig, ax = plt.subplots(figsize=(8, 8))
+    mne.viz.plot_topomap(eeg_data, pos=reg_pos, show=False, axes=ax, cmap='viridis')
+
+    cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
+    cbar.set_label('Shap Value', rotation=270, labelpad=15)
+    plt.show()
+
+
+def plot_topo_vals_128(eeg_data):
     montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
 
     ch_pos = montage.get_positions()['ch_pos']

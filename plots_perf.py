@@ -1,21 +1,16 @@
+import sys
+
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 import matplotlib.lines as mlines
 
 MODEL_LIST = [
-    'EleasticNet', 'XGBoost', 'RandomForrest',
-    'KNN', 'LassoRegression', 'KernalRige',
-    'MLP', 'SVRegression', 'CatBoost', 'BaggedKNN'
+    'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
+    'CatBoost', 'XGBoost'
 ]
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
-
-result_df = dict(
-    model=[],
-    fold_scores=[],
-    average=[]
-)
 
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 train_set = ['TS2/']
@@ -36,10 +31,10 @@ for m in MODEL_LIST:
             best_mean = best_params['mean_test_score']
             best_std = best_params['std_test_score']
             if best_mean < 0:
-                best_mean = -1*best_mean
+                best_mean = -1 * best_mean
             if float(best_mean) > 5:
-                best_mean = float(best_mean)/10
-                best_std = float(best_std)/10
+                best_mean = float(best_mean) / 10
+                best_std = float(best_std) / 10
 
             sets_mean.append(best_mean)
             sets_std.append(best_std)
@@ -59,20 +54,24 @@ for ts in train_set:
 
 mean_perf = np.array(results['mean']).transpose()
 std_perf = np.array(results['std']).transpose()
+dif_mean = [i[0] - i[1] for i in results['mean']]
+mean_d = np.mean(dif_mean)
+print(dif_mean)
+print(mean_d)
 
 fig, ax = plt.subplots(figsize=(5, 6))
 
 sets_per_model = len(sets_name)
 space_per_model = sets_per_model * 0.5
 sep_space = 0.5
-label_offset = ((sets_per_model-1)/2)*0.5
-x_pos = np.linspace(1, len(MODEL_LIST)*(space_per_model+sep_space), len(MODEL_LIST))
-label_pos = [i+label_offset for i in x_pos]
+label_offset = ((sets_per_model - 1) / 2) * 0.5
+x_pos = np.linspace(1, len(MODEL_LIST) * (space_per_model + sep_space), len(MODEL_LIST))
+label_pos = [i + label_offset for i in x_pos]
 
 for i in range(len(mean_perf)):
     x_scale = i * 0.5
     ax.barh(
-        x_pos+x_scale, mean_perf[i],
+        x_pos + x_scale, mean_perf[i],
         xerr=std_perf[i],
         align='center', alpha=0.7, ecolor='red',
         capsize=3, height=0.4, label=sets_name[i])
@@ -89,11 +88,12 @@ ax.set_yticks(label_pos)
 ax.set_yticklabels(MODEL_LIST)
 ax.set_xlim(1.4, 3.5)
 ax.legend(handles, labels, loc='upper right')
+ax.set_xlabel('Mean Absolute Error')
 plt.tight_layout()
+
 fname = ''
 for n in sets_name:
     fname += n + '_'
 fname += 'performance'
 plt.savefig(fname)
 plt.show()
-

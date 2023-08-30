@@ -5,8 +5,9 @@ import shap
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler
 
+from config import chan_map
 from helper import load_object
-from plot_helper import plot_topo_vals, group_methods_shap, group_chan_fb
+from plot_helper import group_chan_fb, plot_topo_vals_12
 
 MODEL_LIST = [
     'EleasticNet',
@@ -23,7 +24,7 @@ result_df = dict(
 )
 
 
-set_path = SET_PATH + 'TS4/meanEpochs/'
+set_path = SET_PATH + 'TS2/meanEpochs/'
 data = load_object(set_path + 'training_set')
 x = data['x']
 groups = data['group']
@@ -34,7 +35,7 @@ le = LabelEncoder()
 le.fit(y)
 y = le.transform(y)
 
-shap_dict = load_object('XGBoost/shap_values_best_XGB_TS4')
+shap_dict = load_object('XGBoost/shap_values')
 fold = shap_dict['fold']
 shap_values = shap_dict['shap_values']
 
@@ -64,8 +65,8 @@ x_test_df = pd.DataFrame(x_test, columns=x_names)
 montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
 ch_pos = montage.get_positions()['ch_pos']
 ch_pos.pop('Cz')
-ch_names = list(ch_pos.keys())
-
+# ch_names = list(ch_pos.keys())
+ch_names = chan_map.keys()
 n_labels, feature_groups = group_chan_fb(x_names, ch_names, 'delta')
 
 # Calculate aggregated SHAP values for each feature group
@@ -84,4 +85,4 @@ for i in vals:
     else:
         imp.append(i)
 
-plot_topo_vals(imp)
+plot_topo_vals_12(imp)
