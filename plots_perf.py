@@ -1,10 +1,11 @@
+import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
 MODEL_LIST = [
-    'EleasticNet',
-    'KNN', 'LassoRegression',
-    'MLP', 'SVRegression'
+    'EleasticNet', 'XGBoost', 'RandomForrest',
+    'KNN', 'LassoRegression', 'KernalRige',
+    'MLP', 'SVRegression', 'CatBoost', 'BaggedKNN'
 ]
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
@@ -15,11 +16,8 @@ result_df = dict(
     average=[]
 )
 
-ts = 'TS2/'
-sv = 'meanEpochs/'
-
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-
+train_set = ['TS2/']
 results = dict(
     mean=[],
     std=[],
@@ -27,28 +25,56 @@ results = dict(
 )
 
 for m in MODEL_LIST:
-    f_name = ts.replace('/', '_') + sv.replace('/', '_')
-    res_df = pd.read_csv(f'{m}/{f_name}results.csv')
-    res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
-    best_params = res_df.iloc[0]
-    print(best_params)
-    best_mean = best_params['mean_test_score']
-    best_std = best_params['std_test_score']
-    if best_mean < 0:
-        best_mean = -1*best_mean
-    if float(best_mean) > 5:
-        best_mean = float(best_mean)/10
-        best_std = float(best_std)/10
+    sets_mean, sets_std = [], []
+    for ts in train_set:
+        for sv in set_vary:
+            f_name = ts.replace('/', '_') + sv.replace('/', '_')
+            res_df = pd.read_csv(f'{m}/{f_name}results.csv')
+            res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
+            best_params = res_df.iloc[0]
+            best_mean = best_params['mean_test_score']
+            best_std = best_params['std_test_score']
+            if best_mean < 0:
+                best_mean = -1*best_mean
+            if float(best_mean) > 5:
+                best_mean = float(best_mean)/10
+                best_std = float(best_std)/10
 
-    results['mean'].append(best_mean)
-    results['std'].append(best_std)
+            sets_mean.append(best_mean)
+            sets_std.append(best_std)
+    results['mean'].append(sets_mean)
+    results['std'].append(sets_std)
     results['label'].append(m)
 
-fig, ax = plt.subplots()
-x_pos = [i for i in range(1, len(MODEL_LIST)+1)]
+sets_name = []
+for ts in train_set:
+    for sv in set_vary:
+        set_name = 'set-1' if 'TS4' in ts else 'set-2'
+        if 'EC' in sv:
+            set_name += '-EC'
+        elif 'EO' in sv:
+            set_name += '-EO'
+        sets_name.append(set_name)
 
-ax.bar(x_pos, results['mean'], yerr=results['std'], align='center', alpha=0.7, ecolor='red', capsize=3, width=0.4)
-ax.set_xticks(x_pos)
-ax.set_xticklabels(MODEL_LIST)
+mean_perf = np.array(results['mean']).transpose()
+std_perf = np.array(results['std']).transpose()
+
+fig, ax = plt.subplots(figsize=(5, 6))
+
+sets_per_model = len(sets_name)
+space_per_model = sets_per_model * 0.5
+sep_space = 0.5
+
+x_pos = np.linspace(1, len(MODEL_LIST)*(space_per_model+sep_space), len(MODEL_LIST))
+label_pos = [i+0.5 for i in x_pos]
+
+for i in range(len(mean_perf)):
+    x_scale = i * 0.5
+    ax.barh(x_pos+x_scale, mean_perf[i], xerr=std_perf[i], align='center', alpha=0.7, ecolor='red', capsize=3, height=0.4)
+ax.set_yticks(label_pos)
+ax.set_yticklabels(MODEL_LIST)
+ax.set_xlim(1.4, 3.5)
+plt.legend(sets_name)
+plt.tight_layout()
 plt.show()
 
