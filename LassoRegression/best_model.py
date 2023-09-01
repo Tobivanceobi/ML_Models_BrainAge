@@ -1,14 +1,11 @@
 import sys
 
-from sklearn.kernel_ridge import KernelRidge
-from sklearn.linear_model import ElasticNet, Lasso
+from sklearn.linear_model import Lasso
 
 sys.path.insert(0, '/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge')
 import pandas as pd
-from sklearn.ensemble import BaggingRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.model_selection import StratifiedGroupKFold
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.preprocessing import StandardScaler
 
 from config import BASE_PATH, SET_PATH
@@ -64,6 +61,8 @@ results['ts'] = best_ts
 results['sv'] = best_sv
 best_model = Lasso(model_param, max_iter=10000, random_state=42)
 best_mae = 50
+fold_score_mae = []
+fold_score_r2 = []
 for fold in range(len(skf_vals)):
     x_train = [x[i] for i in skf_vals[fold][0]]
     x_test = [x[i] for i in skf_vals[fold][1]]
@@ -76,9 +75,8 @@ for fold in range(len(skf_vals)):
     preds = model.predict(x_test)
     mae = mean_absolute_error(y_test, preds)
     r2 = r2_score(y_test, preds)
-    results[f'fold_{fold}'] = (mae, r2)
-    if mae < best_mae:
-        results['preds'] = preds
-        results['y_test'] = y_test
-
+    fold_score_mae.append(mae)
+    fold_score_r2.append(r2)
+results['fold_mae'] = fold_score_mae
+results['fold_r2'] = fold_score_r2
 save_object(results, BASE_PATH + 'LassoRegression/best_model')
