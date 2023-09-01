@@ -11,4 +11,4 @@ no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontr
 no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
-meanEpochs/onlyEC/ TS2/ -26.22855442624375
+meanEpochs/onlyEC/ TS2/ -23.104988618281837
