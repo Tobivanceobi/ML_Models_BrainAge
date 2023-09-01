@@ -1,0 +1,408 @@
+no change     /home/modelrep/sadiya/miniconda/condabin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda
+no change     /home/modelrep/sadiya/miniconda/bin/conda-env
+no change     /home/modelrep/sadiya/miniconda/bin/activate
+no change     /home/modelrep/sadiya/miniconda/bin/deactivate
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.sh
+no change     /home/modelrep/sadiya/miniconda/etc/fish/conf.d/conda.fish
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/Conda.psm1
+no change     /home/modelrep/sadiya/miniconda/shell/condabin/conda-hook.ps1
+no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
+no change     /home/modelrep/sadiya/.bashrc
+No action taken.
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=77, min_impurity_decrease=0.2282551157600994, min_samples_leaf=5, min_samples_split=8, min_weight_fraction_leaf=0.21004774590651187, n_estimators=169;, score=-19.857 total time=   0.7s
+[CV 2/3] END max_depth=77, min_impurity_decrease=0.2282551157600994, min_samples_leaf=5, min_samples_split=8, min_weight_fraction_leaf=0.21004774590651187, n_estimators=169;, score=-21.412 total time=   0.6s
+[CV 3/3] END max_depth=77, min_impurity_decrease=0.2282551157600994, min_samples_leaf=5, min_samples_split=8, min_weight_fraction_leaf=0.21004774590651187, n_estimators=169;, score=-20.242 total time=   0.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=79, min_impurity_decrease=0.7041711019983031, min_samples_leaf=6, min_samples_split=6, min_weight_fraction_leaf=0.20289309004312472, n_estimators=209;, score=-19.808 total time=   0.7s
+[CV 2/3] END max_depth=79, min_impurity_decrease=0.7041711019983031, min_samples_leaf=6, min_samples_split=6, min_weight_fraction_leaf=0.20289309004312472, n_estimators=209;, score=-21.257 total time=   0.8s
+[CV 3/3] END max_depth=79, min_impurity_decrease=0.7041711019983031, min_samples_leaf=6, min_samples_split=6, min_weight_fraction_leaf=0.20289309004312472, n_estimators=209;, score=-20.120 total time=   0.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=86, min_impurity_decrease=0.5153166515339862, min_samples_leaf=5, min_samples_split=10, min_weight_fraction_leaf=0.12204146630989834, n_estimators=293;, score=-18.334 total time=   1.2s
+[CV 2/3] END max_depth=86, min_impurity_decrease=0.5153166515339862, min_samples_leaf=5, min_samples_split=10, min_weight_fraction_leaf=0.12204146630989834, n_estimators=293;, score=-19.181 total time=   1.3s
+[CV 3/3] END max_depth=86, min_impurity_decrease=0.5153166515339862, min_samples_leaf=5, min_samples_split=10, min_weight_fraction_leaf=0.12204146630989834, n_estimators=293;, score=-19.157 total time=   1.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=49, min_impurity_decrease=0.05204017532605039, min_samples_leaf=5, min_samples_split=7, min_weight_fraction_leaf=0.379384853550706, n_estimators=215;, score=-20.883 total time=   0.5s
+[CV 2/3] END max_depth=49, min_impurity_decrease=0.05204017532605039, min_samples_leaf=5, min_samples_split=7, min_weight_fraction_leaf=0.379384853550706, n_estimators=215;, score=-23.422 total time=   0.5s
+[CV 3/3] END max_depth=49, min_impurity_decrease=0.05204017532605039, min_samples_leaf=5, min_samples_split=7, min_weight_fraction_leaf=0.379384853550706, n_estimators=215;, score=-21.905 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=54, min_impurity_decrease=0.20226745466540494, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.30648900622054176, n_estimators=85;, score=-20.064 total time=   0.3s
+[CV 2/3] END max_depth=54, min_impurity_decrease=0.20226745466540494, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.30648900622054176, n_estimators=85;, score=-22.129 total time=   0.3s
+[CV 3/3] END max_depth=54, min_impurity_decrease=0.20226745466540494, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.30648900622054176, n_estimators=85;, score=-20.875 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=88, min_impurity_decrease=0.17902209287042814, min_samples_leaf=8, min_samples_split=8, min_weight_fraction_leaf=0.345824719168875, n_estimators=157;, score=-20.166 total time=   0.4s
+[CV 2/3] END max_depth=88, min_impurity_decrease=0.17902209287042814, min_samples_leaf=8, min_samples_split=8, min_weight_fraction_leaf=0.345824719168875, n_estimators=157;, score=-23.193 total time=   0.4s
+[CV 3/3] END max_depth=88, min_impurity_decrease=0.17902209287042814, min_samples_leaf=8, min_samples_split=8, min_weight_fraction_leaf=0.345824719168875, n_estimators=157;, score=-21.873 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=71, min_impurity_decrease=0.8474907932011021, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.29240810779593324, n_estimators=79;, score=-19.858 total time=   0.4s
+[CV 2/3] END max_depth=71, min_impurity_decrease=0.8474907932011021, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.29240810779593324, n_estimators=79;, score=-21.901 total time=   0.4s
+[CV 3/3] END max_depth=71, min_impurity_decrease=0.8474907932011021, min_samples_leaf=3, min_samples_split=5, min_weight_fraction_leaf=0.29240810779593324, n_estimators=79;, score=-20.799 total time=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=87, min_impurity_decrease=0.5647311229903623, min_samples_leaf=6, min_samples_split=7, min_weight_fraction_leaf=0.21071664825967346, n_estimators=96;, score=-19.625 total time=   0.4s
+[CV 2/3] END max_depth=87, min_impurity_decrease=0.5647311229903623, min_samples_leaf=6, min_samples_split=7, min_weight_fraction_leaf=0.21071664825967346, n_estimators=96;, score=-21.286 total time=   0.4s
+[CV 3/3] END max_depth=87, min_impurity_decrease=0.5647311229903623, min_samples_leaf=6, min_samples_split=7, min_weight_fraction_leaf=0.21071664825967346, n_estimators=96;, score=-20.320 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=68, min_impurity_decrease=0.7176604782726292, min_samples_leaf=7, min_samples_split=7, min_weight_fraction_leaf=0.2193014166419392, n_estimators=292;, score=-19.957 total time=   0.9s
+[CV 2/3] END max_depth=68, min_impurity_decrease=0.7176604782726292, min_samples_leaf=7, min_samples_split=7, min_weight_fraction_leaf=0.2193014166419392, n_estimators=292;, score=-21.343 total time=   0.9s
+[CV 3/3] END max_depth=68, min_impurity_decrease=0.7176604782726292, min_samples_leaf=7, min_samples_split=7, min_weight_fraction_leaf=0.2193014166419392, n_estimators=292;, score=-20.406 total time=   1.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=79, min_impurity_decrease=0.6846289576162232, min_samples_leaf=7, min_samples_split=4, min_weight_fraction_leaf=0.3355463930292311, n_estimators=173;, score=-20.399 total time=   0.5s
+[CV 2/3] END max_depth=79, min_impurity_decrease=0.6846289576162232, min_samples_leaf=7, min_samples_split=4, min_weight_fraction_leaf=0.3355463930292311, n_estimators=173;, score=-23.248 total time=   0.4s
+[CV 3/3] END max_depth=79, min_impurity_decrease=0.6846289576162232, min_samples_leaf=7, min_samples_split=4, min_weight_fraction_leaf=0.3355463930292311, n_estimators=173;, score=-21.791 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=99, min_impurity_decrease=0.24960510933494703, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.03484953495656855, n_estimators=30;, score=-17.450 total time=   0.6s
+[CV 2/3] END max_depth=99, min_impurity_decrease=0.24960510933494703, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.03484953495656855, n_estimators=30;, score=-18.104 total time=   0.5s
+[CV 3/3] END max_depth=99, min_impurity_decrease=0.24960510933494703, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.03484953495656855, n_estimators=30;, score=-18.591 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.297 total time=   2.2s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.898 total time=   2.2s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-18.418 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=7, min_samples_split=5, min_weight_fraction_leaf=0.0, n_estimators=213;, score=-17.320 total time=   2.0s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=7, min_samples_split=5, min_weight_fraction_leaf=0.0, n_estimators=213;, score=-17.746 total time=   2.0s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=7, min_samples_split=5, min_weight_fraction_leaf=0.0, n_estimators=213;, score=-18.525 total time=   1.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-17.712 total time=   0.9s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-18.035 total time=   0.7s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-18.633 total time=   0.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.8842853664748344, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0072957652495706194, n_estimators=238;, score=-17.191 total time=   1.8s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.8842853664748344, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0072957652495706194, n_estimators=238;, score=-17.850 total time=   1.7s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.8842853664748344, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0072957652495706194, n_estimators=238;, score=-18.588 total time=   1.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=47, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.03589979114009553, n_estimators=300;, score=-17.463 total time=   2.0s
+[CV 2/3] END max_depth=47, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.03589979114009553, n_estimators=300;, score=-18.055 total time=   2.0s
+[CV 3/3] END max_depth=47, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.03589979114009553, n_estimators=300;, score=-18.593 total time=   2.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-17.730 total time=   0.7s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-18.004 total time=   0.5s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=30;, score=-18.743 total time=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=257;, score=-17.135 total time=   2.6s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=257;, score=-17.802 total time=   2.5s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=257;, score=-18.468 total time=   2.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=261;, score=-17.341 total time=   3.0s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=261;, score=-17.894 total time=   2.8s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.0, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=261;, score=-18.483 total time=   3.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=270;, score=-17.354 total time=   2.2s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=270;, score=-17.792 total time=   2.0s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=10, min_weight_fraction_leaf=0.0, n_estimators=270;, score=-18.468 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.026431712417859788, n_estimators=151;, score=-17.444 total time=   1.3s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.026431712417859788, n_estimators=151;, score=-17.781 total time=   1.3s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.026431712417859788, n_estimators=151;, score=-18.505 total time=   1.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=88, min_impurity_decrease=0.738910561523223, min_samples_leaf=8, min_samples_split=4, min_weight_fraction_leaf=0.5, n_estimators=30;, score=-26.093 total time=   0.2s
+[CV 2/3] END max_depth=88, min_impurity_decrease=0.738910561523223, min_samples_leaf=8, min_samples_split=4, min_weight_fraction_leaf=0.5, n_estimators=30;, score=-23.919 total time=   0.2s
+[CV 3/3] END max_depth=88, min_impurity_decrease=0.738910561523223, min_samples_leaf=8, min_samples_split=4, min_weight_fraction_leaf=0.5, n_estimators=30;, score=-27.848 total time=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.07762229490389681, n_estimators=30;, score=-17.879 total time=   0.4s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.07762229490389681, n_estimators=30;, score=-18.452 total time=   0.4s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.07762229490389681, n_estimators=30;, score=-18.861 total time=   0.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.004564040555949585, n_estimators=300;, score=-17.131 total time=   2.8s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.004564040555949585, n_estimators=300;, score=-17.830 total time=   2.8s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.004564040555949585, n_estimators=300;, score=-18.501 total time=   3.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.04377648205036992, n_estimators=300;, score=-17.534 total time=   1.8s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.04377648205036992, n_estimators=300;, score=-18.023 total time=   1.9s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.04377648205036992, n_estimators=300;, score=-18.629 total time=   1.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=4, min_samples_split=10, min_weight_fraction_leaf=0.0006587990131493656, n_estimators=300;, score=-17.206 total time=   2.8s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=4, min_samples_split=10, min_weight_fraction_leaf=0.0006587990131493656, n_estimators=300;, score=-17.802 total time=   3.0s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=4, min_samples_split=10, min_weight_fraction_leaf=0.0006587990131493656, n_estimators=300;, score=-18.523 total time=   2.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.00869692485381048, n_estimators=251;, score=-17.160 total time=   2.3s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.00869692485381048, n_estimators=251;, score=-17.834 total time=   2.4s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.00869692485381048, n_estimators=251;, score=-18.387 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00785709140050137, n_estimators=251;, score=-17.214 total time=   2.5s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00785709140050137, n_estimators=251;, score=-17.646 total time=   2.4s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00785709140050137, n_estimators=251;, score=-18.331 total time=   2.4s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.012817139867840553, n_estimators=300;, score=-17.188 total time=   2.6s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.012817139867840553, n_estimators=300;, score=-17.720 total time=   2.6s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.012817139867840553, n_estimators=300;, score=-18.391 total time=   2.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.010204293550344832, n_estimators=252;, score=-17.308 total time=   2.0s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.010204293550344832, n_estimators=252;, score=-17.836 total time=   1.9s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.010204293550344832, n_estimators=252;, score=-18.444 total time=   2.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009803699114570831, n_estimators=270;, score=-17.243 total time=   2.4s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009803699114570831, n_estimators=270;, score=-17.781 total time=   2.4s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009803699114570831, n_estimators=270;, score=-18.465 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.011092331407105239, n_estimators=300;, score=-17.117 total time=   2.9s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.011092331407105239, n_estimators=300;, score=-17.829 total time=   2.8s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.011092331407105239, n_estimators=300;, score=-18.492 total time=   2.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009837351997239733, n_estimators=300;, score=-17.337 total time=   2.7s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009837351997239733, n_estimators=300;, score=-17.940 total time=   3.0s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009837351997239733, n_estimators=300;, score=-18.372 total time=   2.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.011936781536899328, n_estimators=258;, score=-17.402 total time=   2.4s
+[CV 2/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.011936781536899328, n_estimators=258;, score=-17.935 total time=   2.3s
+[CV 3/3] END max_depth=100, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=10, min_weight_fraction_leaf=0.011936781536899328, n_estimators=258;, score=-18.551 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.263 total time=   3.0s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.740 total time=   3.1s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-18.346 total time=   3.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.189 total time=   3.1s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.750 total time=   3.1s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-18.509 total time=   3.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.289 total time=   3.2s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.897 total time=   3.2s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-18.484 total time=   2.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=210;, score=-17.275 total time=   1.7s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=210;, score=-17.765 total time=   1.7s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=9, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=210;, score=-18.457 total time=   1.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.008656004069217208, n_estimators=217;, score=-17.164 total time=   2.2s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.008656004069217208, n_estimators=217;, score=-17.723 total time=   2.0s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.008656004069217208, n_estimators=217;, score=-18.354 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00888021930129008, n_estimators=207;, score=-17.217 total time=   2.1s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00888021930129008, n_estimators=207;, score=-17.786 total time=   2.1s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00888021930129008, n_estimators=207;, score=-18.391 total time=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.016163868714291013, n_estimators=167;, score=-17.331 total time=   1.5s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.016163868714291013, n_estimators=167;, score=-17.893 total time=   1.5s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=5, min_samples_split=2, min_weight_fraction_leaf=0.016163868714291013, n_estimators=167;, score=-18.361 total time=   1.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=228;, score=-17.181 total time=   2.2s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=228;, score=-17.805 total time=   2.3s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=228;, score=-18.469 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=232;, score=-17.381 total time=   2.6s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=232;, score=-17.880 total time=   2.5s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=232;, score=-18.410 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=92, min_impurity_decrease=0.09296551544040339, min_samples_leaf=2, min_samples_split=5, min_weight_fraction_leaf=0.006817782954737019, n_estimators=246;, score=-17.257 total time=   2.8s
+[CV 2/3] END max_depth=92, min_impurity_decrease=0.09296551544040339, min_samples_leaf=2, min_samples_split=5, min_weight_fraction_leaf=0.006817782954737019, n_estimators=246;, score=-17.734 total time=   2.8s
+[CV 3/3] END max_depth=92, min_impurity_decrease=0.09296551544040339, min_samples_leaf=2, min_samples_split=5, min_weight_fraction_leaf=0.006817782954737019, n_estimators=246;, score=-18.490 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.01097246826199184, n_estimators=231;, score=-17.409 total time=   2.1s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.01097246826199184, n_estimators=231;, score=-17.837 total time=   2.1s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.01097246826199184, n_estimators=231;, score=-18.406 total time=   2.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=56, min_impurity_decrease=0.6256808067807688, min_samples_leaf=3, min_samples_split=4, min_weight_fraction_leaf=0.07505550321263534, n_estimators=298;, score=-17.814 total time=   1.6s
+[CV 2/3] END max_depth=56, min_impurity_decrease=0.6256808067807688, min_samples_leaf=3, min_samples_split=4, min_weight_fraction_leaf=0.07505550321263534, n_estimators=298;, score=-18.354 total time=   1.6s
+[CV 3/3] END max_depth=56, min_impurity_decrease=0.6256808067807688, min_samples_leaf=3, min_samples_split=4, min_weight_fraction_leaf=0.07505550321263534, n_estimators=298;, score=-18.799 total time=   1.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009434049276799554, n_estimators=244;, score=-17.142 total time=   2.4s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009434049276799554, n_estimators=244;, score=-17.740 total time=   2.6s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009434049276799554, n_estimators=244;, score=-18.392 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00998152152837512, n_estimators=238;, score=-17.209 total time=   2.4s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00998152152837512, n_estimators=238;, score=-17.819 total time=   2.2s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.00998152152837512, n_estimators=238;, score=-18.463 total time=   2.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009491028204634246, n_estimators=242;, score=-17.167 total time=   2.5s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009491028204634246, n_estimators=242;, score=-17.821 total time=   2.4s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.009491028204634246, n_estimators=242;, score=-18.659 total time=   2.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV 1/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.196 total time=   3.1s
+[CV 2/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-17.858 total time=   2.8s
+[CV 3/3] END max_depth=45, min_impurity_decrease=0.9, min_samples_leaf=2, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=300;, score=-18.417 total time=   3.1s
+{'mean_fit_time': array([0.60498468, 0.7114772 , 1.17318972, 0.4722259 , 0.33211184,
+       0.36331312, 0.34372218, 0.41150602, 0.88512127, 0.39571953,
+       0.51043026, 2.15679002, 1.90841858, 0.78805645, 1.77421411,
+       1.9413712 , 0.56778351, 2.53354454, 2.86662722, 2.08288964,
+       1.21985428, 0.14285032, 0.38468385, 2.80295149, 1.82235098,
+       2.81513373, 2.38198479, 2.41385905, 2.53344862, 1.93774335,
+       2.389702  , 2.76502895, 2.76325043, 2.33268611, 2.95076799,
+       3.10761865, 3.00740679, 1.63331167, 2.0773174 , 2.07901239,
+       1.45540365, 2.30116796, 2.45474283, 2.64554326, 2.08110062,
+       1.5061024 , 2.4442788 , 2.2649912 , 2.42764926, 2.94423803]), 'std_fit_time': array([0.01760878, 0.01409883, 0.01749971, 0.02116386, 0.01882675,
+       0.0056178 , 0.03526813, 0.00520112, 0.01006562, 0.01825612,
+       0.04451912, 0.04219453, 0.05400494, 0.05332932, 0.0939278 ,
+       0.02664407, 0.06342577, 0.09708523, 0.07793318, 0.08607646,
+       0.02997927, 0.01191182, 0.02743365, 0.06747443, 0.04623278,
+       0.07449769, 0.08412293, 0.04872121, 0.01640205, 0.0319036 ,
+       0.01716495, 0.02802744, 0.11194284, 0.08974826, 0.05632964,
+       0.10067551, 0.18914252, 0.03703616, 0.05789514, 0.01189152,
+       0.02495212, 0.108283  , 0.05608588, 0.1088409 , 0.00445478,
+       0.03460533, 0.08270274, 0.06470155, 0.05107582, 0.11448398]), 'mean_score_time': array([0.03870408, 0.06535284, 0.06122979, 0.04535445, 0.02556515,
+       0.03840097, 0.02533158, 0.0259788 , 0.05946986, 0.03756094,
+       0.03157783, 0.05548453, 0.04850125, 0.02057918, 0.04723175,
+       0.05129782, 0.0196197 , 0.0546325 , 0.05678582, 0.05144191,
+       0.03924378, 0.01883547, 0.01953038, 0.05760996, 0.05531565,
+       0.06254466, 0.04788868, 0.05296119, 0.0755709 , 0.04984291,
+       0.05399776, 0.05977559, 0.0614086 , 0.06907193, 0.06990814,
+       0.06181622, 0.05754256, 0.04900138, 0.04976877, 0.04976916,
+       0.0391349 , 0.04941622, 0.0494318 , 0.05049229, 0.05990203,
+       0.04939119, 0.05458124, 0.05138858, 0.05024934, 0.07729252]), 'std_score_time': array([3.66941164e-03, 3.27043698e-02, 1.85836422e-03, 2.94098214e-03,
+       4.69621220e-04, 1.40840034e-03, 5.90141366e-04, 4.93251452e-04,
+       2.05526274e-02, 7.37916428e-04, 1.75403102e-02, 3.18739574e-03,
+       4.58947234e-03, 8.39236025e-04, 2.91682815e-03, 9.13801116e-03,
+       8.70154609e-04, 4.88121748e-04, 3.26548629e-03, 1.90739107e-03,
+       1.65416421e-03, 5.72510258e-05, 6.14987229e-04, 3.37438321e-03,
+       4.21656142e-03, 7.11933536e-04, 9.68211529e-03, 1.46465160e-03,
+       2.08786250e-02, 1.16965771e-03, 2.44208850e-03, 4.27738220e-03,
+       8.39148917e-04, 1.66220467e-02, 2.50502379e-02, 1.71216323e-03,
+       8.53305599e-03, 7.51588099e-04, 2.22353444e-04, 6.95765138e-04,
+       1.61830097e-03, 1.47278381e-03, 3.46753982e-03, 1.60380395e-03,
+       1.56029204e-02, 9.73233320e-03, 6.92397008e-03, 3.37442754e-04,
+       5.04307147e-03, 2.07581100e-02]), 'param_max_depth': masked_array(data=[77, 79, 86, 49, 54, 88, 71, 87, 68, 79, 99, 100, 100,
+                   100, 100, 47, 45, 45, 45, 100, 45, 88, 45, 45, 100, 45,
+                   45, 45, 45, 45, 100, 45, 45, 100, 45, 45, 45, 45, 45,
+                   45, 45, 45, 45, 92, 45, 56, 45, 45, 45, 45],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_min_impurity_decrease': masked_array(data=[0.2282551157600994, 0.7041711019983031,
+                   0.5153166515339862, 0.05204017532605039,
+                   0.20226745466540494, 0.17902209287042814,
+                   0.8474907932011021, 0.5647311229903623,
+                   0.7176604782726292, 0.6846289576162232,
+                   0.24960510933494703, 0.9, 0.9, 0.9, 0.8842853664748344,
+                   0.0, 0.0, 0.9, 0.0, 0.9, 0.9, 0.738910561523223, 0.9,
+                   0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9,
+                   0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9,
+                   0.09296551544040339, 0.9, 0.6256808067807688, 0.9, 0.9,
+                   0.9, 0.9],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_leaf': masked_array(data=[5, 6, 5, 5, 3, 8, 3, 6, 7, 7, 5, 9, 7, 2, 9, 9, 9, 2,
+                   2, 9, 2, 8, 2, 2, 2, 4, 2, 2, 2, 9, 2, 2, 2, 2, 2, 2,
+                   2, 9, 2, 2, 5, 2, 2, 2, 2, 3, 2, 2, 2, 2],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_min_samples_split': masked_array(data=[8, 6, 10, 7, 5, 8, 5, 7, 7, 4, 2, 2, 5, 10, 2, 10, 10,
+                   10, 2, 10, 10, 4, 2, 10, 2, 10, 10, 2, 2, 2, 2, 2, 2,
+                   10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 2, 4, 2, 2, 2, 2],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_min_weight_fraction_leaf': masked_array(data=[0.21004774590651187, 0.20289309004312472,
+                   0.12204146630989834, 0.379384853550706,
+                   0.30648900622054176, 0.345824719168875,
+                   0.29240810779593324, 0.21071664825967346,
+                   0.2193014166419392, 0.3355463930292311,
+                   0.03484953495656855, 0.0, 0.0, 0.0,
+                   0.0072957652495706194, 0.03589979114009553, 0.0, 0.0,
+                   0.0, 0.0, 0.026431712417859788, 0.5,
+                   0.07762229490389681, 0.004564040555949585,
+                   0.04377648205036992, 0.0006587990131493656,
+                   0.00869692485381048, 0.00785709140050137,
+                   0.012817139867840553, 0.010204293550344832,
+                   0.009803699114570831, 0.011092331407105239,
+                   0.009837351997239733, 0.011936781536899328, 0.0, 0.0,
+                   0.0, 0.0, 0.008656004069217208, 0.00888021930129008,
+                   0.016163868714291013, 0.0, 0.0, 0.006817782954737019,
+                   0.01097246826199184, 0.07505550321263534,
+                   0.009434049276799554, 0.00998152152837512,
+                   0.009491028204634246, 0.0],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'param_n_estimators': masked_array(data=[169, 209, 293, 215, 85, 157, 79, 96, 292, 173, 30, 300,
+                   213, 30, 238, 300, 30, 257, 261, 270, 151, 30, 30, 300,
+                   300, 300, 251, 251, 300, 252, 270, 300, 300, 258, 300,
+                   300, 300, 210, 217, 207, 167, 228, 232, 246, 231, 298,
+                   244, 238, 242, 300],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False, False, False, False, False, False, False,
+                   False, False],
+       fill_value='?',
+            dtype=object), 'params': [OrderedDict([('max_depth', 77), ('min_impurity_decrease', 0.2282551157600994), ('min_samples_leaf', 5), ('min_samples_split', 8), ('min_weight_fraction_leaf', 0.21004774590651187), ('n_estimators', 169)]), OrderedDict([('max_depth', 79), ('min_impurity_decrease', 0.7041711019983031), ('min_samples_leaf', 6), ('min_samples_split', 6), ('min_weight_fraction_leaf', 0.20289309004312472), ('n_estimators', 209)]), OrderedDict([('max_depth', 86), ('min_impurity_decrease', 0.5153166515339862), ('min_samples_leaf', 5), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.12204146630989834), ('n_estimators', 293)]), OrderedDict([('max_depth', 49), ('min_impurity_decrease', 0.05204017532605039), ('min_samples_leaf', 5), ('min_samples_split', 7), ('min_weight_fraction_leaf', 0.379384853550706), ('n_estimators', 215)]), OrderedDict([('max_depth', 54), ('min_impurity_decrease', 0.20226745466540494), ('min_samples_leaf', 3), ('min_samples_split', 5), ('min_weight_fraction_leaf', 0.30648900622054176), ('n_estimators', 85)]), OrderedDict([('max_depth', 88), ('min_impurity_decrease', 0.17902209287042814), ('min_samples_leaf', 8), ('min_samples_split', 8), ('min_weight_fraction_leaf', 0.345824719168875), ('n_estimators', 157)]), OrderedDict([('max_depth', 71), ('min_impurity_decrease', 0.8474907932011021), ('min_samples_leaf', 3), ('min_samples_split', 5), ('min_weight_fraction_leaf', 0.29240810779593324), ('n_estimators', 79)]), OrderedDict([('max_depth', 87), ('min_impurity_decrease', 0.5647311229903623), ('min_samples_leaf', 6), ('min_samples_split', 7), ('min_weight_fraction_leaf', 0.21071664825967346), ('n_estimators', 96)]), OrderedDict([('max_depth', 68), ('min_impurity_decrease', 0.7176604782726292), ('min_samples_leaf', 7), ('min_samples_split', 7), ('min_weight_fraction_leaf', 0.2193014166419392), ('n_estimators', 292)]), OrderedDict([('max_depth', 79), ('min_impurity_decrease', 0.6846289576162232), ('min_samples_leaf', 7), ('min_samples_split', 4), ('min_weight_fraction_leaf', 0.3355463930292311), ('n_estimators', 173)]), OrderedDict([('max_depth', 99), ('min_impurity_decrease', 0.24960510933494703), ('min_samples_leaf', 5), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.03484953495656855), ('n_estimators', 30)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 9), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 300)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 7), ('min_samples_split', 5), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 213)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 30)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.8842853664748344), ('min_samples_leaf', 9), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0072957652495706194), ('n_estimators', 238)]), OrderedDict([('max_depth', 47), ('min_impurity_decrease', 0.0), ('min_samples_leaf', 9), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.03589979114009553), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.0), ('min_samples_leaf', 9), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 30)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 257)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.0), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 261)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 9), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 270)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.026431712417859788), ('n_estimators', 151)]), OrderedDict([('max_depth', 88), ('min_impurity_decrease', 0.738910561523223), ('min_samples_leaf', 8), ('min_samples_split', 4), ('min_weight_fraction_leaf', 0.5), ('n_estimators', 30)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.07762229490389681), ('n_estimators', 30)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.004564040555949585), ('n_estimators', 300)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.04377648205036992), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 4), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.0006587990131493656), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.00869692485381048), ('n_estimators', 251)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.00785709140050137), ('n_estimators', 251)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.012817139867840553), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 9), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.010204293550344832), ('n_estimators', 252)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.009803699114570831), ('n_estimators', 270)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.011092331407105239), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.009837351997239733), ('n_estimators', 300)]), OrderedDict([('max_depth', 100), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 10), ('min_weight_fraction_leaf', 0.011936781536899328), ('n_estimators', 258)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 300)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 9), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 210)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.008656004069217208), ('n_estimators', 217)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.00888021930129008), ('n_estimators', 207)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 5), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.016163868714291013), ('n_estimators', 167)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 228)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 232)]), OrderedDict([('max_depth', 92), ('min_impurity_decrease', 0.09296551544040339), ('min_samples_leaf', 2), ('min_samples_split', 5), ('min_weight_fraction_leaf', 0.006817782954737019), ('n_estimators', 246)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.01097246826199184), ('n_estimators', 231)]), OrderedDict([('max_depth', 56), ('min_impurity_decrease', 0.6256808067807688), ('min_samples_leaf', 3), ('min_samples_split', 4), ('min_weight_fraction_leaf', 0.07505550321263534), ('n_estimators', 298)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.009434049276799554), ('n_estimators', 244)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.00998152152837512), ('n_estimators', 238)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.009491028204634246), ('n_estimators', 242)]), OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.0), ('n_estimators', 300)])], 'split0_test_score': array([-19.85729284, -19.80833806, -18.33431579, -20.88316854,
+       -20.06370373, -20.16578822, -19.8576109 , -19.62472551,
+       -19.95730661, -20.39856961, -17.45008383, -17.29655323,
+       -17.32029862, -17.71236412, -17.19148683, -17.46299096,
+       -17.73000622, -17.13484584, -17.34124689, -17.35444806,
+       -17.44382694, -26.09325533, -17.87949301, -17.13103566,
+       -17.53437255, -17.20598296, -17.16032651, -17.21367595,
+       -17.18779785, -17.30795163, -17.24344226, -17.11674611,
+       -17.33662013, -17.40237754, -17.26296229, -17.18908671,
+       -17.2887894 , -17.27485023, -17.16432808, -17.2170949 ,
+       -17.33106161, -17.18112971, -17.38127343, -17.2567679 ,
+       -17.40920457, -17.81424525, -17.14166944, -17.20899957,
+       -17.16734791, -17.19591615]), 'split1_test_score': array([-21.41188752, -21.25660138, -19.18080595, -23.42204534,
+       -22.12904885, -23.19319375, -21.90101591, -21.28577799,
+       -21.34276441, -23.24774601, -18.10420607, -17.89832402,
+       -17.74565204, -18.03467181, -17.84983988, -18.05499916,
+       -18.00356255, -17.80208827, -17.89416502, -17.79216319,
+       -17.7812323 , -23.91861869, -18.4518076 , -17.82954495,
+       -18.02322619, -17.8021785 , -17.83380509, -17.6459542 ,
+       -17.71994705, -17.83550682, -17.78068307, -17.82885796,
+       -17.93989048, -17.93538162, -17.73975271, -17.750117  ,
+       -17.89675036, -17.76492584, -17.72255128, -17.78594039,
+       -17.8926621 , -17.80470858, -17.87954929, -17.73415578,
+       -17.83704688, -18.35428106, -17.74029775, -17.81858431,
+       -17.82081227, -17.85795283]), 'split2_test_score': array([-20.24151273, -20.12023293, -19.15657065, -21.9053702 ,
+       -20.87538294, -21.87307158, -20.79867923, -20.32032073,
+       -20.40644583, -21.79059579, -18.59148705, -18.41807339,
+       -18.52528597, -18.63332635, -18.58841197, -18.59326701,
+       -18.74308443, -18.46815405, -18.48318111, -18.46754217,
+       -18.50474086, -27.84827652, -18.86086567, -18.50139024,
+       -18.62912816, -18.5225103 , -18.38652109, -18.33063802,
+       -18.39087257, -18.444319  , -18.46513389, -18.49188235,
+       -18.37205718, -18.55077404, -18.34596797, -18.50854775,
+       -18.48370939, -18.45666946, -18.35415337, -18.39106864,
+       -18.36142887, -18.46930532, -18.40987274, -18.49045662,
+       -18.40615817, -18.79882305, -18.39204059, -18.46287899,
+       -18.65923371, -18.41737834]), 'mean_test_score': array([-20.50356436, -20.39505746, -18.89056413, -22.07019469,
+       -21.02271184, -21.74401785, -20.85243535, -20.41027474,
+       -20.56883895, -21.8123038 , -18.04859232, -17.87098355,
+       -17.86374554, -18.12678743, -17.87657956, -18.03708571,
+       -18.1588844 , -17.80169605, -17.90619767, -17.87138447,
+       -17.90993337, -25.95338352, -18.39738876, -17.82065695,
+       -18.0622423 , -17.84355725, -17.7935509 , -17.73008939,
+       -17.76620582, -17.86259249, -17.82975307, -17.81249547,
+       -17.88285593, -17.9628444 , -17.78289432, -17.81591715,
+       -17.88974972, -17.83214851, -17.74701091, -17.79803464,
+       -17.86171753, -17.8183812 , -17.89023182, -17.82712676,
+       -17.88413654, -18.32244978, -17.75800259, -17.83015429,
+       -17.88246463, -17.82374911]), 'std_test_score': array([0.6611578 , 0.62236808, 0.39345139, 1.04302419, 0.84958499,
+       1.23929744, 0.83508215, 0.68109844, 0.5771493 , 1.16327267,
+       0.46763233, 0.45826666, 0.49897107, 0.38158164, 0.57060565,
+       0.46160709, 0.42792174, 0.54432087, 0.46627033, 0.45785852,
+       0.44257396, 1.60732194, 0.40248738, 0.55948022, 0.4477828 ,
+       0.53826587, 0.50140043, 0.45986238, 0.4922412 , 0.46431521,
+       0.499959  , 0.56151623, 0.42463488, 0.46923291, 0.44318636,
+       0.54067341, 0.48784916, 0.48481154, 0.48605196, 0.47934906,
+       0.42121439, 0.52598435, 0.41999184, 0.50792366, 0.40836438,
+       0.40258191, 0.51061538, 0.5119595 , 0.61061803, 0.49924603]), 'rank_test_score': array([43, 41, 40, 49, 46, 47, 45, 42, 44, 48, 34, 22, 21, 36, 24, 33, 37,
+        8, 30, 23, 31, 50, 39, 12, 35, 18,  6,  1,  4, 20, 15,  9, 26, 32,
+        5, 10, 28, 17,  2,  7, 19, 11, 29, 14, 27, 38,  3, 16, 25, 13],
+      dtype=int32)}
+-17.730089390197993
+OrderedDict([('max_depth', 45), ('min_impurity_decrease', 0.9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('min_weight_fraction_leaf', 0.00785709140050137), ('n_estimators', 251)])
