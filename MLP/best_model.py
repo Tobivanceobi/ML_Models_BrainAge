@@ -114,6 +114,8 @@ results['ts'] = best_ts
 results['sv'] = best_sv
 best_model = MLPWrapper()
 best_mae = 50
+fold_score_mae = []
+fold_score_r2 = []
 for fold in range(len(skf_vals)):
     x_train = [x[i] for i in skf_vals[fold][0]]
     x_test = [x[i] for i in skf_vals[fold][1]]
@@ -126,9 +128,8 @@ for fold in range(len(skf_vals)):
     preds = model.predict(x_test)
     mae = mean_absolute_error(y_test, preds)
     r2 = r2_score(y_test, preds)
-    results[f'fold_{fold}'] = (mae, r2)
-    if mae < best_mae:
-        results['preds'] = preds
-        results['y_test'] = y_test
-
+    fold_score_mae.append(mae)
+    fold_score_r2.append(r2)
+results['fold_mae'] = fold_score_mae
+results['fold_r2'] = fold_score_r2
 save_object(results, BASE_PATH + 'MLP/best_model')
