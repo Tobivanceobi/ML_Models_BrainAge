@@ -1,3 +1,5 @@
+from helper import load_object
+
 BASE_PATH = r'/home/modelrep/sadiya/tobias_ettling/ML_Models_BrainAge/'
 # r'/home/tobias/Schreibtisch/ML_Models_BrainAge/'
 SET_PATH = r'/scratch/modelrep/sadiya/students/tobias/train_sets/'
@@ -40,3 +42,41 @@ methods = [
     'hurst_exp'
 ]
 freq_bands = ['delta', 'theta', 'alpha', 'beta', 'whole_spec']
+
+
+methods = [
+    'pow_freq_bands',
+    'svd_fisher_info',
+    'hjorth_complexity_spect',
+    'wavelet_coef_energy',
+    'hjorth_complexity',
+    'spect_slope',
+    'std',
+    'ptp_amp',
+    'quantile',
+    'line_length',
+    'zero_crossings',
+    'skewness',
+    'kurtosis',
+    'higuchi_fd',
+    'samp_entropy',
+    'app_entropy',
+    'spect_entropy',
+    'mean',
+    'hurst_exp'
+]
+
+training_sets = ['TS2/']
+set_vary = []
+
+set_path = SET_PATH + 'TS2/' + 'meanEpochs/'
+data = load_object(set_path + 'training_set')
+x_names = data['x_names']
+for m in methods:
+    exsis = False
+    for xlab in x_names:
+        if m in xlab:
+            exsis = True
+            break
+    if not(exsis):
+        print(m)

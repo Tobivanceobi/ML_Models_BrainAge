@@ -8,12 +8,12 @@ from sklearn.model_selection import StratifiedGroupKFold
 from sklearn.preprocessing import LabelEncoder
 
 from config import freq_bands
-from helper import load_object, group_freq_bands_shap, group_methods_shap
+from helper import load_object
+from plot_helper import group_methods_shap, group_freq_bands_shap
 
 MODEL_LIST = [
-    'EleasticNet',
-    'KNN', 'LassoRegression',
-    'MLP', 'SVRegression'
+    'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
+    'CatBoost', 'XGBoost'
 ]
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
@@ -48,17 +48,17 @@ for m in MODEL_LIST:
     x_test_df = pd.DataFrame(x_test, columns=x_names)
 
     # Group features for aggregation
-    # n_labels_fb, feature_groups_fb = group_freq_bands_shap(x_names)
+    n_labels, feature_groups = group_freq_bands_shap(x_names)
 
-    n_labels_m, feature_groups_m = group_methods_shap(x_names)
+    # n_labels, feature_groups = group_methods_shap(x_names)
 
     # Calculate aggregated SHAP values for each feature group
-    grouped_shap_values = np.zeros((len(x_test), len(n_labels_m)))
-    for i, group in enumerate(feature_groups_m):
+    grouped_shap_values = np.zeros((len(x_test), len(n_labels)))
+    for i, group in enumerate(feature_groups):
         grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
 
     vals = np.abs(grouped_shap_values).mean(0)
-    vals, n_labels = zip(*sorted(zip(vals, n_labels_m), reverse=True))
+    vals, n_labels = zip(*sorted(zip(vals, n_labels), reverse=True))
     print(n_labels)
 
     result_df['feature_rank'].append(list(n_labels))
@@ -97,7 +97,8 @@ sorted_corr_mat = corr_mat[reordered_indices][:, reordered_indices]
 print(sorted_corr_mat)
 plt.figure(figsize=(8, 6))
 sns.heatmap(sorted_corr_mat, annot=True, cmap='coolwarm', xticklabels=result_df['model'],
-            yticklabels=result_df['model'])
+            yticklabels=result_df['model'], annot_kws={"fontsize":8})
 plt.title('Correlation between Feature Group SHAP Values')
-plt.savefig('method_groups.png')
+plt.tight_layout()
+plt.savefig('fb_groups.png')
 plt.show()
