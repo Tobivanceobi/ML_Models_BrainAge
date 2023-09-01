@@ -14,7 +14,7 @@ from config import SET_PATH, BASE_PATH
 from helper import load_object
 
 pid = int(sys.argv[1])
-training_sets = ['TS2/', 'TS4/']
+training_sets = ['TS2/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     sv = set_vary[pid]
