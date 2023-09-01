@@ -12,27 +12,27 @@ MODEL_LIST = [
     'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
     'CatBoost', 'XGBoost'
 ]
-for m in MODEL_LIST:
-    obj = load_object(m+'/best_model')
-    if obj is None:
-        continue
-    print(m)
-    score = []
-    rs = []
-    print(obj['ts'], obj['sv'])
-    for key in obj.keys():
-        if 'fold' in key:
-            print(obj[key])
-            score.append(obj[key][0])
-            rs.append(obj[key][1])
-    print(np.mean(score), np.mean(rs))
-sys.exit()
+# for m in MODEL_LIST:
+#     obj = load_object(m+'/best_model')
+#     if obj is None:
+#         continue
+#     print(m)
+#     score = []
+#     rs = []
+#     print(obj['ts'], obj['sv'])
+#     for key in obj.keys():
+#         if 'fold' in key:
+#             print(obj[key])
+#             score.append(obj[key][0])
+#             rs.append(obj[key][1])
+#     print(np.mean(score), np.mean(rs))
+# sys.exit()
 
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
 
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-train_set = ['TS2/']
+train_set = ['TS4/']
 results = dict(
     mean=[],
     std=[],

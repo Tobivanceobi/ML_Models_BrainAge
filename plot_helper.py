@@ -68,9 +68,9 @@ def plot_topo_vals_128(eeg_data, title):
     mne.viz.plot_topomap(eeg_data, pos=cpos, show=False, axes=ax, cmap='viridis')
 
     # Add colorbar
-    # cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
-    # cbar.set_label('EEG Data (Mean)', rotation=270, labelpad=15, fontsize=20)
-    # cbar.ax.tick_params(labelsize=20)
+    cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
+    cbar.set_label('EEG Data (Mean)', rotation=270, labelpad=15, fontsize=20)
+    cbar.ax.tick_params(labelsize=20)
 
     plt.title(title, fontsize=50)
 

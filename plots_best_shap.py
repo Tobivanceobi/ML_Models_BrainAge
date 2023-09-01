@@ -26,7 +26,7 @@ result_df = dict(
 )
 
 
-set_path = SET_PATH + 'TS2/meanEpochs/'
+set_path = SET_PATH + 'TS4/meanEpochs/'
 data = load_object(set_path + 'training_set')
 x = data['x']
 groups = data['group']
@@ -37,7 +37,7 @@ le = LabelEncoder()
 le.fit(y)
 y = le.transform(y)
 
-shap_dict = load_object('XGBoost/shap_values')
+shap_dict = load_object('XGBoost/shap_values_best_XGB_TS4')
 fold = shap_dict['fold']
 shap_values = shap_dict['shap_values']
 
@@ -77,47 +77,15 @@ x_test_df = pd.DataFrame(x_test, columns=x_names)
 montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
 ch_pos = montage.get_positions()['ch_pos']
 ch_pos.pop('Cz')
-# ch_names = list(ch_pos.keys())
-ch_names = chan_map.keys()
-
-methods = [
-    'pow_freq_bands',
-    'svd_fisher_info',
-    'hjorth_complexity_spect',
-    'wavelet_coef_energy',
-    'hjorth_complexity',
-    'spect_slope',
-    'std',
-    'ptp_amp',
-    'quantile',
-    'line_length',
-    'zero_crossings',
-    'skewness',
-    'kurtosis',
-    'higuchi_fd',
-    'samp_entropy',
-    'app_entropy',
-    'spect_entropy',
-    'mean',
-    'hurst_exp'
-]
-
-for m in methods:
-    exsis = False
-    for xlab in x_names:
-        if m in xlab:
-            exsis = True
-            break
-    if not(exsis):
-        print(m)
-        sys.exit()
+ch_names = list(ch_pos.keys())
+# ch_names = chan_map.keys()
 
 freq_bands = {
     'delta': [0.5, 4],
     'theta': [4, 7],
     'alpha': [7, 13],
     'beta': [13, 30],
-    # 'whole_spec': [0.5, 30]
+    'whole_spec': [0.5, 30]
 }
 for freq_band in freq_bands.keys():
     # n_labels, feature_groups = group_chan_fb(x_names, ch_names, freq_band)
@@ -144,10 +112,10 @@ for freq_band in freq_bands.keys():
     if freq_band == 'whole_spec':
         title = r"$\omega$" + f" ({band_r[0]} - {band_r[1]} Hz)"
 
-    vals = np.log(vals)
-    sc = MinMaxScaler()
-    vals = sc.fit_transform([[k] for k in vals])
-    vals = [k[0] for k in vals]
+    # vals = np.log(vals+1)
+    # sc = MinMaxScaler()
+    # vals = sc.fit_transform([[k] for k in vals])
+    # vals = [k[0] for k in vals]
     plot_topo_vals_128(vals, title)
     # plt.tight_layout()
     plt.savefig(f'topo_shap_{freq_band}')
