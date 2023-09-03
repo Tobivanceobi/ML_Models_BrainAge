@@ -13,6 +13,10 @@ from sklearn.svm import SVR
 from config import SET_PATH, BASE_PATH, freq_bands, methods
 from helper import load_object, save_object
 
+from joblib import effective_n_jobs
+print(effective_n_jobs(-1))
+sys.exit()
+
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/']
 for ts in training_sets:

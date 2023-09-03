@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=SVR_shap
 #SBATCH --partition=gpu
-#SBATCH --nodes=1
+#SBATCH --nodes=3
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=1000
