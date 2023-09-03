@@ -12,7 +12,7 @@ from helper import load_object
 from plot_helper import group_methods_shap, group_freq_bands_shap
 
 MODEL_LIST = [
-    'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
+    'SVRegression', 'MLP', 'KernelRidge', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
     'CatBoost', 'XGBoost'
 ]
 

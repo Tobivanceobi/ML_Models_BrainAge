@@ -9,7 +9,7 @@ from helper import load_object
 
 
 MODEL_LIST = [
-    'SVRegression', 'MLP', 'KernalRige', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
+    'SVRegression', 'MLP', 'KernelRidge', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
     'CatBoost', 'XGBoost'
 ]
 # for m in MODEL_LIST:
@@ -32,7 +32,7 @@ MODEL_LIST = [
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
 
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-train_set = ['TS4/']
+train_set = ['TS2/', 'TS4/']
 results = dict(
     mean=[],
     std=[],
@@ -73,10 +73,34 @@ for ts in train_set:
 
 mean_perf = np.array(results['mean']).transpose()
 std_perf = np.array(results['std']).transpose()
-dif_mean = [i[0] - i[1] for i in results['mean']]
+
+dif_mean = [abs(i[0] - i[1]) for i in results['mean']]
 mean_d = np.mean(dif_mean)
 print(dif_mean)
 print(mean_d)
+
+model_labels = []
+for lab_m in MODEL_LIST:
+    if lab_m == 'LassoRegression':
+        model_labels.append('Lasso')
+    else:
+        model_labels.append(lab_m)
+
+t_header = ''
+t_header_2 = ''
+for s in sets_name:
+    t_header += r'\multicolumn{2}{l|}{' + s + r'}  & '
+    t_header_2 += "mean & std & "
+
+print(t_header)
+print(t_header_2)
+for m in range(len(model_labels)):
+    row = f"{model_labels[m]} & "
+    for i in range(len(sets_name)):
+        row += f"{round(results['mean'][m][i], 2)} & {round(results['std'][m][i], 2)} & "
+    print(row + "\\")
+
+
 
 fig, ax = plt.subplots(figsize=(5, 6))
 
@@ -104,7 +128,7 @@ handles.append(error_cap_marker)
 labels.append(error_cap_marker.get_label())
 
 ax.set_yticks(label_pos)
-ax.set_yticklabels(MODEL_LIST)
+ax.set_yticklabels(model_labels)
 ax.set_xlim(1.4, 3.5)
 ax.legend(handles, labels, loc='upper right')
 ax.set_xlabel('Mean Absolute Error')

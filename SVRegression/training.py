@@ -24,7 +24,7 @@ for ts in training_sets:
     data = load_object(set_path + 'training_set')
     x = data['x']
     groups = data['group']
-    y = [int(age*10) for age in data['y']]
+    y = data['y']
 
     y_skf = [int(age) for age in data['y']]
     skf_vals = []
@@ -36,21 +36,20 @@ for ts in training_sets:
     x = scaler.fit_transform(x)
 
     parameter_space = {
-        'degree': Integer(2, 5),
+        'degree': Integer(2, 6),
         'C': Real(1, 20),
-        'epsilon': Real(0.01, 3),
-        'gamma': Real(0.01, 3),
-        'kernel': Categorical(['poly', 'rbf']),
+        'epsilon': Real(0.001, 1),
+        'kernel': Categorical(['poly', 'rbf', 'sigmoid']),
         'shrinking': Categorical([True, False]),
     }
 
-    model = SVR(max_iter=4000)
+    model = SVR(max_iter=5000)
 
     clf = BayesSearchCV(estimator=model,
                         search_spaces=parameter_space,
                         cv=skf_vals,
                         n_jobs=-1,
-                        n_iter=128,
+                        n_iter=50,
                         scoring='neg_mean_absolute_error',
                         verbose=4)
 

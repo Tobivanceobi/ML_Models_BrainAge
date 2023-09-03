@@ -40,10 +40,9 @@ def plot_topo_vals_12(vals, title):
     fig, ax = plt.subplots(figsize=(8, 8))
     mne.viz.plot_topomap(vals, pos=reg_pos, show=False, axes=ax, cmap='viridis')
 
-    cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='horizontal', pad=0.05)
-    cbar.ax.tick_params(labelsize=50)
-    cbar.set_label('Shap Importance', rotation=270, labelpad=60, fontsize=20)
-    plt.title(title, fontsize=50)
+    cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
+    cbar.ax.tick_params(labelsize=30)
+    plt.title(title, fontsize=40)
 
 
 def plot_topo_vals_128(eeg_data, title):
@@ -68,9 +67,9 @@ def plot_topo_vals_128(eeg_data, title):
     mne.viz.plot_topomap(eeg_data, pos=cpos, show=False, axes=ax, cmap='viridis')
 
     # Add colorbar
-    cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
-    cbar.set_label('EEG Data (Mean)', rotation=270, labelpad=15, fontsize=20)
-    cbar.ax.tick_params(labelsize=20)
+    # cbar = plt.colorbar(ax.get_images()[0], ax=ax, orientation='vertical', pad=0.05)
+    # cbar.set_label('EEG Data (Mean)', rotation=270, labelpad=15, fontsize=20)
+    # cbar.ax.tick_params(labelsize=20)
 
     plt.title(title, fontsize=50)
 
@@ -97,6 +96,28 @@ def group_freq_bands_shap(x_names):
     return n_labels_fb, feature_groups_fb
 
 
+def group_freq_bands_methode_shap(x_names):
+    feature_groups_fb = []
+    n_labels_fb = []
+    for fb in freq_bands:
+        for m in methods:
+            feature_group_idx = []
+            for i in range(len(x_names)):
+                if fb in x_names[i] and m in x_names[i]:
+                    if fb == 'whole_spec':
+                        temp = True
+                        for ofb in ['delta', 'theta', 'alpha', 'beta']:
+                            if ofb in x_names[i]:
+                                temp = False
+                        if temp:
+                            feature_group_idx.append(i)
+                    else:
+                        feature_group_idx.append(i)
+            if len(feature_group_idx) > 0:
+                feature_groups_fb.append(feature_group_idx)
+                n_labels_fb.append(fb+'_'+m)
+    return n_labels_fb, feature_groups_fb
+
 def group_methods_shap(x_names):
     fg = []
     n_labels = []
@@ -118,8 +139,8 @@ def group_pow_shap(x_names, chans, fb):
         feature_group_idx = []
         for i in range(len(x_names)):
             if fb in x_names[i] and chan in x_names[i] and 'pow' in x_names[i]:
+                print(x_names[i])
                 feature_group_idx.append(i)
-                print('ok')
         if len(feature_group_idx) > 0:
             fg.append(feature_group_idx)
             n_labels.append(chan + '_pow_freq_' + fb)

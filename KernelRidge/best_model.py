@@ -20,7 +20,7 @@ best_score = -50
 for ts in training_sets:
     for sv in set_vary:
         f_name = ts.replace('/', '_') + sv.replace('/', '_')
-        res_df = pd.read_csv(BASE_PATH + f'KernalRige/{f_name}results.csv')
+        res_df = pd.read_csv(BASE_PATH + f'KernelRidge/{f_name}results.csv')
         res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
         best_params = res_df.iloc[0]
         if best_params['mean_test_score'] > best_score:
@@ -47,7 +47,7 @@ for fold, (train_index, test_index) in enumerate(skf.split(x, y_skf, groups)):
     skf_vals.append((train_index, test_index))
 
 f_name = best_ts.replace('/', '_') + best_sv.replace('/', '_')
-res_df = pd.read_csv(BASE_PATH + f'KernalRige/{f_name}results.csv')
+res_df = pd.read_csv(BASE_PATH + f'KernelRidge/{f_name}results.csv')
 res_df = res_df.sort_values(by=['mean_test_score'], ascending=False)
 best_params = res_df.iloc[0]
 model_param = dict()
@@ -79,4 +79,4 @@ for fold in range(len(skf_vals)):
     fold_score_r2.append(r2)
 results['fold_mae'] = fold_score_mae
 results['fold_r2'] = fold_score_r2
-save_object(results, BASE_PATH + 'KernalRige/best_model')
+save_object(results, BASE_PATH + 'KernelRidge/best_model')
