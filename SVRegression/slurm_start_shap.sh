@@ -2,7 +2,7 @@
 #SBATCH --job-name=SVR_shap
 #SBATCH --extra-node-info=2:32:2
 #SBATCH --partition=gpu
-#SBATCH --nodes=4
+#SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=128
 #SBATCH --mem-per-cpu=1000
