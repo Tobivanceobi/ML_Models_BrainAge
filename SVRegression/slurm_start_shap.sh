@@ -2,9 +2,6 @@
 #SBATCH --job-name=SVR_shap
 #SBATCH --extra-node-info=2:32:2
 #SBATCH --partition=gpu
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=120
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=15:00:00
 #SBATCH --mail-type=FAIL
