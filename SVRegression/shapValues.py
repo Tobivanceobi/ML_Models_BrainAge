@@ -22,7 +22,7 @@ for ts in training_sets:
 
         x = data['x']
         groups = data['group']
-        y = [int(age*10) for age in data['y']]
+        y = data['y']
         x_names = data['x_names']
 
         scaler = StandardScaler()

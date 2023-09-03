@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from skopt import BayesSearchCV
 pid = int(sys.argv[1])
-training_sets = ['TS2/']
+training_sets = ['TS2/', 'TS4/']
 set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
 for ts in training_sets:
     sv = set_vary[pid]
@@ -19,11 +19,7 @@ for ts in training_sets:
     x = data['x']
     groups = data['group']
     y_org = data['y']
-    y = [int(age * 10) for age in data['y']]
-
-    le = LabelEncoder()
-    le.fit(y)
-    y = le.transform(y)
+    y = data['y']
 
     y_skf = [int(age) for age in data['y']]
     skf_vals = []
@@ -32,7 +28,7 @@ for ts in training_sets:
         skf_vals.append((train_index, test_index))
 
     parameter_space = {
-        'max_depth': [45, 100],
+        'max_depth': [10, 100],
         'min_samples_split': [2, 10],
         'min_samples_leaf': [2, 9],
         'min_weight_fraction_leaf': [0, 0.5],
