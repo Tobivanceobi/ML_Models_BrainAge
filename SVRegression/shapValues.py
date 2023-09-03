@@ -13,9 +13,6 @@ from sklearn.svm import SVR
 from config import SET_PATH, BASE_PATH, freq_bands, methods
 from helper import load_object, save_object
 
-from joblib import effective_n_jobs
-print(effective_n_jobs(-1))
-sys.exit()
 
 training_sets = ['TS2/']
 set_vary = ['meanEpochs/']
@@ -79,7 +76,8 @@ for ts in training_sets:
         x_test_df = pd.DataFrame(x_test, columns=x_names)
 
         # Initialize the shap explainer
-        explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=-2)
+        # explainer = shap.KernelExplainer(best_model.predict, shap.sample(x_train_df, 10), num_jobs=-2)
+        explainer = shap.LinearExplainer(best_model, x_train_df)
 
         # Compute Shap values for all instances in X_test
         shap_values = explainer.shap_values(x_test_df)
