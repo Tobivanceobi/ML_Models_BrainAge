@@ -9,7 +9,7 @@
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_SVR_shap.txt
 #SBATCH --error err/error_SVR_shap.txt
-
+#SBATCH --extra-node-info=2:32:2
 # Remove previous results
 # rm err/*; rm out/*; rm -r runs/*;
 source $HOME/miniconda/etc/profile.d/conda.sh
