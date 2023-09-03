@@ -86,19 +86,19 @@ for lab_m in MODEL_LIST:
     else:
         model_labels.append(lab_m)
 
-t_header = ''
-t_header_2 = ''
-for s in sets_name:
-    t_header += r'\multicolumn{2}{l|}{' + s + r'}  & '
-    t_header_2 += "mean & std & "
-
-print(t_header)
-print(t_header_2)
-for m in range(len(model_labels)):
-    row = f"{model_labels[m]} & "
-    for i in range(len(sets_name)):
-        row += f"{round(results['mean'][m][i], 2)} & {round(results['std'][m][i], 2)} & "
-    print(row + "\\")
+# t_header = ''
+# t_header_2 = ''
+# for s in sets_name:
+#     t_header += r'\multicolumn{2}{l|}{' + s + r'}  & '
+#     t_header_2 += "mean & std & "
+#
+# print(t_header)
+# print(t_header_2)
+# for m in range(len(model_labels)):
+#     row = f"{model_labels[m]} & "
+#     for i in range(len(sets_name)):
+#         row += f"{round(results['mean'][m][i], 2)} & {round(results['std'][m][i], 2)} & "
+#     print(row + "\\")
 
 
 

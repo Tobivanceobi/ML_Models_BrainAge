@@ -26,7 +26,7 @@ result_df = dict(
     shap_vals=[]
 )
 
-set_path = SET_PATH + 'TS4/meanEpochs/'
+set_path = SET_PATH + 'TS2/meanEpochs/'
 data = load_object(set_path + 'training_set')
 x = data['x']
 groups = data['group']
@@ -37,7 +37,7 @@ le = LabelEncoder()
 le.fit(y)
 y = le.transform(y)
 
-shap_dict = load_object('XGBoost/shap_values_best_XGB_TS4')
+shap_dict = load_object('XGBoost/shap_values')
 fold = shap_dict['fold']
 shap_values = shap_dict['shap_values']
 
@@ -54,16 +54,16 @@ x_test_df = pd.DataFrame(x_test, columns=x_names)
 # shap.initjs()
 # shap.summary_plot(shap_values[:, feats_name_indices], x_test_df.iloc[:, feats_name_indices], max_display=100, show=False)
 # plt.savefig('shap_TS4_delta')
-delta_feats = [
-    'EC_whole_spec_pow_freq_bands_E128_beta',
-    'EO_whole_spec_pow_freq_bands_E72_beta',
-    'EO_whole_spec_pow_freq_bands_E60_beta',
-    'EO_whole_spec_pow_freq_bands_E128_beta',
-    'EO_whole_spec_pow_freq_bands_E71_beta',
-    'EO_whole_spec_pow_freq_bands_E77_beta',
-    'EO_whole_spec_pow_freq_bands_E91_beta',
-    'EO_whole_spec_pow_freq_bands_E96_beta'
-]
+# delta_feats = [
+#     'EC_whole_spec_pow_freq_bands_E128_beta',
+#     'EO_whole_spec_pow_freq_bands_E72_beta',
+#     'EO_whole_spec_pow_freq_bands_E60_beta',
+#     'EO_whole_spec_pow_freq_bands_E128_beta',
+#     'EO_whole_spec_pow_freq_bands_E71_beta',
+#     'EO_whole_spec_pow_freq_bands_E77_beta',
+#     'EO_whole_spec_pow_freq_bands_E91_beta',
+#     'EO_whole_spec_pow_freq_bands_E96_beta'
+# ]
 # delta_feats = [
 #     'EC_delta_quantile_E19_2',
 #     'EC_delta_quantile_E29_2',
@@ -75,10 +75,10 @@ delta_feats = [
 #     'EC_delta_spect_slope_E117_intercept',
 #     'EC_delta_spect_slope_E104_intercept',
 # ]
-feats_name_indices = [x_test_df.columns.tolist().index(x) for x in delta_feats]
-shap.summary_plot(shap_values[:, feats_name_indices], x_test_df.iloc[:, feats_name_indices])
-
-sys.exit()
+# feats_name_indices = [x_test_df.columns.tolist().index(x) for x in delta_feats]
+# shap.summary_plot(shap_values[:, feats_name_indices], x_test_df.iloc[:, feats_name_indices])
+#
+# sys.exit()
 # shap.initjs()
 # shap.summary_plot(shap_values, x_test_df, max_display=10)
 #
