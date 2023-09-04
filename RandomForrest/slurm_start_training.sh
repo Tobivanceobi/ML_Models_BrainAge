@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=2000
-#SBATCH --array=0-2
+#SBATCH --array=0-0
 #SBATCH --time=10:00:00
 #SBATCH --mail-type=FAIL
 #SBATCH --output out/output_RF_%a.txt

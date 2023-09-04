@@ -12,7 +12,7 @@ from helper import load_object
 from plot_helper import group_methods_shap, group_freq_bands_shap
 
 MODEL_LIST = [
-    'SVRegression', 'MLP', 'KernelRidge', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'RandomForrest',
+    'MLP', 'KernelRidge', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'SVRegression', 'RandomForrest',
     'CatBoost', 'XGBoost'
 ]
 
@@ -49,7 +49,7 @@ for m in MODEL_LIST:
 
     # Group features for aggregation
     n_labels, feature_groups = group_freq_bands_shap(x_names)
-
+    #
     # n_labels, feature_groups = group_methods_shap(x_names)
 
     # Calculate aggregated SHAP values for each feature group
@@ -95,10 +95,10 @@ reordered_indices = dendrogram['leaves']
 sorted_corr_mat = corr_mat[reordered_indices][:, reordered_indices]
 
 print(sorted_corr_mat)
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(10, 7))
 sns.heatmap(sorted_corr_mat, annot=True, cmap='coolwarm', xticklabels=result_df['model'],
             yticklabels=result_df['model'], annot_kws={"fontsize":8})
-plt.title('Correlation between Feature Group SHAP Values')
+plt.title('Ranked Ordered Model Correlation (Features Grouped By Freq. Band)')
 plt.tight_layout()
 plt.savefig('fb_groups.png')
 plt.show()
