@@ -12,7 +12,6 @@ no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
-[CV 3/3] END C=11.60119401380994, degree=3, epsilon=0.7692076112644789, kernel=poly, shrinking=True;, score=-2.510 total time=  10.7s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
@@ -42,18 +41,6 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
-[CV 2/3] END C=9.427229279846948, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.687 total time=  12.6s
-[CV 3/3] END C=9.427229279846948, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.819 total time=  13.2s
-[CV 1/3] END C=9.427229279846948, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.697 total time=  13.2s
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-Fitting 3 folds for each of 1 candidates, totalling 3 fits
-[CV 2/3] END C=15.143327291383216, degree=3, epsilon=0.2008153336505333, kernel=sigmoid, shrinking=True;, score=-8.045 total time=  10.7s
-[CV 3/3] END C=8.386755800298534, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.825 total time=  13.2s
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
@@ -67,63 +54,58 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
 Fitting 3 folds for each of 1 candidates, totalling 3 fits
-{'mean_fit_time': array([5.58806427, 6.75681663, 6.54943411, 4.82721329, 8.02930784,
-       6.58778667, 6.79278358, 6.82675107, 7.0977354 , 7.50823299,
-       7.2446479 , 7.29427139, 4.69621595, 7.68338998, 7.93538888,
-       7.25912579, 8.40630062, 8.49095829, 7.24766668, 8.17441622,
-       8.41795842, 7.28405356, 7.6908834 , 7.33561587, 7.30617237,
-       7.32217948, 7.25371099, 7.25395791, 7.74318433, 7.24241702,
-       8.50451748, 7.26588861, 7.27910407, 7.23833036, 7.6616652 ,
-       8.43275197, 5.52209473, 7.83932789, 4.75529456, 5.89757999,
-       7.6633958 , 7.26176723, 5.46095777, 7.28932293, 8.16919796,
-       8.44031103, 7.25388122, 7.26785564, 7.25950321, 6.42606624]), 'std_fit_time': array([0.04312765, 0.63452209, 0.30854547, 0.104863  , 0.7217414 ,
-       0.24299331, 0.15918065, 0.50954452, 0.18032776, 0.6058557 ,
-       0.1242859 , 0.16661078, 0.07489373, 0.03663906, 0.24871415,
-       0.12323157, 0.66930433, 0.67186494, 0.0810754 , 0.72556022,
-       0.65247089, 0.13530217, 0.04721898, 0.14693958, 0.18139337,
-       0.17801362, 0.08834405, 0.14584181, 0.03323618, 0.14971448,
-       0.63921811, 0.1283845 , 0.19052554, 0.15420822, 0.0163571 ,
-       0.64775568, 0.10865742, 0.15442914, 0.05744119, 0.0815377 ,
-       0.02663701, 0.12945039, 0.44381976, 0.14775315, 0.78032969,
-       0.81211002, 0.12076996, 0.1696436 , 0.14259348, 0.67924699]), 'mean_score_time': array([2.69376032, 4.72291811, 3.15987651, 3.81020435, 3.92236853,
-       3.18654919, 3.31531692, 3.28994147, 3.45183428, 3.59666332,
-       5.72896179, 5.7629412 , 3.6269153 , 5.80694604, 5.83884827,
-       5.74351128, 5.92603517, 5.93402648, 5.75812387, 5.93018007,
-       5.9148585 , 5.7530876 , 5.80128487, 5.71721578, 5.64852873,
-       5.76834742, 5.7626698 , 5.74298596, 5.85211953, 5.75922553,
-       5.88355501, 5.76457723, 5.85130262, 5.74129701, 5.80550154,
-       5.84408681, 2.66672691, 5.97102491, 3.84017253, 2.79784902,
-       3.7460192 , 5.84743722, 3.7878259 , 5.56619883, 3.99419912,
-       6.00065064, 5.74912715, 5.65985258, 5.64060799, 4.70552262]), 'std_score_time': array([0.01838839, 0.26706683, 0.15161165, 0.14928889, 0.35217534,
-       0.10229349, 0.08611928, 0.23613056, 0.0720704 , 0.25811998,
-       0.15759816, 0.16153408, 0.10768197, 0.16407787, 0.18230811,
-       0.15930271, 0.24880348, 0.12437523, 0.12896614, 0.17868059,
-       0.22576136, 0.12195046, 0.12055703, 0.14580264, 0.11995308,
-       0.12673342, 0.11911116, 0.15079811, 0.1483394 , 0.14155331,
-       0.16699933, 0.15737818, 0.030422  , 0.11372846, 0.13798941,
-       0.05888588, 0.04397544, 0.35788474, 0.22054838, 0.02683525,
-       0.00356014, 0.05767638, 0.16364795, 0.03972862, 0.37570263,
-       0.10239823, 0.14667804, 0.18376939, 0.15361346, 0.16419668]), 'param_C': masked_array(data=[2.216729302730122, 3.9586274954193468,
-                   19.094357503789265, 8.208961211939325,
-                   7.0504506193152325, 10.971962060733745,
-                   6.3845005701265585, 11.60119401380994,
-                   15.143327291383216, 11.521338340124178, 20.0,
-                   17.32848129090962, 18.316839955749085,
-                   13.715112686435068, 14.514791742078488,
-                   9.427229279846948, 12.41447161537699,
-                   18.74342312250392, 11.935944632530305,
-                   10.127378048486461, 1.0, 7.020039615435879, 20.0,
-                   11.35692912933466, 15.382010914037279, 20.0,
-                   13.881731921068463, 13.938342961289091,
-                   16.023506964443087, 8.386755800298534,
-                   16.446049641308043, 12.524163718278393,
-                   6.1093119823118025, 13.923657557160203,
-                   14.266534078059118, 14.289006797622827, 1.0,
-                   14.398707543662017, 13.220773823142906, 1.0,
-                   14.199208407016851, 8.569252991004046, 20.0,
-                   18.577079062742285, 20.0, 15.02733340175904,
-                   14.871850138622403, 14.73155381497382,
-                   14.905807259234942, 4.383932223139416],
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+{'mean_fit_time': array([4.63291113, 4.79534729, 4.86313041, 4.72100584, 4.71623508,
+       4.60858091, 1.92351492, 4.73822419, 2.94993401, 2.88032619,
+       4.6831193 , 3.36217388, 3.34866754, 3.35755626, 3.41443491,
+       3.34807189, 3.36247516, 3.41552393, 3.43601902, 3.45857334,
+       3.38378191, 3.33916982, 3.41331077, 3.36027511, 3.40971557,
+       3.39308174, 3.35421983, 3.3521382 , 3.4127535 , 3.3649416 ,
+       3.43730084, 3.35990731, 3.36866728, 3.33738359, 3.42846727,
+       3.38009556, 3.36922081, 3.35470231, 3.34388407, 3.41973511,
+       3.43810924, 3.37897714, 3.39137077, 3.41112375, 3.1477739 ,
+       3.39512531, 3.44924633, 3.39742986, 3.37883441, 3.38461971]), 'std_fit_time': array([0.12415671, 0.08886504, 0.09019679, 0.06345856, 0.04706255,
+       0.10098384, 0.24560845, 0.091848  , 0.41827714, 0.62672029,
+       0.06634968, 0.06491196, 0.08635196, 0.01922013, 0.04001521,
+       0.02808625, 0.04797335, 0.05238568, 0.05408827, 0.0404166 ,
+       0.0667091 , 0.00829504, 0.06601185, 0.02550745, 0.02780777,
+       0.05097697, 0.06699799, 0.04409871, 0.03705744, 0.0695484 ,
+       0.03670464, 0.03285476, 0.06939729, 0.05284866, 0.08842096,
+       0.04256236, 0.04132424, 0.03440053, 0.02337977, 0.02547734,
+       0.03226181, 0.04055878, 0.06712831, 0.05887827, 0.25813191,
+       0.04202695, 0.02607242, 0.10880848, 0.07632175, 0.02918595]), 'mean_score_time': array([2.68784936, 2.6524659 , 1.82020561, 2.64030687, 2.83135843,
+       2.70672385, 0.48732972, 2.68483257, 0.95274639, 0.95863374,
+       2.7232674 , 1.19423978, 1.21022932, 1.14821688, 1.23081716,
+       1.21370888, 1.16596365, 1.19148032, 1.17294709, 1.23431333,
+       1.1455822 , 1.16827114, 1.18655467, 1.14343079, 1.19396369,
+       1.1761845 , 1.18487501, 1.1617945 , 1.1700259 , 1.16664052,
+       1.23124846, 1.17733105, 1.18888116, 1.15282687, 1.22017717,
+       1.17799354, 1.18068854, 1.18854372, 1.16485405, 1.22895495,
+       1.18949286, 1.1511658 , 1.13017098, 1.15601921, 1.05191731,
+       1.20664144, 1.22504616, 1.21191971, 1.17967661, 1.16580598]), 'std_score_time': array([0.03666647, 0.03605094, 0.04630263, 0.07156497, 0.14904525,
+       0.11036566, 0.09847818, 0.08462875, 0.19896657, 0.28980234,
+       0.05506604, 0.01141821, 0.0837297 , 0.01585166, 0.02492168,
+       0.03301421, 0.01696616, 0.02808718, 0.01233991, 0.02486209,
+       0.01912622, 0.02990943, 0.02515989, 0.02006158, 0.0505354 ,
+       0.04236414, 0.03781453, 0.02817447, 0.03621862, 0.04044738,
+       0.0216195 , 0.05837704, 0.01931881, 0.00797611, 0.05513864,
+       0.0238515 , 0.03114652, 0.03205579, 0.01515028, 0.00821867,
+       0.01029094, 0.02465673, 0.01379163, 0.00761354, 0.10832664,
+       0.03984261, 0.07148048, 0.06652753, 0.03634002, 0.01563693]), 'param_C': masked_array(data=[10.45782757963395, 14.59703419096062,
+                   6.951772452037259, 16.521328726040117,
+                   10.120203741058692, 4.870879560942059,
+                   17.600716604375094, 15.824012778929113,
+                   9.002455811715649, 19.705402855703003,
+                   14.744082489346955, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
              mask=[False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
@@ -132,9 +114,9 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
                    False, False, False, False, False, False, False, False,
                    False, False],
        fill_value='?',
-            dtype=object), 'param_degree': masked_array(data=[4, 6, 5, 3, 5, 2, 2, 3, 3, 3, 6, 6, 6, 6, 2, 2, 2, 2,
-                   2, 6, 2, 6, 2, 6, 6, 6, 6, 6, 2, 6, 2, 6, 2, 2, 6, 6,
-                   4, 2, 4, 6, 2, 2, 2, 6, 2, 4, 4, 6, 4, 4],
+            dtype=object), 'param_degree': masked_array(data=[5, 3, 6, 4, 2, 3, 6, 4, 3, 4, 4, 2, 2, 2, 2, 2, 2, 2,
+                   2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+                   2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2],
              mask=[False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
@@ -143,17 +125,31 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
                    False, False, False, False, False, False, False, False,
                    False, False],
        fill_value='?',
-            dtype=object), 'param_epsilon': masked_array(data=[0.8852683648952224, 0.5374990356225405,
-                   0.7937910453276138, 0.9413094240613235,
-                   0.05335206933558778, 0.5152549303273147,
-                   0.2694857916369768, 0.7692076112644789,
-                   0.2008153336505333, 0.6226240826461127, 0.001, 0.001,
-                   1.0, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001,
-                   0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001,
-                   0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001,
-                   0.9236674544177383, 0.0020010659300574597,
-                   0.9703132983472642, 1.0, 0.001, 0.001, 1.0, 0.001,
-                   0.001, 0.001, 0.001, 0.001, 0.001, 0.5679676740366382],
+            dtype=object), 'param_epsilon': masked_array(data=[0.6475756282370874, 0.3025479335225678,
+                   0.1098719157417569, 0.6437505570839912,
+                   0.44829316593367363, 0.5679819169676502,
+                   0.25732399218895774, 0.10455684079106593,
+                   0.36413082561996557, 0.6768655521034987,
+                   0.43596151839088376, 0.008827917785139219,
+                   0.00918419602969018, 0.017761689065354247,
+                   0.025625746748138972, 0.03257753740334291,
+                   0.03871209453887539, 0.044130087702751,
+                   0.049002663096656816, 0.05336362250560727,
+                   0.05798116684212995, 0.0626934796555824,
+                   0.06679135240405941, 0.07085964712542434,
+                   0.07438533256988904, 0.07793307299872264,
+                   0.08125376727649487, 0.08386034029518995,
+                   0.08902680854475871, 0.08920698038553582,
+                   0.09164539687889132, 0.09297930690980753,
+                   0.09597545542892102, 0.09899790427586619,
+                   0.10156806203217589, 0.10377589616371315,
+                   0.10539461056782952, 0.10741248306801178,
+                   0.10948004918882831, 0.11175237829107819,
+                   0.11334619720082166, 0.11463415250181155,
+                   0.11707069285991488, 0.11824290844876782,
+                   0.14880202988353158, 0.1044478899710214,
+                   0.08884725185719403, 0.11035053637980875,
+                   0.11450088063177859, 0.11667960841753945],
              mask=[False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
@@ -162,14 +158,14 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
                    False, False, False, False, False, False, False, False,
                    False, False],
        fill_value='?',
-            dtype=object), 'param_kernel': masked_array(data=['sigmoid', 'rbf', 'sigmoid', 'rbf', 'sigmoid',
-                   'sigmoid', 'poly', 'poly', 'sigmoid', 'sigmoid', 'rbf',
-                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
-                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
-                   'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
-                   'rbf', 'sigmoid', 'rbf', 'rbf', 'poly', 'poly', 'rbf',
-                   'rbf', 'rbf', 'poly', 'rbf', 'rbf', 'rbf', 'rbf',
-                   'rbf'],
+            dtype=object), 'param_kernel': masked_array(data=['rbf', 'rbf', 'sigmoid', 'rbf', 'rbf', 'rbf', 'poly',
+                   'rbf', 'poly', 'poly', 'rbf', 'poly', 'poly', 'poly',
+                   'poly', 'poly', 'poly', 'poly', 'poly', 'poly', 'poly',
+                   'poly', 'poly', 'poly', 'poly', 'poly', 'poly', 'poly',
+                   'poly', 'poly', 'poly', 'poly', 'poly', 'poly', 'poly',
+                   'poly', 'poly', 'poly', 'poly', 'poly', 'poly', 'poly',
+                   'poly', 'poly', 'poly', 'poly', 'poly', 'poly', 'poly',
+                   'poly'],
              mask=[False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
@@ -178,13 +174,12 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
                    False, False, False, False, False, False, False, False,
                    False, False],
        fill_value='?',
-            dtype=object), 'param_shrinking': masked_array(data=[False, False, True, False, True, False, True, True,
-                   True, True, True, True, False, True, True, True, False,
-                   False, True, False, True, False, True, True, False,
-                   False, True, True, False, True, True, False, True,
-                   False, True, True, False, False, True, False, True,
-                   False, True, True, True, False, True, False, True,
-                   False],
+            dtype=object), 'param_shrinking': masked_array(data=[True, False, True, False, True, True, False, True,
+                   True, True, False, True, True, True, True, True, True,
+                   True, True, True, True, True, True, True, True, True,
+                   True, True, True, True, True, True, True, True, True,
+                   True, True, True, True, True, True, True, True, True,
+                   True, True, True, True, True, True],
              mask=[False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
                    False, False, False, False, False, False, False, False,
@@ -193,204 +188,219 @@ Fitting 3 folds for each of 1 candidates, totalling 3 fits
                    False, False, False, False, False, False, False, False,
                    False, False],
        fill_value='?',
-            dtype=object), 'params': [OrderedDict([('C', 2.216729302730122), ('degree', 4), ('epsilon', 0.8852683648952224), ('kernel', 'sigmoid'), ('shrinking', False)]), OrderedDict([('C', 3.9586274954193468), ('degree', 6), ('epsilon', 0.5374990356225405), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 19.094357503789265), ('degree', 5), ('epsilon', 0.7937910453276138), ('kernel', 'sigmoid'), ('shrinking', True)]), OrderedDict([('C', 8.208961211939325), ('degree', 3), ('epsilon', 0.9413094240613235), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 7.0504506193152325), ('degree', 5), ('epsilon', 0.05335206933558778), ('kernel', 'sigmoid'), ('shrinking', True)]), OrderedDict([('C', 10.971962060733745), ('degree', 2), ('epsilon', 0.5152549303273147), ('kernel', 'sigmoid'), ('shrinking', False)]), OrderedDict([('C', 6.3845005701265585), ('degree', 2), ('epsilon', 0.2694857916369768), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 11.60119401380994), ('degree', 3), ('epsilon', 0.7692076112644789), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 15.143327291383216), ('degree', 3), ('epsilon', 0.2008153336505333), ('kernel', 'sigmoid'), ('shrinking', True)]), OrderedDict([('C', 11.521338340124178), ('degree', 3), ('epsilon', 0.6226240826461127), ('kernel', 'sigmoid'), ('shrinking', True)]), OrderedDict([('C', 20.0), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 17.32848129090962), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 18.316839955749085), ('degree', 6), ('epsilon', 1.0), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 13.715112686435068), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 14.514791742078488), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 9.427229279846948), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 12.41447161537699), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 18.74342312250392), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 11.935944632530305), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 10.127378048486461), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 7.020039615435879), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 20.0), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 11.35692912933466), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 15.382010914037279), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 20.0), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 13.881731921068463), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 13.938342961289091), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 16.023506964443087), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 8.386755800298534), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 16.446049641308043), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 12.524163718278393), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 6.1093119823118025), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 13.923657557160203), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 14.266534078059118), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 14.289006797622827), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 4), ('epsilon', 0.9236674544177383), ('kernel', 'sigmoid'), ('shrinking', False)]), OrderedDict([('C', 14.398707543662017), ('degree', 2), ('epsilon', 0.0020010659300574597), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 13.220773823142906), ('degree', 4), ('epsilon', 0.9703132983472642), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 6), ('epsilon', 1.0), ('kernel', 'poly'), ('shrinking', False)]), OrderedDict([('C', 14.199208407016851), ('degree', 2), ('epsilon', 0.001), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 8.569252991004046), ('degree', 2), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 20.0), ('degree', 2), ('epsilon', 1.0), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 18.577079062742285), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 20.0), ('degree', 2), ('epsilon', 0.001), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 15.02733340175904), ('degree', 4), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 14.871850138622403), ('degree', 4), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 14.73155381497382), ('degree', 6), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 14.905807259234942), ('degree', 4), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 4.383932223139416), ('degree', 4), ('epsilon', 0.5679676740366382), ('kernel', 'rbf'), ('shrinking', False)])], 'split0_test_score': array([ -3.00224545,  -1.73988993, -16.84198851,  -1.74678433,
-        -6.73274491,  -9.9173416 ,  -2.77494681,  -3.60004507,
-       -13.60071939, -10.33802978,  -1.71773796,  -1.71161743,
-        -1.76356059,  -1.70543986,  -1.70646951,  -1.69679927,
-        -1.70332782,  -1.71480344,  -1.70254327,  -1.69794831,
-        -1.85144712,  -1.6984717 ,  -1.71773796,  -1.70092615,
-        -1.70786059,  -1.71773796,  -1.70574781,  -1.70583021,
-        -1.70890595,  -1.69620063,  -1.70970594,  -1.70347995,
-        -1.70217567,  -1.70581398,  -1.70619177,  -1.70621399,
-        -2.39591604,  -1.7063877 ,  -1.75235882,  -9.70460162,
-        -2.90016692,  -1.69618019,  -1.76566193,  -1.71441246,
-        -2.94050041,  -1.70726285,  -1.70698968,  -1.70674289,
-        -1.70703851,  -1.73836564]), 'split1_test_score': array([-2.46000791, -1.73371576, -9.788974  , -1.70785122, -4.00050452,
-       -5.49458483, -2.6494485 , -2.62937009, -8.04464069, -5.71940012,
-       -1.68679889, -1.68425757, -1.70825018, -1.68257162, -1.68210789,
-       -1.68656956, -1.68214356, -1.68569439, -1.68161178, -1.68381674,
-       -1.90202296, -1.69715166, -1.68679889, -1.68160783, -1.68213016,
-       -1.68679889, -1.68249301, -1.68245765, -1.68301891, -1.69095127,
-       -1.68351911, -1.68229017, -1.69994009, -1.68246263, -1.68227032,
-       -1.68225564, -2.24448336, -1.68220461, -1.70478104, -2.82002335,
-       -2.59433259, -1.69016655, -1.71055436, -1.68555016, -2.57807616,
-       -1.68188749, -1.68195804, -1.68198079, -1.68193251, -1.72582192]), 'split2_test_score': array([-2.4090348 , -1.8747043 , -7.67368891, -1.85357914, -3.61368307,
-       -4.77328217, -2.59080525, -2.50994797, -6.27269047, -4.9482055 ,
-       -1.80134508, -1.80032093, -1.84304016, -1.80306947, -1.80201125,
-       -1.81892814, -1.80615114, -1.80095052, -1.8076406 , -1.81525926,
-       -1.95179193, -1.83397418, -1.80134508, -1.80992025, -1.80061129,
-       -1.80134508, -1.80282477, -1.80274726, -1.8002237 , -1.82490627,
-       -1.80028879, -1.80586464, -1.84014555, -1.80276767, -1.80234213,
-       -1.80232199, -2.21704217, -1.80221884, -1.84285781, -2.78978082,
-       -2.51922624, -1.82389589, -1.84398047, -1.80091157, -2.48774586,
-       -1.80120009, -1.80141002, -1.80163624, -1.80135836, -1.8687865 ]), 'mean_test_score': array([ -2.62376272,  -1.78277   , -11.43488381,  -1.7694049 ,
-        -4.78231083,  -6.72840287,  -2.67173352,  -2.91312105,
-        -9.30601685,  -7.00187847,  -1.73529398,  -1.73206531,
-        -1.77161698,  -1.73036031,  -1.73019622,  -1.73409899,
-        -1.73054084,  -1.73381612,  -1.73059855,  -1.73234143,
-        -1.901754  ,  -1.74319918,  -1.73529398,  -1.73081808,
-        -1.73020068,  -1.73529398,  -1.73035519,  -1.73034504,
-        -1.73071619,  -1.73735273,  -1.73117128,  -1.73054492,
-        -1.74742044,  -1.7303481 ,  -1.73026808,  -1.73026388,
-        -2.28581386,  -1.73027038,  -1.76666589,  -5.10480193,
-        -2.67124191,  -1.73674754,  -1.77339892,  -1.73362473,
-        -2.66877414,  -1.73011681,  -1.73011925,  -1.73011997,
-        -1.73010979,  -1.77765802]), 'std_test_score': array([0.26843553, 0.06505622, 3.91971034, 0.06160587, 1.38817687,
-       2.27406641, 0.07680927, 0.48816928, 3.12178414, 2.379932  ,
-       0.04838297, 0.04953963, 0.05532187, 0.0522539 , 0.05174567,
-       0.06012848, 0.05415952, 0.04893605, 0.05514309, 0.05891491,
-       0.04096604, 0.06418988, 0.04838297, 0.05648696, 0.05088388,
-       0.04838297, 0.05211574, 0.0520777 , 0.05027263, 0.06194679,
-       0.05002906, 0.05395707, 0.06557291, 0.05208818, 0.05189131,
-       0.05188307, 0.07865589, 0.05182432, 0.05727022, 3.25257299,
-       0.16475281, 0.06167208, 0.05474503, 0.0490163 , 0.19564639,
-       0.05131992, 0.05143557, 0.05157016, 0.05141236, 0.06464073]), 'rank_test_score': array([40, 37, 50, 33, 45, 47, 43, 44, 49, 48, 26, 20, 34, 13,  5, 24, 14,
-       23, 16, 21, 38, 30, 26, 18,  6, 25, 12, 10, 17, 29, 19, 15, 31, 11,
-        8,  7, 39,  9, 32, 46, 42, 28, 35, 22, 41,  2,  3,  4,  1, 36],
+            dtype=object), 'params': [OrderedDict([('C', 10.45782757963395), ('degree', 5), ('epsilon', 0.6475756282370874), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 14.59703419096062), ('degree', 3), ('epsilon', 0.3025479335225678), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 6.951772452037259), ('degree', 6), ('epsilon', 0.1098719157417569), ('kernel', 'sigmoid'), ('shrinking', True)]), OrderedDict([('C', 16.521328726040117), ('degree', 4), ('epsilon', 0.6437505570839912), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 10.120203741058692), ('degree', 2), ('epsilon', 0.44829316593367363), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 4.870879560942059), ('degree', 3), ('epsilon', 0.5679819169676502), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 17.600716604375094), ('degree', 6), ('epsilon', 0.25732399218895774), ('kernel', 'poly'), ('shrinking', False)]), OrderedDict([('C', 15.824012778929113), ('degree', 4), ('epsilon', 0.10455684079106593), ('kernel', 'rbf'), ('shrinking', True)]), OrderedDict([('C', 9.002455811715649), ('degree', 3), ('epsilon', 0.36413082561996557), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 19.705402855703003), ('degree', 4), ('epsilon', 0.6768655521034987), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 14.744082489346955), ('degree', 4), ('epsilon', 0.43596151839088376), ('kernel', 'rbf'), ('shrinking', False)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.008827917785139219), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.00918419602969018), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.017761689065354247), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.025625746748138972), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.03257753740334291), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.03871209453887539), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.044130087702751), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.049002663096656816), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.05336362250560727), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.05798116684212995), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.0626934796555824), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.06679135240405941), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.07085964712542434), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.07438533256988904), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.07793307299872264), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.08125376727649487), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.08386034029518995), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.08902680854475871), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.08920698038553582), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.09164539687889132), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.09297930690980753), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.09597545542892102), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.09899790427586619), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.10156806203217589), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.10377589616371315), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.10539461056782952), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.10741248306801178), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.10948004918882831), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11175237829107819), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11334619720082166), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11463415250181155), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11707069285991488), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11824290844876782), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 3), ('epsilon', 0.14880202988353158), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.1044478899710214), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.08884725185719403), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11035053637980875), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11450088063177859), ('kernel', 'poly'), ('shrinking', True)]), OrderedDict([('C', 1.0), ('degree', 2), ('epsilon', 0.11667960841753945), ('kernel', 'poly'), ('shrinking', True)])], 'split0_test_score': array([-6.21735043e+00, -1.28870099e+01, -9.68651704e+01, -7.40026896e+00,
+       -3.60665748e+00, -7.23473518e+00, -5.53016233e+07, -1.41114031e+01,
+       -2.09982003e+04, -8.00705111e+05, -4.31598981e+00, -1.40688058e+03,
+       -1.40783855e+03, -1.40728866e+03, -1.41723639e+03, -1.41650984e+03,
+       -1.41701046e+03, -1.42631400e+03, -1.42583181e+03, -1.42632582e+03,
+       -1.42735081e+03, -1.42952277e+03, -1.78296392e+03, -1.78534643e+03,
+       -1.78435308e+03, -1.78681575e+03, -1.78455944e+03, -1.78559381e+03,
+       -1.78281734e+03, -1.78281482e+03, -1.78202517e+03, -1.78208551e+03,
+       -1.78432762e+03, -1.78791154e+03, -1.78675159e+03, -1.78779008e+03,
+       -1.78786183e+03, -1.78897848e+03, -1.78929058e+03, -1.78929837e+03,
+       -1.78983754e+03, -1.79067078e+03, -1.79074776e+03, -1.79040353e+03,
+       -1.18569403e+04, -1.78699934e+03, -1.78614444e+03, -1.78921850e+03,
+       -1.79009006e+03, -1.79050053e+03]), 'split1_test_score': array([-3.92091801e+00, -1.30390734e+01, -2.89494742e+02, -3.87464840e+00,
+       -2.60589626e+00, -6.39387671e+00, -2.60566132e+08, -1.15420130e+01,
+       -6.36411476e+02, -3.63224044e+05, -8.33573585e+00, -1.29240163e+03,
+       -1.29225580e+03, -1.28645508e+03, -1.28754749e+03, -1.28854704e+03,
+       -1.28885266e+03, -1.29391425e+03, -1.29278684e+03, -1.29495394e+03,
+       -1.29584457e+03, -1.29890411e+03, -1.30068936e+03, -1.30121700e+03,
+       -1.30349909e+03, -1.30297373e+03, -1.30374522e+03, -1.28316315e+03,
+       -1.28398959e+03, -1.28398961e+03, -1.30385076e+03, -1.28531348e+03,
+       -1.28468495e+03, -1.28871700e+03, -1.28928262e+03, -1.29062942e+03,
+       -1.29133712e+03, -1.29284307e+03, -1.29320922e+03, -1.29517283e+03,
+       -1.29459104e+03, -1.29514186e+03, -1.29013169e+03, -1.29017854e+03,
+       -1.06806598e+03, -1.29107806e+03, -1.28398957e+03, -1.29352416e+03,
+       -1.29514185e+03, -1.29195203e+03]), 'split2_test_score': array([-5.47368992e+00, -9.94472805e+00, -1.38313795e+02, -1.13031389e+01,
+       -9.93114673e+00, -9.23254444e+00, -1.33053282e+06, -1.58485888e+01,
+       -6.27804542e+03, -6.08625958e+04, -6.78946657e+00, -8.11831561e+02,
+       -8.11792218e+02, -8.11102228e+02, -8.11357588e+02, -8.15191134e+02,
+       -1.03524453e+03, -1.03483229e+03, -1.03680373e+03, -1.03630844e+03,
+       -1.04283486e+03, -1.04325710e+03, -1.04276206e+03, -1.04335122e+03,
+       -1.04454979e+03, -8.69321103e+02, -8.68770040e+02, -8.69237165e+02,
+       -1.04973518e+03, -1.04935843e+03, -1.04903705e+03, -1.04866301e+03,
+       -1.04847424e+03, -1.04859502e+03, -1.04921607e+03, -1.04915109e+03,
+       -8.68352447e+02, -8.68490483e+02, -8.69532765e+02, -8.68637204e+02,
+       -8.68663460e+02, -8.69044694e+02, -8.67968577e+02, -8.67673552e+02,
+       -8.22385996e+03, -8.68440384e+02, -1.04970822e+03, -8.69139278e+02,
+       -8.68780939e+02, -8.67583641e+02]), 'mean_test_score': array([-5.20398612e+00, -1.19569371e+01, -1.74891236e+02, -7.52601874e+00,
+       -5.38123349e+00, -7.62038545e+00, -1.05732763e+08, -1.38340016e+01,
+       -9.30421907e+03, -4.08263917e+05, -6.48039741e+00, -1.17037126e+03,
+       -1.17062886e+03, -1.16828199e+03, -1.17204716e+03, -1.17341601e+03,
+       -1.24703588e+03, -1.25168685e+03, -1.25180746e+03, -1.25252940e+03,
+       -1.25534341e+03, -1.25722799e+03, -1.37547178e+03, -1.37663821e+03,
+       -1.37746732e+03, -1.31970353e+03, -1.31902490e+03, -1.31266471e+03,
+       -1.37218070e+03, -1.37205429e+03, -1.37830432e+03, -1.37202067e+03,
+       -1.37249560e+03, -1.37507452e+03, -1.37508342e+03, -1.37585686e+03,
+       -1.31585047e+03, -1.31677068e+03, -1.31734419e+03, -1.31770280e+03,
+       -1.31769735e+03, -1.31828578e+03, -1.31628268e+03, -1.31608521e+03,
+       -7.04962209e+03, -1.31550593e+03, -1.37328074e+03, -1.31729398e+03,
+       -1.31800428e+03, -1.31667874e+03]), 'std_test_score': array([9.56715065e-01, 1.42420033e+00, 8.27847405e+01, 3.03397180e+00,
+       3.24311205e+00, 1.19053299e+00, 1.11678852e+08, 1.76906051e+00,
+       8.58366302e+03, 3.03713878e+05, 1.65554268e+00, 2.57797585e+02,
+       2.58086088e+02, 2.57336646e+02, 2.60483559e+02, 2.58634122e+02,
+       1.58635403e+02, 1.62587100e+02, 1.61441823e+02, 1.62025248e+02,
+       1.59568974e+02, 1.60422289e+02, 3.06777885e+02, 3.07577084e+02,
+       3.06518845e+02, 3.74752382e+02, 3.74025540e+02, 3.74682204e+02,
+       3.05707504e+02, 3.05838857e+02, 3.03837013e+02, 3.05631307e+02,
+       3.06760583e+02, 3.07939870e+02, 3.07149253e+02, 3.07511167e+02,
+       3.75788111e+02, 3.76168345e+02, 3.75877182e+02, 3.76195822e+02,
+       3.76422499e+02, 3.76608012e+02, 3.77176582e+02, 3.77148088e+02,
+       4.48211843e+03, 3.75397725e+02, 3.07207054e+02, 3.75996630e+02,
+       3.76470133e+02, 3.77184707e+02]), 'rank_test_score': array([ 1,  6,  8,  4,  2,  5, 50,  7, 48, 49,  3, 10, 11,  9, 12, 13, 14,
+       15, 16, 17, 18, 19, 42, 44, 45, 34, 33, 20, 37, 36, 46, 35, 38, 40,
+       41, 43, 22, 26, 28, 30, 29, 32, 24, 23, 47, 21, 39, 27, 31, 25],
       dtype=int32)}
--1.7301097907423406
-OrderedDict([('C', 14.905807259234942), ('degree', 4), ('epsilon', 0.001), ('kernel', 'rbf'), ('shrinking', True)])
-[CV 2/3] END C=11.521338340124178, degree=3, epsilon=0.6226240826461127, kernel=sigmoid, shrinking=True;, score=-5.719 total time=   9.9s
-[CV 1/3] END C=16.446049641308043, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.710 total time=  13.3s
-[CV 1/3] END C=11.521338340124178, degree=3, epsilon=0.6226240826461127, kernel=sigmoid, shrinking=True;, score=-10.338 total time=  11.9s
-[CV 3/3] END C=16.446049641308043, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.800 total time=  14.8s
-[CV 3/3] END C=11.521338340124178, degree=3, epsilon=0.6226240826461127, kernel=sigmoid, shrinking=True;, score=-4.948 total time=  11.6s
-[CV 2/3] END C=16.446049641308043, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.684 total time=  15.1s
-[CV 2/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.687 total time=  12.9s
-[CV 2/3] END C=12.524163718278393, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  12.9s
-[CV 3/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.801 total time=  12.8s
-[CV 1/3] END C=12.524163718278393, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.703 total time=  13.0s
-[CV 1/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.718 total time=  13.2s
-[CV 3/3] END C=12.524163718278393, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.806 total time=  13.2s
-[CV 2/3] END C=17.32848129090962, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.684 total time=  12.6s
-[CV 1/3] END C=6.1093119823118025, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.702 total time=  12.8s
-[CV 1/3] END C=17.32848129090962, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.712 total time=  13.3s
-[CV 2/3] END C=6.1093119823118025, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.700 total time=  13.2s
-[CV 3/3] END C=17.32848129090962, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.800 total time=  13.3s
-[CV 3/3] END C=6.1093119823118025, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.840 total time=  13.3s
-[CV 2/3] END C=18.316839955749085, degree=6, epsilon=1.0, kernel=rbf, shrinking=False;, score=-1.708 total time=   8.1s
-[CV 1/3] END C=13.923657557160203, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.706 total time=  12.6s
-[CV 1/3] END C=18.316839955749085, degree=6, epsilon=1.0, kernel=rbf, shrinking=False;, score=-1.764 total time=   8.3s
-[CV 2/3] END C=13.923657557160203, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  13.1s
-[CV 3/3] END C=18.316839955749085, degree=6, epsilon=1.0, kernel=rbf, shrinking=False;, score=-1.843 total time=   8.5s
-[CV 3/3] END C=13.923657557160203, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.803 total time=  13.2s
-[CV 3/3] END C=13.715112686435068, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.803 total time=  13.5s
-[CV 2/3] END C=14.266534078059118, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  13.3s
-[CV 2/3] END C=13.715112686435068, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.683 total time=  13.3s
-[CV 1/3] END C=14.266534078059118, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.706 total time=  13.6s
-[CV 1/3] END C=13.715112686435068, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.705 total time=  13.7s
-[CV 3/3] END C=14.266534078059118, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.802 total time=  13.6s
-[CV 3/3] END C=14.514791742078488, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.802 total time=  13.8s
-[CV 3/3] END C=14.289006797622827, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.802 total time=  13.4s
-[CV 1/3] END C=14.514791742078488, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.706 total time=  13.6s
-[CV 1/3] END C=14.289006797622827, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.706 total time=  14.7s
-[CV 2/3] END C=14.514791742078488, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  13.8s
-[CV 2/3] END C=14.289006797622827, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  14.7s
-[CV 2/3] END C=12.41447161537699, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  13.0s
-[CV 1/3] END C=1.0, degree=4, epsilon=0.9236674544177383, kernel=sigmoid, shrinking=False;, score=-2.396 total time=   8.1s
-[CV 1/3] END C=12.41447161537699, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.703 total time=  15.0s
-[CV 2/3] END C=1.0, degree=4, epsilon=0.9236674544177383, kernel=sigmoid, shrinking=False;, score=-2.244 total time=   8.1s
-[CV 3/3] END C=12.41447161537699, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.806 total time=  15.0s
-[CV 3/3] END C=1.0, degree=4, epsilon=0.9236674544177383, kernel=sigmoid, shrinking=False;, score=-2.217 total time=   8.4s
-[CV 1/3] END C=18.74342312250392, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.715 total time=  13.5s
-[CV 1/3] END C=14.398707543662017, degree=2, epsilon=0.0020010659300574597, kernel=rbf, shrinking=False;, score=-1.706 total time=  13.2s
-[CV 3/3] END C=18.74342312250392, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.801 total time=  15.0s
-[CV 3/3] END C=14.398707543662017, degree=2, epsilon=0.0020010659300574597, kernel=rbf, shrinking=False;, score=-1.802 total time=  13.9s
-[CV 2/3] END C=18.74342312250392, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.686 total time=  14.8s
-[CV 2/3] END C=14.398707543662017, degree=2, epsilon=0.0020010659300574597, kernel=rbf, shrinking=False;, score=-1.682 total time=  14.3s
-[CV 3/3] END C=11.935944632530305, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.808 total time=  13.1s
-[CV 2/3] END C=13.220773823142906, degree=4, epsilon=0.9703132983472642, kernel=rbf, shrinking=True;, score=-1.705 total time=   8.4s
-[CV 1/3] END C=11.935944632530305, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.703 total time=  13.2s
-[CV 3/3] END C=13.220773823142906, degree=4, epsilon=0.9703132983472642, kernel=rbf, shrinking=True;, score=-1.843 total time=   8.6s
-[CV 2/3] END C=11.935944632530305, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  12.7s
-[CV 1/3] END C=13.220773823142906, degree=4, epsilon=0.9703132983472642, kernel=rbf, shrinking=True;, score=-1.752 total time=   8.8s
-[CV 2/3] END C=10.127378048486461, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.684 total time=  12.8s
-[CV 1/3] END C=1.0, degree=6, epsilon=1.0, kernel=poly, shrinking=False;, score=-9.705 total time=   8.5s
-[CV 3/3] END C=10.127378048486461, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.815 total time=  14.8s
-[CV 3/3] END C=1.0, degree=6, epsilon=1.0, kernel=poly, shrinking=False;, score=-2.790 total time=   8.8s
-[CV 1/3] END C=10.127378048486461, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.698 total time=  14.7s
-[CV 2/3] END C=1.0, degree=6, epsilon=1.0, kernel=poly, shrinking=False;, score=-2.820 total time=   8.8s
-[CV 3/3] END C=1.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.952 total time=  15.0s
-[CV 3/3] END C=14.199208407016851, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.519 total time=  11.4s
-[CV 2/3] END C=1.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.902 total time=  13.1s
-[CV 1/3] END C=14.199208407016851, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.900 total time=  11.4s
-[CV 1/3] END C=1.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.851 total time=  14.9s
-[CV 2/3] END C=14.199208407016851, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.594 total time=  11.4s
-[CV 1/3] END C=7.020039615435879, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.698 total time=  12.9s
-[CV 2/3] END C=8.569252991004046, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.690 total time=  12.9s
-[CV 1/3] END C=2.216729302730122, degree=4, epsilon=0.8852683648952224, kernel=sigmoid, shrinking=False;, score=-3.002 total time=   8.2s
-[CV 2/3] END C=7.020039615435879, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.697 total time=  13.0s
-[CV 1/3] END C=8.569252991004046, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.696 total time=  13.2s
-[CV 2/3] END C=2.216729302730122, degree=4, epsilon=0.8852683648952224, kernel=sigmoid, shrinking=False;, score=-2.460 total time=   8.3s
-[CV 3/3] END C=7.020039615435879, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.834 total time=  13.2s
-[CV 3/3] END C=8.569252991004046, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.824 total time=  13.3s
-[CV 1/3] END C=3.9586274954193468, degree=6, epsilon=0.5374990356225405, kernel=rbf, shrinking=False;, score=-1.740 total time=  12.1s
-[CV 3/3] END C=20.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.801 total time=  13.5s
-[CV 2/3] END C=20.0, degree=2, epsilon=1.0, kernel=rbf, shrinking=True;, score=-1.711 total time=   8.4s
-[CV 3/3] END C=2.216729302730122, degree=4, epsilon=0.8852683648952224, kernel=sigmoid, shrinking=False;, score=-2.409 total time=   8.3s
-[CV 1/3] END C=20.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.718 total time=  13.6s
-[CV 3/3] END C=20.0, degree=2, epsilon=1.0, kernel=rbf, shrinking=True;, score=-1.844 total time=   9.6s
-[CV 2/3] END C=3.9586274954193468, degree=6, epsilon=0.5374990356225405, kernel=rbf, shrinking=False;, score=-1.734 total time=  10.2s
-[CV 2/3] END C=20.0, degree=2, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.687 total time=  13.4s
-[CV 1/3] END C=20.0, degree=2, epsilon=1.0, kernel=rbf, shrinking=True;, score=-1.766 total time=   9.7s
-[CV 3/3] END C=19.094357503789265, degree=5, epsilon=0.7937910453276138, kernel=sigmoid, shrinking=True;, score=-7.674 total time=   9.9s
-[CV 3/3] END C=11.35692912933466, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.810 total time=  12.7s
-[CV 1/3] END C=18.577079062742285, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.714 total time=  12.6s
-[CV 2/3] END C=19.094357503789265, degree=5, epsilon=0.7937910453276138, kernel=sigmoid, shrinking=True;, score=-9.789 total time=   9.1s
-[CV 2/3] END C=11.35692912933466, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  13.4s
-[CV 3/3] END C=18.577079062742285, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.801 total time=  13.0s
-[CV 3/3] END C=3.9586274954193468, degree=6, epsilon=0.5374990356225405, kernel=rbf, shrinking=False;, score=-1.875 total time=  12.1s
-[CV 1/3] END C=11.35692912933466, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.701 total time=  13.1s
-[CV 2/3] END C=18.577079062742285, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.686 total time=  13.0s
-[CV 1/3] END C=8.208961211939325, degree=3, epsilon=0.9413094240613235, kernel=rbf, shrinking=False;, score=-1.747 total time=   8.6s
-[CV 3/3] END C=15.382010914037279, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.801 total time=  12.9s
-[CV 1/3] END C=20.0, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.941 total time=  10.5s
-[CV 2/3] END C=8.208961211939325, degree=3, epsilon=0.9413094240613235, kernel=rbf, shrinking=False;, score=-1.708 total time=   8.4s
-[CV 2/3] END C=15.382010914037279, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  13.0s
-[CV 2/3] END C=20.0, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.578 total time=  13.0s
-[CV 1/3] END C=19.094357503789265, degree=5, epsilon=0.7937910453276138, kernel=sigmoid, shrinking=True;, score=-16.842 total time=  10.1s
-[CV 1/3] END C=15.382010914037279, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.708 total time=  13.0s
-[CV 3/3] END C=20.0, degree=2, epsilon=0.001, kernel=poly, shrinking=True;, score=-2.488 total time=  13.0s
-[CV 2/3] END C=7.0504506193152325, degree=5, epsilon=0.05335206933558778, kernel=sigmoid, shrinking=True;, score=-4.001 total time=  12.7s
-[CV 3/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.801 total time=  12.9s
-[CV 1/3] END C=15.02733340175904, degree=4, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.707 total time=  13.1s
-[CV 3/3] END C=7.0504506193152325, degree=5, epsilon=0.05335206933558778, kernel=sigmoid, shrinking=True;, score=-3.614 total time=  10.4s
-[CV 2/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.687 total time=  13.1s
-[CV 2/3] END C=15.02733340175904, degree=4, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  15.0s
-[CV 3/3] END C=8.208961211939325, degree=3, epsilon=0.9413094240613235, kernel=rbf, shrinking=False;, score=-1.854 total time=   8.9s
-[CV 1/3] END C=20.0, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.718 total time=  13.3s
-[CV 3/3] END C=15.02733340175904, degree=4, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.801 total time=  15.1s
-[CV 2/3] END C=10.971962060733745, degree=2, epsilon=0.5152549303273147, kernel=sigmoid, shrinking=False;, score=-5.495 total time=   9.8s
-[CV 3/3] END C=13.881731921068463, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.803 total time=  12.9s
-[CV 1/3] END C=14.871850138622403, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.707 total time=  12.9s
-[CV 3/3] END C=10.971962060733745, degree=2, epsilon=0.5152549303273147, kernel=sigmoid, shrinking=False;, score=-4.773 total time=   9.3s
-[CV 2/3] END C=13.881731921068463, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  13.0s
-[CV 2/3] END C=14.871850138622403, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  12.9s
-[CV 1/3] END C=7.0504506193152325, degree=5, epsilon=0.05335206933558778, kernel=sigmoid, shrinking=True;, score=-6.733 total time=  12.8s
-[CV 1/3] END C=13.881731921068463, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.706 total time=  13.2s
-[CV 3/3] END C=14.871850138622403, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.801 total time=  13.2s
-[CV 3/3] END C=6.3845005701265585, degree=2, epsilon=0.2694857916369768, kernel=poly, shrinking=True;, score=-2.591 total time=  10.2s
-[CV 3/3] END C=13.938342961289091, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.803 total time=  12.6s
-[CV 1/3] END C=14.73155381497382, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.707 total time=  12.5s
-[CV 2/3] END C=6.3845005701265585, degree=2, epsilon=0.2694857916369768, kernel=poly, shrinking=True;, score=-2.649 total time=   9.8s
-[CV 2/3] END C=13.938342961289091, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  13.2s
-[CV 2/3] END C=14.73155381497382, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.682 total time=  12.9s
-[CV 1/3] END C=10.971962060733745, degree=2, epsilon=0.5152549303273147, kernel=sigmoid, shrinking=False;, score=-9.917 total time=  10.2s
-[CV 1/3] END C=13.938342961289091, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.706 total time=  13.2s
-[CV 3/3] END C=14.73155381497382, degree=6, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.802 total time=  13.3s
-[CV 1/3] END C=11.60119401380994, degree=3, epsilon=0.7692076112644789, kernel=poly, shrinking=True;, score=-3.600 total time=  10.6s
-[CV 3/3] END C=16.023506964443087, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.800 total time=  13.7s
-[CV 2/3] END C=14.905807259234942, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.682 total time=  12.6s
-[CV 1/3] END C=6.3845005701265585, degree=2, epsilon=0.2694857916369768, kernel=poly, shrinking=True;, score=-2.775 total time=  10.4s
-[CV 1/3] END C=16.023506964443087, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.709 total time=  13.7s
-[CV 3/3] END C=14.905807259234942, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.801 total time=  12.9s
-[CV 2/3] END C=11.60119401380994, degree=3, epsilon=0.7692076112644789, kernel=poly, shrinking=True;, score=-2.629 total time=   9.1s
-[CV 2/3] END C=16.023506964443087, degree=2, epsilon=0.001, kernel=rbf, shrinking=False;, score=-1.683 total time=  13.4s
-[CV 1/3] END C=14.905807259234942, degree=4, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.707 total time=  13.2s
-[CV 1/3] END C=15.143327291383216, degree=3, epsilon=0.2008153336505333, kernel=sigmoid, shrinking=True;, score=-13.601 total time=  10.2s
-[CV 1/3] END C=8.386755800298534, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.696 total time=  12.9s
-[CV 2/3] END C=4.383932223139416, degree=4, epsilon=0.5679676740366382, kernel=rbf, shrinking=False;, score=-1.726 total time=   9.9s
-[CV 1/3] END C=4.383932223139416, degree=4, epsilon=0.5679676740366382, kernel=rbf, shrinking=False;, score=-1.738 total time=  11.8s
-[CV 3/3] END C=15.143327291383216, degree=3, epsilon=0.2008153336505333, kernel=sigmoid, shrinking=True;, score=-6.273 total time=  10.7s
-[CV 2/3] END C=8.386755800298534, degree=6, epsilon=0.001, kernel=rbf, shrinking=True;, score=-1.691 total time=  12.9s
-[CV 3/3] END C=4.383932223139416, degree=4, epsilon=0.5679676740366382, kernel=rbf, shrinking=False;, score=-1.869 total time=  11.7s
+-5.20398612095557
+OrderedDict([('C', 10.45782757963395), ('degree', 5), ('epsilon', 0.6475756282370874), ('kernel', 'rbf'), ('shrinking', True)])
+[CV 3/3] END C=17.600716604375094, degree=6, epsilon=0.25732399218895774, kernel=poly, shrinking=False;, score=-1330532.819 total time=   2.8s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.08902680854475871, kernel=poly, shrinking=True;, score=-1782.817 total time=   4.6s
+[CV 3/3] END C=9.002455811715649, degree=3, epsilon=0.36413082561996557, kernel=poly, shrinking=True;, score=-6278.045 total time=   4.2s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.08920698038553582, kernel=poly, shrinking=True;, score=-1049.358 total time=   4.4s
+[CV 2/3] END C=9.002455811715649, degree=3, epsilon=0.36413082561996557, kernel=poly, shrinking=True;, score=-636.411 total time=   3.0s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.08920698038553582, kernel=poly, shrinking=True;, score=-1283.990 total time=   4.5s
+[CV 2/3] END C=19.705402855703003, degree=4, epsilon=0.6768655521034987, kernel=poly, shrinking=True;, score=-363224.044 total time=   2.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.09164539687889132, kernel=poly, shrinking=True;, score=-1303.851 total time=   4.6s
+[CV 1/3] END C=15.824012778929113, degree=4, epsilon=0.10455684079106593, kernel=rbf, shrinking=True;, score=-14.111 total time=   7.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.08920698038553582, kernel=poly, shrinking=True;, score=-1782.815 total time=   4.7s
+[CV 3/3] END C=19.705402855703003, degree=4, epsilon=0.6768655521034987, kernel=poly, shrinking=True;, score=-60862.596 total time=   4.4s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.09164539687889132, kernel=poly, shrinking=True;, score=-1049.037 total time=   4.7s
+[CV 1/3] END C=9.002455811715649, degree=3, epsilon=0.36413082561996557, kernel=poly, shrinking=True;, score=-20998.200 total time=   4.4s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.09164539687889132, kernel=poly, shrinking=True;, score=-1782.025 total time=   4.7s
+[CV 2/3] END C=14.744082489346955, degree=4, epsilon=0.43596151839088376, kernel=rbf, shrinking=False;, score=-8.336 total time=   7.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.09297930690980753, kernel=poly, shrinking=True;, score=-1048.663 total time=   4.5s
+[CV 3/3] END C=14.744082489346955, degree=4, epsilon=0.43596151839088376, kernel=rbf, shrinking=False;, score=-6.789 total time=   7.2s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.09297930690980753, kernel=poly, shrinking=True;, score=-1285.313 total time=   4.5s
+[CV 1/3] END C=19.705402855703003, degree=4, epsilon=0.6768655521034987, kernel=poly, shrinking=True;, score=-800705.111 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.09297930690980753, kernel=poly, shrinking=True;, score=-1782.086 total time=   4.7s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.008827917785139219, kernel=poly, shrinking=True;, score=-1292.402 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.09597545542892102, kernel=poly, shrinking=True;, score=-1048.474 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.008827917785139219, kernel=poly, shrinking=True;, score=-811.832 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.09597545542892102, kernel=poly, shrinking=True;, score=-1284.685 total time=   4.5s
+[CV 1/3] END C=14.744082489346955, degree=4, epsilon=0.43596151839088376, kernel=rbf, shrinking=False;, score=-4.316 total time=   7.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.09597545542892102, kernel=poly, shrinking=True;, score=-1784.328 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.00918419602969018, kernel=poly, shrinking=True;, score=-811.792 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.09899790427586619, kernel=poly, shrinking=True;, score=-1048.595 total time=   4.4s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.00918419602969018, kernel=poly, shrinking=True;, score=-1407.839 total time=   4.4s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.09899790427586619, kernel=poly, shrinking=True;, score=-1288.717 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.017761689065354247, kernel=poly, shrinking=True;, score=-1407.289 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.10156806203217589, kernel=poly, shrinking=True;, score=-1049.216 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.008827917785139219, kernel=poly, shrinking=True;, score=-1406.881 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.09899790427586619, kernel=poly, shrinking=True;, score=-1787.912 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.017761689065354247, kernel=poly, shrinking=True;, score=-811.102 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.10156806203217589, kernel=poly, shrinking=True;, score=-1289.283 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.00918419602969018, kernel=poly, shrinking=True;, score=-1292.256 total time=   4.8s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.10156806203217589, kernel=poly, shrinking=True;, score=-1786.752 total time=   4.8s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.017761689065354247, kernel=poly, shrinking=True;, score=-1286.455 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.10377589616371315, kernel=poly, shrinking=True;, score=-1787.790 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.025625746748138972, kernel=poly, shrinking=True;, score=-811.358 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.10377589616371315, kernel=poly, shrinking=True;, score=-1290.629 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.025625746748138972, kernel=poly, shrinking=True;, score=-1287.547 total time=   4.7s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.10377589616371315, kernel=poly, shrinking=True;, score=-1049.151 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.03257753740334291, kernel=poly, shrinking=True;, score=-1288.547 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.10539461056782952, kernel=poly, shrinking=True;, score=-868.352 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.03257753740334291, kernel=poly, shrinking=True;, score=-815.191 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.10539461056782952, kernel=poly, shrinking=True;, score=-1291.337 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.025625746748138972, kernel=poly, shrinking=True;, score=-1417.236 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.10539461056782952, kernel=poly, shrinking=True;, score=-1787.862 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.03871209453887539, kernel=poly, shrinking=True;, score=-1035.245 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.10741248306801178, kernel=poly, shrinking=True;, score=-1292.843 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.03871209453887539, kernel=poly, shrinking=True;, score=-1288.853 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.10741248306801178, kernel=poly, shrinking=True;, score=-868.490 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.03257753740334291, kernel=poly, shrinking=True;, score=-1416.510 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.10741248306801178, kernel=poly, shrinking=True;, score=-1788.978 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.044130087702751, kernel=poly, shrinking=True;, score=-1293.914 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.10948004918882831, kernel=poly, shrinking=True;, score=-1293.209 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.03871209453887539, kernel=poly, shrinking=True;, score=-1417.010 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.10948004918882831, kernel=poly, shrinking=True;, score=-1789.291 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.044130087702751, kernel=poly, shrinking=True;, score=-1034.832 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.10948004918882831, kernel=poly, shrinking=True;, score=-869.533 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.049002663096656816, kernel=poly, shrinking=True;, score=-1036.804 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11175237829107819, kernel=poly, shrinking=True;, score=-1295.173 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.049002663096656816, kernel=poly, shrinking=True;, score=-1292.787 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11175237829107819, kernel=poly, shrinking=True;, score=-868.637 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.044130087702751, kernel=poly, shrinking=True;, score=-1426.314 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11175237829107819, kernel=poly, shrinking=True;, score=-1789.298 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.05336362250560727, kernel=poly, shrinking=True;, score=-1426.326 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11334619720082166, kernel=poly, shrinking=True;, score=-1294.591 total time=   4.6s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.05336362250560727, kernel=poly, shrinking=True;, score=-1294.954 total time=   4.7s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11334619720082166, kernel=poly, shrinking=True;, score=-868.663 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.049002663096656816, kernel=poly, shrinking=True;, score=-1425.832 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11334619720082166, kernel=poly, shrinking=True;, score=-1789.838 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.05798116684212995, kernel=poly, shrinking=True;, score=-1427.351 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11463415250181155, kernel=poly, shrinking=True;, score=-869.045 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.05798116684212995, kernel=poly, shrinking=True;, score=-1042.835 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11463415250181155, kernel=poly, shrinking=True;, score=-1295.142 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.05336362250560727, kernel=poly, shrinking=True;, score=-1036.308 total time=   4.8s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11463415250181155, kernel=poly, shrinking=True;, score=-1790.671 total time=   4.6s
+[CV 3/3] END C=10.45782757963395, degree=5, epsilon=0.6475756282370874, kernel=rbf, shrinking=True;, score=-5.474 total time=   7.2s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.0626934796555824, kernel=poly, shrinking=True;, score=-1298.904 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11707069285991488, kernel=poly, shrinking=True;, score=-867.969 total time=   4.4s
+[CV 1/3] END C=10.45782757963395, degree=5, epsilon=0.6475756282370874, kernel=rbf, shrinking=True;, score=-6.217 total time=   7.3s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.0626934796555824, kernel=poly, shrinking=True;, score=-1043.257 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11707069285991488, kernel=poly, shrinking=True;, score=-1290.132 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.05798116684212995, kernel=poly, shrinking=True;, score=-1295.845 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11707069285991488, kernel=poly, shrinking=True;, score=-1790.748 total time=   4.6s
+[CV 1/3] END C=14.59703419096062, degree=3, epsilon=0.3025479335225678, kernel=rbf, shrinking=False;, score=-12.887 total time=   7.4s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.06679135240405941, kernel=poly, shrinking=True;, score=-1042.762 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11824290844876782, kernel=poly, shrinking=True;, score=-1290.179 total time=   4.5s
+[CV 2/3] END C=10.45782757963395, degree=5, epsilon=0.6475756282370874, kernel=rbf, shrinking=True;, score=-3.921 total time=   7.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.06679135240405941, kernel=poly, shrinking=True;, score=-1782.964 total time=   4.7s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11824290844876782, kernel=poly, shrinking=True;, score=-867.674 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.0626934796555824, kernel=poly, shrinking=True;, score=-1429.523 total time=   4.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11824290844876782, kernel=poly, shrinking=True;, score=-1790.404 total time=   4.5s
+[CV 1/3] END C=6.951772452037259, degree=6, epsilon=0.1098719157417569, kernel=sigmoid, shrinking=True;, score=-96.865 total time=   6.7s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.07085964712542434, kernel=poly, shrinking=True;, score=-1043.351 total time=   4.4s
+[CV 2/3] END C=1.0, degree=3, epsilon=0.14880202988353158, kernel=poly, shrinking=True;, score=-1068.066 total time=   3.7s
+[CV 2/3] END C=14.59703419096062, degree=3, epsilon=0.3025479335225678, kernel=rbf, shrinking=False;, score=-13.039 total time=   7.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.07085964712542434, kernel=poly, shrinking=True;, score=-1785.346 total time=   4.5s
+[CV 3/3] END C=1.0, degree=3, epsilon=0.14880202988353158, kernel=poly, shrinking=True;, score=-8223.860 total time=   4.4s
+[CV 3/3] END C=14.59703419096062, degree=3, epsilon=0.3025479335225678, kernel=rbf, shrinking=False;, score=-9.945 total time=   7.4s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.06679135240405941, kernel=poly, shrinking=True;, score=-1300.689 total time=   4.7s
+[CV 1/3] END C=1.0, degree=3, epsilon=0.14880202988353158, kernel=poly, shrinking=True;, score=-11856.940 total time=   4.5s
+[CV 3/3] END C=6.951772452037259, degree=6, epsilon=0.1098719157417569, kernel=sigmoid, shrinking=True;, score=-138.314 total time=   6.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.07085964712542434, kernel=poly, shrinking=True;, score=-1301.217 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.1044478899710214, kernel=poly, shrinking=True;, score=-1786.999 total time=   4.5s
+[CV 3/3] END C=16.521328726040117, degree=4, epsilon=0.6437505570839912, kernel=rbf, shrinking=False;, score=-11.303 total time=   7.3s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.07438533256988904, kernel=poly, shrinking=True;, score=-1303.499 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.1044478899710214, kernel=poly, shrinking=True;, score=-868.440 total time=   4.6s
+[CV 1/3] END C=16.521328726040117, degree=4, epsilon=0.6437505570839912, kernel=rbf, shrinking=False;, score=-7.400 total time=   7.3s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.07438533256988904, kernel=poly, shrinking=True;, score=-1044.550 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.1044478899710214, kernel=poly, shrinking=True;, score=-1291.078 total time=   4.7s
+[CV 2/3] END C=16.521328726040117, degree=4, epsilon=0.6437505570839912, kernel=rbf, shrinking=False;, score=-3.875 total time=   7.5s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.07793307299872264, kernel=poly, shrinking=True;, score=-1786.816 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.08884725185719403, kernel=poly, shrinking=True;, score=-1283.990 total time=   4.6s
+[CV 3/3] END C=10.120203741058692, degree=2, epsilon=0.44829316593367363, kernel=rbf, shrinking=True;, score=-9.931 total time=   7.3s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.07793307299872264, kernel=poly, shrinking=True;, score=-1302.974 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.08884725185719403, kernel=poly, shrinking=True;, score=-1049.708 total time=   4.7s
+[CV 2/3] END C=6.951772452037259, degree=6, epsilon=0.1098719157417569, kernel=sigmoid, shrinking=True;, score=-289.495 total time=   6.8s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.07438533256988904, kernel=poly, shrinking=True;, score=-1784.353 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.08884725185719403, kernel=poly, shrinking=True;, score=-1786.144 total time=   4.8s
+[CV 1/3] END C=4.870879560942059, degree=3, epsilon=0.5679819169676502, kernel=rbf, shrinking=True;, score=-7.235 total time=   7.2s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.08125376727649487, kernel=poly, shrinking=True;, score=-1303.745 total time=   4.4s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11035053637980875, kernel=poly, shrinking=True;, score=-1293.524 total time=   4.5s
+[CV 1/3] END C=10.120203741058692, degree=2, epsilon=0.44829316593367363, kernel=rbf, shrinking=True;, score=-3.607 total time=   7.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.08125376727649487, kernel=poly, shrinking=True;, score=-1784.559 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11035053637980875, kernel=poly, shrinking=True;, score=-869.139 total time=   4.5s
+[CV 2/3] END C=10.120203741058692, degree=2, epsilon=0.44829316593367363, kernel=rbf, shrinking=True;, score=-2.606 total time=   7.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.07793307299872264, kernel=poly, shrinking=True;, score=-869.321 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11035053637980875, kernel=poly, shrinking=True;, score=-1789.219 total time=   4.9s
+[CV 1/3] END C=17.600716604375094, degree=6, epsilon=0.25732399218895774, kernel=poly, shrinking=False;, score=-55301623.262 total time=   2.4s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.08386034029518995, kernel=poly, shrinking=True;, score=-869.237 total time=   4.4s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11450088063177859, kernel=poly, shrinking=True;, score=-1295.142 total time=   4.5s
+[CV 3/3] END C=4.870879560942059, degree=3, epsilon=0.5679819169676502, kernel=rbf, shrinking=True;, score=-9.233 total time=   7.3s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.08125376727649487, kernel=poly, shrinking=True;, score=-868.770 total time=   4.7s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11450088063177859, kernel=poly, shrinking=True;, score=-1790.090 total time=   4.7s
+[CV 2/3] END C=17.600716604375094, degree=6, epsilon=0.25732399218895774, kernel=poly, shrinking=False;, score=-260566132.331 total time=   2.0s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.08386034029518995, kernel=poly, shrinking=True;, score=-1283.163 total time=   4.6s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.11667960841753945, kernel=poly, shrinking=True;, score=-1790.501 total time=   4.5s
+[CV 2/3] END C=4.870879560942059, degree=3, epsilon=0.5679819169676502, kernel=rbf, shrinking=True;, score=-6.394 total time=   7.4s
+[CV 1/3] END C=1.0, degree=2, epsilon=0.08386034029518995, kernel=poly, shrinking=True;, score=-1785.594 total time=   4.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11450088063177859, kernel=poly, shrinking=True;, score=-868.781 total time=   4.4s
+[CV 2/3] END C=15.824012778929113, degree=4, epsilon=0.10455684079106593, kernel=rbf, shrinking=True;, score=-11.542 total time=   7.5s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.08902680854475871, kernel=poly, shrinking=True;, score=-1049.735 total time=   4.5s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.11667960841753945, kernel=poly, shrinking=True;, score=-1291.952 total time=   4.5s
+[CV 3/3] END C=15.824012778929113, degree=4, epsilon=0.10455684079106593, kernel=rbf, shrinking=True;, score=-15.849 total time=   7.3s
+[CV 2/3] END C=1.0, degree=2, epsilon=0.08902680854475871, kernel=poly, shrinking=True;, score=-1283.990 total time=   4.6s
+[CV 3/3] END C=1.0, degree=2, epsilon=0.11667960841753945, kernel=poly, shrinking=True;, score=-867.584 total time=   4.6s
