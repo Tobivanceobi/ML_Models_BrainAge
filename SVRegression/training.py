@@ -39,7 +39,7 @@ for ts in training_sets:
         'degree': Integer(5, 10),
         'C': Real(15, 100),
         'epsilon': Real(0.001, 1),
-        'kernel': Categorical(['poly', 'rbf', 'sigmoid']),
+        'kernel': Categorical(['rbf']),
         'shrinking': Categorical([True, False]),
     }
 
@@ -49,7 +49,7 @@ for ts in training_sets:
                         search_spaces=parameter_space,
                         cv=skf_vals,
                         n_jobs=-1,
-                        n_iter=50,
+                        n_iter=500,
                         scoring='neg_mean_absolute_error',
                         verbose=4)
 
