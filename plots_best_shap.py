@@ -85,23 +85,23 @@ x_test_df = pd.DataFrame(x_test, columns=x_names)
 # plt.show()
 
 # Group features for aggregation
-# n_labels, feature_groups = group_freq_bands_shap(x_names)
+n_labels, feature_groups = group_freq_bands_shap(x_names)
 
 # n_labels, feature_groups = group_freq_bands_methode_shap(x_names)
 
 # n_labels, feature_groups = group_methods_shap(x_names)
 
 # Calculate aggregated SHAP values for each feature group
-# grouped_shap_values = np.zeros((len(x_test), len(n_labels)))
-# for i, group in enumerate(feature_groups):
-#     grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
-#
-# shap.initjs()
-# shap.summary_plot(grouped_shap_values, feature_names=n_labels, plot_type='bar', show=False)
-# plt.xlabel("Summed Shap Values")
-# plt.tight_layout()
-# # shap.summary_plot(shap_values, x_test_df, max_display=100)
-# plt.show()
+grouped_shap_values = np.zeros((len(x_test), len(n_labels)))
+for i, group in enumerate(feature_groups):
+    grouped_shap_values[:, i] = np.sum(shap_values[:, group], axis=1)
+print(len(n_labels))
+shap.initjs()
+shap.summary_plot(grouped_shap_values, feature_names=n_labels, plot_type='bar', show=False)
+plt.xlabel("Aggregated Shap Values")
+plt.tight_layout()
+# shap.summary_plot(shap_values, x_test_df, max_display=100)
+plt.show()
 
 montage = mne.channels.make_standard_montage("GSN-HydroCel-129")
 ch_pos = montage.get_positions()['ch_pos']

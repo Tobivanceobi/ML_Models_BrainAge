@@ -36,11 +36,11 @@ for ts in training_sets:
     x = scaler.fit_transform(x)
 
     parameter_space = {
-        'degree': Integer(5, 10),
+        #'degree': Integer(5, 10),
         'C': Real(15, 100),
         'epsilon': Real(0.001, 1),
         'kernel': Categorical(['rbf']),
-        'shrinking': Categorical([True, False]),
+        #'shrinking': Categorical([True, False]),
     }
 
     model = SVR(max_iter=5000)
@@ -49,7 +49,7 @@ for ts in training_sets:
                         search_spaces=parameter_space,
                         cv=skf_vals,
                         n_jobs=-1,
-                        n_iter=500,
+                        n_iter=200,
                         scoring='neg_mean_absolute_error',
                         verbose=4)
 
