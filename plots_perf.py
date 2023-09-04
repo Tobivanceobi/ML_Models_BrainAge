@@ -9,8 +9,8 @@ from helper import load_object
 
 
 MODEL_LIST = [
-    'MLP', 'KernelRidge', 'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'SVRegression', 'RandomForrest',
-    'CatBoost', 'XGBoost'
+    'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'SVRegression', 'RandomForrest',
+    'XGBoost'
 ]
 # for m in MODEL_LIST:
 #     obj = load_object(m+'/best_model')
@@ -31,8 +31,8 @@ MODEL_LIST = [
 
 SET_PATH = r'/home/tobias/Schreibtisch/EEG-FeatureExtraction/trainingSets/TSFinal/'
 
-set_vary = ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
-train_set = ['TS2/', 'TS4/']
+set_vary = [''] # ['meanEpochs/', 'meanEpochs/onlyEC/', 'meanEpochs/onlyEO/']
+train_set = ['TS5/'] # ['TS2/', 'TS4/']
 results = dict(
     mean=[],
     std=[],
@@ -74,10 +74,10 @@ for ts in train_set:
 mean_perf = np.array(results['mean']).transpose()
 std_perf = np.array(results['std']).transpose()
 
-dif_mean = [abs(i[0] - i[1]) for i in results['mean']]
-mean_d = np.mean(dif_mean)
-print(dif_mean)
-print(mean_d)
+# dif_mean = [abs(i[0] - i[1]) for i in results['mean']]
+# mean_d = np.mean(dif_mean)
+# print(dif_mean)
+# print(mean_d)
 
 model_labels = []
 for lab_m in MODEL_LIST:
@@ -86,19 +86,19 @@ for lab_m in MODEL_LIST:
     else:
         model_labels.append(lab_m)
 
-t_header = ''
-t_header_2 = ''
-for s in sets_name:
-    t_header += r'\multicolumn{2}{l|}{' + s + r'}  & '
-    t_header_2 += "mean & std & "
-
-print(t_header)
-print(t_header_2)
-for m in range(len(model_labels)):
-    row = f"{model_labels[m]} & "
-    for i in range(len(sets_name)):
-        row += f"{round(results['mean'][m][i], 2)} & {round(results['std'][m][i], 2)} & "
-    print(row + "\\")
+# t_header = ''
+# t_header_2 = ''
+# for s in sets_name:
+#     t_header += r'\multicolumn{2}{l|}{' + s + r'}  & '
+#     t_header_2 += "mean & std & "
+#
+# print(t_header)
+# print(t_header_2)
+# for m in range(len(model_labels)):
+#     row = f"{model_labels[m]} & "
+#     for i in range(len(sets_name)):
+#         row += f"{round(results['mean'][m][i], 2)} & {round(results['std'][m][i], 2)} & "
+#     print(row + "\\")
 
 
 

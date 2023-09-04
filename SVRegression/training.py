@@ -36,8 +36,8 @@ for ts in training_sets:
     x = scaler.fit_transform(x)
 
     parameter_space = {
-        'degree': Integer(2, 6),
-        'C': Real(1, 20),
+        'degree': Integer(5, 10),
+        'C': Real(15, 100),
         'epsilon': Real(0.001, 1),
         'kernel': Categorical(['poly', 'rbf', 'sigmoid']),
         'shrinking': Categorical([True, False]),
