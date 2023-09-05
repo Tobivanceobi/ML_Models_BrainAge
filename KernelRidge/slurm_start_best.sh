@@ -14,6 +14,6 @@
 source $HOME/miniconda/etc/profile.d/conda.sh
 conda init bash
 conda activate pytorch
-python3 $HOME/tobias_ettling/ML_Models_BrainAge/KernalRige/best_model.py
+python3 $HOME/tobias_ettling/ML_Models_BrainAge/KernelRidge/best_model.py
 
 conda deactivate
