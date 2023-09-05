@@ -11,7 +11,21 @@ no change     /home/modelrep/sadiya/miniconda/lib/python3.10/site-packages/xontr
 no change     /home/modelrep/sadiya/miniconda/etc/profile.d/conda.csh
 no change     /home/modelrep/sadiya/.bashrc
 No action taken.
-meanEpochs/onlyEC/ TS2/ -2.010538374171204
+[2000, 300]
+adam
+0.0001
+tanh
+0.0001
+[2000, 300]
+adam
+0.0001
+tanh
+0.0001
+[2000, 300]
+adam
+0.0001
+tanh
+0.0001
 [2000, 1000]
 adam
 0.0001
@@ -27,3 +41,63 @@ adam
 0.0001
 tanh
 4.5051307243336336e-05
+[1000, 300]
+adam
+0.0001000005391709
+tanh
+1e-05
+[1000, 300]
+adam
+0.0001000005391709
+tanh
+1e-05
+[1000, 300]
+adam
+0.0001000005391709
+tanh
+1e-05
+[300]
+adam
+0.1
+tanh
+0.0001
+[300]
+adam
+0.1
+tanh
+0.0001
+[300]
+adam
+0.1
+tanh
+0.0001
+[1000, 320]
+adam
+0.0919270908182082
+tanh
+2.279077574809617e-05
+[1000, 320]
+adam
+0.0919270908182082
+tanh
+2.279077574809617e-05
+[1000, 320]
+adam
+0.0919270908182082
+tanh
+2.279077574809617e-05
+[2000, 300]
+adam
+0.0157870263004651
+tanh
+4.204826408903877e-05
+[2000, 300]
+adam
+0.0157870263004651
+tanh
+4.204826408903877e-05
+[2000, 300]
+adam
+0.0157870263004651
+tanh
+4.204826408903877e-05
