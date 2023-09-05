@@ -7,7 +7,6 @@
 #SBATCH --mem-per-cpu=3000
 #SBATCH --time=10:00:00
 #SBATCH --tmp=20000
-#SBATCH --mail-type=FAIL
 #SBATCH --output out/output_KNN_Shap.txt
 #SBATCH --error err/error_KNN_Shap.txt
 

@@ -10,7 +10,7 @@ from helper import load_object
 
 MODEL_LIST = [
     'KNN', 'BaggedKNN', 'LassoRegression', 'EleasticNet', 'SVRegression', 'RandomForrest',
-    'XGBoost'
+    'XGBoost', 'MLP'
 ]
 
 
@@ -67,6 +67,11 @@ mean_perf = np.append(mean_perf[0], 2.33)
 print(model_labels)
 print(mean_perf)
 
+mean_perf, model_labels = zip(* sorted(zip(mean_perf, model_labels)))
+
+for i in range(len(mean_perf)):
+    print(f'{model_labels[i]} & {round(mean_perf[i],2)} ' + r'\\')
+
 fig, ax = plt.subplots(figsize=(5, 6))
 
 sets_per_model = 1
@@ -84,7 +89,7 @@ ax.barh(
 
 ax.set_yticks(label_pos)
 ax.set_yticklabels(model_labels)
-ax.set_xlim(1.4, 3.5)
+ax.set_xlim(1.4, 3.6)
 ax.set_xlabel('Mean Absolute Error')
 plt.tight_layout()
 

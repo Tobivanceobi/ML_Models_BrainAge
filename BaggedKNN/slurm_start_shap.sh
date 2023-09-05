@@ -6,7 +6,6 @@
 #SBATCH --cpus-per-task=64
 #SBATCH --mem-per-cpu=1000
 #SBATCH --time=10:00:00
-#SBATCH --mail-type=FAIL
 #SBATCH --output out/output_BKNN_shap.txt
 #SBATCH --error err/error_BKNN_shap.txt
 

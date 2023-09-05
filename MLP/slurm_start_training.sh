@@ -7,7 +7,6 @@
 #SBATCH --mem-per-cpu=3000
 #SBATCH --array=0-0
 #SBATCH --time=20:00:00
-#SBATCH --mail-type=FAIL
 #SBATCH --output out/output_MLP_%a.txt
 #SBATCH --error err/error_MLP_%a.txt
 
